@@ -1,6 +1,12 @@
 import { motion } from 'framer-motion'
 import { useReducedMotion } from '../../hooks/useReducedMotion'
 
+const proofPoints = [
+  { icon: '⚙️', metric: '15+ Jahre', label: 'Automotive Engineering', detail: 'NVH, Six Sigma, Entwicklungsleiter' },
+  { icon: '👥', metric: '3 Kontinente', label: 'Führungserfahrung', detail: 'Teams bis 17 MA, Note 1' },
+  { icon: '🎯', metric: '4.96 / 5.0', label: 'Coaching-Bewertung', detail: '387 UE, 6 Diplome, ISO 17024' },
+]
+
 export default function Welcome({ onStart, clusters }) {
   const reducedMotion = useReducedMotion()
 
@@ -24,10 +30,10 @@ export default function Welcome({ onStart, clusters }) {
       initial="hidden"
       animate="visible"
     >
-      {/* Photo - landscape source (2000x1333), cropped to circle, focus on face (left-center) */}
+      {/* Photo */}
       <motion.div
         variants={itemVariants}
-        className="w-40 h-40 sm:w-48 sm:h-48 lg:w-52 lg:h-52 rounded-full bg-sand border-4 border-white shadow-lg overflow-hidden mb-6"
+        className="w-40 h-40 sm:w-48 sm:h-48 lg:w-52 lg:h-52 rounded-full bg-sand border-4 border-white shadow-lg overflow-hidden mb-4"
       >
         <img
           src="images/BW_MW20220613_34995.jpg"
@@ -41,20 +47,52 @@ export default function Welcome({ onStart, clusters }) {
         />
       </motion.div>
 
-      {/* Name + Claim */}
+      {/* Name */}
       <motion.h2 variants={itemVariants} className="text-2xl sm:text-3xl font-bold text-ink mb-1">
         Christian Schmidt
       </motion.h2>
-      <motion.p variants={itemVariants} className="text-ink-light text-base sm:text-lg mb-6 leading-relaxed">
+
+      {/* Signature */}
+      <motion.img
+        variants={itemVariants}
+        src="images/signature_Schwarz.svg"
+        alt=""
+        className="h-8 sm:h-10 w-auto opacity-50 mb-5"
+        aria-hidden="true"
+      />
+
+      {/* Claim */}
+      <motion.p variants={itemVariants} className="text-ink-light text-lg sm:text-xl font-medium mb-3 leading-relaxed italic">
         Menschenorientierter Systemarchitekt<br />
         mit Pioniercharakter
       </motion.p>
 
-      {/* Description */}
-      <motion.p variants={itemVariants} className="text-ink-muted text-sm sm:text-base mb-8 max-w-md leading-relaxed px-4">
-        Ziehe meine Kompetenzen in die Schmiede und entdecke,
-        welche Rollen zu deinem Unternehmen passen.
+      {/* Emotional Hook */}
+      <motion.p variants={itemVariants} className="text-ink-muted text-sm sm:text-base mb-8 max-w-lg leading-relaxed px-4">
+        Vom Entwicklungsleiter Asien zum Master Coach&nbsp;—
+        ich baue auf, was bleibt: Teams, Strukturen, Menschen.
+        <span className="block mt-2 text-ink-light font-medium">
+          Entdecke die Kompetenzen hinter dem Anspruch.
+        </span>
       </motion.p>
+
+      {/* Proof Points */}
+      <motion.div
+        variants={itemVariants}
+        className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 w-full max-w-xl mb-10 px-4"
+      >
+        {proofPoints.map((point) => (
+          <div
+            key={point.label}
+            className="flex flex-col items-center gap-1 p-4 rounded-xl bg-white border border-border-light shadow-xs"
+          >
+            <span className="text-2xl" role="img" aria-hidden="true">{point.icon}</span>
+            <span className="text-lg sm:text-xl font-bold text-ink">{point.metric}</span>
+            <span className="text-xs font-semibold text-ink-light tracking-wide uppercase">{point.label}</span>
+            <span className="text-xs text-ink-muted">{point.detail}</span>
+          </div>
+        ))}
+      </motion.div>
 
       {/* CTA Button */}
       <motion.button
