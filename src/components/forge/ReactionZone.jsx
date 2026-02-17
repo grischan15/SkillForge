@@ -51,7 +51,7 @@ export default function ReactionZone({ forgedSkills, onRemove, onClear, reducedM
     >
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-bold text-base text-ink flex items-center gap-2">
-          <span role="img" aria-hidden="true">🔨</span>
+          <img src="images/P3_Logo_RZ_Bild_rot.png" alt="" className="w-5 h-5 object-contain" />
           Die Schmiede
         </h2>
         {hasSkills && (

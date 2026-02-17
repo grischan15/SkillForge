@@ -66,7 +66,7 @@ function App() {
 
   return (
     <AppShell>
-      <Header compact />
+      <Header compact onBack={() => setShowWelcome(true)} />
       <DndContext
         sensors={sensors}
         onDragStart={handleDragStart}
@@ -120,8 +120,9 @@ function App() {
               onClick={() => setMobileForgeOpen(prev => !prev)}
               className="w-full flex items-center justify-between px-4 py-3 min-h-[48px] text-left"
             >
-              <span className="font-semibold text-ink">
-                🔨 Schmiede ({forgedSkills.length})
+              <span className="font-semibold text-ink flex items-center gap-2">
+                <img src="images/P3_Logo_RZ_Bild_rot.png" alt="" className="w-5 h-5 object-contain" />
+                Schmiede ({forgedSkills.length})
               </span>
               <span className="text-ink-muted text-sm">
                 {mobileForgeOpen ? '▼' : '▲'}

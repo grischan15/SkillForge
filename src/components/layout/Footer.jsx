@@ -10,7 +10,16 @@ export default function Footer() {
         >
           P3 Coaching
         </a>
-        {' '}&middot; Christian Schmidt &middot;{' '}
+        {' '}&middot;{' '}
+        <a
+          href="https://www.linkedin.com/in/christian-schmidt-p3coaching"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-p3-red transition-colors duration-normal"
+        >
+          Christian Schmidt
+        </a>
+        {' '}&middot;{' '}
         <a
           href="https://www.p3coaching.de/impressum"
           target="_blank"

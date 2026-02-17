@@ -24,15 +24,16 @@ export default function Welcome({ onStart, clusters }) {
       initial="hidden"
       animate="visible"
     >
-      {/* Photo placeholder */}
+      {/* Photo - landscape source (2000x1333), cropped to circle, focus on face (left-center) */}
       <motion.div
         variants={itemVariants}
-        className="w-32 h-32 sm:w-40 sm:h-40 rounded-full bg-sand border-4 border-white shadow-md overflow-hidden mb-6"
+        className="w-40 h-40 sm:w-48 sm:h-48 lg:w-52 lg:h-52 rounded-full bg-sand border-4 border-white shadow-lg overflow-hidden mb-6"
       >
         <img
-          src="images/photo.jpg"
+          src="images/BW_MW20220613_34995.jpg"
           alt="Christian Schmidt"
           className="w-full h-full object-cover"
+          style={{ objectPosition: '50% 25%' }}
           onError={(e) => {
             e.target.style.display = 'none'
             e.target.parentElement.innerHTML = '<span class="flex items-center justify-center w-full h-full text-5xl">👤</span>'
