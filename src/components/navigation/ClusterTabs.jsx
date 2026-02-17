@@ -3,7 +3,6 @@ const clusterColorMap = {
   'leadership': 'border-cluster-leadership text-cluster-leadership bg-cluster-leadership-bg',
   'coaching': 'border-cluster-coaching text-cluster-coaching bg-cluster-coaching-bg',
   'ai-digital': 'border-cluster-ai text-cluster-ai bg-cluster-ai-bg',
-  'data-process': 'border-cluster-data text-cluster-data bg-cluster-data-bg',
   'business': 'border-cluster-business text-cluster-business bg-cluster-business-bg',
   'didaktik': 'border-cluster-didaktik text-cluster-didaktik bg-cluster-didaktik-bg',
 }
@@ -13,7 +12,6 @@ const clusterDescColorMap = {
   'leadership': 'text-cluster-leadership',
   'coaching': 'text-cluster-coaching',
   'ai-digital': 'text-cluster-ai',
-  'data-process': 'text-cluster-data',
   'business': 'text-cluster-business',
   'didaktik': 'text-cluster-didaktik',
 }

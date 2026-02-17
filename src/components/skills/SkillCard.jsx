@@ -7,7 +7,6 @@ const clusterBorderMap = {
   'leadership': 'border-l-cluster-leadership',
   'coaching': 'border-l-cluster-coaching',
   'ai-digital': 'border-l-cluster-ai',
-  'data-process': 'border-l-cluster-data',
   'business': 'border-l-cluster-business',
   'didaktik': 'border-l-cluster-didaktik',
 }

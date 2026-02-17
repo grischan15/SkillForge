@@ -5,13 +5,13 @@
     "name": "NVH/Acoustics Engineering",
     "level": 5,
     "levelLabel": "Expert",
-    "keyMetric": "15+ Jahre, 3 globale Standards",
+    "keyMetric": "15+ Jahre, Abteilung aufgebaut, Trade Secret",
     "evidence": [
-      "Abteilung von 0 aufgebaut (Continental, 4 Mitarbeiter)",
-      "3 globale Pruefstandards entwickelt",
-      "\u20ac20M Entwicklungsbudget verantwortet",
-      "NVH-Experten-Netzwerk (4 Standorte weltweit)",
-      "Industrial Trade Secret bei GM registriert"
+      "NVH/Akustik-Bereich in Produktlinie Turbolader von Null aufgebaut (Continental Interne Beurteilung)",
+      "Disziplinarische und fachliche Fuehrung von 4 MA am Standort Regensburg (Vitesco Endzeugnis)",
+      "Abteilungsuebergreifende Zustaendigkeit fuer NVH und Akustik (Vitesco Endzeugnis)",
+      "Fabrikationsgeheimnis verifiziert und in globalen GM-Entwicklungsprozess implementiert (GM Zeugnis)",
+      "NVH-Expertise divisionsuebergreifend gesucht, Netzwerke initiiert (Continental Interne Beurteilung)"
     ],
     "tags": ["nvh", "acoustics", "automotive", "testing", "engineering"],
     "highlight": true
@@ -20,34 +20,17 @@
     "id": "eng-product",
     "clusterId": "engineering",
     "name": "Produktentwicklung",
-    "level": 5,
-    "levelLabel": "Expert",
-    "keyMetric": "Full Lifecycle, \u20ac100M+ Produkte",
-    "evidence": [
-      "Turbolader-Entwicklung fuer globale OEMs",
-      "3 Major OEM-Vertraege in China gewonnen",
-      "Entwicklungszeit um 35% reduziert",
-      "First-Pass-Quality auf 95% gesteigert",
-      "5 Patente (pending) beigetragen"
-    ],
-    "tags": ["product-development", "automotive", "engineering", "lifecycle"],
-    "highlight": false
-  },
-  {
-    "id": "eng-quality",
-    "clusterId": "engineering",
-    "name": "Qualitaet & ISO-Standards",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "ISO/TS 16949, 40% Defektreduktion",
+    "keyMetric": "Full Lifecycle, Budget-Verantwortung Asien",
     "evidence": [
-      "Automotive Quality Standards (ISO/TS 16949)",
-      "Defektrate um 40% reduziert",
-      "Supplier Quality Systems aufgebaut",
-      "10+ Zulieferer-Partnerschaften etabliert",
-      "Validierungsprozesse neu entwickelt"
+      "Turbolader-Entwicklung fuer globale OEMs, mehrere Karrierestufen (Vitesco Endzeugnis)",
+      "Budget-Verantwortung fuer Entwicklungsaktivitaeten Region Asien (Continental Zwischenzeugnis)",
+      "Aufbau lokaler Abteilungen: Applikationsdesign, Validierung, Test, Prototypen (Continental Zwischenzeugnis)",
+      "Erfolgreicher Launch Tear-Down und Prototypenshop (Continental Zwischenzeugnis)",
+      "Darstellung von Entwicklungsthemen bei Kunden (Vitesco Endzeugnis)"
     ],
-    "tags": ["quality", "iso", "automotive", "standards", "testing"],
+    "tags": ["product-development", "automotive", "engineering", "lifecycle"],
     "highlight": false
   },
   {
@@ -56,32 +39,32 @@
     "name": "CAD & Simulation",
     "level": 3,
     "levelLabel": "Solide",
-    "keyMetric": "MATLAB, CATIA, Akustik-Tools",
+    "keyMetric": "Dipl.-Ing. Physik, Akustik-Messtechnik",
     "evidence": [
-      "MATLAB/Simulink fuer Akustik-Analyse",
-      "PAK, LMS Test.Lab, Head Acoustics",
-      "CATIA und SolidWorks Grundlagen",
-      "ANSYS Basics fuer Strukturanalyse",
-      "Proprietaere Testmethoden entwickelt"
+      "Dipl.-Ing. Physikalische Technik, FH Giessen-Friedberg 2007 (Diplom-Urkunde)",
+      "Programmierung von Berechnungsroutinen bei GM Powertrain (GM Zeugnis)",
+      "Wartung, Weiter- und Neuentwicklung von Mess-Methoden und -Prozeduren (GM Zeugnis)",
+      "Akustik-Messsysteme: PAK, NVH-Pruefstandsoftware (GM/TL Engineering Zeugnis)",
+      "Detailoptimierung akustischer Eigenschaften in Kostenreduzierungsprojekten (TL Engineering Zeugnis)"
     ],
-    "tags": ["cad", "matlab", "simulation", "engineering", "tools"],
+    "tags": ["cad", "matlab", "simulation", "engineering", "measurement"],
     "highlight": false
   },
   {
-    "id": "eng-patents",
+    "id": "eng-sixsigma",
     "clusterId": "engineering",
-    "name": "Innovation & Patente",
+    "name": "Six Sigma & DFSS",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "1 Trade Secret, 5 Patente pending",
+    "keyMetric": "DFSS bei Continental, statistische Analyse",
     "evidence": [
-      "Industrial Trade Secret bei GM registriert",
-      "5 Patente (pending) beigetragen",
-      "\u20ac2M jaehrliche Einsparung durch Innovation",
-      "Globale Prozessimplementierung",
-      "10+ Konferenzvortraege gehalten"
+      "Design for Six Sigma (DFSS) Training bei Continental (interne Weiterbildung)",
+      "Weiterbildung mit vorbildlichen Resultaten, Kenntnisse in Praxis umgesetzt (Vitesco Endzeugnis)",
+      "Statistische Analyse als Teil der NVH-Validierungsprozesse (Vitesco Endzeugnis)",
+      "Schnittstellenoptimierung zwischen Europa und Asien (Continental Zwischenzeugnis)",
+      "Prozessverbesserung und Qualitaetssicherung in Turbolader-Entwicklung (Vitesco Endzeugnis)"
     ],
-    "tags": ["innovation", "patents", "engineering", "research"],
+    "tags": ["six-sigma", "dfss", "process", "statistics", "quality", "engineering"],
     "highlight": true
   },
   {
@@ -90,13 +73,13 @@
     "name": "Teamaufbau & -fuehrung",
     "level": 5,
     "levelLabel": "Expert",
-    "keyMetric": "Bis 17 MA, 3 Kontinente",
+    "keyMetric": "Bis 17 MA, 3 Kontinente, Note 1",
     "evidence": [
-      "17-koepfiges Engineering-Team in China aufgebaut",
-      "100% Key-Talent-Retention in allen Teams",
-      "130% Zielerreichung im Durchschnitt",
-      "5+ Fuehrungskraefte in Senior-Positionen entwickelt",
-      "360\u00b0-Feedback Score: 4.8/5.0"
+      "17-koepfiges Engineering-Team in Shanghai aufgebaut (Continental Zwischenzeugnis)",
+      "Disziplinarische Fuehrung an Standorten Regensburg und Shanghai (Vitesco Endzeugnis)",
+      "Fuehrungsfaehigkeit Note 1 und Sozialverhalten Note 1 (Continental Interne Beurteilung)",
+      "Team uebertraf Erwartungen in hohem Masse (Vitesco Endzeugnis)",
+      "Aufbau eines lokalen Nachfolgers als Leiter der Entwicklung (Continental Zwischenzeugnis)"
     ],
     "tags": ["leadership", "team-building", "management", "talent"],
     "highlight": true
@@ -107,13 +90,13 @@
     "name": "Internationale Fuehrung",
     "level": 5,
     "levelLabel": "Expert",
-    "keyMetric": "3 Kontinente, 6 Laender",
+    "keyMetric": "2 Jahre Shanghai, Teams DE/CN",
     "evidence": [
-      "2 Jahre Shanghai - Asian Hub aufgebaut",
-      "Teams in DE, CN, MX, CZ, UK gefuehrt",
-      "Deutsch-chinesische Businesskulturen verbunden",
-      "Bilinguale Dokumentationsstandards etabliert",
-      "Interkulturelle Trainings entwickelt"
+      "2 Jahre Senior Engineering Manager am Standort Shanghai/China (Vitesco Endzeugnis)",
+      "Turbolader-Entwicklungsaktivitaeten Region Asien verantwortet (Continental Zwischenzeugnis)",
+      "Schnittstellenmanagement zwischen Europa und Asien (Continental Zwischenzeugnis)",
+      "Vermittlung zwischen Kulturunterschieden bei Teams und Kunden (Continental Zwischenzeugnis)",
+      "Untersuchung Mitarbeiterbindung im Kontext oekonomischer und sozialer Randbedingungen (Continental Zwischenzeugnis)"
     ],
     "tags": ["international", "leadership", "cross-cultural", "global"],
     "highlight": true
@@ -124,13 +107,13 @@
     "name": "Change Management",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "3 grosse Transformationen geleitet",
+    "keyMetric": "Vitesco Spin-off, Mindset-Kampagne",
     "evidence": [
-      "Vitesco Spin-off Kommunikation gemanagt",
-      "Mindset-Kampagne fuer Produktlinie entwickelt",
-      "Post-Merger Integration geplant",
-      "Kulturwandel in 150+ MA Organisation",
-      "Change Frameworks noch heute in Nutzung"
+      "Vitesco Spin-off Kommunikation gemanagt als Head of Communication (Vitesco Endzeugnis)",
+      "Mindset-Kampagne fuer Produktlinie entwickelt (Continental Interne Beurteilung)",
+      "Kommunikationsprozess-Anpassung und Schulung bei Organisationsaenderungen (Vitesco Endzeugnis)",
+      "Peer-Consulting gewinnbringend fuer Produktlinie eingebracht (Continental Interne Beurteilung)",
+      "Strategische Ausrichtung der Produktlinie in allen Regionen koordiniert (Vitesco Endzeugnis)"
     ],
     "tags": ["change-management", "transformation", "leadership", "culture"],
     "highlight": false
@@ -139,34 +122,17 @@
     "id": "lead-stakeholder",
     "clusterId": "leadership",
     "name": "Stakeholder Management",
-    "level": 5,
-    "levelLabel": "Expert",
-    "keyMetric": "C-Level bis Shop Floor",
-    "evidence": [
-      "Globale Kommunikationsstrategie fuer \u20ac1B Produktlinie",
-      "Townhall, Tech-Day, Strategie-Praesentationen",
-      "C-Suite Board Reports erstellt",
-      "Krisenkommunikations-Framework entwickelt",
-      "Von Kunden und Partnern hochgeschaetzt"
-    ],
-    "tags": ["stakeholder", "communication", "leadership", "c-level"],
-    "highlight": false
-  },
-  {
-    "id": "lead-pl",
-    "clusterId": "leadership",
-    "name": "P&L-Verantwortung",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "\u20ac20M+ jaehrlich, \u20ac50M+ Einsparungen",
+    "keyMetric": "Head of Communication, Kunden hochgeschaetzt",
     "evidence": [
-      "\u20ac20M+ Entwicklungsbudget verantwortet",
-      "\u20ac50M+ kumulative Kosteneinsparungen",
-      "\u20ac10M Kostenreduktionsprogramm geleitet",
-      "3 neue Geschaeftsfelder erschlossen",
-      "ROI von 300%+ bei Initiativen"
+      "Head of Communication, Business Development bei Vitesco/Continental (Vitesco Endzeugnis)",
+      "Pruefung aller internen und externen Veroeffentlichungen der Produktlinie (Vitesco Endzeugnis)",
+      "Townhall-, Tech-Day-, Strategie-Praesentationen eigenstaendig erstellt (Vitesco Endzeugnis)",
+      "Von Kunden und Geschaeftspartnern sehr geschaetzt (Vitesco Endzeugnis + GM Zeugnis)",
+      "Vertretung der Produktlinie bei Kundenstrategie- und Business-Unit-Konferenzen (Vitesco Endzeugnis)"
     ],
-    "tags": ["p-and-l", "budget", "finance", "leadership", "business"],
+    "tags": ["stakeholder", "communication", "leadership", "presentations"],
     "highlight": false
   },
   {
@@ -175,16 +141,33 @@
     "name": "Organisationsentwicklung",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "3 Abteilungen von Null aufgebaut",
+    "keyMetric": "Abteilungen aufgebaut, Peer-Consulting",
     "evidence": [
-      "3 Abteilungen als Greenfield etabliert",
-      "Mission/Vision fuer Produktlinien co-kreiert",
-      "Peer-Consulting-Frameworks implementiert",
-      "Cross-divisionale Expertennetzwerke initiiert",
-      "Wissensmanagement-System aufgebaut"
+      "NVH-Bereich als Greenfield in Produktlinie aufgebaut (Continental Interne Beurteilung)",
+      "Entwicklungsstandort Asien mit 4 Abteilungen aufgebaut (Continental Zwischenzeugnis)",
+      "Peer-Consulting-Framework in Produktlinie etabliert (Continental Interne Beurteilung)",
+      "Divisionsuebergreifende NVH-Netzwerke initiiert (Continental Interne Beurteilung)",
+      "Koordination von Mitarbeiterschulungen und Wissensvermittlung (Continental Zwischenzeugnis)"
     ],
     "tags": ["org-development", "leadership", "culture", "structure"],
     "highlight": false
+  },
+  {
+    "id": "lead-social",
+    "clusterId": "leadership",
+    "name": "Sozialkompetenz & Gruppendynamik",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Note 1 Sozialverhalten, Peer-Consulting",
+    "evidence": [
+      "Weit ueberdurchschnittliche Sozialkompetenz und Kenntnisse gruppendynamischer Vorgaenge (Continental Interne Beurteilung)",
+      "Sozialverhalten Note 1 in interner Beurteilung (Continental Interne Beurteilung)",
+      "Vertrauensvolle und offene Atmosphaere geschaffen, jederzeit vorbildlich (Vitesco Endzeugnis)",
+      "Kooperatives, sicheres und zuvorkommendes Auftreten (Continental Zwischenzeugnis)",
+      "Mindset-Kampagne und Peer-Consulting gewinnbringend eingebracht (Continental Interne Beurteilung)"
+    ],
+    "tags": ["social-competence", "group-dynamics", "leadership", "empathy"],
+    "highlight": true
   },
   {
     "id": "coach-stgallen",
@@ -192,13 +175,13 @@
     "name": "St. Galler Coaching Modell",
     "level": 5,
     "levelLabel": "Master",
-    "keyMetric": "387 UE, ISO 17024, M.B.C.",
+    "keyMetric": "387 UE, 6 Diplome, ISO 17024",
     "evidence": [
-      "Master of Business Coaching (M.B.C.)",
-      "387 Unterrichtseinheiten in 2 Jahren",
-      "5-Dimensionen: Werte, Probleme, Ziele, Ressourcen, Identitaet",
-      "Wissenschaftlich dreifach validierte Methodik",
-      "100% Kundenzufriedenheit mit Erfolgsgarantie"
+      "Master of Business Coaching, 387 UE in 2 Jahren (Coach Akademie Schweiz Diplom)",
+      "6 Diplome: Coach, TeamCoach, BusinessCoach, LeadershipCoach, Master of Coaching, M.B.C. (CAS Diplome)",
+      "Dreifach wissenschaftlich validiertes 5-dimensionales Modell (CAS Diplome)",
+      "ISO 17024 und ICI zertifiziert (CAS Diplome)",
+      "4.96/5.0 bei 30 verifizierten Bewertungen (ProvenExpert)"
     ],
     "tags": ["coaching", "st-galler", "methodology", "certified"],
     "highlight": true
@@ -209,13 +192,13 @@
     "name": "Hypnosystemische Kommunikation",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "Milton Erickson Methoden",
+    "keyMetric": "Milton Erickson, Trance-Arbeit",
     "evidence": [
-      "Hypnosystemische Kommunikation (Milton Erickson)",
-      "Trance-Arbeit fuer tiefgreifende Transformation",
-      "Klienten berichten von unerwarteten Durchbruechen",
-      "Integration in Business-Coaching-Kontext",
-      "Zertifiziert durch Coach Akademie Schweiz"
+      "Milton-Sprachmuster im Master of Coaching Curriculum (CAS Diplom Master of Coaching)",
+      "Lineare Trancezustaende induzieren und steuern (CAS Diplom Master of Coaching)",
+      "Klienten berichten von intensiven Trance-Erlebnissen: 'mega ueberrascht, wie intensiv' (Aaron Solbrig, ProvenExpert)",
+      "Systemische Kommunikation mit unbewussten Persoenlichkeitsanteilen (CAS Diplom)",
+      "Integration Hypnose in Business-Coaching, Klienten lassen sich trotz Skepsis ein (Tabea M., ProvenExpert)"
     ],
     "tags": ["coaching", "hypnosystemic", "communication", "trance"],
     "highlight": false
@@ -226,13 +209,13 @@
     "name": "Werte-Coaching",
     "level": 5,
     "levelLabel": "Expert",
-    "keyMetric": "4.96/5.0, 8-stelliger Impact",
+    "keyMetric": "4.96/5.0, 100% Empfehlung",
     "evidence": [
-      "4.96/5.0 verifizierte Kundenbewertung (31+ Reviews)",
-      "8-stelliger Revenue Impact dokumentiert",
-      "Werte-Transformations-Framework entwickelt",
-      "Purpose Alignment fuer Organisationen",
-      "8 Fuenf-Sterne Google Reviews"
+      "4.96/5.0 verifizierte Kundenbewertung, 30 Reviews, 100% Empfehlung (ProvenExpert)",
+      "Wertorientierter systemischer Coaching-Ansatz als Kernmethodik (6 CAS Diplome)",
+      "Klienten berichten Wiederentdeckung persoenlicher Werte (Aaron Solbrig, ProvenExpert)",
+      "CEO Karoka AG: 'seit dem Coaching lebe ich meinen Wert staerker und bewusster' (Roman Kalberer, ProvenExpert)",
+      "Werteentwicklung und Integration als Dienstleistung (P3 Broschuere Unternehmenskultur)"
     ],
     "tags": ["coaching", "values", "transformation", "purpose"],
     "highlight": true
@@ -243,13 +226,13 @@
     "name": "Team-Coaching",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "15+ Teams transformiert",
+    "keyMetric": "TeamCoach Diplom, Aufstellungsarbeit",
     "evidence": [
-      "Diplom Wertorientierter systemischer TeamCoach",
-      "15+ Teams erfolgreich transformiert",
-      "Systemische Aufstellungsarbeit fuer Teams",
-      "Reflecting Team Methodik",
-      "40% Verbesserung der Fuehrungseffektivitaet"
+      "Diplom Wertorientierter systemischer TeamCoach, 53 UE (CAS Diplom)",
+      "Curriculum: Systemische Aufstellungen, Visions- und Identitaetsprozesse (CAS Diplom)",
+      "St. Galler TeamCoaching Modell: Ziel- und Problemraumarbeit in Teams (CAS Diplom)",
+      "Peer-Consulting in Produktlinie Turbolader eingebracht (Continental Interne Beurteilung)",
+      "Diversity Team Development als Dienstleistung (P3 Broschuere Unternehmenskultur)"
     ],
     "tags": ["coaching", "team-coaching", "systemic", "team-dynamics"],
     "highlight": false
@@ -260,13 +243,13 @@
     "name": "Natur-Coaching",
     "level": 3,
     "levelLabel": "Solide",
-    "keyMetric": "Outdoor-Erfahrungsmethoden",
+    "keyMetric": "Outdoor-Setting, Erlebnispaedagogik",
     "evidence": [
-      "Natur-basiertes Leadership-Programm entwickelt",
-      "Outdoor-Erfahrung mit systemischem Coaching verbunden",
-      "Erlebnispaedagogische Elemente integriert",
-      "10+ Vater-Sohn-Wochenenden geleitet (4M e.V.)",
-      "200+ Maenner in Persoenlichkeitsentwicklung begleitet"
+      "Naturbasierter Coaching-Ansatz, Klienten berichten von Offenbarung (Aaron Solbrig, ProvenExpert)",
+      "Outdoor-Setting: Freiheit und Grenzenlosigkeit vs. geschlossene Raeume (Aaron Solbrig, ProvenExpert)",
+      "Erlebnispaedagogische Elemente integriert (P3 Profil)",
+      "Christians naturbasierter Ansatz liess tiefer eintauchen (Tabea M., ProvenExpert)",
+      "Outdoor-Coaching als bewusstes Qualitaetsmerkmal, mehrfach in Reviews erwaehnt (ProvenExpert)"
     ],
     "tags": ["coaching", "nature", "outdoor", "experiential"],
     "highlight": false
@@ -275,32 +258,49 @@
     "id": "coach-neuro",
     "clusterId": "coaching",
     "name": "Neurodivergenz-Coaching",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "ADHS/HSP-optimierte Ansaetze",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "ADHS/HSP-adaptierte Methoden",
     "evidence": [
-      "Erster in DE fuer ADHS/HSP-optimierte KI-Workflows",
-      "Neurodivergenz-freundliche Coaching-Ansaetze",
-      "Design fuer das empfindsamste Gehirn",
-      "Execution Rate von 0% auf 65% gesteigert",
-      "Eigene Erfahrung als Grundlage"
+      "ADHS-Framework v2.0 entwickelt: Neurobiologische Grundlage und Praxisadaption (Vita NeuroMethodik)",
+      "Fraktionierte Trance-Formate fuer neurodivergente Klienten (Vita NeuroMethodik)",
+      "Neurodivergenz-freundliche Design-Patterns in eigenen Projekten umgesetzt (SkillForge/NeuroForge)",
+      "Hypnose-Adaptationen fuer ADHS: kuerzere Induktionen, multisensorisch (Vita NeuroMethodik)",
+      "Eigene ADHS/HSP-Erfahrung als Grundlage (P3 Profil)"
     ],
     "tags": ["coaching", "neurodiversity", "adhd", "hsp", "inclusion"],
     "highlight": false
   },
   {
+    "id": "coach-leadership-dev",
+    "clusterId": "coaching",
+    "name": "Fuehrungskraefteentwicklung",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "LeadershipCoach Diplom, Leadership Forum",
+    "evidence": [
+      "Diplom Wertorientierter systemischer LeadershipCoach, 53 UE (CAS Diplom)",
+      "Continental Leadership Forum: 4 Module, 8 Tage, Fuehrungskompetenz-Entwicklung (Teilnahmebescheinigung)",
+      "Curriculum: Neurologische Ebenen im Leadership, Fuehrungsinstrumente (CAS Diplom LeadershipCoach)",
+      "Werteorientierte Fuehrung im Kontext als Dienstleistung (P3 Broschuere Unternehmenskultur)",
+      "Peer-Consulting und kollegiale Beratung fuer Fuehrungskraefte (Leadership Forum + Continental Beurteilung)"
+    ],
+    "tags": ["coaching", "leadership-development", "executive", "training"],
+    "highlight": true
+  },
+  {
     "id": "ai-prompt",
     "clusterId": "ai-digital",
     "name": "Prompt Engineering",
-    "level": 5,
-    "levelLabel": "Expert",
-    "keyMetric": "Score 8.2/10, 67% Token-Reduktion",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Systematische Patterns, Optimierung",
     "evidence": [
-      "67% Token-Reduktion erreicht (55k auf 18k)",
-      "Multi-Turn Dialogoptimierung (8.2/10)",
-      "4 validierte Prompt-Patterns entwickelt",
-      "Neurodivergenz-optimiertes Prompting",
-      "Systematische Prompt-Bibliotheken aufgebaut"
+      "Systematische Prompt-Bibliotheken in 6+ Projekten aufgebaut (GitHub/Git Logs)",
+      "CLAUDE.md/STATE.md/ROADMAP.md Dokumentations-Pattern entwickelt (alle eigenen Projekte)",
+      "Multi-Turn Dialogoptimierung in Praxis erprobt (Git Commit-Historie)",
+      "Neurodivergenz-optimiertes Prompting: kurze Kontexte, klare Strukturen (eigene Projekte)",
+      "Token-Optimierung durch kontextuelle Komprimierung (Git Logs verifizierbar)"
     ],
     "tags": ["ai", "prompt-engineering", "optimization", "frameworks"],
     "highlight": true
@@ -309,15 +309,15 @@
     "id": "ai-claude",
     "clusterId": "ai-digital",
     "name": "Claude Code CLI",
-    "level": 5,
-    "levelLabel": "Expert",
-    "keyMetric": "15.500 LOC in 6 Tagen",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "6+ Projekte, intensive Nutzung",
     "evidence": [
-      "15.500 LOC in 6 Tagen geschrieben",
-      "53+ Git-Commits (89% KI-co-authored)",
-      "6 vollstaendige Projekte realisiert",
-      "Temporale Dokumentations-Architektur entwickelt",
-      "18+ Monate intensive Nutzung"
+      "6+ vollstaendige React/Vite Projekte mit Claude Code realisiert (GitHub verifizierbar)",
+      "Temporale Dokumentations-Architektur entwickelt und standardisiert (CLAUDE.md in allen Projekten)",
+      "Co-Authored-By in 50+ Git-Commits (Git Logs verifizierbar)",
+      "Eigene Projekt-Templates und Konventionen erstellt (00_project_template/)",
+      "Intensive Nutzung seit 18+ Monaten, Workflows optimiert (Git-Historie)"
     ],
     "tags": ["ai", "claude", "development", "cli", "coding"],
     "highlight": true
@@ -325,16 +325,16 @@
   {
     "id": "ai-comfyui",
     "clusterId": "ai-digital",
-    "name": "ComfyUI & LoRA Training",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "Top 0.01% DE, lokale KI-Systeme",
+    "name": "ComfyUI & Lokale KI",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Lokale KI-Systeme, LoRA Training",
     "evidence": [
-      "ComfyUI/Stable Diffusion lokale Systeme",
-      "LoRA Training fuer Custom Models",
-      "Top 0.01% in Deutschland fuer lokale KI",
-      "Ollama und LM Studio Expertise",
-      "Multi-Modell-Verifikationsstrategien"
+      "ComfyUI/Stable Diffusion lokale Systeme aufgesetzt und betrieben (eigene Infrastruktur)",
+      "LoRA Training fuer Custom Models durchgefuehrt (eigene Projekte)",
+      "Ollama und LM Studio fuer lokale LLMs eingerichtet (eigene Infrastruktur)",
+      "Multi-Modell-Verifikationsstrategien entwickelt (eigene Workflows)",
+      "Hardware-Setup fuer lokale KI-Inferenz optimiert (eigene Infrastruktur)"
     ],
     "tags": ["ai", "image-generation", "local-ai", "training"],
     "highlight": false
@@ -343,15 +343,15 @@
     "id": "ai-automation",
     "clusterId": "ai-digital",
     "name": "KI-Automation (n8n)",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "60% Prozessautomation, 15-25h/Woche",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "n8n Workflows, API-Integration",
     "evidence": [
-      "n8n Workflow-Automatisierung",
-      "15-25 Stunden/Woche Zeitersparnis fuer Kunden",
-      "60% Prozessautomation erreicht",
-      "API-Integration (OpenAI, Anthropic, Google)",
-      "RAG-Implementierungen umgesetzt"
+      "n8n Workflow-Automatisierung in Planung und Evaluierung (Jobhunt ROADMAP)",
+      "API-Integration verschiedener KI-Anbieter (eigene Projekte)",
+      "Automatisierte Dokumenten-Pipelines konzipiert (Jobhunt Projekt)",
+      "Google Search Automation dokumentiert (Jobhunt/03_automation/)",
+      "Workflow-Design fuer Bewerbungs-Pipeline (Jobhunt NeuroForge Quests)"
     ],
     "tags": ["ai", "automation", "n8n", "workflow", "integration"],
     "highlight": false
@@ -360,15 +360,15 @@
     "id": "ai-frameworks",
     "clusterId": "ai-digital",
     "name": "Eigene KI-Frameworks",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "5 eigenentwickelte Methoden",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Dokumentations-Architektur, Design-Patterns",
     "evidence": [
-      "Kontext-Optimierungsmethode (96% Token-Overhead reduziert)",
-      "Temporale Dokumentations-Architektur (CLAUDE/STATE/ROADMAP)",
-      "Neurodivergenz-Design-Patterns",
-      "Prompt-Pattern-Bibliothek",
-      "KPI-Tracking-System fuer KI-Projekte"
+      "Temporale Dokumentations-Architektur: CLAUDE.md/STATE.md/ROADMAP.md (alle Projekte)",
+      "Neurodivergenz-Design-Patterns: 48px Touch-Targets, prefers-reduced-motion (SkillForge/NeuroForge)",
+      "Deployment-Pattern: DEPLOY_TARGET fuer Multi-Hosting (SkillForge CLAUDE.md)",
+      "Projekt-Template-System mit standardisierten Konventionen (00_project_template/)",
+      "Prompt-Pattern-Bibliothek ueber 6+ Projekte konsolidiert (Git-Historie)"
     ],
     "tags": ["ai", "frameworks", "methodology", "innovation"],
     "highlight": false
@@ -381,166 +381,64 @@
     "levelLabel": "Fortgeschritten",
     "keyMetric": "6 React-Projekte, Design-System",
     "evidence": [
-      "6 vollstaendige React/Vite Projekte",
-      "P3 Design-System entwickelt",
-      "NeuroForge UI Guidelines erstellt",
-      "GitHub Pages + ALL-INKL Deployment",
-      "Barrierefreie, HSP-freundliche Interfaces"
+      "6+ vollstaendige React/Vite Projekte realisiert (GitHub verifizierbar)",
+      "P3/NeuroForge Design-System mit Tailwind v4 entwickelt (SkillForge index.css)",
+      "GitHub Pages und ALL-INKL Deployment konfiguriert (CLAUDE.md Projekte)",
+      "Barrierefreie, HSP-freundliche Interfaces: WCAG, 48px Touch-Targets (SkillForge)",
+      "Responsive Design: Mobile/Tablet/Desktop (SkillForge, NeuroForge)"
     ],
     "tags": ["ai", "web-development", "react", "design-system"],
     "highlight": false
   },
   {
-    "id": "data-sixsigma",
-    "clusterId": "data-process",
-    "name": "Six Sigma & DFSS",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "DFSS zertifiziert, statistische Analyse",
-    "evidence": [
-      "Design for Six Sigma (DFSS) zertifiziert bei Continental",
-      "Statistische Prozesslenkung und Faehigkeitsstudien",
-      "Regressionsanalyse und Predictive Modeling",
-      "30% Effizienzverbesserung erreicht",
-      "50% Durchlaufzeitreduktion"
-    ],
-    "tags": ["six-sigma", "dfss", "process", "statistics", "quality"],
-    "highlight": true
-  },
-  {
-    "id": "data-kanban",
-    "clusterId": "data-process",
-    "name": "Kanban & Lean",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "Globaler Rollout, 30% Effizienz+",
-    "evidence": [
-      "Globales Kanban-System implementiert (30% Effizienz+)",
-      "Cross-funktionale Integration (3 Abteilungen)",
-      "Asiatische Engineering-Workflows optimiert",
-      "Value Stream Mapping Expertise",
-      "Kaizen-Events moderiert"
-    ],
-    "tags": ["kanban", "lean", "agile", "process", "efficiency"],
-    "highlight": false
-  },
-  {
-    "id": "data-vba",
-    "clusterId": "data-process",
-    "name": "VBA & Power Query",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "Komplexe Automationen, Multi-Source",
-    "evidence": [
-      "Komplexe VBA-Automationsskripte",
-      "Power Query/Power Pivot Multi-Source-Integration",
-      "Dynamische Echtzeit-KPI-Dashboards",
-      "Finanzmodellierung: Szenarien, Forecasting",
-      "Nahtlose PowerPoint/Word-Automation"
-    ],
-    "tags": ["vba", "excel", "power-query", "data", "automation"],
-    "highlight": false
-  },
-  {
-    "id": "data-dashboards",
-    "clusterId": "data-process",
-    "name": "Dashboards & BI",
-    "level": 3,
-    "levelLabel": "Solide",
-    "keyMetric": "C-Suite Reporting, Power BI",
-    "evidence": [
-      "Executive Dashboards fuer C-Suite",
-      "Balanced Scorecards und OKR Tracking",
-      "Power BI und Tableau Grundlagen",
-      "ROI-Analyse und Investment-Bewertung",
-      "Marktintelligenz und Trendanalyse"
-    ],
-    "tags": ["dashboards", "bi", "reporting", "kpi", "analytics"],
-    "highlight": false
-  },
-  {
-    "id": "data-process-opt",
-    "clusterId": "data-process",
-    "name": "Prozessoptimierung",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "25% Kostenreduktion, 50% schneller",
-    "evidence": [
-      "25% Kostenreduktion bei gleichbleibender Qualitaet",
-      "50% Durchlaufzeitreduktion erreicht",
-      "Waste-Eliminierungs-Initiativen geleitet",
-      "5S-Implementierung durchgefuehrt",
-      "PDCA-Zyklus-Meisterschaft"
-    ],
-    "tags": ["process", "optimization", "lean", "efficiency", "cost-reduction"],
-    "highlight": false
-  },
-  {
     "id": "biz-startup",
     "clusterId": "business",
-    "name": "Startup-Beratung",
+    "name": "Gruendungsberatung",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "10+ erfolgreiche Gruendungen begleitet",
+    "keyMetric": "Zertifiziert, Klienten erfolgreich begleitet",
     "evidence": [
-      "10+ erfolgreiche Startup-Launches begleitet",
-      "Umfassende Business-Plaene mit Finanzmodellierung",
-      "Deutsche Foerderungen und Bankfinanzierung gesichert",
-      "Tech, Automotive, Coaching, Dienstleistungs-Branchen",
-      "Startup Mentor Netzwerk Frankfurt"
+      "Zertifizierter Existenzgruendungsberater, 12 Monate Ausbildung (gruenderberatungen.de Zertifikat)",
+      "10-Schritte-Programm: Von Gruenderpersoenlichkeit bis Finanzplanung (Zertifikat)",
+      "Erfolgreiche Tandemberatung bei 4 Klienten mit erfahrenen Beratern (Zertifikat)",
+      "Laura Riesinger: 'kompletter Businessplan in 1.5 Wochen, 100% zuverlaessig' (ProvenExpert)",
+      "Andreas Schneider: 'kuemmert sich um alles, Punkte absolut verstaendlich' (ProvenExpert)"
     ],
     "tags": ["startup", "consulting", "business-planning", "funding"],
     "highlight": true
   },
   {
+    "id": "biz-karriere",
+    "clusterId": "business",
+    "name": "Karriereberatung",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Berufliche Neuorientierung, Coaching",
+    "evidence": [
+      "Aaron Solbrig (SAP/SCRUM Master): Berufliche Neuorientierung erfolgreich begleitet (ProvenExpert)",
+      "Daniel Janzen: 'entscheidend fuer beruflichen und persoenlichen Erfolg' (ProvenExpert)",
+      "Ina Simeonova: 'professionelle und persoenliche Themen beraten, Experten-Vernetzung' (ProvenExpert)",
+      "TM: Strukturierte Gruendungsentscheidung inkl. Timing und Umfang begleitet (ProvenExpert)",
+      "Coaching-Profil umfasst Fuehrungskraeftecoaching und Lifecoaching (Qualifikationsprofil)"
+    ],
+    "tags": ["career", "consulting", "coaching", "reorientation"],
+    "highlight": false
+  },
+  {
     "id": "biz-market",
     "clusterId": "business",
     "name": "Marktanalyse & Strategie",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "Markteintrittsstrategien, \u20ac500M Revenue Impact",
-    "evidence": [
-      "Produktlinienstrategie mit \u20ac500M Revenue Impact",
-      "Markteintrittsstrategien fuer asiatische Maerkte",
-      "Competitive Intelligence Framework entwickelt",
-      "Innovationspipeline-Prozess erstellt",
-      "3-Jahres-Roadmap strategisch geplant"
-    ],
-    "tags": ["market-analysis", "strategy", "business", "competitive"],
-    "highlight": false
-  },
-  {
-    "id": "biz-finance",
-    "clusterId": "business",
-    "name": "Finanzplanung & Controlling",
     "level": 3,
     "levelLabel": "Solide",
-    "keyMetric": "Szenarioanalyse, Budgetierung",
+    "keyMetric": "Business Development, Strategieansaetze",
     "evidence": [
-      "Multi-Millionen Euro P&L-Verantwortung",
-      "Finanzmodellierung und Szenarioanalyse",
-      "\u20ac10M Kostenreduktionsprogramm geleitet",
-      "ROI-Berechnungen fuer Transformationsprojekte",
-      "Foerdermittel und Bankfinanzierung gesichert"
+      "Verantwortung fuer alle strategischen Untersuchungen der Produktlinie (Vitesco Endzeugnis)",
+      "Inhaltliche Vorbereitung von Marktanalysen und Strategieansaetzen (Vitesco Endzeugnis)",
+      "Teilnahme an Kundenstrategie- und Business-Unit-Strategie-Konferenzen (Vitesco Endzeugnis)",
+      "Definition strategische Ausrichtung der Produktlinie in allen Regionen (Vitesco Endzeugnis)",
+      "Markt- und Zielgruppenanalyse als Teil der Gruendungsberatung (Existenzgruendungsberater Zertifikat)"
     ],
-    "tags": ["finance", "budgeting", "controlling", "business"],
-    "highlight": false
-  },
-  {
-    "id": "biz-gomarket",
-    "clusterId": "business",
-    "name": "Go-to-Market",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "3 neue Geschaeftsfelder, asiatische Maerkte",
-    "evidence": [
-      "3 neue Geschaeftsfelder durch strategische Analyse",
-      "Markteintrittsstrategien fuer China umgesetzt",
-      "Produktpositionierung und Marketing-Strategien",
-      "B2B, B2C, Subscription und Consulting-Modelle",
-      "Strategische Partnerschaften und Joint Ventures"
-    ],
-    "tags": ["go-to-market", "marketing", "business", "strategy", "partnerships"],
+    "tags": ["market-analysis", "strategy", "business", "competitive"],
     "highlight": false
   },
   {
@@ -549,15 +447,15 @@
     "name": "Unternehmenskommunikation",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "Globale Strategie, Krisenkommunikation",
+    "keyMetric": "Head of Communication, globale Strategie",
     "evidence": [
-      "Globale Kommunikationsstrategie (Engagement +40%)",
-      "Krisenkommunikations-Framework",
-      "Executive Presentation Templates unternehmensweit",
-      "Digitale Kommunikationsplattformen implementiert",
-      "Interne und externe Publikationen gemanagt"
+      "Head of Communication, Business Development bei Vitesco/Continental (Vitesco Endzeugnis)",
+      "Verantwortung fuer alle Kommunikationsthemen der Produktlinie und Standort (Vitesco Endzeugnis)",
+      "Pruefung aller internen und externen Veroeffentlichungen inkl. Freigabelaeufe (Vitesco Endzeugnis)",
+      "Eigenstaendige Erstellung Townhall-, Tech-Day-, Strategie-Praesentationen (Vitesco Endzeugnis)",
+      "Unterstuetzung globaler Standorte bei Kommunikation und Veroeffentlichungen (Vitesco Endzeugnis)"
     ],
-    "tags": ["communication", "corporate", "crisis", "business", "strategy"],
+    "tags": ["communication", "corporate", "business", "strategy"],
     "highlight": false
   },
   {
@@ -566,13 +464,13 @@
     "name": "MINT-Unterricht",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "Mathe & Physik Gymnasium, seit 2023",
+    "keyMetric": "Dipl.-Ing. Physik, Praxisbezug",
     "evidence": [
-      "Mathematik- und Physiklehrer am Gymnasium (seit Dez 2023)",
-      "Innovatives STEM-Curriculum mit Industrie-Beispielen",
-      "Individuelle Coaching-Methoden fuer Schueler",
-      "Erlebnispaedagogische Lernprogramme",
-      "Staerkenbasierte Bewertungsmethoden"
+      "Dipl.-Ing. Physikalische Technik als fundierte MINT-Grundlage (FH Diplom 2007)",
+      "15+ Jahre Industrie-Erfahrung als authentischer Praxisbezug (Vitesco/Continental/GM Zeugnisse)",
+      "Neurowissenschaftliche Lernmethoden in Bildungskontext integriert (Vita NeuroMethodik)",
+      "Erlebnispaedagogische Ansaetze aus Coaching in Lehre uebertragen (P3 Profil)",
+      "Spaced Repetition und Embodied Learning systematisch angewendet (Vita NeuroMethodik)"
     ],
     "tags": ["teaching", "stem", "education", "mathematics", "physics"],
     "highlight": true
@@ -585,11 +483,11 @@
     "levelLabel": "Fortgeschritten",
     "keyMetric": "NSDR, Spaced Repetition, Embodied Learning",
     "evidence": [
-      "Non-Sleep Deep Rest (NSDR) in Unterricht integriert",
-      "Spaced Repetition systematisch angewendet",
-      "Embodied Learning Ansaetze entwickelt",
-      "Polyvagal-Theorie kritisch evaluiert",
-      "Wissenschaftliche Fundierung jeder Methode"
+      "NSDR als integraler Bestandteil der hypnosystemischen Arbeit (Vita NeuroMethodik)",
+      "Spaced Repetition als neurobiologisch fundiertes Coaching-Prinzip (Vita NeuroMethodik)",
+      "Embodied Learning: Wahrnehmung, Emotion, Bewegung verschaltet (Vita NeuroMethodik)",
+      "Polyvagal-Theorie kritisch evaluiert, Grenzen klar benannt (Vita NeuroMethodik)",
+      "Wissenschaftliche Fundierung: Hebb, Fields, Gallagher zitiert (Vita NeuroMethodik)"
     ],
     "tags": ["neuroscience", "methodology", "learning", "education"],
     "highlight": false
@@ -598,34 +496,17 @@
     "id": "did-adult",
     "clusterId": "didaktik",
     "name": "Erwachsenenbildung",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "500+ Stunden Training, 10+ Programme",
-    "evidence": [
-      "500+ Stunden Training durchgefuehrt",
-      "10+ Trainingsprogramme entwickelt",
-      "Leadership-Development fuer 150+ Fuehrungskraefte",
-      "Peer Consulting Methodik etabliert",
-      "Verhaltensaenderung bei 70% nachhaltig"
-    ],
-    "tags": ["adult-education", "training", "leadership-development", "facilitation"],
-    "highlight": false
-  },
-  {
-    "id": "did-curriculum",
-    "clusterId": "didaktik",
-    "name": "Curriculum-Design",
     "level": 3,
     "levelLabel": "Solide",
-    "keyMetric": "Ganzheitlicher Lernansatz",
+    "keyMetric": "Coaching-basierte Trainings, Peer Consulting",
     "evidence": [
-      "STEM-Curriculum mit Praxisbezug designt",
-      "Kompetenzbasierte Bewertungssysteme",
-      "Blended Learning Konzepte",
-      "Individualisierte Lernpfade",
-      "Coaching-Methoden in Bildungskontext integriert"
+      "Continental Leadership Forum: kollegiale Beratung und Vernetzung (Teilnahmebescheinigung)",
+      "Peer Consulting Methodik in Produktlinie etabliert (Continental Interne Beurteilung)",
+      "Koordination von Mitarbeiterschulungen in Shanghai (Continental Zwischenzeugnis)",
+      "Vermittlung von Wissen zu internen Prozessen (Continental Zwischenzeugnis)",
+      "Coaching-basierte Erwachsenenbildung ueber P3-Coaching (ProvenExpert Reviews)"
     ],
-    "tags": ["curriculum", "design", "education", "learning-design"],
+    "tags": ["adult-education", "training", "leadership-development", "facilitation"],
     "highlight": false
   },
   {
@@ -634,15 +515,32 @@
     "name": "Wissenschaftliches Arbeiten",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "Buchprojekt, kritische Quellenarbeit",
+    "keyMetric": "Buchprojekt 48.000 Woerter, Quellenarbeit",
     "evidence": [
-      "48.000-Woerter Buchprojekt 'Der Heilige Tanz'",
-      "Kritische Quellenarbeit (Gold/Vorsichtig/Problematisch)",
-      "Power Posing und Polyvagal-Theorie kritisch analysiert",
-      "Hebraeische Sprachfundierung erarbeitet",
-      "Wissenschaft und Praxis systematisch integriert"
+      "48.000-Woerter Buchprojekt 'Der Heilige Tanz', 8/23 Kapitel fertig (Vita Wiss. Arbeiten)",
+      "3-Stufen-Quellenbewertung: Gold/Vorsichtig/Problematisch (Vita Wiss. Arbeiten)",
+      "Hebraeische und griechische Sprachfundierung fuer exegetische Arbeit (Vita Wiss. Arbeiten)",
+      "Power Posing und Polyvagal-Theorie kritisch analysiert (Vita NeuroMethodik + Wiss. Arbeiten)",
+      "Verbindliche 8-Stufen-Kapitelstruktur mit wiss. Studien und historischer Tradition (Vita Wiss. Arbeiten)"
     ],
     "tags": ["research", "writing", "methodology", "science", "education"],
+    "highlight": false
+  },
+  {
+    "id": "did-speaker",
+    "clusterId": "didaktik",
+    "name": "Speaker & Facilitation",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Townhalls, Konferenzen, Moderation",
+    "evidence": [
+      "Eigenstaendige Erstellung und Vortrag von Townhall-Praesentationen (Vitesco Endzeugnis)",
+      "Tech-Day und Strategie-Praesentationen fuer Produktlinie (Vitesco Endzeugnis)",
+      "Marc Stoehr Speaker-Referenz: Vertriebscamp Andalusien 2022 (P3 Broschuere)",
+      "Peer-Consulting als Moderationsformat etabliert (Continental Interne Beurteilung)",
+      "Leadership-Netzwerk als Dienstleistung (P3 Broschuere Unternehmenskultur)"
+    ],
+    "tags": ["speaking", "facilitation", "moderation", "presentations"],
     "highlight": false
   }
 ]

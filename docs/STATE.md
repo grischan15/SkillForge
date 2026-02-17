@@ -1,8 +1,8 @@
 # STATE.md – SkillForge
 
-## Version: 0.1.0 (MVP)
+## Version: 0.2.0 (Evidence-Validated)
 
-## Status: MVP lauffaehig, Dateninhalte muessen geprueft werden
+## Status: Skill-Daten evidence-validiert, 32 Skills in 6 Clustern
 
 ### Tech-Stack
 - React 19 + Vite 7 (Port 5180)
@@ -13,8 +13,8 @@
 ### Features (implementiert)
 - [x] Willkommensseite mit Portraitfoto + Claim + CTA
 - [x] P3-Logo (roter Fluegel) als Branding + Favicon
-- [x] 7 Kompetenz-Cluster als Tabs (wrappen bei kleiner Breite)
-- [x] ~40 Skill-Karten mit Evidenz-Popovers
+- [x] 6 Kompetenz-Cluster als Tabs (wrappen bei kleiner Breite)
+- [x] 32 Skill-Karten mit Evidenz-Popovers
 - [x] Drag & Drop + Tap-to-Add [+]
 - [x] Schmiede (Reaction Zone) immer sichtbar
 - [x] Matching-Engine (100 Rollen: 50 Standard + 50 Revelation)
@@ -23,11 +23,22 @@
 - [x] prefers-reduced-motion Support
 - [x] Zurueck-Button zur Startseite
 - [x] LinkedIn-Link im Footer
+- [x] Evidence-Validation: Alle Skills nur noch mit harten Quellen belegt
+
+### Aenderungen v0.1.0 → v0.2.0
+- **Evidence-Validation:** Alle 32 Skills gegen harte Quellen geprueft (Zeugnisse, Diplome, ProvenExpert, Broschuere, Vita-Referenzen)
+- **Master Resume entfernt:** Keine selbstverfassten Behauptungen mehr als Quelle
+- **10 Skills entfernt:** eng-quality, eng-patents, lead-pl, data-kanban, data-vba, data-dashboards, data-process-opt, biz-finance, biz-gomarket, did-curriculum (unzureichende harte Evidenz)
+- **5 Skills neu:** lead-social, coach-leadership-dev, biz-karriere, did-speaker, biz-startup→Gruendungsberatung (umbenannt)
+- **Cluster-Merge:** data-process aufgeloest, Six Sigma/DFSS in engineering integriert (7→6 Cluster)
+- **Level-Anpassungen:** eng-product 5→4, lead-stakeholder 5→4, coach-neuro 4→3, ai-prompt 5→4, ai-claude 5→4, ai-comfyui 4→3, ai-automation 4→3, ai-frameworks 4→3, biz-market 4→3, did-adult 4→3
+- **Component-Cleanup:** data-process Referenzen aus ForgedSkillChip, SkillCard, ClusterTabs entfernt
 
 ### Bekannte offene Punkte
-- **WICHTIG:** Skills (evidence, keyMetric) und Rollen (description, whyFit) muessen gegen Master Resume geprueft werden - vieles ist KI-generiert und moeglicherweise nicht faktisch korrekt!
 - Willkommensseite: Text/Claim anpassen
 - Portraitfoto: Bildausschnitt im Kreis optimierbar
+- Rollen-Beschreibungen (roles.json) noch nicht validiert
+- Deployment auf apps.p3coaching.de/skill-forge/
 
 ### Dateistruktur
 ```
@@ -36,8 +47,8 @@ src/
   App.jsx                     # Hauptkomponente mit DnD-Context
   index.css                   # Tailwind v4 Theme + Base Styles
   data/
-    clusters.json             # 7 Cluster
-    skills.json               # ~40 Skills (PRUEFEN!)
+    clusters.json             # 6 Cluster (data-process entfernt)
+    skills.json               # 32 Skills (evidence-validiert)
     roles.json                # 100 Rollen (PRUEFEN!)
     matchingEngine.js         # Offline Matching-Algorithmus
   components/

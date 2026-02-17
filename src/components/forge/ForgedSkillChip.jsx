@@ -5,7 +5,6 @@ const clusterChipColors = {
   'leadership': 'bg-cluster-leadership-light text-cluster-leadership border-cluster-leadership/30',
   'coaching': 'bg-cluster-coaching-light text-cluster-coaching border-cluster-coaching/30',
   'ai-digital': 'bg-cluster-ai-light text-cluster-ai border-cluster-ai/30',
-  'data-process': 'bg-cluster-data-light text-cluster-data border-cluster-data/30',
   'business': 'bg-cluster-business-light text-cluster-business border-cluster-business/30',
   'didaktik': 'bg-cluster-didaktik-light text-cluster-didaktik border-cluster-didaktik/30',
 }
