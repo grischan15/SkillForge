@@ -5,14 +5,15 @@
 - App: SkillForge – Interaktive Kompetenz-Schmiede fuer Recruiter
 - Typ: React SPA (Vite + Tailwind CSS v4)
 - Hosting: apps.p3coaching.de/skill-forge/
-- Design-System: P3/NeuroForge Tokens als Tailwind v4 Theme
+- Design-System: P3/NeuroForge Tokens als Tailwind v4 Theme (in index.css)
 - Sprache UI: Deutsch (Zielmarkt DACH)
 - Code/Commits: Englisch
+- Dev-Server: Port 5180 (`npm run dev`)
 
 ## Tech-Stack
 
-- React 19 + Vite
-- Tailwind CSS v4 (CSS-first config)
+- React 19 + Vite 7
+- Tailwind CSS v4 (CSS-first config, kein tailwind.config.js)
 - @dnd-kit/core (Drag & Drop)
 - Framer Motion (Animationen)
 - Kein Backend, alle Daten als JSON
@@ -28,6 +29,8 @@
 
 - Rohdaten leben in Jobhunt/docs/07_skillforge/
 - Generierte JSONs werden nach src/data/ kopiert
+- **ACHTUNG:** skills.json und roles.json enthalten KI-generierte Inhalte die manuell validiert werden muessen!
+- Referenz fuer Validierung: Jobhunt/docs/01_profil/Christian_Schmidt_Master_Resume_v2_0.md
 
 ## Design-Regeln
 
@@ -36,6 +39,7 @@
 - Light-Mode only (Phase 1)
 - 7 distinkte Cluster-Farben (warm, HSP-freundlich)
 - Font: Avenir, system-ui, sans-serif
+- Branding: P3 Fluegel-Logo (public/images/P3_Logo_RZ_Bild_rot.png)
 
 ## Commit-Stil
 
