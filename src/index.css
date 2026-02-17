@@ -1,68 +1,116 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import "tailwindcss";
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* ============================================
+   SkillForge Design System
+   Based on P3/NeuroForge Design Tokens
+   ============================================ */
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
+@theme {
+  /* ---- Base Colors (P3) ---- */
+  --color-sand: #d5d4c7;
+  --color-container: #f8f8f6;
+  --color-ink: #25313a;
+  --color-ink-light: #4a5568;
+  --color-ink-muted: #6b7280;
+  --color-p3-red: #c60a0f;
+  --color-p3-red-hover: #a50810;
+  --color-p3-green: #2d8a4e;
+  --color-white: #ffffff;
+  --color-border: #e2e0d8;
+  --color-border-light: #eeedea;
+
+  /* ---- 7 Cluster Colors (warm, HSP-friendly) ---- */
+  --color-cluster-engineering: #4a6fa5;
+  --color-cluster-engineering-bg: #eef2f8;
+  --color-cluster-engineering-light: #dce4f0;
+  --color-cluster-leadership: #8b5e3c;
+  --color-cluster-leadership-bg: #f5efea;
+  --color-cluster-leadership-light: #ecdfd4;
+  --color-cluster-coaching: #6b8e6b;
+  --color-cluster-coaching-bg: #eff5ef;
+  --color-cluster-coaching-light: #ddeadd;
+  --color-cluster-ai: #7b68ae;
+  --color-cluster-ai-bg: #f1eff7;
+  --color-cluster-ai-light: #e3dfef;
+  --color-cluster-data: #c49a3c;
+  --color-cluster-data-bg: #faf5ea;
+  --color-cluster-data-light: #f2e8ce;
+  --color-cluster-business: #b85c38;
+  --color-cluster-business-bg: #f8efeb;
+  --color-cluster-business-light: #f0ddd4;
+  --color-cluster-didaktik: #5b8a9a;
+  --color-cluster-didaktik-bg: #eef4f6;
+  --color-cluster-didaktik-light: #dce9ee;
+
+  /* ---- Forge / Revelation ---- */
+  --color-forge-bg: #fdfcfa;
+  --color-forge-border: #d5d4c7;
+  --color-forge-glow: rgba(198, 10, 15, 0.12);
+  --color-revelation-gold: #d4a020;
+  --color-revelation-bg: #fdf8ee;
+
+  /* ---- Typography ---- */
+  --font-sans: 'Avenir', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* ---- Shadows (5-level hierarchy) ---- */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.12);
+  --shadow-drag: 0 12px 24px rgba(0, 0, 0, 0.15);
+  --shadow-forge-glow: 0 0 20px rgba(198, 10, 15, 0.12);
+
+  /* ---- Animation ---- */
+  --ease-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 100ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+}
+
+/* ---- Base Styles ---- */
+html {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: var(--color-container);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* ---- Reduced Motion (global) ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+/* ---- Focus Visible (accessibility) ---- */
+:focus-visible {
+  outline: 2px solid var(--color-p3-red);
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/* ---- Scrollbar (subtle) ---- */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-muted);
 }

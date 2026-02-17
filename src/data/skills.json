@@ -1,0 +1,648 @@
+[
+  {
+    "id": "eng-nvh",
+    "clusterId": "engineering",
+    "name": "NVH/Acoustics Engineering",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "15+ Jahre, 3 globale Standards",
+    "evidence": [
+      "Abteilung von 0 aufgebaut (Continental, 4 Mitarbeiter)",
+      "3 globale Pruefstandards entwickelt",
+      "\u20ac20M Entwicklungsbudget verantwortet",
+      "NVH-Experten-Netzwerk (4 Standorte weltweit)",
+      "Industrial Trade Secret bei GM registriert"
+    ],
+    "tags": ["nvh", "acoustics", "automotive", "testing", "engineering"],
+    "highlight": true
+  },
+  {
+    "id": "eng-product",
+    "clusterId": "engineering",
+    "name": "Produktentwicklung",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "Full Lifecycle, \u20ac100M+ Produkte",
+    "evidence": [
+      "Turbolader-Entwicklung fuer globale OEMs",
+      "3 Major OEM-Vertraege in China gewonnen",
+      "Entwicklungszeit um 35% reduziert",
+      "First-Pass-Quality auf 95% gesteigert",
+      "5 Patente (pending) beigetragen"
+    ],
+    "tags": ["product-development", "automotive", "engineering", "lifecycle"],
+    "highlight": false
+  },
+  {
+    "id": "eng-quality",
+    "clusterId": "engineering",
+    "name": "Qualitaet & ISO-Standards",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "ISO/TS 16949, 40% Defektreduktion",
+    "evidence": [
+      "Automotive Quality Standards (ISO/TS 16949)",
+      "Defektrate um 40% reduziert",
+      "Supplier Quality Systems aufgebaut",
+      "10+ Zulieferer-Partnerschaften etabliert",
+      "Validierungsprozesse neu entwickelt"
+    ],
+    "tags": ["quality", "iso", "automotive", "standards", "testing"],
+    "highlight": false
+  },
+  {
+    "id": "eng-cad",
+    "clusterId": "engineering",
+    "name": "CAD & Simulation",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "MATLAB, CATIA, Akustik-Tools",
+    "evidence": [
+      "MATLAB/Simulink fuer Akustik-Analyse",
+      "PAK, LMS Test.Lab, Head Acoustics",
+      "CATIA und SolidWorks Grundlagen",
+      "ANSYS Basics fuer Strukturanalyse",
+      "Proprietaere Testmethoden entwickelt"
+    ],
+    "tags": ["cad", "matlab", "simulation", "engineering", "tools"],
+    "highlight": false
+  },
+  {
+    "id": "eng-patents",
+    "clusterId": "engineering",
+    "name": "Innovation & Patente",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "1 Trade Secret, 5 Patente pending",
+    "evidence": [
+      "Industrial Trade Secret bei GM registriert",
+      "5 Patente (pending) beigetragen",
+      "\u20ac2M jaehrliche Einsparung durch Innovation",
+      "Globale Prozessimplementierung",
+      "10+ Konferenzvortraege gehalten"
+    ],
+    "tags": ["innovation", "patents", "engineering", "research"],
+    "highlight": true
+  },
+  {
+    "id": "lead-team",
+    "clusterId": "leadership",
+    "name": "Teamaufbau & -fuehrung",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "Bis 17 MA, 3 Kontinente",
+    "evidence": [
+      "17-koepfiges Engineering-Team in China aufgebaut",
+      "100% Key-Talent-Retention in allen Teams",
+      "130% Zielerreichung im Durchschnitt",
+      "5+ Fuehrungskraefte in Senior-Positionen entwickelt",
+      "360\u00b0-Feedback Score: 4.8/5.0"
+    ],
+    "tags": ["leadership", "team-building", "management", "talent"],
+    "highlight": true
+  },
+  {
+    "id": "lead-international",
+    "clusterId": "leadership",
+    "name": "Internationale Fuehrung",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "3 Kontinente, 6 Laender",
+    "evidence": [
+      "2 Jahre Shanghai - Asian Hub aufgebaut",
+      "Teams in DE, CN, MX, CZ, UK gefuehrt",
+      "Deutsch-chinesische Businesskulturen verbunden",
+      "Bilinguale Dokumentationsstandards etabliert",
+      "Interkulturelle Trainings entwickelt"
+    ],
+    "tags": ["international", "leadership", "cross-cultural", "global"],
+    "highlight": true
+  },
+  {
+    "id": "lead-change",
+    "clusterId": "leadership",
+    "name": "Change Management",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "3 grosse Transformationen geleitet",
+    "evidence": [
+      "Vitesco Spin-off Kommunikation gemanagt",
+      "Mindset-Kampagne fuer Produktlinie entwickelt",
+      "Post-Merger Integration geplant",
+      "Kulturwandel in 150+ MA Organisation",
+      "Change Frameworks noch heute in Nutzung"
+    ],
+    "tags": ["change-management", "transformation", "leadership", "culture"],
+    "highlight": false
+  },
+  {
+    "id": "lead-stakeholder",
+    "clusterId": "leadership",
+    "name": "Stakeholder Management",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "C-Level bis Shop Floor",
+    "evidence": [
+      "Globale Kommunikationsstrategie fuer \u20ac1B Produktlinie",
+      "Townhall, Tech-Day, Strategie-Praesentationen",
+      "C-Suite Board Reports erstellt",
+      "Krisenkommunikations-Framework entwickelt",
+      "Von Kunden und Partnern hochgeschaetzt"
+    ],
+    "tags": ["stakeholder", "communication", "leadership", "c-level"],
+    "highlight": false
+  },
+  {
+    "id": "lead-pl",
+    "clusterId": "leadership",
+    "name": "P&L-Verantwortung",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "\u20ac20M+ jaehrlich, \u20ac50M+ Einsparungen",
+    "evidence": [
+      "\u20ac20M+ Entwicklungsbudget verantwortet",
+      "\u20ac50M+ kumulative Kosteneinsparungen",
+      "\u20ac10M Kostenreduktionsprogramm geleitet",
+      "3 neue Geschaeftsfelder erschlossen",
+      "ROI von 300%+ bei Initiativen"
+    ],
+    "tags": ["p-and-l", "budget", "finance", "leadership", "business"],
+    "highlight": false
+  },
+  {
+    "id": "lead-orgdev",
+    "clusterId": "leadership",
+    "name": "Organisationsentwicklung",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "3 Abteilungen von Null aufgebaut",
+    "evidence": [
+      "3 Abteilungen als Greenfield etabliert",
+      "Mission/Vision fuer Produktlinien co-kreiert",
+      "Peer-Consulting-Frameworks implementiert",
+      "Cross-divisionale Expertennetzwerke initiiert",
+      "Wissensmanagement-System aufgebaut"
+    ],
+    "tags": ["org-development", "leadership", "culture", "structure"],
+    "highlight": false
+  },
+  {
+    "id": "coach-stgallen",
+    "clusterId": "coaching",
+    "name": "St. Galler Coaching Modell",
+    "level": 5,
+    "levelLabel": "Master",
+    "keyMetric": "387 UE, ISO 17024, M.B.C.",
+    "evidence": [
+      "Master of Business Coaching (M.B.C.)",
+      "387 Unterrichtseinheiten in 2 Jahren",
+      "5-Dimensionen: Werte, Probleme, Ziele, Ressourcen, Identitaet",
+      "Wissenschaftlich dreifach validierte Methodik",
+      "100% Kundenzufriedenheit mit Erfolgsgarantie"
+    ],
+    "tags": ["coaching", "st-galler", "methodology", "certified"],
+    "highlight": true
+  },
+  {
+    "id": "coach-hypno",
+    "clusterId": "coaching",
+    "name": "Hypnosystemische Kommunikation",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Milton Erickson Methoden",
+    "evidence": [
+      "Hypnosystemische Kommunikation (Milton Erickson)",
+      "Trance-Arbeit fuer tiefgreifende Transformation",
+      "Klienten berichten von unerwarteten Durchbruechen",
+      "Integration in Business-Coaching-Kontext",
+      "Zertifiziert durch Coach Akademie Schweiz"
+    ],
+    "tags": ["coaching", "hypnosystemic", "communication", "trance"],
+    "highlight": false
+  },
+  {
+    "id": "coach-values",
+    "clusterId": "coaching",
+    "name": "Werte-Coaching",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "4.96/5.0, 8-stelliger Impact",
+    "evidence": [
+      "4.96/5.0 verifizierte Kundenbewertung (31+ Reviews)",
+      "8-stelliger Revenue Impact dokumentiert",
+      "Werte-Transformations-Framework entwickelt",
+      "Purpose Alignment fuer Organisationen",
+      "8 Fuenf-Sterne Google Reviews"
+    ],
+    "tags": ["coaching", "values", "transformation", "purpose"],
+    "highlight": true
+  },
+  {
+    "id": "coach-team",
+    "clusterId": "coaching",
+    "name": "Team-Coaching",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "15+ Teams transformiert",
+    "evidence": [
+      "Diplom Wertorientierter systemischer TeamCoach",
+      "15+ Teams erfolgreich transformiert",
+      "Systemische Aufstellungsarbeit fuer Teams",
+      "Reflecting Team Methodik",
+      "40% Verbesserung der Fuehrungseffektivitaet"
+    ],
+    "tags": ["coaching", "team-coaching", "systemic", "team-dynamics"],
+    "highlight": false
+  },
+  {
+    "id": "coach-nature",
+    "clusterId": "coaching",
+    "name": "Natur-Coaching",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Outdoor-Erfahrungsmethoden",
+    "evidence": [
+      "Natur-basiertes Leadership-Programm entwickelt",
+      "Outdoor-Erfahrung mit systemischem Coaching verbunden",
+      "Erlebnispaedagogische Elemente integriert",
+      "10+ Vater-Sohn-Wochenenden geleitet (4M e.V.)",
+      "200+ Maenner in Persoenlichkeitsentwicklung begleitet"
+    ],
+    "tags": ["coaching", "nature", "outdoor", "experiential"],
+    "highlight": false
+  },
+  {
+    "id": "coach-neuro",
+    "clusterId": "coaching",
+    "name": "Neurodivergenz-Coaching",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "ADHS/HSP-optimierte Ansaetze",
+    "evidence": [
+      "Erster in DE fuer ADHS/HSP-optimierte KI-Workflows",
+      "Neurodivergenz-freundliche Coaching-Ansaetze",
+      "Design fuer das empfindsamste Gehirn",
+      "Execution Rate von 0% auf 65% gesteigert",
+      "Eigene Erfahrung als Grundlage"
+    ],
+    "tags": ["coaching", "neurodiversity", "adhd", "hsp", "inclusion"],
+    "highlight": false
+  },
+  {
+    "id": "ai-prompt",
+    "clusterId": "ai-digital",
+    "name": "Prompt Engineering",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "Score 8.2/10, 67% Token-Reduktion",
+    "evidence": [
+      "67% Token-Reduktion erreicht (55k auf 18k)",
+      "Multi-Turn Dialogoptimierung (8.2/10)",
+      "4 validierte Prompt-Patterns entwickelt",
+      "Neurodivergenz-optimiertes Prompting",
+      "Systematische Prompt-Bibliotheken aufgebaut"
+    ],
+    "tags": ["ai", "prompt-engineering", "optimization", "frameworks"],
+    "highlight": true
+  },
+  {
+    "id": "ai-claude",
+    "clusterId": "ai-digital",
+    "name": "Claude Code CLI",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "15.500 LOC in 6 Tagen",
+    "evidence": [
+      "15.500 LOC in 6 Tagen geschrieben",
+      "53+ Git-Commits (89% KI-co-authored)",
+      "6 vollstaendige Projekte realisiert",
+      "Temporale Dokumentations-Architektur entwickelt",
+      "18+ Monate intensive Nutzung"
+    ],
+    "tags": ["ai", "claude", "development", "cli", "coding"],
+    "highlight": true
+  },
+  {
+    "id": "ai-comfyui",
+    "clusterId": "ai-digital",
+    "name": "ComfyUI & LoRA Training",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Top 0.01% DE, lokale KI-Systeme",
+    "evidence": [
+      "ComfyUI/Stable Diffusion lokale Systeme",
+      "LoRA Training fuer Custom Models",
+      "Top 0.01% in Deutschland fuer lokale KI",
+      "Ollama und LM Studio Expertise",
+      "Multi-Modell-Verifikationsstrategien"
+    ],
+    "tags": ["ai", "image-generation", "local-ai", "training"],
+    "highlight": false
+  },
+  {
+    "id": "ai-automation",
+    "clusterId": "ai-digital",
+    "name": "KI-Automation (n8n)",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "60% Prozessautomation, 15-25h/Woche",
+    "evidence": [
+      "n8n Workflow-Automatisierung",
+      "15-25 Stunden/Woche Zeitersparnis fuer Kunden",
+      "60% Prozessautomation erreicht",
+      "API-Integration (OpenAI, Anthropic, Google)",
+      "RAG-Implementierungen umgesetzt"
+    ],
+    "tags": ["ai", "automation", "n8n", "workflow", "integration"],
+    "highlight": false
+  },
+  {
+    "id": "ai-frameworks",
+    "clusterId": "ai-digital",
+    "name": "Eigene KI-Frameworks",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "5 eigenentwickelte Methoden",
+    "evidence": [
+      "Kontext-Optimierungsmethode (96% Token-Overhead reduziert)",
+      "Temporale Dokumentations-Architektur (CLAUDE/STATE/ROADMAP)",
+      "Neurodivergenz-Design-Patterns",
+      "Prompt-Pattern-Bibliothek",
+      "KPI-Tracking-System fuer KI-Projekte"
+    ],
+    "tags": ["ai", "frameworks", "methodology", "innovation"],
+    "highlight": false
+  },
+  {
+    "id": "ai-webdev",
+    "clusterId": "ai-digital",
+    "name": "Web-Entwicklung mit KI",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "6 React-Projekte, Design-System",
+    "evidence": [
+      "6 vollstaendige React/Vite Projekte",
+      "P3 Design-System entwickelt",
+      "NeuroForge UI Guidelines erstellt",
+      "GitHub Pages + ALL-INKL Deployment",
+      "Barrierefreie, HSP-freundliche Interfaces"
+    ],
+    "tags": ["ai", "web-development", "react", "design-system"],
+    "highlight": false
+  },
+  {
+    "id": "data-sixsigma",
+    "clusterId": "data-process",
+    "name": "Six Sigma & DFSS",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "DFSS zertifiziert, statistische Analyse",
+    "evidence": [
+      "Design for Six Sigma (DFSS) zertifiziert bei Continental",
+      "Statistische Prozesslenkung und Faehigkeitsstudien",
+      "Regressionsanalyse und Predictive Modeling",
+      "30% Effizienzverbesserung erreicht",
+      "50% Durchlaufzeitreduktion"
+    ],
+    "tags": ["six-sigma", "dfss", "process", "statistics", "quality"],
+    "highlight": true
+  },
+  {
+    "id": "data-kanban",
+    "clusterId": "data-process",
+    "name": "Kanban & Lean",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Globaler Rollout, 30% Effizienz+",
+    "evidence": [
+      "Globales Kanban-System implementiert (30% Effizienz+)",
+      "Cross-funktionale Integration (3 Abteilungen)",
+      "Asiatische Engineering-Workflows optimiert",
+      "Value Stream Mapping Expertise",
+      "Kaizen-Events moderiert"
+    ],
+    "tags": ["kanban", "lean", "agile", "process", "efficiency"],
+    "highlight": false
+  },
+  {
+    "id": "data-vba",
+    "clusterId": "data-process",
+    "name": "VBA & Power Query",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Komplexe Automationen, Multi-Source",
+    "evidence": [
+      "Komplexe VBA-Automationsskripte",
+      "Power Query/Power Pivot Multi-Source-Integration",
+      "Dynamische Echtzeit-KPI-Dashboards",
+      "Finanzmodellierung: Szenarien, Forecasting",
+      "Nahtlose PowerPoint/Word-Automation"
+    ],
+    "tags": ["vba", "excel", "power-query", "data", "automation"],
+    "highlight": false
+  },
+  {
+    "id": "data-dashboards",
+    "clusterId": "data-process",
+    "name": "Dashboards & BI",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "C-Suite Reporting, Power BI",
+    "evidence": [
+      "Executive Dashboards fuer C-Suite",
+      "Balanced Scorecards und OKR Tracking",
+      "Power BI und Tableau Grundlagen",
+      "ROI-Analyse und Investment-Bewertung",
+      "Marktintelligenz und Trendanalyse"
+    ],
+    "tags": ["dashboards", "bi", "reporting", "kpi", "analytics"],
+    "highlight": false
+  },
+  {
+    "id": "data-process-opt",
+    "clusterId": "data-process",
+    "name": "Prozessoptimierung",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "25% Kostenreduktion, 50% schneller",
+    "evidence": [
+      "25% Kostenreduktion bei gleichbleibender Qualitaet",
+      "50% Durchlaufzeitreduktion erreicht",
+      "Waste-Eliminierungs-Initiativen geleitet",
+      "5S-Implementierung durchgefuehrt",
+      "PDCA-Zyklus-Meisterschaft"
+    ],
+    "tags": ["process", "optimization", "lean", "efficiency", "cost-reduction"],
+    "highlight": false
+  },
+  {
+    "id": "biz-startup",
+    "clusterId": "business",
+    "name": "Startup-Beratung",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "10+ erfolgreiche Gruendungen begleitet",
+    "evidence": [
+      "10+ erfolgreiche Startup-Launches begleitet",
+      "Umfassende Business-Plaene mit Finanzmodellierung",
+      "Deutsche Foerderungen und Bankfinanzierung gesichert",
+      "Tech, Automotive, Coaching, Dienstleistungs-Branchen",
+      "Startup Mentor Netzwerk Frankfurt"
+    ],
+    "tags": ["startup", "consulting", "business-planning", "funding"],
+    "highlight": true
+  },
+  {
+    "id": "biz-market",
+    "clusterId": "business",
+    "name": "Marktanalyse & Strategie",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Markteintrittsstrategien, \u20ac500M Revenue Impact",
+    "evidence": [
+      "Produktlinienstrategie mit \u20ac500M Revenue Impact",
+      "Markteintrittsstrategien fuer asiatische Maerkte",
+      "Competitive Intelligence Framework entwickelt",
+      "Innovationspipeline-Prozess erstellt",
+      "3-Jahres-Roadmap strategisch geplant"
+    ],
+    "tags": ["market-analysis", "strategy", "business", "competitive"],
+    "highlight": false
+  },
+  {
+    "id": "biz-finance",
+    "clusterId": "business",
+    "name": "Finanzplanung & Controlling",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Szenarioanalyse, Budgetierung",
+    "evidence": [
+      "Multi-Millionen Euro P&L-Verantwortung",
+      "Finanzmodellierung und Szenarioanalyse",
+      "\u20ac10M Kostenreduktionsprogramm geleitet",
+      "ROI-Berechnungen fuer Transformationsprojekte",
+      "Foerdermittel und Bankfinanzierung gesichert"
+    ],
+    "tags": ["finance", "budgeting", "controlling", "business"],
+    "highlight": false
+  },
+  {
+    "id": "biz-gomarket",
+    "clusterId": "business",
+    "name": "Go-to-Market",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "3 neue Geschaeftsfelder, asiatische Maerkte",
+    "evidence": [
+      "3 neue Geschaeftsfelder durch strategische Analyse",
+      "Markteintrittsstrategien fuer China umgesetzt",
+      "Produktpositionierung und Marketing-Strategien",
+      "B2B, B2C, Subscription und Consulting-Modelle",
+      "Strategische Partnerschaften und Joint Ventures"
+    ],
+    "tags": ["go-to-market", "marketing", "business", "strategy", "partnerships"],
+    "highlight": false
+  },
+  {
+    "id": "biz-communication",
+    "clusterId": "business",
+    "name": "Unternehmenskommunikation",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Globale Strategie, Krisenkommunikation",
+    "evidence": [
+      "Globale Kommunikationsstrategie (Engagement +40%)",
+      "Krisenkommunikations-Framework",
+      "Executive Presentation Templates unternehmensweit",
+      "Digitale Kommunikationsplattformen implementiert",
+      "Interne und externe Publikationen gemanagt"
+    ],
+    "tags": ["communication", "corporate", "crisis", "business", "strategy"],
+    "highlight": false
+  },
+  {
+    "id": "did-mint",
+    "clusterId": "didaktik",
+    "name": "MINT-Unterricht",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Mathe & Physik Gymnasium, seit 2023",
+    "evidence": [
+      "Mathematik- und Physiklehrer am Gymnasium (seit Dez 2023)",
+      "Innovatives STEM-Curriculum mit Industrie-Beispielen",
+      "Individuelle Coaching-Methoden fuer Schueler",
+      "Erlebnispaedagogische Lernprogramme",
+      "Staerkenbasierte Bewertungsmethoden"
+    ],
+    "tags": ["teaching", "stem", "education", "mathematics", "physics"],
+    "highlight": true
+  },
+  {
+    "id": "did-neuro",
+    "clusterId": "didaktik",
+    "name": "Neurowissenschaftliche Methodik",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "NSDR, Spaced Repetition, Embodied Learning",
+    "evidence": [
+      "Non-Sleep Deep Rest (NSDR) in Unterricht integriert",
+      "Spaced Repetition systematisch angewendet",
+      "Embodied Learning Ansaetze entwickelt",
+      "Polyvagal-Theorie kritisch evaluiert",
+      "Wissenschaftliche Fundierung jeder Methode"
+    ],
+    "tags": ["neuroscience", "methodology", "learning", "education"],
+    "highlight": false
+  },
+  {
+    "id": "did-adult",
+    "clusterId": "didaktik",
+    "name": "Erwachsenenbildung",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "500+ Stunden Training, 10+ Programme",
+    "evidence": [
+      "500+ Stunden Training durchgefuehrt",
+      "10+ Trainingsprogramme entwickelt",
+      "Leadership-Development fuer 150+ Fuehrungskraefte",
+      "Peer Consulting Methodik etabliert",
+      "Verhaltensaenderung bei 70% nachhaltig"
+    ],
+    "tags": ["adult-education", "training", "leadership-development", "facilitation"],
+    "highlight": false
+  },
+  {
+    "id": "did-curriculum",
+    "clusterId": "didaktik",
+    "name": "Curriculum-Design",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Ganzheitlicher Lernansatz",
+    "evidence": [
+      "STEM-Curriculum mit Praxisbezug designt",
+      "Kompetenzbasierte Bewertungssysteme",
+      "Blended Learning Konzepte",
+      "Individualisierte Lernpfade",
+      "Coaching-Methoden in Bildungskontext integriert"
+    ],
+    "tags": ["curriculum", "design", "education", "learning-design"],
+    "highlight": false
+  },
+  {
+    "id": "did-wissenschaft",
+    "clusterId": "didaktik",
+    "name": "Wissenschaftliches Arbeiten",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Buchprojekt, kritische Quellenarbeit",
+    "evidence": [
+      "48.000-Woerter Buchprojekt 'Der Heilige Tanz'",
+      "Kritische Quellenarbeit (Gold/Vorsichtig/Problematisch)",
+      "Power Posing und Polyvagal-Theorie kritisch analysiert",
+      "Hebraeische Sprachfundierung erarbeitet",
+      "Wissenschaft und Praxis systematisch integriert"
+    ],
+    "tags": ["research", "writing", "methodology", "science", "education"],
+    "highlight": false
+  }
+]

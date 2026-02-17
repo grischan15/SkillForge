@@ -1,0 +1,65 @@
+[
+  {
+    "id": "engineering",
+    "label": "Engineering & Physik",
+    "labelShort": "Engineering",
+    "icon": "\u2699\ufe0f",
+    "color": "cluster-engineering",
+    "description": "Dipl.-Ing. Physik, 15+ Jahre Automotive, NVH/Akustik-Experte",
+    "order": 0
+  },
+  {
+    "id": "leadership",
+    "label": "Leadership & Management",
+    "labelShort": "Leadership",
+    "icon": "\ud83d\udc65",
+    "color": "cluster-leadership",
+    "description": "Teams bis 17 MA, 3 Kontinente, Change Management, P&L-Verantwortung",
+    "order": 1
+  },
+  {
+    "id": "coaching",
+    "label": "Coaching & Entwicklung",
+    "labelShort": "Coaching",
+    "icon": "\ud83c\udfaf",
+    "color": "cluster-coaching",
+    "description": "Zertifizierter Master Coach (St. Galler Modell), 387 UE, 4.96/5.0",
+    "order": 2
+  },
+  {
+    "id": "ai-digital",
+    "label": "KI & Digital",
+    "labelShort": "KI",
+    "icon": "\ud83e\udd16",
+    "color": "cluster-ai",
+    "description": "Top 1-2% DE, Claude Code CLI, Prompt Engineering, eigene Frameworks",
+    "order": 3
+  },
+  {
+    "id": "data-process",
+    "label": "Data & Prozesse",
+    "labelShort": "Data",
+    "icon": "\ud83d\udcca",
+    "color": "cluster-data",
+    "description": "Six Sigma/DFSS, Kanban, VBA/Power Query, Dashboards",
+    "order": 4
+  },
+  {
+    "id": "business",
+    "label": "Business & Strategie",
+    "labelShort": "Business",
+    "icon": "\ud83d\udcbc",
+    "color": "cluster-business",
+    "description": "10+ Startup-Beratungen, Marktanalyse, Go-to-Market, P&L",
+    "order": 5
+  },
+  {
+    "id": "didaktik",
+    "label": "Didaktik & Lehre",
+    "labelShort": "Didaktik",
+    "icon": "\ud83d\udcda",
+    "color": "cluster-didaktik",
+    "description": "MINT-Unterricht, Neurowiss. Methodik, Erwachsenenbildung",
+    "order": 6
+  }
+]
