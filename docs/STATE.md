@@ -1,8 +1,8 @@
 # STATE.md – SkillForge
 
-## Version: 0.4.0 (Progressive Discovery Flow)
+## Version: 0.5.0 (UX Funnel Restructure)
 
-## Status: Discovery-Teaser mit Unlock-Mechanik, RoleCards als Mini-Stellenanzeigen, JobAd-Modal
+## Status: Standard-Rollen sofort sichtbar, Revelations-first bei 3+ Clustern, businessImpact auf Revelation-Cards
 
 ### Tech-Stack
 - React 19 + Vite 7 (Port 5180)
@@ -14,11 +14,12 @@
 - [x] Willkommensseite mit Portraitfoto, Unterschrift, Claim, Werten, Staerken, Proof Points + CTA
 - [x] P3-Logo (roter Fluegel) als Branding + Favicon
 - [x] 6 Kompetenz-Cluster als Tabs (wrappen bei kleiner Breite)
-- [x] 32 Skill-Karten mit Evidenz-Popovers
+- [x] 33 Skill-Karten mit Evidenz-Popovers
 - [x] Drag & Drop + Tap-to-Add [+]
 - [x] Schmiede (Reaction Zone) immer sichtbar
 - [x] Matching-Engine (100 Rollen: 50 Standard + 50 Revelation)
-- [x] Revelation-Rollen bei 3+ Clustern
+- [x] Standard-Rollen sofort sichtbar (kein 3-Cluster-Gate)
+- [x] Revelation-Rollen bei 3+ Clustern (Revelations-first ueber Standard)
 - [x] Responsive (Mobile/Tablet/Desktop)
 - [x] prefers-reduced-motion Support
 - [x] Zurueck-Button zur Startseite
@@ -36,8 +37,21 @@
 - [x] JobAd-Modal: Vollstaendiges Stellenprofil mit Kompetenz-Abgleich, Mehrwert, Anforderungsprofil
 - [x] SkillTag-Komponente: Matched/Unmatched Pills mit deutschen Labels
 - [x] uniqueValue-Feld fuer alle 100 Rollen ("Ihr Mehrwert fuer die Firma")
-- [x] OnboardingHint: Einmaliger Tooltip beim ersten Besuch (localStorage)
+- [x] OnboardingHint: Persistenter Motivations-Hinweis (bleibt bis X-Klick, Desktop + Mobile)
+- [x] businessImpact-Feld auf Revelation-RoleCards + JobAdModal (Trojan-Horse-Strategie)
 - [x] Cluster-Diversity-Tracking via useDiscoveryProgress Hook
+
+### Aenderungen v0.4.0 → v0.5.0
+- **Neuer Skill:** Werte- & Kulturentwicklung (lead-culture) im Leadership-Cluster, Level 4
+- **OnboardingHint persistent:** Auto-Dismiss entfernt, bleibt bis manuelles X-Klick, neuer Motivationstext mit Emoji, jetzt auch in Mobile-Forge-Panel
+- **Standard-Rollen sofort sichtbar:** 3-Cluster-Gate fuer Standard-Rollen entfernt, erscheinen ab erstem Skill
+- **Revelations-first:** Entdeckungsrollen werden UEBER Standard-Rollen gerendert (vorher darunter)
+- **Revelation-Headline:** "Haetten Sie diese Rollen auf dem Radar?" statt "Entdeckungsrollen (N)"
+- **businessImpact:** Neues Feld fuer alle 50 Revelation-Rollen, fokussiert auf Unternehmensbedarf (Trojan-Horse-Strategie)
+- **businessImpact-Display:** Goldene Sektion auf RoleCards + JobAdModal mit "Warum Ihr Unternehmen diese Rolle braucht"
+- **DiscoveryTeaser:** Texte fuer alle Cluster-Zustaende (0/1/2) ueberarbeitet, sofortige Rollenvorschlaege erwaehnt
+- **SkillTag:** purpose-Label hinzugefuegt
+- **Skill-Count:** 32 → 33, Rollen-Count: 100 (50 Standard + 50 Revelation)
 
 ### Aenderungen v0.3.0 → v0.4.0
 - **Progressive Discovery Flow:** Strategie B (Always-Visible Teaser + Progressive Reveal) implementiert
@@ -91,8 +105,8 @@ src/
   index.css                   # Tailwind v4 Theme + Base Styles
   data/
     clusters.json             # 6 Cluster (data-process entfernt)
-    skills.json               # 32 Skills (evidence-validiert)
-    roles.json                # 100 Rollen + uniqueValue (PRUEFEN!)
+    skills.json               # 33 Skills (evidence-validiert)
+    roles.json                # 100 Rollen + uniqueValue + businessImpact (PRUEFEN!)
     matchingEngine.js         # Offline Matching-Algorithmus
   components/
     layout/                   # AppShell, Header, Footer

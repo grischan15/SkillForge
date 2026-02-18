@@ -26,6 +26,14 @@
 - [x] **OnboardingHint:** Einmaliger Tooltip mit localStorage-Persistenz
 - [x] **useDiscoveryProgress:** Hook fuer Cluster-Diversity-Tracking
 
+### Phase 1.6: UX Funnel Restructure (v0.4.0 → v0.5.0)
+- [x] **Neuer Skill:** Werte- & Kulturentwicklung (lead-culture), Leadership-Cluster
+- [x] **OnboardingHint persistent:** Bleibt sichtbar bis X-Klick, neuer Text, Mobile-Support
+- [x] **Standard-Rollen ohne Gate:** Sofort sichtbar ab erstem Skill (3-Cluster-Gate entfernt)
+- [x] **Revelations-first:** Entdeckungsrollen ueber Standard-Rollen gerendert
+- [x] **businessImpact:** 50 Revelation-Rollen mit Unternehmensbedarf-Text (Trojan-Horse)
+- [x] **DiscoveryTeaser:** Neue Texte fuer alle Cluster-Zustaende
+
 #### Naechste Schritte (vor Go-Live):
 - [ ] **Rollen-Beschreibungen pruefen** (roles.json)
   - `description` und `whyFit` Felder validieren
@@ -69,3 +77,8 @@
 | 2026-02-18 | Unlock-Gate bei 3 Clustern (alle Rollen) | Nicht nur Revelation-Rollen, sondern ALLE Rollen-Ergebnisse erst ab 3 verschiedenen Clustern sichtbar. Zwingt zu breiter Exploration statt Eincluster-Spam. |
 | 2026-02-18 | uniqueValue-Feld in roles.json | Neues Feld "Ihr Mehrwert fuer die Firma" pro Rolle. Fokussiert auf einzigartige Skill-Kombinationen, formelle Anrede (Sie), 1-2 Saetze. KI-generiert, sollte validiert werden. |
 | 2026-02-18 | Parallele Subagents fuer Content-Generierung | 4 Agents parallel: Architecture Plan, uniqueValue-Texte, JobAd-Templates, UX-Copy. Spart ~60% Zeit gegenueber sequentieller Ausfuehrung. |
+| 2026-02-18 | Standard-Rollen-Gate entfernt | v0.4.0 gatete ALLE Rollen hinter 3-Cluster-Anforderung. Dead Zone fuer 1-2-Cluster-User. Standard-Rollen jetzt sofort sichtbar, Revelations bleiben gegated (matchingEngine). |
+| 2026-02-18 | Revelations-first Reihenfolge | Entdeckungsrollen werden UEBER Standard-Rollen gerendert. Surprise-and-Delight-Strategie: das Ueberraschende zuerst, das Erwartbare danach. |
+| 2026-02-18 | businessImpact Trojan Horse | Neues Feld auf Revelation-Cards: "Warum Ihr Unternehmen diese Rolle braucht". Verschiebt Gespraech von Kandidaten-Fit zu Unternehmens-Need. Recruiter denkt: "Stimmt, diese Rolle braeuchten wir." |
+| 2026-02-18 | OnboardingHint persistent | Auto-Dismiss bei erstem Skill war kontraproduktiv. Hint bleibt als motivationaler Anker, teast Revelation-Mechanik. Nur manuelles X schliesst ihn. |
+| 2026-02-18 | Werte- & Kulturentwicklung Skill | Luecke im Leadership-Cluster geschlossen. Evidence: Vitesco Rebranding, FK-Script weltweit, P3 Kulturentwicklung. Ergaenzt lead-change und lead-orgdev. |
