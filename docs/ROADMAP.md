@@ -21,7 +21,7 @@
 - [ ] **Rollen-Beschreibungen pruefen** (roles.json)
   - `description` und `whyFit` Felder validieren
   - `requiredTags` auf sinnvolle Zuordnung pruefen (Tags haben sich geaendert!)
-- [ ] Deployment auf apps.p3coaching.de/skill-forge/ (GitHub Actions + FTP)
+- [x] Deployment auf apps.p3coaching.de/skillforge/ (GitHub Actions + FTP)
 
 ### Phase 2: KI-Integration
 - Dynamische Revelation-Generierung via API
@@ -51,3 +51,5 @@
 | 2026-02-17 | Claim geaendert | Alt: "Menschenorientierter Systemarchitekt mit Pioniercharakter". Neu: "Ich sehe Staerken, baue Strukturen und schaffe Raeume, in denen Arbeit Sinn macht." Destilliert aus persoenlicher Vision + CliftonStrengths. |
 | 2026-02-17 | Klienten-Namen anonymisiert | DSGVO-konform: Alle Einzelpersonen-Namen in Evidence-Texten durch "Klient/Klientin" ersetzt. Firmennamen (Karoka AG, EFC.AG) bleiben. |
 | 2026-02-17 | Skill-Evidence praezisiert | Entwicklungsleiter Asien (statt Senior), NVH Simulation aufgebaut mit fachlicher Weisungsbefugnis, FK-Script weltweit, Engineering-Pionier Asien. |
+| 2026-02-18 | Deployment komplett | GitHub Pages (auto) + ALL-INKL (manuell via FTP). gh CLI installiert, Repo erstellt, Workflows von Quest Board kopiert. |
+| 2026-02-18 | Pfad-Bug /skill-forge/ vs /skillforge/ | vite.config.js base und workflow server-dir muessen EXAKT uebereinstimmen. Bindestrich-Unterschied verursachte 404. Lesson Learned in 00_project_template/10_skills_tools/deployment_react_vite.md dokumentiert. |

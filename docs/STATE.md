@@ -51,9 +51,15 @@
 - **Level-Anpassungen:** eng-product 5→4, lead-stakeholder 5→4, coach-neuro 4→3, ai-prompt 5→4, ai-claude 5→4, ai-comfyui 4→3, ai-automation 4→3, ai-frameworks 4→3, biz-market 4→3, did-adult 4→3
 - **Component-Cleanup:** data-process Referenzen aus ForgedSkillChip, SkillCard, ClusterTabs entfernt
 
+### Deployment (live)
+- GitHub Repo: https://github.com/grischan15/SkillForge
+- GitHub Pages: https://grischan15.github.io/SkillForge/ (auto bei push auf main)
+- ALL-INKL: https://apps.p3coaching.de/skillforge/ (manuell via GitHub Action)
+- Workflows: deploy.yml (GitHub Pages) + deploy-to-allinkl.yml (FTP)
+- Secrets: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD im Repo konfiguriert
+
 ### Bekannte offene Punkte
 - Rollen-Beschreibungen (roles.json) noch nicht validiert
-- Deployment auf apps.p3coaching.de/skill-forge/ (GitHub Actions + FTP Setup)
 
 ### Dateistruktur
 ```
