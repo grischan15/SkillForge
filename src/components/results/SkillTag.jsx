@@ -52,6 +52,7 @@ const TAG_LABELS = {
   'conflict-resolution': 'Konfliktlösung',
   resilience: 'Resilienz',
   'project-management': 'Projektmgmt',
+  purpose: 'Purpose',
 }
 
 export default function SkillTag({ tag, isMatched }) {

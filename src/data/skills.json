@@ -153,6 +153,23 @@
     "highlight": false
   },
   {
+    "id": "lead-culture",
+    "clusterId": "leadership",
+    "name": "Werte- & Kulturentwicklung",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "Vitesco Rebranding, Fuehrungskraeftescript weltweit",
+    "evidence": [
+      "Conti zu Vitesco: Komplettes Rebranding, Hauptverantwortlich Kultur- und Wertewechsel (Vitesco Endzeugnis)",
+      "Werteintegration der Continental in der Produktlinie mitverantwortlich (Continental Interne Beurteilung)",
+      "Fuehrungskraeftescript entwickelt und eingefuehrt, weltweit gueltig in Produktlinie (Continental Interne Beurteilung)",
+      "Werteentwicklung und Integration als professionelle Dienstleistung (P3 Broschuere Unternehmenskultur)",
+      "Continental Leadership Forum: 4 Module Fuehrungskompetenz inkl. Kulturentwicklung (Teilnahmebescheinigung)"
+    ],
+    "tags": ["culture", "values", "transformation", "purpose", "leadership"],
+    "highlight": true
+  },
+  {
     "id": "lead-social",
     "clusterId": "leadership",
     "name": "Sozialkompetenz & Gruppendynamik",
