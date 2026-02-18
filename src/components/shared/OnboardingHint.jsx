@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const STORAGE_KEY = 'skillforge-onboarding-seen'
 
-export default function OnboardingHint({ forgedSkillCount = 0, reducedMotion }) {
+export default function OnboardingHint({ reducedMotion }) {
   const [visible, setVisible] = useState(() => {
     try {
       return !localStorage.getItem(STORAGE_KEY)
@@ -11,13 +11,6 @@ export default function OnboardingHint({ forgedSkillCount = 0, reducedMotion }) 
       return true
     }
   })
-
-  // Auto-dismiss when first skill is added
-  useEffect(() => {
-    if (forgedSkillCount > 0 && visible) {
-      dismiss()
-    }
-  }, [forgedSkillCount])
 
   function dismiss() {
     setVisible(false)
@@ -41,8 +34,9 @@ export default function OnboardingHint({ forgedSkillCount = 0, reducedMotion }) 
           className="relative bg-revelation-bg border border-revelation-gold/30 rounded-lg p-3 pr-8"
         >
           <p className="text-xs text-ink leading-relaxed">
-            Wählen Sie Kompetenzen aus den sechs Clustern und legen Sie diese in die Schmiede.
-            Je mehr Skills Sie kombinieren, desto passgenauere Rollenvorschläge erhalten Sie.
+            Ihre Kompetenz-DNA ist einzigartig. Kombinieren Sie Skills aus verschiedenen Clustern
+            – ab drei Bereichen enthüllt die Schmiede passende Rollen.
+            Und manche Entdeckungen überraschen selbst erfahrene Recruiter. 😉
           </p>
           <button
             onClick={dismiss}

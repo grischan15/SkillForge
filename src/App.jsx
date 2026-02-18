@@ -99,10 +99,7 @@ function App() {
             lg:sticky lg:top-4 lg:self-start lg:max-h-[calc(100dvh-6rem)]
             lg:overflow-y-auto
           ">
-            <OnboardingHint
-              forgedSkillCount={forgedSkills.length}
-              reducedMotion={reducedMotion}
-            />
+            <OnboardingHint reducedMotion={reducedMotion} />
             <ReactionZone
               forgedSkills={forgedSkills}
               onRemove={removeSkill}
@@ -148,6 +145,7 @@ function App() {
             </button>
             {mobileForgeOpen && (
               <div className="px-4 pb-4 overflow-y-auto max-h-[calc(70dvh-3.5rem)] flex flex-col gap-3">
+                <OnboardingHint reducedMotion={reducedMotion} />
                 <ReactionZone
                   forgedSkills={forgedSkills}
                   onRemove={removeSkill}
