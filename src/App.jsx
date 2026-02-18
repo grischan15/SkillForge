@@ -23,6 +23,7 @@ function App() {
   const [showWelcome, setShowWelcome] = useState(true)
   const [activeCluster, setActiveCluster] = useState(clusters[0].id)
   const [activeSkillId, setActiveSkillId] = useState(null)
+  const [skillsCollapsed, setSkillsCollapsed] = useState(false)
   const reducedMotion = useReducedMotion()
 
   const { forgedSkills, addSkill, removeSkill, clearForge } = useForge()
@@ -57,6 +58,7 @@ function App() {
 
   const activeSkill = activeSkillId ? skills.find(s => s.id === activeSkillId) : null
   const filteredSkills = skills.filter(s => s.clusterId === activeCluster)
+  const hasResults = matches.length > 0 || (isUnlocked && revelations.length > 0)
 
   if (showWelcome) {
     return (
@@ -86,19 +88,38 @@ function App() {
               activeCluster={activeCluster}
               onSelect={setActiveCluster}
             />
-            <SkillGrid
-              skills={filteredSkills}
-              forgedSkillIds={forgedSkills.map(s => s.id)}
-              onTapAdd={handleTapAdd}
-              reducedMotion={reducedMotion}
-            />
+            {/* Collapse toggle – only on small screens when results exist */}
+            {hasResults && (
+              <button
+                onClick={() => setSkillsCollapsed(prev => !prev)}
+                className="
+                  lg:hidden flex items-center gap-1.5 mb-2
+                  py-2 px-3 rounded-lg
+                  text-xs text-ink-muted hover:text-ink
+                  hover:bg-container transition-colors cursor-pointer
+                  min-h-[36px]
+                "
+              >
+                <span>{skillsCollapsed ? '▼' : '▲'}</span>
+                <span>{skillsCollapsed ? `Skills anzeigen (${filteredSkills.length})` : 'Skills einklappen'}</span>
+              </button>
+            )}
+            {!skillsCollapsed && (
+              <SkillGrid
+                skills={filteredSkills}
+                forgedSkillIds={forgedSkills.map(s => s.id)}
+                onTapAdd={handleTapAdd}
+                reducedMotion={reducedMotion}
+              />
+            )}
           </div>
 
           {/* Right: Forge (sticky sidebar on desktop, bottom on mobile) */}
           <aside className="
             flex flex-col lg:w-80 xl:w-96 gap-3
-            lg:sticky lg:top-4 lg:self-start lg:max-h-[calc(100dvh-6rem)]
-            lg:overflow-y-auto
+            max-h-[50vh] lg:max-h-[calc(100dvh-6rem)]
+            overflow-y-auto
+            lg:sticky lg:top-4
           ">
             <OnboardingHint reducedMotion={reducedMotion} />
             <ReactionZone
