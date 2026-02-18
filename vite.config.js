@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // DEPLOY_TARGET steuert den base-Pfad:
 //   - nicht gesetzt / 'github-pages' → /SkillForge/ (GitHub Pages)
-//   - 'allinkl'                      → /skill-forge/ (apps.p3coaching.de)
+//   - 'allinkl'                      → /skillforge/ (apps.p3coaching.de)
 //   - development                    → / (lokaler Dev-Server)
 export default defineConfig(({ mode }) => {
   const target = process.env.DEPLOY_TARGET || 'github-pages'
@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
   let base = '/'
   if (mode === 'production') {
     if (target === 'allinkl') {
-      base = '/skill-forge/'
+      base = '/skillforge/'
     } else {
       base = '/SkillForge/'
     }
