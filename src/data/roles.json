@@ -5,11 +5,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, grosse Mittelstaendler, Tech-Unternehmen",
     "description": "Verantwortet die strategische Personalentwicklung und Unternehmenskultur auf Vorstandsebene. Gestaltet Transformation, Werte und Fuehrungskultur im gesamten Unternehmen.",
-    "requiredTags": ["leadership", "coaching", "values", "culture", "transformation"],
-    "bonusTags": ["org-development", "change-management"],
+    "requiredTags": [
+      "leadership",
+      "coaching",
+      "values",
+      "culture",
+      "transformation"
+    ],
+    "bonusTags": [
+      "org-development",
+      "change-management"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christians Kombination aus zertifiziertem Coaching, Fuehrungserfahrung und gelebtem Werte-Fokus macht ihn ideal fuer die Bruecke zwischen People-Strategie und Kulturwandel."
+    "whyFit": "Christians Kombination aus zertifiziertem Coaching, Fuehrungserfahrung und gelebtem Werte-Fokus macht ihn ideal fuer die Bruecke zwischen People-Strategie und Kulturwandel.",
+    "uniqueValue": "Verbindet zertifiziertes C-Level-Coaching mit echter Fuehrungserfahrung und datengetriebenem Ansatz -- Ihre People-Strategie wird erstmals von jemandem gestaltet, der sowohl die menschliche als auch die analytische Seite beherrscht."
   },
   {
     "id": "head-of-learning-and-development",
@@ -17,11 +27,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, grosse Mittelstaendler, Beratungen",
     "description": "Leitet die Lern- und Entwicklungsabteilung und gestaltet Weiterbildungsprogramme fuer alle Hierarchieebenen. Verantwortet Fuehrungskraefteentwicklung und moderne Lernformate.",
-    "requiredTags": ["adult-education", "leadership-development", "coaching", "training"],
-    "bonusTags": ["curriculum", "ai", "facilitation"],
+    "requiredTags": [
+      "adult-education",
+      "leadership-development",
+      "coaching",
+      "training"
+    ],
+    "bonusTags": [
+      "curriculum",
+      "ai",
+      "facilitation"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine Erfahrung in Erwachsenenbildung, Coaching-Zertifizierung und Didaktik-Kompetenz bilden die perfekte Grundlage fuer moderne L&D-Fuehrung."
+    "whyFit": "Seine Erfahrung in Erwachsenenbildung, Coaching-Zertifizierung und Didaktik-Kompetenz bilden die perfekte Grundlage fuer moderne L&D-Fuehrung.",
+    "uniqueValue": "Bringt Hochschuldidaktik, Coaching-Zertifizierung und KI-Kompetenz in Ihre L&D-Abteilung ein. Ihre Lernprogramme werden evidenzbasiert, technologisch modern und trotzdem menschlich gestaltet."
   },
   {
     "id": "karriereberater",
@@ -29,11 +49,19 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Beratungen, Outplacement-Firmen, Bildungstraeger, Selbststaendig",
     "description": "Beraet Menschen in beruflichen Uebergangsphasen und hilft bei Standortbestimmung, Zieldefinition und Bewerbungsstrategie.",
-    "requiredTags": ["coaching", "values", "strategy"],
-    "bonusTags": ["communication", "systemic"],
+    "requiredTags": [
+      "coaching",
+      "values",
+      "strategy"
+    ],
+    "bonusTags": [
+      "communication",
+      "systemic"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Christian kennt Karrierewechsel aus eigener Erfahrung und verbindet Coaching-Kompetenz mit strategischem Denken und echtem Verstaendnis fuer berufliche Neuorientierung."
+    "whyFit": "Christian kennt Karrierewechsel aus eigener Erfahrung und verbindet Coaching-Kompetenz mit strategischem Denken und echtem Verstaendnis fuer berufliche Neuorientierung.",
+    "uniqueValue": "Vereint eigene Karrierewechsel-Erfahrung mit systemischem Coaching und Business-Verstaendnis -- Ihre Klienten erhalten keine Standardberatung, sondern strategisch fundierte Neupositionierung mit Tiefgang."
   },
   {
     "id": "executive-coach-angestellt",
@@ -41,11 +69,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Beratungen, Coaching-Agenturen, Konzerne mit interner Coaching-Abteilung",
     "description": "Coacht Fuehrungskraefte und Top-Management in Unternehmen auf Basis fundierter Methodik. Begleitet persoenliche und professionelle Entwicklung auf C-Level.",
-    "requiredTags": ["coaching", "st-galler", "values", "leadership"],
-    "bonusTags": ["c-level", "systemic", "hypnosystemic"],
+    "requiredTags": [
+      "coaching",
+      "st-galler",
+      "values",
+      "leadership"
+    ],
+    "bonusTags": [
+      "c-level",
+      "systemic",
+      "hypnosystemic"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "St. Galler Coaching-Zertifizierung, hypnosystemische Zusatzausbildung und eigene Fuehrungserfahrung geben ihm die Glaubwuerdigkeit und Tiefe fuer Executive Coaching."
+    "whyFit": "St. Galler Coaching-Zertifizierung, hypnosystemische Zusatzausbildung und eigene Fuehrungserfahrung geben ihm die Glaubwuerdigkeit und Tiefe fuer Executive Coaching.",
+    "uniqueValue": "Bringt St. Galler Coaching-Zertifizierung UND eigene C-Level-Erfahrung mit -- Ihre Fuehrungskraefte werden von jemandem gecoacht, der ihre Herausforderungen aus eigener Anschauung kennt."
   },
   {
     "id": "coaching-akademie-dozent",
@@ -53,11 +91,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Coaching-Akademien, Weiterbildungsinstitute, Hochschulen",
     "description": "Unterrichtet Coaching-Methoden und -Theorie in Ausbildungsgaengen fuer angehende Coaches. Verbindet wissenschaftliche Fundierung mit Praxiserfahrung.",
-    "requiredTags": ["coaching", "teaching", "methodology", "certified"],
-    "bonusTags": ["adult-education", "systemic", "neuroscience"],
+    "requiredTags": [
+      "coaching",
+      "teaching",
+      "methodology",
+      "certified"
+    ],
+    "bonusTags": [
+      "adult-education",
+      "systemic",
+      "neuroscience"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Die Kombination aus zertifizierter Coaching-Ausbildung, didaktischem Geschick und wissenschaftlichem Hintergrund macht ihn zum idealen Ausbilder fuer kuenftige Coaches."
+    "whyFit": "Die Kombination aus zertifizierter Coaching-Ausbildung, didaktischem Geschick und wissenschaftlichem Hintergrund macht ihn zum idealen Ausbilder fuer kuenftige Coaches.",
+    "uniqueValue": "Vereint wissenschaftlichen MINT-Hintergrund mit zertifizierter Coaching-Praxis und Hochschuldidaktik. Ihre Coaching-Ausbildung gewinnt eine seltene Bruecke zwischen Empirie und Praxis."
   },
   {
     "id": "director-org-development",
@@ -65,11 +113,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, grosse Mittelstaendler, Beratungen",
     "description": "Steuert die Organisationsentwicklung auf strategischer Ebene und gestaltet Strukturen, Prozesse und Kultur fuer nachhaltigen Unternehmenserfolg.",
-    "requiredTags": ["org-development", "leadership", "change-management", "culture"],
-    "bonusTags": ["systemic", "coaching", "transformation"],
+    "requiredTags": [
+      "org-development",
+      "leadership",
+      "change-management",
+      "culture"
+    ],
+    "bonusTags": [
+      "systemic",
+      "coaching",
+      "transformation"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Sein systemisches Verstaendnis, gepaart mit Fuehrungserfahrung und Coaching-Kompetenz, befaehigt ihn, Organisationen ganzheitlich weiterzuentwickeln."
+    "whyFit": "Sein systemisches Verstaendnis, gepaart mit Fuehrungserfahrung und Coaching-Kompetenz, befaehigt ihn, Organisationen ganzheitlich weiterzuentwickeln.",
+    "uniqueValue": "Kombiniert systemisches Coaching-Denken mit ingenieurwissenschaftlicher Analytik -- Ihre OE-Projekte werden sowohl menschlich sensibel als auch strukturell praezise gesteuert."
   },
   {
     "id": "chief-transformation-officer",
@@ -77,11 +135,21 @@
     "category": "Transformation & Change",
     "companyType": "Konzerne, Mittelstand in Umbruchphasen, PE-Portfoliounternehmen",
     "description": "Verantwortet als C-Level die gesamte Unternehmenstransformation und steuert Change-Prozesse ueber alle Bereiche hinweg.",
-    "requiredTags": ["transformation", "leadership", "change-management", "strategy"],
-    "bonusTags": ["c-level", "p-and-l", "coaching"],
+    "requiredTags": [
+      "transformation",
+      "leadership",
+      "change-management",
+      "strategy"
+    ],
+    "bonusTags": [
+      "c-level",
+      "p-and-l",
+      "coaching"
+    ],
     "minClusters": 3,
     "isRevelation": false,
-    "whyFit": "Christians breite Erfahrung von Engineering ueber Coaching bis KI, kombiniert mit Fuehrungskompetenz, macht ihn zum ganzheitlichen Transformationsgestalter."
+    "whyFit": "Christians breite Erfahrung von Engineering ueber Coaching bis KI, kombiniert mit Fuehrungskompetenz, macht ihn zum ganzheitlichen Transformationsgestalter.",
+    "uniqueValue": "Versteht Transformation von der Werkshalle bis zum Vorstand: Engineering, Coaching, KI und P&L-Verantwortung in einer Person. Sie bekommen einen CTO, der alle Sprachen im Unternehmen spricht."
   },
   {
     "id": "head-of-digital-innovation",
@@ -89,11 +157,21 @@
     "category": "Innovation & Digital",
     "companyType": "Konzerne, Tech-Unternehmen, Mittelstand mit Digitalisierungsstrategie",
     "description": "Leitet die digitale Innovationsabteilung und identifiziert Technologietrends wie KI fuer neue Geschaeftsmodelle und Prozessoptimierung.",
-    "requiredTags": ["ai", "innovation", "transformation", "strategy"],
-    "bonusTags": ["automation", "leadership", "startup"],
+    "requiredTags": [
+      "ai",
+      "innovation",
+      "transformation",
+      "strategy"
+    ],
+    "bonusTags": [
+      "automation",
+      "leadership",
+      "startup"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine praktische KI-Erfahrung mit Claude, Automatisierung und Web-Entwicklung gibt ihm echte Hands-on-Kompetenz jenseits von PowerPoint-Innovation."
+    "whyFit": "Seine praktische KI-Erfahrung mit Claude, Automatisierung und Web-Entwicklung gibt ihm echte Hands-on-Kompetenz jenseits von PowerPoint-Innovation.",
+    "uniqueValue": "Bringt echte Hands-on-KI-Erfahrung statt Berater-Slides mit -- Ihre Innovationsabteilung wird von jemandem gefuehrt, der selbst produktive KI-Systeme gebaut hat."
   },
   {
     "id": "ai-transformation-manager",
@@ -101,11 +179,21 @@
     "category": "Innovation & Digital",
     "companyType": "Konzerne, Mittelstand, Beratungen mit KI-Fokus",
     "description": "Steuert die KI-Einfuehrung im Unternehmen und begleitet Teams bei der Integration von KI-Tools in bestehende Arbeitsablaeufe.",
-    "requiredTags": ["ai", "change-management", "leadership", "training"],
-    "bonusTags": ["automation", "prompt-engineering", "coaching"],
+    "requiredTags": [
+      "ai",
+      "change-management",
+      "leadership",
+      "training"
+    ],
+    "bonusTags": [
+      "automation",
+      "prompt-engineering",
+      "coaching"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christian verbindet technisches KI-Verstaendnis mit Change-Management und Coaching – er kann sowohl die Technik als auch die Menschen durch die Transformation fuehren."
+    "whyFit": "Christian verbindet technisches KI-Verstaendnis mit Change-Management und Coaching – er kann sowohl die Technik als auch die Menschen durch die Transformation fuehren.",
+    "uniqueValue": "Vereint technische KI-Tiefe mit Change-Management und Coaching-Kompetenz. Sie bekommen einen Transformationsmanager, der sowohl den Algorithmus als auch die Angst vor ihm versteht."
   },
   {
     "id": "technical-team-lead",
@@ -113,11 +201,21 @@
     "category": "Engineering & Technik",
     "companyType": "Automotive-Zulieferer, Maschinenbau, Technologie-Unternehmen",
     "description": "Fuehrt ein technisches Team fachlich und disziplinarisch und verbindet Engineering-Expertise mit Mitarbeiterfuehrung.",
-    "requiredTags": ["engineering", "leadership", "team-building", "management"],
-    "bonusTags": ["automotive", "coaching", "innovation"],
+    "requiredTags": [
+      "engineering",
+      "leadership",
+      "team-building",
+      "management"
+    ],
+    "bonusTags": [
+      "automotive",
+      "coaching",
+      "innovation"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Sein Engineering-Hintergrund kombiniert mit Coaching-Ausbildung und Teamfuehrungserfahrung macht ihn zur idealen technischen Fuehrungskraft mit Menschenfokus."
+    "whyFit": "Sein Engineering-Hintergrund kombiniert mit Coaching-Ausbildung und Teamfuehrungserfahrung macht ihn zur idealen technischen Fuehrungskraft mit Menschenfokus.",
+    "uniqueValue": "Kombiniert tiefes Engineering-Wissen mit zertifizierter Coaching-Ausbildung. Ihre technischen Teams werden von jemandem gefuehrt, der fachlich mitdiskutiert und menschlich entwickelt."
   },
   {
     "id": "nvh-engineering-manager",
@@ -125,11 +223,21 @@
     "category": "Engineering & Technik",
     "companyType": "OEMs, Automotive-Zulieferer, Akustik-Spezialisten",
     "description": "Leitet die NVH-Abteilung (Noise, Vibration, Harshness) und verantwortet akustische Entwicklungsprojekte im Fahrzeugbau.",
-    "requiredTags": ["nvh", "acoustics", "engineering", "leadership"],
-    "bonusTags": ["automotive", "testing", "simulation"],
+    "requiredTags": [
+      "nvh",
+      "acoustics",
+      "engineering",
+      "leadership"
+    ],
+    "bonusTags": [
+      "automotive",
+      "testing",
+      "simulation"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "NVH ist Christians Kernkompetenz aus der Automotive-Welt – hier verbindet er tiefes Fachwissen mit Fuehrungserfahrung in seinem Spezialgebiet."
+    "whyFit": "NVH ist Christians Kernkompetenz aus der Automotive-Welt – hier verbindet er tiefes Fachwissen mit Fuehrungserfahrung in seinem Spezialgebiet.",
+    "uniqueValue": "Bringt NVH-Fachexpertise, Fuehrungserfahrung und Coaching-Kompetenz zusammen. Ihr Akustik-Team bekommt einen Manager, der technische Exzellenz mit echter Teamentwicklung verbindet."
   },
   {
     "id": "head-of-quality-and-process",
@@ -137,11 +245,21 @@
     "category": "Operations & Prozesse",
     "companyType": "Fertigungsunternehmen, Automotive, Maschinenbau, Pharma",
     "description": "Verantwortet das Qualitaetsmanagement und die Prozessoptimierung im Unternehmen. Etabliert Standards und treibt kontinuierliche Verbesserung.",
-    "requiredTags": ["quality", "process", "six-sigma", "leadership"],
-    "bonusTags": ["iso", "lean", "efficiency"],
+    "requiredTags": [
+      "quality",
+      "process",
+      "six-sigma",
+      "leadership"
+    ],
+    "bonusTags": [
+      "iso",
+      "lean",
+      "efficiency"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Six-Sigma-Expertise, ISO-Kenntnisse und Fuehrungserfahrung machen ihn zum datengetriebenen Qualitaetsmanager mit strategischem Blick."
+    "whyFit": "Six-Sigma-Expertise, ISO-Kenntnisse und Fuehrungserfahrung machen ihn zum datengetriebenen Qualitaetsmanager mit strategischem Blick.",
+    "uniqueValue": "Verbindet Six-Sigma-Methodik und TUeV-Zertifizierungserfahrung mit Coaching-Kompetenz. Ihre Qualitaetskultur wird nicht nur prozessgetrieben, sondern auch menschlich verankert."
   },
   {
     "id": "six-sigma-consultant",
@@ -149,11 +267,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Beratungen, Konzerne, Fertigungsunternehmen",
     "description": "Beratet Unternehmen bei der Einfuehrung und Anwendung von Six Sigma und DFSS zur Prozessoptimierung und Fehlerreduktion.",
-    "requiredTags": ["six-sigma", "dfss", "process", "statistics"],
-    "bonusTags": ["quality", "optimization", "consulting"],
+    "requiredTags": [
+      "six-sigma",
+      "dfss",
+      "process",
+      "statistics"
+    ],
+    "bonusTags": [
+      "quality",
+      "optimization",
+      "consulting"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Seine DFSS-Zertifizierung und statistischen Kenntnisse, kombiniert mit praktischer Anwendungserfahrung in der Automotive-Industrie, bilden die Basis fuer fundierte Beratung."
+    "whyFit": "Seine DFSS-Zertifizierung und statistischen Kenntnisse, kombiniert mit praktischer Anwendungserfahrung in der Automotive-Industrie, bilden die Basis fuer fundierte Beratung.",
+    "uniqueValue": "Bringt DFSS-Zertifizierung und Automotive-Praxiserfahrung mit Coaching-Faehigkeit zusammen. Ihre Six-Sigma-Projekte werden nicht nur methodisch sauber, sondern auch von den Teams wirklich getragen."
   },
   {
     "id": "corporate-trainer",
@@ -161,11 +289,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Konzerne, Beratungen, Trainingsinstitute",
     "description": "Konzipiert und fuehrt Trainings und Workshops fuer Mitarbeiter und Fuehrungskraefte in Unternehmen durch.",
-    "requiredTags": ["training", "adult-education", "facilitation", "coaching"],
-    "bonusTags": ["leadership-development", "methodology", "communication"],
+    "requiredTags": [
+      "training",
+      "adult-education",
+      "facilitation",
+      "coaching"
+    ],
+    "bonusTags": [
+      "leadership-development",
+      "methodology",
+      "communication"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christians didaktische Kompetenz, Coaching-Ausbildung und Praxiserfahrung in verschiedensten Branchen machen seine Trainings besonders wirkungsvoll."
+    "whyFit": "Christians didaktische Kompetenz, Coaching-Ausbildung und Praxiserfahrung in verschiedensten Branchen machen seine Trainings besonders wirkungsvoll.",
+    "uniqueValue": "Vereint Hochschuldidaktik, systemisches Coaching und Branchenerfahrung von Automotive bis KI. Ihre Trainings werden von jemandem gestaltet, der Lerntransfer wissenschaftlich und praktisch versteht."
   },
   {
     "id": "startup-berater",
@@ -173,11 +311,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Gruenderzentren, Acceleratoren, IHKs, Wirtschaftsfoerderungen",
     "description": "Beratet Gruender und junge Unternehmen bei Geschaeftsmodell, Finanzierung und Markteintritt.",
-    "requiredTags": ["startup", "consulting", "business-planning", "strategy"],
-    "bonusTags": ["funding", "go-to-market", "coaching"],
+    "requiredTags": [
+      "startup",
+      "consulting",
+      "business-planning",
+      "strategy"
+    ],
+    "bonusTags": [
+      "funding",
+      "go-to-market",
+      "coaching"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Eigene Gruendungserfahrung, Business-Planning-Kompetenz und Coaching-Faehigkeit machen ihn zum Berater, der Gruender ganzheitlich begleiten kann."
+    "whyFit": "Eigene Gruendungserfahrung, Business-Planning-Kompetenz und Coaching-Faehigkeit machen ihn zum Berater, der Gruender ganzheitlich begleiten kann.",
+    "uniqueValue": "Bringt eigene Gruendungserfahrung, P&L-Verantwortung und Coaching-Kompetenz mit. Ihre Gruender bekommen keine theoretische Beratung, sondern einen Sparringspartner, der Unternehmerrisiken selbst kennt."
   },
   {
     "id": "dozent-hochschule",
@@ -185,11 +333,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Hochschulen, Fachhochschulen, Universitaeten, duale Studiengaenge",
     "description": "Lehrt an einer Hochschule in technischen oder wirtschaftlichen Studiengaengen und verbindet Forschung mit praxisnaher Lehre.",
-    "requiredTags": ["teaching", "research", "stem", "education"],
-    "bonusTags": ["mathematics", "physics", "engineering"],
+    "requiredTags": [
+      "teaching",
+      "research",
+      "stem",
+      "education"
+    ],
+    "bonusTags": [
+      "mathematics",
+      "physics",
+      "engineering"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Sein MINT-Hintergrund, die Freude an Wissensvermittlung und die Faehigkeit, komplexe Inhalte verstaendlich zu machen, praedestinieren ihn fuer die Hochschullehre."
+    "whyFit": "Sein MINT-Hintergrund, die Freude an Wissensvermittlung und die Faehigkeit, komplexe Inhalte verstaendlich zu machen, praedestinieren ihn fuer die Hochschullehre.",
+    "uniqueValue": "Verbindet Praxiserfahrung aus Industrie, Coaching und KI mit didaktischer Kompetenz. Ihre Studierenden lernen von jemandem, der Theorie durch jahrelange Anwendung lebendig machen kann."
   },
   {
     "id": "mint-lehrer",
@@ -197,11 +355,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Schulen, Berufsschulen, Bildungstraeger",
     "description": "Unterrichtet naturwissenschaftliche und technische Faecher und begeistert Schueler fuer MINT-Themen.",
-    "requiredTags": ["teaching", "stem", "mathematics", "physics"],
-    "bonusTags": ["education", "neuroscience", "learning"],
+    "requiredTags": [
+      "teaching",
+      "stem",
+      "mathematics",
+      "physics"
+    ],
+    "bonusTags": [
+      "education",
+      "neuroscience",
+      "learning"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Christians Faehigkeit, komplexe technische Sachverhalte verstaendlich zu erklaeren, und sein Verstaendnis fuer neurodivergente Lernende machen ihn zum engagierten MINT-Lehrer."
+    "whyFit": "Christians Faehigkeit, komplexe technische Sachverhalte verstaendlich zu erklaeren, und sein Verstaendnis fuer neurodivergente Lernende machen ihn zum engagierten MINT-Lehrer.",
+    "uniqueValue": "Bringt Industrie-Praxiserfahrung, Neurodiversitaets-Verstaendnis und KI-Kompetenz in den MINT-Unterricht. Ihre Schueler lernen von jemandem, der Inklusion und technische Begeisterung vereint."
   },
   {
     "id": "projektleiter-automotive",
@@ -209,11 +377,21 @@
     "category": "Engineering & Technik",
     "companyType": "OEMs, Automotive-Zulieferer, Ingenieurdienstleister",
     "description": "Leitet komplexe Entwicklungsprojekte im Automotive-Bereich und koordiniert interdisziplinaere Teams ueber den gesamten Produktentstehungsprozess.",
-    "requiredTags": ["engineering", "automotive", "leadership", "management"],
-    "bonusTags": ["product-development", "stakeholder", "quality"],
+    "requiredTags": [
+      "engineering",
+      "automotive",
+      "leadership",
+      "management"
+    ],
+    "bonusTags": [
+      "product-development",
+      "stakeholder",
+      "quality"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Sein tiefer Automotive-Hintergrund, kombiniert mit Fuehrungskompetenz und Prozessverstaendnis, macht ihn zum versierten Projektleiter in dieser anspruchsvollen Branche."
+    "whyFit": "Sein tiefer Automotive-Hintergrund, kombiniert mit Fuehrungskompetenz und Prozessverstaendnis, macht ihn zum versierten Projektleiter in dieser anspruchsvollen Branche.",
+    "uniqueValue": "Vereint tiefe Automotive-Expertise mit Coaching-Ausbildung und Six-Sigma-Methodik. Ihre Entwicklungsprojekte werden von jemandem gesteuert, der Technik, Prozess und Teamdynamik gleichermassen beherrscht."
   },
   {
     "id": "change-manager",
@@ -221,11 +399,21 @@
     "category": "Transformation & Change",
     "companyType": "Konzerne, Beratungen, Mittelstand in Veraenderungsphasen",
     "description": "Plant und steuert Veraenderungsprozesse in Organisationen und sorgt fuer nachhaltige Akzeptanz bei Mitarbeitern und Fuehrungskraeften.",
-    "requiredTags": ["change-management", "leadership", "communication", "culture"],
-    "bonusTags": ["coaching", "stakeholder", "transformation"],
+    "requiredTags": [
+      "change-management",
+      "leadership",
+      "communication",
+      "culture"
+    ],
+    "bonusTags": [
+      "coaching",
+      "stakeholder",
+      "transformation"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christians Coaching-Kompetenz und Kommunikationsstaerke befaehigen ihn, Veraenderung nicht nur zu planen, sondern Menschen wirklich mitzunehmen."
+    "whyFit": "Christians Coaching-Kompetenz und Kommunikationsstaerke befaehigen ihn, Veraenderung nicht nur zu planen, sondern Menschen wirklich mitzunehmen.",
+    "uniqueValue": "Kombiniert systemisches Coaching mit Ingenieur-Analytik und echter Fuehrungserfahrung. Ihr Change-Prozess wird nicht nur geplant, sondern mit Tiefenverstaendnis fuer menschliche Widerstaende begleitet."
   },
   {
     "id": "organisationsentwickler",
@@ -233,11 +421,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, Mittelstand, Beratungen, oeffentlicher Dienst",
     "description": "Analysiert und gestaltet Organisationsstrukturen, Prozesse und Kultur, um Unternehmen zukunftsfaehig aufzustellen.",
-    "requiredTags": ["org-development", "coaching", "systemic", "culture"],
-    "bonusTags": ["change-management", "facilitation", "leadership"],
+    "requiredTags": [
+      "org-development",
+      "coaching",
+      "systemic",
+      "culture"
+    ],
+    "bonusTags": [
+      "change-management",
+      "facilitation",
+      "leadership"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Sein systemisches Denken aus dem Coaching, verbunden mit Engineering-Strukturverstaendnis, ermoeglicht eine einzigartig analytische und zugleich menschenzentrierte OE-Arbeit."
+    "whyFit": "Sein systemisches Denken aus dem Coaching, verbunden mit Engineering-Strukturverstaendnis, ermoeglicht eine einzigartig analytische und zugleich menschenzentrierte OE-Arbeit.",
+    "uniqueValue": "Verbindet ingenieurwissenschaftliches Strukturdenken mit systemischem Coaching und KI-Datenanalyse. Ihre OE-Arbeit wird erstmals sowohl intuitiv-menschlich als auch messbar-analytisch."
   },
   {
     "id": "head-of-hr",
@@ -245,11 +443,21 @@
     "category": "People & Kultur",
     "companyType": "Mittelstand, groessere Unternehmen, Tech-Firmen",
     "description": "Leitet die Personalabteilung und verantwortet Recruiting, Personalentwicklung, Verguetung und Mitarbeiterbindung.",
-    "requiredTags": ["leadership", "talent", "coaching", "org-development"],
-    "bonusTags": ["culture", "values", "stakeholder"],
+    "requiredTags": [
+      "leadership",
+      "talent",
+      "coaching",
+      "org-development"
+    ],
+    "bonusTags": [
+      "culture",
+      "values",
+      "stakeholder"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine Coaching-Ausbildung und Fuehrungserfahrung machen ihn zum HR-Leiter, der ueber Administration hinaus echte Personalentwicklung betreibt."
+    "whyFit": "Seine Coaching-Ausbildung und Fuehrungserfahrung machen ihn zum HR-Leiter, der ueber Administration hinaus echte Personalentwicklung betreibt.",
+    "uniqueValue": "Bringt Coaching-Zertifizierung, P&L-Erfahrung und KI-Kompetenz in Ihre HR-Leitung ein. Sie bekommen einen HR-Chef, der Personalarbeit als strategischen Werthebel versteht und nicht als Verwaltungsapparat."
   },
   {
     "id": "talent-development-manager",
@@ -257,11 +465,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, Tech-Unternehmen, grosse Mittelstaendler",
     "description": "Entwickelt und implementiert Programme zur Talentfoerderung und Nachfolgeplanung im Unternehmen.",
-    "requiredTags": ["talent", "leadership-development", "coaching", "training"],
-    "bonusTags": ["adult-education", "values", "facilitation"],
+    "requiredTags": [
+      "talent",
+      "leadership-development",
+      "coaching",
+      "training"
+    ],
+    "bonusTags": [
+      "adult-education",
+      "values",
+      "facilitation"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christian versteht es, individuelle Staerken zu erkennen und gezielt zu foerdern – eine Kernkompetenz aus seiner Coaching-Praxis, die perfekt ins Talent Development passt."
+    "whyFit": "Christian versteht es, individuelle Staerken zu erkennen und gezielt zu foerdern – eine Kernkompetenz aus seiner Coaching-Praxis, die perfekt ins Talent Development passt.",
+    "uniqueValue": "Vereint zertifiziertes Coaching, Didaktik-Expertise und datengetriebenes Denken. Ihre Talentfoerderung wird wissenschaftlich fundiert, individuell und erstmals direkt an Geschaeftsergebnisse gekoppelt."
   },
   {
     "id": "agile-coach",
@@ -269,11 +487,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Tech-Unternehmen, Konzerne, agile Beratungen",
     "description": "Begleitet Teams und Organisationen bei der Einfuehrung und Vertiefung agiler Arbeitsweisen und foerdert Selbstorganisation.",
-    "requiredTags": ["agile", "coaching", "lean", "facilitation"],
-    "bonusTags": ["team-dynamics", "kanban", "systemic"],
+    "requiredTags": [
+      "agile",
+      "coaching",
+      "lean",
+      "facilitation"
+    ],
+    "bonusTags": [
+      "team-dynamics",
+      "kanban",
+      "systemic"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Die Verbindung aus fundiertem Coaching, Lean-Verstaendnis und technischem Hintergrund macht ihn zum Agile Coach, der sowohl Teams als auch Technik versteht."
+    "whyFit": "Die Verbindung aus fundiertem Coaching, Lean-Verstaendnis und technischem Hintergrund macht ihn zum Agile Coach, der sowohl Teams als auch Technik versteht.",
+    "uniqueValue": "Kombiniert fundierte Coaching-Ausbildung mit echtem Engineering-Hintergrund und Lean-Erfahrung. Ihr Agile Coach versteht nicht nur Frameworks, sondern auch die technischen Realitaeten Ihrer Teams."
   },
   {
     "id": "scrum-master",
@@ -281,11 +509,21 @@
     "category": "Operations & Prozesse",
     "companyType": "Tech-Unternehmen, Software-Firmen, agile Organisationen",
     "description": "Unterstuetzt Scrum-Teams als Servant Leader, moderiert Events und beseitigt Hindernisse fuer effektive Zusammenarbeit.",
-    "requiredTags": ["agile", "facilitation", "process", "team-dynamics"],
-    "bonusTags": ["coaching", "communication", "lean"],
+    "requiredTags": [
+      "agile",
+      "facilitation",
+      "process",
+      "team-dynamics"
+    ],
+    "bonusTags": [
+      "coaching",
+      "communication",
+      "lean"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Seine Moderationsfaehigkeit, sein Prozessverstaendnis und Coaching-Ansatz machen ihn zum Scrum Master, der Teams wirklich weiterentwickelt statt nur Meetings zu moderieren."
+    "whyFit": "Seine Moderationsfaehigkeit, sein Prozessverstaendnis und Coaching-Ansatz machen ihn zum Scrum Master, der Teams wirklich weiterentwickelt statt nur Meetings zu moderieren.",
+    "uniqueValue": "Bringt systemisches Coaching und Ingenieurs-Prozessverstaendnis in die Scrum-Rolle ein. Ihre Teams bekommen einen Scrum Master, der ueber Zeremonien hinaus echte Teamentwicklung betreibt."
   },
   {
     "id": "product-owner",
@@ -293,11 +531,21 @@
     "category": "Innovation & Digital",
     "companyType": "Tech-Unternehmen, Software-Firmen, Digital-Agenturen",
     "description": "Verantwortet die Produktvision und priorisiert das Backlog, um maximalen Kundennutzen zu schaffen.",
-    "requiredTags": ["product-development", "strategy", "stakeholder", "agile"],
-    "bonusTags": ["communication", "business", "coaching"],
+    "requiredTags": [
+      "product-development",
+      "strategy",
+      "stakeholder",
+      "agile"
+    ],
+    "bonusTags": [
+      "communication",
+      "business",
+      "coaching"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christians Produktentwicklungserfahrung aus der Industrie, kombiniert mit strategischem Denken und Stakeholder-Kommunikation, macht ihn zum wirkungsvollen Product Owner."
+    "whyFit": "Christians Produktentwicklungserfahrung aus der Industrie, kombiniert mit strategischem Denken und Stakeholder-Kommunikation, macht ihn zum wirkungsvollen Product Owner.",
+    "uniqueValue": "Vereint industrielle Produktentwicklungserfahrung mit Business-Verstaendnis und Coaching-Kompetenz. Ihr Product Owner priorisiert nicht nur Backlogs, sondern versteht Markt, Technik und Teamdynamik."
   },
   {
     "id": "head-of-engineering",
@@ -305,11 +553,21 @@
     "category": "Engineering & Technik",
     "companyType": "Tech-Unternehmen, Maschinenbau, Automotive-Zulieferer",
     "description": "Leitet die gesamte Engineering-Abteilung und verantwortet technische Strategie, Innovation und Teamaufbau.",
-    "requiredTags": ["engineering", "leadership", "team-building", "innovation"],
-    "bonusTags": ["product-development", "management", "strategy"],
+    "requiredTags": [
+      "engineering",
+      "leadership",
+      "team-building",
+      "innovation"
+    ],
+    "bonusTags": [
+      "product-development",
+      "management",
+      "strategy"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Tiefer Engineering-Hintergrund plus Fuehrungserfahrung und die Faehigkeit, technische Teams zu inspirieren und aufzubauen, qualifizieren ihn fuer diese Rolle."
+    "whyFit": "Tiefer Engineering-Hintergrund plus Fuehrungserfahrung und die Faehigkeit, technische Teams zu inspirieren und aufzubauen, qualifizieren ihn fuer diese Rolle.",
+    "uniqueValue": "Bringt Coaching-Ausbildung und Change-Management-Erfahrung in die technische Fuehrung ein. Ihre Engineering-Abteilung bekommt einen Leader, der technische Exzellenz und Menschenfuehrung gleichwertig lebt."
   },
   {
     "id": "director-training-and-development",
@@ -317,11 +575,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, Beratungen, grosse Bildungstraeger",
     "description": "Steuert die strategische Trainings- und Entwicklungsarbeit und entwickelt Curricula fuer verschiedene Zielgruppen im Unternehmen.",
-    "requiredTags": ["training", "leadership-development", "adult-education", "curriculum"],
-    "bonusTags": ["coaching", "facilitation", "methodology"],
+    "requiredTags": [
+      "training",
+      "leadership-development",
+      "adult-education",
+      "curriculum"
+    ],
+    "bonusTags": [
+      "coaching",
+      "facilitation",
+      "methodology"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine Erfahrung in Curriculum-Gestaltung, Erwachsenenbildung und Fuehrungskraefteentwicklung bildet das Fundament fuer strategische Trainingsarbeit auf Director-Level."
+    "whyFit": "Seine Erfahrung in Curriculum-Gestaltung, Erwachsenenbildung und Fuehrungskraefteentwicklung bildet das Fundament fuer strategische Trainingsarbeit auf Director-Level.",
+    "uniqueValue": "Vereint Hochschuldidaktik, Curriculum-Design und KI-Kompetenz auf Director-Level. Ihre Trainingsabteilung wird von jemandem gefuehrt, der Bildung wissenschaftlich denkt und technologisch zukunftssicher gestaltet."
   },
   {
     "id": "business-development-manager",
@@ -329,11 +597,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Mittelstand, Beratungen, Tech-Unternehmen, Startups",
     "description": "Erschliesst neue Geschaeftsfelder, baut strategische Partnerschaften auf und entwickelt Go-to-Market-Strategien.",
-    "requiredTags": ["business", "strategy", "go-to-market", "partnerships"],
-    "bonusTags": ["consulting", "market-analysis", "communication"],
+    "requiredTags": [
+      "business",
+      "strategy",
+      "go-to-market",
+      "partnerships"
+    ],
+    "bonusTags": [
+      "consulting",
+      "market-analysis",
+      "communication"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Seine strategische Denkweise, Gruendungserfahrung und Faehigkeit, komplexe Themen verstaendlich zu kommunizieren, machen ihn zum starken Business Developer."
+    "whyFit": "Seine strategische Denkweise, Gruendungserfahrung und Faehigkeit, komplexe Themen verstaendlich zu kommunizieren, machen ihn zum starken Business Developer.",
+    "uniqueValue": "Kombiniert Gruendungserfahrung, P&L-Verantwortung und technisches KI-Verstaendnis. Ihr Business Development bekommt jemanden, der neue Geschaeftsfelder nicht nur identifiziert, sondern deren Machbarkeit technisch bewerten kann."
   },
   {
     "id": "innovation-manager",
@@ -341,11 +619,21 @@
     "category": "Innovation & Digital",
     "companyType": "Konzerne, Mittelstand, Forschungseinrichtungen",
     "description": "Identifiziert Innovationspotenziale, steuert den Innovationsprozess und bringt neue Ideen von der Konzeption zur Umsetzung.",
-    "requiredTags": ["innovation", "strategy", "transformation", "business"],
-    "bonusTags": ["ai", "patents", "research"],
+    "requiredTags": [
+      "innovation",
+      "strategy",
+      "transformation",
+      "business"
+    ],
+    "bonusTags": [
+      "ai",
+      "patents",
+      "research"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christians Erfahrung mit Patenten, Forschung und KI, verbunden mit unternehmerischem Denken, macht ihn zum Innovationsmanager, der nicht nur ideiert, sondern umsetzt."
+    "whyFit": "Christians Erfahrung mit Patenten, Forschung und KI, verbunden mit unternehmerischem Denken, macht ihn zum Innovationsmanager, der nicht nur ideiert, sondern umsetzt.",
+    "uniqueValue": "Bringt Patent-Erfahrung, KI-Hands-on-Kompetenz und unternehmerisches Denken zusammen. Ihre Innovationsabteilung wird von jemandem gesteuert, der Ideen nicht nur sammelt, sondern bis zur Marktreife fuehrt."
   },
   {
     "id": "lean-consultant",
@@ -353,11 +641,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Beratungen, Fertigungsunternehmen, Logistik",
     "description": "Beratet Unternehmen bei der Einfuehrung von Lean-Prinzipien zur Verschlankung von Prozessen und Eliminierung von Verschwendung.",
-    "requiredTags": ["lean", "kanban", "process", "efficiency"],
-    "bonusTags": ["six-sigma", "optimization", "consulting"],
+    "requiredTags": [
+      "lean",
+      "kanban",
+      "process",
+      "efficiency"
+    ],
+    "bonusTags": [
+      "six-sigma",
+      "optimization",
+      "consulting"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Sein Prozessverstaendnis aus der Automotive-Industrie und seine Six-Sigma-Kenntnisse geben ihm die praktische Grundlage fuer wirkungsvolle Lean-Beratung."
+    "whyFit": "Sein Prozessverstaendnis aus der Automotive-Industrie und seine Six-Sigma-Kenntnisse geben ihm die praktische Grundlage fuer wirkungsvolle Lean-Beratung.",
+    "uniqueValue": "Vereint Automotive-Lean-Praxis mit Six-Sigma-Methodik und Coaching-Kompetenz. Ihre Lean-Transformation wird nicht nur prozessseitig optimiert, sondern auch kulturell verankert."
   },
   {
     "id": "process-excellence-manager",
@@ -365,11 +663,21 @@
     "category": "Operations & Prozesse",
     "companyType": "Konzerne, Fertigungsunternehmen, Shared-Service-Center",
     "description": "Treibt die kontinuierliche Prozessverbesserung voran und etabliert Best Practices fuer operative Exzellenz.",
-    "requiredTags": ["process", "six-sigma", "optimization", "efficiency"],
-    "bonusTags": ["lean", "data", "analytics"],
+    "requiredTags": [
+      "process",
+      "six-sigma",
+      "optimization",
+      "efficiency"
+    ],
+    "bonusTags": [
+      "lean",
+      "data",
+      "analytics"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Seine Six-Sigma-Methodik und datengetriebene Herangehensweise befaehigen ihn, Prozesse systematisch zu analysieren und nachhaltig zu verbessern."
+    "whyFit": "Seine Six-Sigma-Methodik und datengetriebene Herangehensweise befaehigen ihn, Prozesse systematisch zu analysieren und nachhaltig zu verbessern.",
+    "uniqueValue": "Kombiniert Six-Sigma-Zertifizierung mit KI-Datenanalyse und Coaching-Ansatz. Ihre Prozessoptimierung wird datengetrieben UND menschlich akzeptiert -- eine Kombination, die nachhaltige Ergebnisse sichert."
   },
   {
     "id": "ki-berater",
@@ -377,11 +685,21 @@
     "category": "Innovation & Digital",
     "companyType": "Beratungen, Mittelstand, Konzerne, Bildungstraeger",
     "description": "Beratet Unternehmen bei der strategischen und praktischen Einfuehrung von Kuenstlicher Intelligenz in Geschaeftsprozesse.",
-    "requiredTags": ["ai", "consulting", "strategy", "automation"],
-    "bonusTags": ["prompt-engineering", "training", "frameworks"],
+    "requiredTags": [
+      "ai",
+      "consulting",
+      "strategy",
+      "automation"
+    ],
+    "bonusTags": [
+      "prompt-engineering",
+      "training",
+      "frameworks"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Seine praktische KI-Erfahrung mit Claude, Automatisierung und Prompt Engineering gibt ihm die Hands-on-Kompetenz, die vielen KI-Beratern fehlt."
+    "whyFit": "Seine praktische KI-Erfahrung mit Claude, Automatisierung und Prompt Engineering gibt ihm die Hands-on-Kompetenz, die vielen KI-Beratern fehlt.",
+    "uniqueValue": "Bringt produktive KI-Entwicklungserfahrung, Coaching-Kompetenz und Industrieverstaendnis mit. Sie bekommen KI-Beratung von jemandem, der nicht nur praesentiert, sondern selbst KI-Systeme gebaut und eingefuehrt hat."
   },
   {
     "id": "digital-learning-designer",
@@ -389,11 +707,21 @@
     "category": "Bildung & Lehre",
     "companyType": "EdTech-Unternehmen, Konzerne, Hochschulen, E-Learning-Anbieter",
     "description": "Gestaltet digitale Lernumgebungen und E-Learning-Formate unter Einsatz moderner Technologien und didaktischer Prinzipien.",
-    "requiredTags": ["learning-design", "ai", "education", "curriculum"],
-    "bonusTags": ["web-development", "design-system", "neuroscience"],
+    "requiredTags": [
+      "learning-design",
+      "ai",
+      "education",
+      "curriculum"
+    ],
+    "bonusTags": [
+      "web-development",
+      "design-system",
+      "neuroscience"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Die Verbindung aus didaktischem Know-how, KI-Kompetenz und Web-Entwicklungsfaehigkeiten macht ihn zum Digital Learning Designer, der Inhalte UND Technik beherrscht."
+    "whyFit": "Die Verbindung aus didaktischem Know-how, KI-Kompetenz und Web-Entwicklungsfaehigkeiten macht ihn zum Digital Learning Designer, der Inhalte UND Technik beherrscht.",
+    "uniqueValue": "Vereint Web-Entwicklung, KI-Kompetenz und Hochschuldidaktik in einer Person. Ihre digitalen Lernformate werden von jemandem gestaltet, der Technik baut, Didaktik versteht und Neurodiversitaet mitdenkt."
   },
   {
     "id": "head-of-customer-success",
@@ -401,11 +729,21 @@
     "category": "Beratung & Strategie",
     "companyType": "SaaS-Unternehmen, Tech-Firmen, Beratungen",
     "description": "Leitet das Customer-Success-Team und stellt sicher, dass Kunden maximalen Wert aus Produkten und Dienstleistungen ziehen.",
-    "requiredTags": ["stakeholder", "communication", "coaching", "leadership"],
-    "bonusTags": ["strategy", "team-building", "analytics"],
+    "requiredTags": [
+      "stakeholder",
+      "communication",
+      "coaching",
+      "leadership"
+    ],
+    "bonusTags": [
+      "strategy",
+      "team-building",
+      "analytics"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christians Coaching-Ansatz und Kommunikationsstaerke praedestinieren ihn dafuer, Kundenbeziehungen auf Augenhöhe zu gestalten und Teams kundenorientiert zu fuehren."
+    "whyFit": "Christians Coaching-Ansatz und Kommunikationsstaerke praedestinieren ihn dafuer, Kundenbeziehungen auf Augenhöhe zu gestalten und Teams kundenorientiert zu fuehren.",
+    "uniqueValue": "Kombiniert Coaching-Ausbildung, technisches Verstaendnis und Fuehrungserfahrung. Ihr Customer-Success-Team wird von jemandem aufgebaut, der Kundenbeziehungen auf Augenhoehe mit echtem Tiefgang gestaltet."
   },
   {
     "id": "vp-operations",
@@ -413,11 +751,21 @@
     "category": "Operations & Prozesse",
     "companyType": "Konzerne, grosse Mittelstaendler, Fertigungsunternehmen",
     "description": "Verantwortet die gesamte operative Fuehrung und optimiert Prozesse, Effizienz und Budgetsteuerung auf Vorstandsebene.",
-    "requiredTags": ["leadership", "process", "efficiency", "p-and-l"],
-    "bonusTags": ["lean", "six-sigma", "management"],
+    "requiredTags": [
+      "leadership",
+      "process",
+      "efficiency",
+      "p-and-l"
+    ],
+    "bonusTags": [
+      "lean",
+      "six-sigma",
+      "management"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Sein tiefes Prozessverstaendnis aus der Industrie, gepaart mit Fuehrungserfahrung und P&L-Bewusstsein, qualifiziert ihn fuer operative Gesamtverantwortung."
+    "whyFit": "Sein tiefes Prozessverstaendnis aus der Industrie, gepaart mit Fuehrungserfahrung und P&L-Bewusstsein, qualifiziert ihn fuer operative Gesamtverantwortung.",
+    "uniqueValue": "Bringt P&L-Erfahrung, Six-Sigma-Methodik und Coaching-Fuehrungsstil zusammen. Ihre operative Fuehrung wird von jemandem verantwortet, der Effizienz steigert, ohne die Menschen dabei zu verlieren."
   },
   {
     "id": "teamleiter-qualitaetssicherung",
@@ -425,11 +773,21 @@
     "category": "Engineering & Technik",
     "companyType": "Fertigungsunternehmen, Automotive, Maschinenbau, Pharma",
     "description": "Fuehrt das QS-Team und stellt die Einhaltung von Qualitaetsstandards und Normen in Entwicklung und Produktion sicher.",
-    "requiredTags": ["quality", "leadership", "testing", "standards"],
-    "bonusTags": ["iso", "six-sigma", "engineering"],
+    "requiredTags": [
+      "quality",
+      "leadership",
+      "testing",
+      "standards"
+    ],
+    "bonusTags": [
+      "iso",
+      "six-sigma",
+      "engineering"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine Engineering-Erfahrung mit Testing und Normen, verbunden mit Fuehrungskompetenz, macht ihn zum QS-Teamleiter mit technischer Tiefe und Menschenorientierung."
+    "whyFit": "Seine Engineering-Erfahrung mit Testing und Normen, verbunden mit Fuehrungskompetenz, macht ihn zum QS-Teamleiter mit technischer Tiefe und Menschenorientierung.",
+    "uniqueValue": "Vereint Engineering-Testexpertise und Normenkenntnis mit Coaching-basierter Teamfuehrung. Ihre QS-Abteilung bekommt einen Leiter, der sowohl ISO-Audits als auch Mitarbeiterentwicklung souveraen steuert."
   },
   {
     "id": "pruefer-tuev-dekra",
@@ -437,11 +795,21 @@
     "category": "Engineering & Technik",
     "companyType": "TUeV, DEKRA, SGS, Pruef- und Zertifizierungsstellen",
     "description": "Prueft und zertifiziert Produkte, Anlagen und Systeme nach nationalen und internationalen Normen und Standards.",
-    "requiredTags": ["quality", "testing", "standards", "iso"],
-    "bonusTags": ["engineering", "automotive", "process"],
+    "requiredTags": [
+      "quality",
+      "testing",
+      "standards",
+      "iso"
+    ],
+    "bonusTags": [
+      "engineering",
+      "automotive",
+      "process"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Sein technisches Fundament, seine Normenkenntnis und sein systematisches Vorgehen machen ihn zum gruendlichen und kompetenten Pruefer."
+    "whyFit": "Sein technisches Fundament, seine Normenkenntnis und sein systematisches Vorgehen machen ihn zum gruendlichen und kompetenten Pruefer.",
+    "uniqueValue": "Bringt Maschinenbau-Expertise, TUeV-Zertifizierungswissen und systematische Analytik mit. Sie bekommen einen Pruefer, der technische Tiefe mit strukturiertem Ingenieurdenken verbindet."
   },
   {
     "id": "referent-stadtwerke",
@@ -449,11 +817,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Stadtwerke, Energieversorger, kommunale Unternehmen",
     "description": "Bearbeitet als Fachreferent strategische und operative Themen bei Stadtwerken und kommunalen Versorgern.",
-    "requiredTags": ["communication", "process", "business", "consulting"],
-    "bonusTags": ["stakeholder", "strategy", "efficiency"],
+    "requiredTags": [
+      "communication",
+      "process",
+      "business",
+      "consulting"
+    ],
+    "bonusTags": [
+      "stakeholder",
+      "strategy",
+      "efficiency"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Seine Kombination aus technischem Verstaendnis, Kommunikationsstaerke und Prozessdenken passt ideal in die Schnittstellenrolle bei kommunalen Unternehmen."
+    "whyFit": "Seine Kombination aus technischem Verstaendnis, Kommunikationsstaerke und Prozessdenken passt ideal in die Schnittstellenrolle bei kommunalen Unternehmen.",
+    "uniqueValue": "Vereint technisches Verstaendnis, Prozessdenken und Coaching-Kommunikation. Ihre Schnittstellenrolle wird von jemandem besetzt, der Technik, Verwaltung und Stakeholder souveraen verbindet."
   },
   {
     "id": "referent-oeffentlicher-dienst",
@@ -461,11 +839,21 @@
     "category": "Operations & Prozesse",
     "companyType": "Ministerien, Behoerden, oeffentliche Verwaltung",
     "description": "Bearbeitet als Fachreferent Sachthemen in der oeffentlichen Verwaltung und bereitet Entscheidungsvorlagen vor.",
-    "requiredTags": ["communication", "process", "efficiency", "stakeholder"],
-    "bonusTags": ["strategy", "consulting", "analytics"],
+    "requiredTags": [
+      "communication",
+      "process",
+      "efficiency",
+      "stakeholder"
+    ],
+    "bonusTags": [
+      "strategy",
+      "consulting",
+      "analytics"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Christians strukturierte Arbeitsweise und Faehigkeit, komplexe Sachverhalte aufzubereiten, kombiniert mit Prozessverstaendnis, passen zur Referentenarbeit im oeffentlichen Dienst."
+    "whyFit": "Christians strukturierte Arbeitsweise und Faehigkeit, komplexe Sachverhalte aufzubereiten, kombiniert mit Prozessverstaendnis, passen zur Referentenarbeit im oeffentlichen Dienst.",
+    "uniqueValue": "Kombiniert analytisches Ingenieurdenken mit didaktischer Aufbereitungskompetenz und KI-Verstaendnis. Ihre Fachreferatsarbeit gewinnt jemanden, der komplexe Sachverhalte praezise und verstaendlich aufbereitet."
   },
   {
     "id": "unternehmensberater",
@@ -473,11 +861,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Managementberatungen, Strategieberatungen, Boutique-Beratungen",
     "description": "Beratet Unternehmen bei strategischen, organisatorischen und operativen Herausforderungen und entwickelt massgeschneiderte Loesungen.",
-    "requiredTags": ["consulting", "strategy", "process", "business"],
-    "bonusTags": ["leadership", "analytics", "change-management"],
+    "requiredTags": [
+      "consulting",
+      "strategy",
+      "process",
+      "business"
+    ],
+    "bonusTags": [
+      "leadership",
+      "analytics",
+      "change-management"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine Branchenerfahrung, analytischen Faehigkeiten und Coaching-Kompetenz machen ihn zum Berater, der nicht nur analysiert, sondern Veraenderung auch begleitet."
+    "whyFit": "Seine Branchenerfahrung, analytischen Faehigkeiten und Coaching-Kompetenz machen ihn zum Berater, der nicht nur analysiert, sondern Veraenderung auch begleitet.",
+    "uniqueValue": "Bringt Coaching-Kompetenz, technisches Tiefenwissen und P&L-Erfahrung in die Beratung ein. Ihre Klienten bekommen einen Berater, der Empfehlungen nicht nur gibt, sondern deren Umsetzung menschlich begleitet."
   },
   {
     "id": "interimsmanager",
@@ -485,11 +883,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Mittelstand, Konzerne, PE-Portfoliounternehmen, Restrukturierungen",
     "description": "Uebernimmt temporaer Fuehrungsverantwortung in Unternehmen und loest akute Management-Engpaesse oder steuert Veraenderungsphasen.",
-    "requiredTags": ["leadership", "management", "change-management", "p-and-l"],
-    "bonusTags": ["strategy", "coaching", "crisis"],
+    "requiredTags": [
+      "leadership",
+      "management",
+      "change-management",
+      "p-and-l"
+    ],
+    "bonusTags": [
+      "strategy",
+      "coaching",
+      "crisis"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine breite Erfahrung ueber verschiedene Branchen, schnelle Auffassungsgabe und Fuehrungsstaerke machen ihn zum effektiven Interimsmanager."
+    "whyFit": "Seine breite Erfahrung ueber verschiedene Branchen, schnelle Auffassungsgabe und Fuehrungsstaerke machen ihn zum effektiven Interimsmanager.",
+    "uniqueValue": "Vereint P&L-Verantwortung, Coaching-Fuehrungsstil und breite Branchenerfahrung von Automotive bis KI. Sie bekommen einen Interimsmanager, der sofort wirkt und Teams nicht zuruecklaesst, sondern aufbaut."
   },
   {
     "id": "senior-consultant",
@@ -497,11 +905,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Managementberatungen, IT-Beratungen, Fachberatungen",
     "description": "Leitet Beratungsprojekte eigenverantwortlich und bringt Fachexpertise in Strategie, Prozesse oder Transformation ein.",
-    "requiredTags": ["consulting", "strategy", "process", "leadership"],
-    "bonusTags": ["coaching", "analytics", "communication"],
+    "requiredTags": [
+      "consulting",
+      "strategy",
+      "process",
+      "leadership"
+    ],
+    "bonusTags": [
+      "coaching",
+      "analytics",
+      "communication"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Die Kombination aus technischem Tiefgang, strategischem Ueberblick und Coaching-Faehigkeit macht ihn zum Senior Consultant, der Projekte ganzheitlich steuert."
+    "whyFit": "Die Kombination aus technischem Tiefgang, strategischem Ueberblick und Coaching-Faehigkeit macht ihn zum Senior Consultant, der Projekte ganzheitlich steuert.",
+    "uniqueValue": "Kombiniert technischen Tiefgang mit strategischem Ueberblick und systemischem Coaching-Ansatz. Ihre Beratungsprojekte werden ganzheitlich gesteuert -- von der Analyse bis zur menschlichen Verankerung."
   },
   {
     "id": "bereichsleiter-technik",
@@ -509,11 +927,21 @@
     "category": "Engineering & Technik",
     "companyType": "Mittelstand, Maschinenbau, Automotive-Zulieferer, Anlagenbau",
     "description": "Leitet den gesamten technischen Bereich eines Unternehmens mit mehreren Teams und verantwortet technische Entwicklung und Innovation.",
-    "requiredTags": ["engineering", "leadership", "management", "team-building"],
-    "bonusTags": ["innovation", "strategy", "p-and-l"],
+    "requiredTags": [
+      "engineering",
+      "leadership",
+      "management",
+      "team-building"
+    ],
+    "bonusTags": [
+      "innovation",
+      "strategy",
+      "p-and-l"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Sein Engineering-Fundament, seine Fuehrungserfahrung und die Faehigkeit, Teams aufzubauen und zu inspirieren, qualifizieren ihn fuer die technische Bereichsleitung."
+    "whyFit": "Sein Engineering-Fundament, seine Fuehrungserfahrung und die Faehigkeit, Teams aufzubauen und zu inspirieren, qualifizieren ihn fuer die technische Bereichsleitung.",
+    "uniqueValue": "Bringt Engineering-Fundament, Coaching-Ausbildung und P&L-Verantwortungserfahrung mit. Ihre technische Bereichsleitung bekommt jemanden, der Innovation vorantreibt und gleichzeitig Teams nachhaltig aufbaut."
   },
   {
     "id": "technischer-geschaeftsfuehrer",
@@ -521,11 +949,21 @@
     "category": "Engineering & Technik",
     "companyType": "Mittelstand, KMU, technische Unternehmen, Ingenieurbueros",
     "description": "Fuehrt als technischer Geschaeftsfuehrer ein Unternehmen mit Fokus auf Produktentwicklung, Innovation und technische Strategie.",
-    "requiredTags": ["engineering", "leadership", "strategy", "p-and-l"],
-    "bonusTags": ["management", "innovation", "business"],
+    "requiredTags": [
+      "engineering",
+      "leadership",
+      "strategy",
+      "p-and-l"
+    ],
+    "bonusTags": [
+      "management",
+      "innovation",
+      "business"
+    ],
     "minClusters": 3,
     "isRevelation": false,
-    "whyFit": "Die seltene Kombination aus tiefem technischem Verstaendnis, strategischem Geschaeftssinn und Fuehrungsqualitaeten macht ihn zum idealen technischen GF fuer den Mittelstand."
+    "whyFit": "Die seltene Kombination aus tiefem technischem Verstaendnis, strategischem Geschaeftssinn und Fuehrungsqualitaeten macht ihn zum idealen technischen GF fuer den Mittelstand.",
+    "uniqueValue": "Vereint tiefes Engineering-Wissen mit Geschaeftsfuehrungs-Erfahrung und KI-Kompetenz. Sie bekommen einen technischen GF, der im Maschinenraum genauso zu Hause ist wie im Strategiemeeting."
   },
   {
     "id": "leiter-weiterbildung",
@@ -533,11 +971,21 @@
     "category": "Bildung & Lehre",
     "companyType": "IHKs, Bildungstraeger, Akademien, Konzerne",
     "description": "Leitet die Weiterbildungsabteilung und entwickelt zielgruppengerechte Programme fuer berufliche Qualifizierung.",
-    "requiredTags": ["adult-education", "leadership-development", "training", "coaching"],
-    "bonusTags": ["curriculum", "methodology", "facilitation"],
+    "requiredTags": [
+      "adult-education",
+      "leadership-development",
+      "training",
+      "coaching"
+    ],
+    "bonusTags": [
+      "curriculum",
+      "methodology",
+      "facilitation"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine Erfahrung in Erwachsenenbildung und Coaching, verbunden mit strategischem Denken und Fuehrungskompetenz, machen ihn zum wirkungsvollen Weiterbildungsleiter."
+    "whyFit": "Seine Erfahrung in Erwachsenenbildung und Coaching, verbunden mit strategischem Denken und Fuehrungskompetenz, machen ihn zum wirkungsvollen Weiterbildungsleiter.",
+    "uniqueValue": "Kombiniert Hochschuldidaktik, Coaching-Zertifizierung und KI-Kompetenz in der Weiterbildungsleitung. Ihre Programme werden wissenschaftlich fundiert, modern und auf echten Lerntransfer ausgerichtet."
   },
   {
     "id": "leiter-ausbildung",
@@ -545,11 +993,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Mittelstand, Konzerne, Handwerksbetriebe, oeffentlicher Dienst",
     "description": "Verantwortet die betriebliche Ausbildung und gestaltet Ausbildungsprogramme fuer den Nachwuchs.",
-    "requiredTags": ["education", "training", "curriculum", "teaching"],
-    "bonusTags": ["leadership", "coaching", "stem"],
+    "requiredTags": [
+      "education",
+      "training",
+      "curriculum",
+      "teaching"
+    ],
+    "bonusTags": [
+      "leadership",
+      "coaching",
+      "stem"
+    ],
     "minClusters": 1,
     "isRevelation": false,
-    "whyFit": "Seine didaktische Kompetenz und Freude an der Entwicklung junger Menschen, gepaart mit technischem Hintergrund, praedestinieren ihn fuer die Ausbildungsleitung."
+    "whyFit": "Seine didaktische Kompetenz und Freude an der Entwicklung junger Menschen, gepaart mit technischem Hintergrund, praedestinieren ihn fuer die Ausbildungsleitung.",
+    "uniqueValue": "Bringt Engineering-Hintergrund, didaktische Kompetenz und Neurodiversitaets-Verstaendnis in die Ausbildungsleitung. Ihre Azubis lernen von jemandem, der technische Exzellenz und individuelle Foerderung vereint."
   },
   {
     "id": "head-of-people-analytics",
@@ -557,11 +1015,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, Tech-Unternehmen, HR-Tech-Firmen",
     "description": "Baut datengetriebene HR-Analyse auf und liefert Erkenntnisse zu Talent, Engagement und Organisationsentwicklung.",
-    "requiredTags": ["analytics", "data", "leadership", "talent"],
-    "bonusTags": ["bi", "kpi", "dashboards"],
+    "requiredTags": [
+      "analytics",
+      "data",
+      "leadership",
+      "talent"
+    ],
+    "bonusTags": [
+      "bi",
+      "kpi",
+      "dashboards"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine Datenanalyse-Faehigkeiten aus der Engineering-Welt, kombiniert mit People-Verstaendnis aus dem Coaching, machen ihn zum People-Analytics-Leader mit echtem Tiefgang."
+    "whyFit": "Seine Datenanalyse-Faehigkeiten aus der Engineering-Welt, kombiniert mit People-Verstaendnis aus dem Coaching, machen ihn zum People-Analytics-Leader mit echtem Tiefgang.",
+    "uniqueValue": "Vereint Datenanalyse aus dem Engineering mit Coaching-basiertem People-Verstaendnis. Ihre People Analytics werden von jemandem aufgebaut, der Zahlen interpretiert UND die Menschen dahinter versteht."
   },
   {
     "id": "fuehrungskraefteentwickler",
@@ -569,11 +1037,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Konzerne, Beratungen, Akademien, grosse Mittelstaendler",
     "description": "Konzipiert und begleitet Programme zur Entwicklung von Fuehrungskraeften auf verschiedenen Hierarchieebenen.",
-    "requiredTags": ["leadership-development", "coaching", "training", "values"],
-    "bonusTags": ["facilitation", "adult-education", "methodology"],
+    "requiredTags": [
+      "leadership-development",
+      "coaching",
+      "training",
+      "values"
+    ],
+    "bonusTags": [
+      "facilitation",
+      "adult-education",
+      "methodology"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Christians eigene Fuehrungserfahrung, sein Coaching-Hintergrund und sein Werte-Fokus machen seine Fuehrungskraefteentwicklung besonders authentisch und wirkungsvoll."
+    "whyFit": "Christians eigene Fuehrungserfahrung, sein Coaching-Hintergrund und sein Werte-Fokus machen seine Fuehrungskraefteentwicklung besonders authentisch und wirkungsvoll.",
+    "uniqueValue": "Kombiniert eigene Fuehrungserfahrung, St. Galler Coaching-Zertifizierung und Didaktik-Expertise. Ihre Fuehrungskraefteentwicklung wird von jemandem gestaltet, der Fuehrung nicht nur lehrt, sondern gelebt hat."
   },
   {
     "id": "campus-manager",
@@ -581,11 +1059,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Bildungstraeger, Corporate Universities, Hochschulen",
     "description": "Leitet einen Bildungsstandort und koordiniert Lehrangebot, Personal und operative Ablaeufe.",
-    "requiredTags": ["education", "leadership", "management", "adult-education"],
-    "bonusTags": ["curriculum", "stakeholder", "coaching"],
+    "requiredTags": [
+      "education",
+      "leadership",
+      "management",
+      "adult-education"
+    ],
+    "bonusTags": [
+      "curriculum",
+      "stakeholder",
+      "coaching"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Seine Bildungserfahrung, Fuehrungskompetenz und Organisationstalent machen ihn zum geeigneten Leiter eines Bildungsstandorts."
+    "whyFit": "Seine Bildungserfahrung, Fuehrungskompetenz und Organisationstalent machen ihn zum geeigneten Leiter eines Bildungsstandorts.",
+    "uniqueValue": "Bringt Bildungserfahrung, Fuehrungskompetenz und KI-Innovations-Verstaendnis mit. Ihr Bildungsstandort wird von jemandem geleitet, der paedagogische Qualitaet und operative Exzellenz verbindet."
   },
   {
     "id": "akademieleiter",
@@ -593,11 +1081,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Akademien, Weiterbildungsinstitute, Konzern-Akademien",
     "description": "Fuehrt eine Akademie oder Bildungsinstitution und verantwortet Programm, Dozenten und strategische Ausrichtung.",
-    "requiredTags": ["education", "leadership", "curriculum", "coaching"],
-    "bonusTags": ["strategy", "adult-education", "management"],
+    "requiredTags": [
+      "education",
+      "leadership",
+      "curriculum",
+      "coaching"
+    ],
+    "bonusTags": [
+      "strategy",
+      "adult-education",
+      "management"
+    ],
     "minClusters": 2,
     "isRevelation": false,
-    "whyFit": "Die Verbindung aus Bildungskompetenz, Coaching-Erfahrung und Fuehrungsqualitaeten befaehigt ihn, eine Akademie sowohl inhaltlich als auch unternehmerisch zu leiten."
+    "whyFit": "Die Verbindung aus Bildungskompetenz, Coaching-Erfahrung und Fuehrungsqualitaeten befaehigt ihn, eine Akademie sowohl inhaltlich als auch unternehmerisch zu leiten.",
+    "uniqueValue": "Vereint Coaching-Expertise, Curriculum-Kompetenz und unternehmerisches Denken. Ihre Akademie bekommt einen Leiter, der inhaltliche Tiefe mit strategischer Geschaeftsfuehrung verbindet."
   },
   {
     "id": "chief-learning-officer",
@@ -605,11 +1103,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, Tech-Unternehmen, innovative Mittelstaendler",
     "description": "Gestaltet als C-Level-Fuehrungskraft die gesamte Lernstrategie eines Unternehmens und integriert modernste Technologien wie KI in Bildungsprozesse.",
-    "requiredTags": ["leadership", "education", "ai", "strategy"],
-    "bonusTags": ["learning-design", "curriculum", "transformation"],
+    "requiredTags": [
+      "leadership",
+      "education",
+      "ai",
+      "strategy"
+    ],
+    "bonusTags": [
+      "learning-design",
+      "curriculum",
+      "transformation"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christians einzigartige Kombination aus KI-Expertise, Bildungskompetenz und Fuehrungserfahrung macht ihn zum CLO, der Lernen wirklich in die Zukunft fuehrt."
+    "whyFit": "Christians einzigartige Kombination aus KI-Expertise, Bildungskompetenz und Fuehrungserfahrung macht ihn zum CLO, der Lernen wirklich in die Zukunft fuehrt.",
+    "uniqueValue": "Bringt KI-Entwicklungserfahrung, Hochschuldidaktik und C-Level-Fuehrungskompetenz zusammen. Sie bekommen einen CLO, der Lerntechnologie nicht nur einkauft, sondern selbst bauen und bewerten kann."
   },
   {
     "id": "neurodivergent-workplace-designer",
@@ -617,11 +1125,21 @@
     "category": "People & Kultur",
     "companyType": "Tech-Konzerne, progressive Unternehmen, HR-Beratungen",
     "description": "Gestaltet Arbeitsumgebungen und -prozesse, die neurodivergente Talente optimal einbinden und deren Staerken nutzen.",
-    "requiredTags": ["neurodiversity", "design-system", "inclusion", "coaching"],
-    "bonusTags": ["adhd", "hsp", "culture"],
+    "requiredTags": [
+      "neurodiversity",
+      "design-system",
+      "inclusion",
+      "coaching"
+    ],
+    "bonusTags": [
+      "adhd",
+      "hsp",
+      "culture"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Als selbst neurodivergenter Coach mit Design-System-Erfahrung versteht Christian die Beduerfnisse aus erster Hand und kann Arbeitsumgebungen schaffen, die wirklich funktionieren."
+    "whyFit": "Als selbst neurodivergenter Coach mit Design-System-Erfahrung versteht Christian die Beduerfnisse aus erster Hand und kann Arbeitsumgebungen schaffen, die wirklich funktionieren.",
+    "uniqueValue": "Vereint eigene neurodivergente Erfahrung mit Design-System-Kompetenz und Coaching-Ausbildung. Ihre inklusiven Arbeitsumgebungen werden von jemandem gestaltet, der die Beduerfnisse aus erster Hand kennt."
   },
   {
     "id": "ai-ethics-and-governance-lead",
@@ -629,11 +1147,21 @@
     "category": "Innovation & Digital",
     "companyType": "Konzerne, Tech-Unternehmen, Regulierungsbehoerden",
     "description": "Entwickelt ethische Leitlinien und Governance-Frameworks fuer den verantwortungsvollen Einsatz von Kuenstlicher Intelligenz.",
-    "requiredTags": ["ai", "values", "strategy", "leadership"],
-    "bonusTags": ["coaching", "standards", "communication"],
+    "requiredTags": [
+      "ai",
+      "values",
+      "strategy",
+      "leadership"
+    ],
+    "bonusTags": [
+      "coaching",
+      "standards",
+      "communication"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine tiefe KI-Praxis, kombiniert mit wertebasiertem Coaching und ethischem Bewusstsein, befaehigt ihn, KI-Governance mit echtem Verstaendnis fuer Technologie UND Mensch zu gestalten."
+    "whyFit": "Seine tiefe KI-Praxis, kombiniert mit wertebasiertem Coaching und ethischem Bewusstsein, befaehigt ihn, KI-Governance mit echtem Verstaendnis fuer Technologie UND Mensch zu gestalten.",
+    "uniqueValue": "Kombiniert produktive KI-Entwicklungserfahrung mit wertebasiertem Coaching und Engineering-Ethik. Ihre KI-Governance wird von jemandem verantwortet, der Technologie versteht UND ethische Reflexion lebt."
   },
   {
     "id": "innovation-lab-director",
@@ -641,11 +1169,21 @@
     "category": "Innovation & Digital",
     "companyType": "Konzerne, Forschungseinrichtungen, Tech-Unternehmen",
     "description": "Leitet ein Innovationslabor, in dem neue Geschaeftsmodelle, Technologien und Produkte prototypisch entwickelt werden.",
-    "requiredTags": ["innovation", "leadership", "ai", "startup"],
-    "bonusTags": ["research", "product-development", "strategy"],
+    "requiredTags": [
+      "innovation",
+      "leadership",
+      "ai",
+      "startup"
+    ],
+    "bonusTags": [
+      "research",
+      "product-development",
+      "strategy"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine Startup-Erfahrung, KI-Kompetenz und Innovationsfreude machen ihn zum Lab Director, der sowohl die technische als auch die unternehmerische Seite versteht."
+    "whyFit": "Seine Startup-Erfahrung, KI-Kompetenz und Innovationsfreude machen ihn zum Lab Director, der sowohl die technische als auch die unternehmerische Seite versteht.",
+    "uniqueValue": "Bringt Gruendungserfahrung, KI-Hands-on-Kompetenz und Coaching-Fuehrung zusammen. Ihr Innovation Lab wird von jemandem geleitet, der Prototypen selbst bauen kann und Teams zu Hochleistung coacht."
   },
   {
     "id": "human-ai-interaction-researcher",
@@ -653,11 +1191,21 @@
     "category": "Innovation & Digital",
     "companyType": "Forschungsinstitute, Tech-Konzerne, Universitaeten",
     "description": "Erforscht die Schnittstelle zwischen Mensch und KI und entwickelt Erkenntnisse fuer bessere Mensch-Maschine-Zusammenarbeit.",
-    "requiredTags": ["ai", "coaching", "research", "neuroscience"],
-    "bonusTags": ["values", "systemic", "learning"],
+    "requiredTags": [
+      "ai",
+      "coaching",
+      "research",
+      "neuroscience"
+    ],
+    "bonusTags": [
+      "values",
+      "systemic",
+      "learning"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christians Verstaendnis fuer menschliches Verhalten aus dem Coaching, kombiniert mit praktischer KI-Erfahrung und wissenschaftlichem Denken, macht ihn zum einzigartigen Forscher an dieser Schnittstelle."
+    "whyFit": "Christians Verstaendnis fuer menschliches Verhalten aus dem Coaching, kombiniert mit praktischer KI-Erfahrung und wissenschaftlichem Denken, macht ihn zum einzigartigen Forscher an dieser Schnittstelle.",
+    "uniqueValue": "Vereint praktische KI-Entwicklung, Coaching-Verstaendnis fuer menschliches Verhalten und wissenschaftliches Denken. Sie bekommen einen Forscher, der beide Seiten der Mensch-KI-Schnittstelle aus Erfahrung kennt."
   },
   {
     "id": "head-of-employee-experience",
@@ -665,11 +1213,21 @@
     "category": "People & Kultur",
     "companyType": "Tech-Unternehmen, Konzerne, progressive Mittelstaendler",
     "description": "Gestaltet die gesamte Mitarbeitererfahrung vom Onboarding bis zum Offboarding und schafft eine Kultur, in der Menschen aufbluehen.",
-    "requiredTags": ["coaching", "culture", "leadership", "values"],
-    "bonusTags": ["org-development", "inclusion", "stakeholder"],
+    "requiredTags": [
+      "coaching",
+      "culture",
+      "leadership",
+      "values"
+    ],
+    "bonusTags": [
+      "org-development",
+      "inclusion",
+      "stakeholder"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Sein Coaching-Ansatz und tiefes Verstaendnis fuer menschliche Beduerfnisse befaehigen ihn, eine Employee Experience zu schaffen, die ueber Obstkorbpolitik hinausgeht."
+    "whyFit": "Sein Coaching-Ansatz und tiefes Verstaendnis fuer menschliche Beduerfnisse befaehigen ihn, eine Employee Experience zu schaffen, die ueber Obstkorbpolitik hinausgeht.",
+    "uniqueValue": "Kombiniert systemisches Coaching, Neurodiversitaets-Expertise und datengetriebenes Denken. Ihre Employee Experience wird von jemandem gestaltet, der ueber Employer Branding hinaus echte Beduerfnisse adressiert."
   },
   {
     "id": "tech-company-culture-architect",
@@ -677,11 +1235,21 @@
     "category": "People & Kultur",
     "companyType": "Tech-Unternehmen, Scale-ups, digitale Plattformen",
     "description": "Gestaltet die Unternehmenskultur in Tech-Unternehmen und verbindet technische Exzellenz mit menschenzentrierter Fuehrung.",
-    "requiredTags": ["culture", "coaching", "leadership", "ai"],
-    "bonusTags": ["values", "team-dynamics", "innovation"],
+    "requiredTags": [
+      "culture",
+      "coaching",
+      "leadership",
+      "ai"
+    ],
+    "bonusTags": [
+      "values",
+      "team-dynamics",
+      "innovation"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Die seltene Kombination aus Tech-Verstaendnis, Coaching-Expertise und Kulturgestaltungskompetenz macht ihn zum Culture Architect, der beide Welten spricht."
+    "whyFit": "Die seltene Kombination aus Tech-Verstaendnis, Coaching-Expertise und Kulturgestaltungskompetenz macht ihn zum Culture Architect, der beide Welten spricht.",
+    "uniqueValue": "Bringt eigene Engineering-Erfahrung, Coaching-Zertifizierung und KI-Kompetenz mit. Ihre Tech-Kultur wird von jemandem gestaltet, der die Engineering-Mentalitaet von innen kennt und transformieren kann."
   },
   {
     "id": "edtech-product-manager",
@@ -689,11 +1257,21 @@
     "category": "Innovation & Digital",
     "companyType": "EdTech-Startups, Bildungsplattformen, Verlage mit Digital-Sparte",
     "description": "Verantwortet die Produktentwicklung einer Bildungstechnologie-Plattform und verbindet paedagogische Anforderungen mit technischer Umsetzung.",
-    "requiredTags": ["education", "ai", "product-development", "strategy"],
-    "bonusTags": ["learning-design", "web-development", "startup"],
+    "requiredTags": [
+      "education",
+      "ai",
+      "product-development",
+      "strategy"
+    ],
+    "bonusTags": [
+      "learning-design",
+      "web-development",
+      "startup"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Sein tiefes Bildungsverstaendnis, KI-Kompetenz und Produktentwicklungserfahrung machen ihn zum EdTech PM, der Paedagogik und Technologie wirklich zusammenbringt."
+    "whyFit": "Sein tiefes Bildungsverstaendnis, KI-Kompetenz und Produktentwicklungserfahrung machen ihn zum EdTech PM, der Paedagogik und Technologie wirklich zusammenbringt.",
+    "uniqueValue": "Vereint Hochschuldidaktik, KI-Entwicklungskompetenz und Produkterfahrung aus der Industrie. Ihr EdTech-Produkt wird von jemandem verantwortet, der Paedagogik, Technik und Geschaeftsmodell gleichermassen durchdringt."
   },
   {
     "id": "digital-coaching-platform-founder",
@@ -701,11 +1279,21 @@
     "category": "Innovation & Digital",
     "companyType": "Eigene Gruendung, Venture-backed Startup, Inkubator",
     "description": "Gruendet und entwickelt eine digitale Coaching-Plattform, die KI-gestuetzte Coaching-Tools mit menschlicher Expertise verbindet.",
-    "requiredTags": ["coaching", "ai", "web-development", "startup"],
-    "bonusTags": ["business-planning", "values", "automation"],
+    "requiredTags": [
+      "coaching",
+      "ai",
+      "web-development",
+      "startup"
+    ],
+    "bonusTags": [
+      "business-planning",
+      "values",
+      "automation"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christian vereint Coaching-Zertifizierung, KI-Kompetenz, Web-Entwicklung und Gruendergeist – die perfekte Basis fuer eine innovative Coaching-Plattform."
+    "whyFit": "Christian vereint Coaching-Zertifizierung, KI-Kompetenz, Web-Entwicklung und Gruendergeist – die perfekte Basis fuer eine innovative Coaching-Plattform.",
+    "uniqueValue": "Kombiniert zertifizierte Coaching-Praxis, produktive KI-Entwicklung und Web-Programmierung in einer Person. Sie bekommen einen Gruender, der das Produkt selbst bauen, die Methodik sichern und das Business fuehren kann."
   },
   {
     "id": "industrial-transformation-coach",
@@ -713,11 +1301,21 @@
     "category": "Transformation & Change",
     "companyType": "Industriekonzerne, Automotive-Unternehmen, Maschinenbauer",
     "description": "Begleitet Industrieunternehmen bei der tiefgreifenden Transformation und coacht Fuehrungskraefte durch den Wandel von traditioneller zu moderner Industrie.",
-    "requiredTags": ["coaching", "engineering", "change-management", "leadership"],
-    "bonusTags": ["automotive", "transformation", "culture"],
+    "requiredTags": [
+      "coaching",
+      "engineering",
+      "change-management",
+      "leadership"
+    ],
+    "bonusTags": [
+      "automotive",
+      "transformation",
+      "culture"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Als Ingenieur, der zum Coach wurde, versteht Christian die Sprache und Kultur der Industrie und kann Transformation von innen heraus gestalten."
+    "whyFit": "Als Ingenieur, der zum Coach wurde, versteht Christian die Sprache und Kultur der Industrie und kann Transformation von innen heraus gestalten.",
+    "uniqueValue": "Bringt eigene Ingenieur-Karriere, Coaching-Ausbildung und KI-Kompetenz zusammen. Ihre Industrietransformation wird von jemandem begleitet, der die Werkshallensprache spricht und Fuehrungskraefte auf Augenhoehe coacht."
   },
   {
     "id": "chief-knowledge-officer",
@@ -725,11 +1323,21 @@
     "category": "Innovation & Digital",
     "companyType": "Konzerne, Beratungen, wissensintensive Unternehmen",
     "description": "Verantwortet als C-Level das Wissensmanagement und die strategische Nutzung von KI fuer organisationales Lernen und Wissenssicherung.",
-    "requiredTags": ["ai", "leadership", "education", "process"],
-    "bonusTags": ["strategy", "automation", "analytics"],
+    "requiredTags": [
+      "ai",
+      "leadership",
+      "education",
+      "process"
+    ],
+    "bonusTags": [
+      "strategy",
+      "automation",
+      "analytics"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine KI-Kompetenz fuer Wissensverarbeitung, Bildungshintergrund und Prozessverstaendnis machen ihn zum CKO, der Wissensmanagement ins KI-Zeitalter fuehrt."
+    "whyFit": "Seine KI-Kompetenz fuer Wissensverarbeitung, Bildungshintergrund und Prozessverstaendnis machen ihn zum CKO, der Wissensmanagement ins KI-Zeitalter fuehrt.",
+    "uniqueValue": "Vereint KI-Entwicklungserfahrung, Didaktik-Kompetenz und Prozessverstaendnis auf C-Level. Ihr Wissensmanagement wird von jemandem ins KI-Zeitalter gefuehrt, der Technologie UND Wissensvermittlung versteht."
   },
   {
     "id": "organizational-physicist",
@@ -737,11 +1345,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Innovative Beratungen, Forschungseinrichtungen, Think Tanks",
     "description": "Uebertraegt Prinzipien aus Physik und Ingenieurwissenschaften auf Organisationsdynamiken und entwickelt neue Modelle fuer systemische Zusammenhaenge.",
-    "requiredTags": ["engineering", "org-development", "systemic", "research"],
-    "bonusTags": ["physics", "coaching", "innovation"],
+    "requiredTags": [
+      "engineering",
+      "org-development",
+      "systemic",
+      "research"
+    ],
+    "bonusTags": [
+      "physics",
+      "coaching",
+      "innovation"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christians einzigartige Verbindung aus Physik-/Ingenieurhintergrund und systemischem Coaching-Denken ermoeglicht ihm, Organisationen mit naturwissenschaftlicher Praezision zu analysieren."
+    "whyFit": "Christians einzigartige Verbindung aus Physik-/Ingenieurhintergrund und systemischem Coaching-Denken ermoeglicht ihm, Organisationen mit naturwissenschaftlicher Praezision zu analysieren.",
+    "uniqueValue": "Kombiniert Physik- und Ingenieurhintergrund mit systemischem Coaching-Ansatz. Sie bekommen einen OE-Berater, der Organisationsdynamiken mit naturwissenschaftlicher Praezision modelliert und menschlich interveniert."
   },
   {
     "id": "ai-coaching-hybridrolle",
@@ -749,11 +1367,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Tech-Unternehmen, HR-Tech, innovative Beratungen",
     "description": "Verbindet KI-Expertise mit Coaching-Kompetenz und entwickelt neue Ansaetze, in denen KI-Tools Coaching-Prozesse unterstuetzen und ergaenzen.",
-    "requiredTags": ["ai", "coaching", "automation", "values"],
-    "bonusTags": ["prompt-engineering", "methodology", "systemic"],
+    "requiredTags": [
+      "ai",
+      "coaching",
+      "automation",
+      "values"
+    ],
+    "bonusTags": [
+      "prompt-engineering",
+      "methodology",
+      "systemic"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Christian lebt diese Hybridrolle bereits – er nutzt KI als Werkzeug im Coaching und kann als einer der wenigen beide Welten authentisch verbinden."
+    "whyFit": "Christian lebt diese Hybridrolle bereits – er nutzt KI als Werkzeug im Coaching und kann als einer der wenigen beide Welten authentisch verbinden.",
+    "uniqueValue": "Bringt zertifizierte Coaching-Praxis und produktive KI-Entwicklung in einer Person zusammen. Ihre KI-gestuetzten Coaching-Ansaetze werden von jemandem entwickelt, der beide Disziplinen auf Expertenniveau lebt."
   },
   {
     "id": "design-thinking-facilitator",
@@ -761,11 +1389,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Beratungen, Innovationsagenturen, Konzerne mit Innovationsabteilung",
     "description": "Moderiert Design-Thinking-Workshops und begleitet Teams bei der nutzerzentrierten Problemloesung und Ideenentwicklung.",
-    "requiredTags": ["facilitation", "innovation", "coaching", "methodology"],
-    "bonusTags": ["team-dynamics", "communication", "systemic"],
+    "requiredTags": [
+      "facilitation",
+      "innovation",
+      "coaching",
+      "methodology"
+    ],
+    "bonusTags": [
+      "team-dynamics",
+      "communication",
+      "systemic"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Seine Moderationskompetenz, sein methodisches Fundament und die Faehigkeit, diverse Teams zu kreativer Zusammenarbeit zu fuehren, machen ihn zum starken DT-Facilitator."
+    "whyFit": "Seine Moderationskompetenz, sein methodisches Fundament und die Faehigkeit, diverse Teams zu kreativer Zusammenarbeit zu fuehren, machen ihn zum starken DT-Facilitator.",
+    "uniqueValue": "Vereint systemisches Coaching, Engineering-Problemloesungskompetenz und interkulturelle Erfahrung. Ihre Design-Thinking-Workshops werden von jemandem moderiert, der methodische Tiefe mit echtem Innovationsverstaendnis verbindet."
   },
   {
     "id": "future-of-work-strategist",
@@ -773,11 +1411,21 @@
     "category": "Transformation & Change",
     "companyType": "Konzerne, Beratungen, Think Tanks, HR-Tech",
     "description": "Entwickelt Strategien fuer die Zukunft der Arbeit und beratet Unternehmen, wie KI, Remote Work und neue Arbeitsmodelle integriert werden koennen.",
-    "requiredTags": ["ai", "strategy", "leadership", "transformation"],
-    "bonusTags": ["coaching", "neurodiversity", "culture"],
+    "requiredTags": [
+      "ai",
+      "strategy",
+      "leadership",
+      "transformation"
+    ],
+    "bonusTags": [
+      "coaching",
+      "neurodiversity",
+      "culture"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine Erfahrung mit KI, Transformation und Coaching sowie sein Verstaendnis fuer neurodivergente Arbeitsweisen machen ihn zum glaubwuerdigen Vordenker fuer die Arbeitswelt von morgen."
+    "whyFit": "Seine Erfahrung mit KI, Transformation und Coaching sowie sein Verstaendnis fuer neurodivergente Arbeitsweisen machen ihn zum glaubwuerdigen Vordenker fuer die Arbeitswelt von morgen.",
+    "uniqueValue": "Kombiniert KI-Praxis, Coaching-Expertise und Neurodiversitaets-Erfahrung. Ihre Future-of-Work-Strategie wird von jemandem entwickelt, der Technologie, Menschlichkeit und Inklusion nicht als Widerspruch begreift."
   },
   {
     "id": "head-of-neurodiversity-and-inclusion",
@@ -785,11 +1433,21 @@
     "category": "People & Kultur",
     "companyType": "Tech-Konzerne, progressive Unternehmen, DEI-Beratungen",
     "description": "Leitet die Neurodiversitaets- und Inklusions-Strategie und schafft Rahmenbedingungen, in denen neurodivergente Talente ihr Potenzial entfalten.",
-    "requiredTags": ["neurodiversity", "inclusion", "coaching", "leadership"],
-    "bonusTags": ["adhd", "hsp", "culture"],
+    "requiredTags": [
+      "neurodiversity",
+      "inclusion",
+      "coaching",
+      "leadership"
+    ],
+    "bonusTags": [
+      "adhd",
+      "hsp",
+      "culture"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Als selbst Betroffener mit Coaching-Expertise und Fuehrungserfahrung bringt Christian die Authentizitaet und Fachkompetenz mit, die diese Rolle braucht."
+    "whyFit": "Als selbst Betroffener mit Coaching-Expertise und Fuehrungserfahrung bringt Christian die Authentizitaet und Fachkompetenz mit, die diese Rolle braucht.",
+    "uniqueValue": "Bringt eigene neurodivergente Erfahrung, Coaching-Zertifizierung und Fuehrungskompetenz mit. Sie bekommen eine Leitung, die Inklusion nicht theoretisch predigt, sondern aus gelebter Erfahrung gestaltet."
   },
   {
     "id": "technical-evangelist",
@@ -797,11 +1455,21 @@
     "category": "Innovation & Digital",
     "companyType": "Tech-Unternehmen, KI-Firmen, Developer-Relations-Teams",
     "description": "Vermittelt technische Innovationen nach innen und aussen, haelt Vortraege und begeistert Communities fuer neue Technologien.",
-    "requiredTags": ["engineering", "communication", "ai", "training"],
-    "bonusTags": ["writing", "innovation", "teaching"],
+    "requiredTags": [
+      "engineering",
+      "communication",
+      "ai",
+      "training"
+    ],
+    "bonusTags": [
+      "writing",
+      "innovation",
+      "teaching"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christians Faehigkeit, komplexe technische Themen verstaendlich und begeisternd zu kommunizieren, verbunden mit seinem breiten Tech-Wissen, macht ihn zum idealen Evangelisten."
+    "whyFit": "Christians Faehigkeit, komplexe technische Themen verstaendlich und begeisternd zu kommunizieren, verbunden mit seinem breiten Tech-Wissen, macht ihn zum idealen Evangelisten.",
+    "uniqueValue": "Vereint breites Tech-Wissen von Engineering ueber KI bis Web, Hochschuldidaktik und Kommunikationsstaerke. Ihre Technologie-Kommunikation wird von jemandem getragen, der komplexe Themen begeisternd vermittelt."
   },
   {
     "id": "learning-experience-architect",
@@ -809,11 +1477,21 @@
     "category": "Bildung & Lehre",
     "companyType": "EdTech, Konzerne, Bildungsinnovatoren, E-Learning-Anbieter",
     "description": "Gestaltet ganzheitliche Lernerfahrungen unter Einbezug von Neurowissenschaft, KI und modernem Instructional Design.",
-    "requiredTags": ["learning-design", "neuroscience", "ai", "education"],
-    "bonusTags": ["curriculum", "design-system", "methodology"],
+    "requiredTags": [
+      "learning-design",
+      "neuroscience",
+      "ai",
+      "education"
+    ],
+    "bonusTags": [
+      "curriculum",
+      "design-system",
+      "methodology"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Die Verbindung aus neurowissenschaftlichem Verstaendnis, KI-Kompetenz und Lerndesign-Erfahrung ermoeglicht ihm, Lernerfahrungen zu schaffen, die wirklich im Gehirn ankommen."
+    "whyFit": "Die Verbindung aus neurowissenschaftlichem Verstaendnis, KI-Kompetenz und Lerndesign-Erfahrung ermoeglicht ihm, Lernerfahrungen zu schaffen, die wirklich im Gehirn ankommen.",
+    "uniqueValue": "Kombiniert Neurowissenschafts-Verstaendnis, KI-Entwicklung und Hochschuldidaktik. Ihre Lernerfahrungen werden von jemandem architektonisch gestaltet, der weiss, wie Gehirne lernen und wie Technologie dabei hilft."
   },
   {
     "id": "workforce-transformation-lead",
@@ -821,11 +1499,21 @@
     "category": "Transformation & Change",
     "companyType": "Konzerne, Beratungen, Unternehmen in der Industrietransformation",
     "description": "Steuert die Transformation der Belegschaft und entwickelt Strategien fuer Upskilling, Reskilling und neue Arbeitsmodelle.",
-    "requiredTags": ["transformation", "leadership", "ai", "coaching"],
-    "bonusTags": ["training", "change-management", "strategy"],
+    "requiredTags": [
+      "transformation",
+      "leadership",
+      "ai",
+      "coaching"
+    ],
+    "bonusTags": [
+      "training",
+      "change-management",
+      "strategy"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christian versteht sowohl die technische Seite der Transformation als auch die menschliche – er kann Belegschaften coachen UND die noetige KI-Kompetenz vermitteln."
+    "whyFit": "Christian versteht sowohl die technische Seite der Transformation als auch die menschliche – er kann Belegschaften coachen UND die noetige KI-Kompetenz vermitteln.",
+    "uniqueValue": "Bringt Engineering-Transformationserfahrung, Coaching-Kompetenz und KI-Praxis zusammen. Ihre Belegschaftstransformation wird von jemandem gesteuert, der Upskilling selbst vorlebt und menschlich begleitet."
   },
   {
     "id": "head-of-digital-transformation",
@@ -833,11 +1521,21 @@
     "category": "Transformation & Change",
     "companyType": "Mittelstand, Konzerne, oeffentlicher Sektor",
     "description": "Leitet die digitale Transformation des Unternehmens und verbindet technologische Innovation mit organisatorischem Wandel.",
-    "requiredTags": ["ai", "transformation", "leadership", "strategy"],
-    "bonusTags": ["change-management", "automation", "innovation"],
+    "requiredTags": [
+      "ai",
+      "transformation",
+      "leadership",
+      "strategy"
+    ],
+    "bonusTags": [
+      "change-management",
+      "automation",
+      "innovation"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Seine Hands-on-KI-Erfahrung, gepaart mit Transformations- und Fuehrungskompetenz, macht ihn zum Digitalisierungsleiter, der nicht nur Strategie, sondern auch Umsetzung kann."
+    "whyFit": "Seine Hands-on-KI-Erfahrung, gepaart mit Transformations- und Fuehrungskompetenz, macht ihn zum Digitalisierungsleiter, der nicht nur Strategie, sondern auch Umsetzung kann.",
+    "uniqueValue": "Vereint Hands-on-KI-Entwicklung, Change-Management und Fuehrungserfahrung. Ihre Digitalisierung wird von jemandem geleitet, der nicht nur Strategie-Decks erstellt, sondern Technologie selbst implementiert."
   },
   {
     "id": "stem-education-innovator",
@@ -845,11 +1543,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Bildungsinnovatoren, EdTech, Stiftungen, Ministerien",
     "description": "Entwickelt innovative Konzepte fuer MINT-Bildung und integriert moderne Technologien wie KI in naturwissenschaftlichen Unterricht.",
-    "requiredTags": ["stem", "innovation", "ai", "teaching"],
-    "bonusTags": ["education", "mathematics", "physics"],
+    "requiredTags": [
+      "stem",
+      "innovation",
+      "ai",
+      "teaching"
+    ],
+    "bonusTags": [
+      "education",
+      "mathematics",
+      "physics"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Sein MINT-Hintergrund, KI-Kompetenz und didaktisches Geschick befaehigen ihn, MINT-Bildung mit modernster Technologie neu zu denken."
+    "whyFit": "Sein MINT-Hintergrund, KI-Kompetenz und didaktisches Geschick befaehigen ihn, MINT-Bildung mit modernster Technologie neu zu denken.",
+    "uniqueValue": "Kombiniert MINT-Fachexpertise, KI-Kompetenz und didaktische Erfahrung. Ihre MINT-Bildungsinnovation wird von jemandem vorangetrieben, der Physik, Programmierung und Paedagogik in einer Person vereint."
   },
   {
     "id": "ai-literacy-director",
@@ -857,11 +1565,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Konzerne, Bildungstraeger, Beratungen, Ministerien",
     "description": "Baut organisationsweite KI-Kompetenz auf und entwickelt Programme, die Mitarbeitern den kompetenten Umgang mit KI vermitteln.",
-    "requiredTags": ["ai", "education", "training", "leadership"],
-    "bonusTags": ["prompt-engineering", "curriculum", "adult-education"],
+    "requiredTags": [
+      "ai",
+      "education",
+      "training",
+      "leadership"
+    ],
+    "bonusTags": [
+      "prompt-engineering",
+      "curriculum",
+      "adult-education"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christians praktische KI-Erfahrung und Bildungskompetenz machen ihn zum idealen Aufbauer von KI-Literacy – er kann sowohl die Technik als auch die Didaktik dahinter."
+    "whyFit": "Christians praktische KI-Erfahrung und Bildungskompetenz machen ihn zum idealen Aufbauer von KI-Literacy – er kann sowohl die Technik als auch die Didaktik dahinter.",
+    "uniqueValue": "Bringt produktive KI-Erfahrung, Hochschuldidaktik und Fuehrungskompetenz mit. Ihre KI-Literacy-Programme werden von jemandem aufgebaut, der KI nicht nur erklaert, sondern taeglich produktiv einsetzt."
   },
   {
     "id": "people-science-lead",
@@ -869,11 +1587,21 @@
     "category": "People & Kultur",
     "companyType": "Tech-Konzerne, HR-Tech, People-Analytics-Firmen",
     "description": "Verbindet Datenanalyse mit Verhaltens- und Neurowissenschaft, um evidenzbasierte People-Strategien zu entwickeln.",
-    "requiredTags": ["analytics", "coaching", "neuroscience", "leadership"],
-    "bonusTags": ["data", "research", "values"],
+    "requiredTags": [
+      "analytics",
+      "coaching",
+      "neuroscience",
+      "leadership"
+    ],
+    "bonusTags": [
+      "data",
+      "research",
+      "values"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine Verbindung aus analytischem Denken, Neurowissenschafts-Verstaendnis und Coaching-Expertise macht ihn zum People Scientist, der Daten und Menschlichkeit vereint."
+    "whyFit": "Seine Verbindung aus analytischem Denken, Neurowissenschafts-Verstaendnis und Coaching-Expertise macht ihn zum People Scientist, der Daten und Menschlichkeit vereint.",
+    "uniqueValue": "Vereint Datenanalyse aus dem Engineering, Neurowissenschafts-Verstaendnis und systemisches Coaching. Ihre People Science wird von jemandem gefuehrt, der harte Daten und menschliche Komplexitaet zusammenbringt."
   },
   {
     "id": "industrial-ai-coach",
@@ -881,11 +1609,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Industrieunternehmen, Automotive, Maschinenbau, Beratungen",
     "description": "Coacht Industrieunternehmen bei der Integration von KI in bestehende Fertigungs- und Entwicklungsprozesse.",
-    "requiredTags": ["ai", "coaching", "engineering", "automation"],
-    "bonusTags": ["automotive", "process", "change-management"],
+    "requiredTags": [
+      "ai",
+      "coaching",
+      "engineering",
+      "automation"
+    ],
+    "bonusTags": [
+      "automotive",
+      "process",
+      "change-management"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Als Ingenieur mit KI-Expertise und Coaching-Ausbildung spricht Christian die Sprache der Industrie und kann KI dort einfuehren, wo andere an kulturellen Barrieren scheitern."
+    "whyFit": "Als Ingenieur mit KI-Expertise und Coaching-Ausbildung spricht Christian die Sprache der Industrie und kann KI dort einfuehren, wo andere an kulturellen Barrieren scheitern.",
+    "uniqueValue": "Kombiniert Maschinenbau-Expertise, KI-Entwicklungserfahrung und Coaching-Zertifizierung. Ihre Industrieteams werden von jemandem durch die KI-Transformation gecoacht, der ihre Maschinen UND ihre Sorgen versteht."
   },
   {
     "id": "smart-factory-culture-lead",
@@ -893,11 +1631,21 @@
     "category": "Transformation & Change",
     "companyType": "Fertigungskonzerne, Automotive-OEMs, Industrie-4.0-Unternehmen",
     "description": "Gestaltet die Kultur in Smart Factories und verbindet technologische Automatisierung mit menschenzentrierter Fuehrung.",
-    "requiredTags": ["engineering", "culture", "ai", "lean"],
-    "bonusTags": ["automation", "leadership", "coaching"],
+    "requiredTags": [
+      "engineering",
+      "culture",
+      "ai",
+      "lean"
+    ],
+    "bonusTags": [
+      "automation",
+      "leadership",
+      "coaching"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine Industrie-Erfahrung, Lean-Kenntnisse und KI-Kompetenz, gepaart mit Kulturverstaendnis, machen ihn zum Brueckenbauer zwischen Smart Factory und Mensch."
+    "whyFit": "Seine Industrie-Erfahrung, Lean-Kenntnisse und KI-Kompetenz, gepaart mit Kulturverstaendnis, machen ihn zum Brueckenbauer zwischen Smart Factory und Mensch.",
+    "uniqueValue": "Bringt Lean-Erfahrung, KI-Kompetenz und Coaching-basiertes Kulturverstaendnis mit. Ihre Smart-Factory-Kultur wird von jemandem gestaltet, der Automatisierung und Menschlichkeit nicht als Gegensatz sieht."
   },
   {
     "id": "transformation-design-lead",
@@ -905,11 +1653,21 @@
     "category": "Transformation & Change",
     "companyType": "Beratungen, Konzerne, Design-Agenturen mit Strategiefokus",
     "description": "Entwirft und gestaltet ganzheitliche Transformationsprozesse und verbindet Design Thinking mit Change Management.",
-    "requiredTags": ["transformation", "design-system", "leadership", "coaching"],
-    "bonusTags": ["innovation", "methodology", "facilitation"],
+    "requiredTags": [
+      "transformation",
+      "design-system",
+      "leadership",
+      "coaching"
+    ],
+    "bonusTags": [
+      "innovation",
+      "methodology",
+      "facilitation"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christians Design-System-Erfahrung, Coaching-Kompetenz und Transformationsverstaendnis befaehigen ihn, Veraenderung nicht nur zu managen, sondern zu designen."
+    "whyFit": "Christians Design-System-Erfahrung, Coaching-Kompetenz und Transformationsverstaendnis befaehigen ihn, Veraenderung nicht nur zu managen, sondern zu designen.",
+    "uniqueValue": "Vereint Design-System-Erfahrung, systemisches Coaching und Engineering-Strukturdenken. Ihre Transformationsprozesse werden von jemandem designt, der Veraenderung als gestaltbare Architektur begreift."
   },
   {
     "id": "resilience-officer",
@@ -917,11 +1675,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, Gesundheitswesen, Krisenbranchen, VUCA-Unternehmen",
     "description": "Staerkt die organisationale und individuelle Resilienz und entwickelt Programme fuer psychische Gesundheit und Widerstandsfaehigkeit.",
-    "requiredTags": ["coaching", "values", "leadership", "neurodiversity"],
-    "bonusTags": ["hsp", "inclusion", "culture"],
+    "requiredTags": [
+      "coaching",
+      "values",
+      "leadership",
+      "neurodiversity"
+    ],
+    "bonusTags": [
+      "hsp",
+      "inclusion",
+      "culture"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Sein Coaching-Hintergrund, Neurodiversitaets-Verstaendnis und eigene Erfahrung mit Resilienz machen ihn zum authentischen Resilienz-Beauftragten."
+    "whyFit": "Sein Coaching-Hintergrund, Neurodiversitaets-Verstaendnis und eigene Erfahrung mit Resilienz machen ihn zum authentischen Resilienz-Beauftragten.",
+    "uniqueValue": "Kombiniert Coaching-Zertifizierung, Neurodiversitaets-Erfahrung und eigene Resilienz-Geschichte. Ihre Resilienzprogramme werden von jemandem verantwortet, der nicht nur Methoden kennt, sondern Widerstandskraft authentisch vorlebt."
   },
   {
     "id": "systems-thinking-consultant",
@@ -929,11 +1697,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Beratungen, Forschungseinrichtungen, Konzerne",
     "description": "Beratet Organisationen mit systemischem Denken und hilft, komplexe Zusammenhaenge zu verstehen und Hebelpunkte zu identifizieren.",
-    "requiredTags": ["systemic", "consulting", "engineering", "process"],
-    "bonusTags": ["coaching", "research", "analytics"],
+    "requiredTags": [
+      "systemic",
+      "consulting",
+      "engineering",
+      "process"
+    ],
+    "bonusTags": [
+      "coaching",
+      "research",
+      "analytics"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Die Verbindung aus ingenieurwissenschaftlichem Systemverstaendnis und systemischem Coaching-Ansatz gibt Christian eine einzigartige Perspektive auf komplexe Organisationsfragen."
+    "whyFit": "Die Verbindung aus ingenieurwissenschaftlichem Systemverstaendnis und systemischem Coaching-Ansatz gibt Christian eine einzigartige Perspektive auf komplexe Organisationsfragen.",
+    "uniqueValue": "Bringt ingenieurwissenschaftliches Systemverstaendnis und systemisches Coaching zusammen. Ihre Organisationsberatung bekommt eine Analysetiefe, die technische Praezision mit menschlicher Komplexitaet vereint."
   },
   {
     "id": "hybrid-role-designer",
@@ -941,11 +1719,21 @@
     "category": "People & Kultur",
     "companyType": "Progressive HR-Abteilungen, New-Work-Beratungen, Tech-Unternehmen",
     "description": "Entwickelt neuartige Rollenprofile, die traditionelle Grenzen ueberschreiten und KI-Augmentation mit menschlichen Staerken verbinden.",
-    "requiredTags": ["org-development", "ai", "coaching", "innovation"],
-    "bonusTags": ["values", "strategy", "culture"],
+    "requiredTags": [
+      "org-development",
+      "ai",
+      "coaching",
+      "innovation"
+    ],
+    "bonusTags": [
+      "values",
+      "strategy",
+      "culture"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christian lebt selbst das Konzept der Hybridrolle – seine Karriere zeigt, wie man Engineering, Coaching und KI zu etwas Neuem und Wertvollem verbindet."
+    "whyFit": "Christian lebt selbst das Konzept der Hybridrolle – seine Karriere zeigt, wie man Engineering, Coaching und KI zu etwas Neuem und Wertvollem verbindet.",
+    "uniqueValue": "Vereint eigene Multi-Cluster-Karriere, OE-Verstaendnis und KI-Kompetenz. Sie bekommen einen Rollendesigner, der die Zukunft interdisziplinaerer Rollen nicht theoretisch beschreibt, sondern selbst verkoepert."
   },
   {
     "id": "internal-venture-builder",
@@ -953,11 +1741,21 @@
     "category": "Innovation & Digital",
     "companyType": "Konzerne mit Innovationseinheiten, Corporate Incubators",
     "description": "Baut innerhalb eines Konzerns neue Geschaeftsfelder und Ventures auf und verbindet Unternehmergeist mit Konzernressourcen.",
-    "requiredTags": ["startup", "innovation", "leadership", "strategy"],
-    "bonusTags": ["business-planning", "coaching", "ai"],
+    "requiredTags": [
+      "startup",
+      "innovation",
+      "leadership",
+      "strategy"
+    ],
+    "bonusTags": [
+      "business-planning",
+      "coaching",
+      "ai"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Seine Gruendungserfahrung, kombiniert mit Konzernverstaendnis und Innovationsfreude, macht ihn zum Intraprenuer, der neue Ventures erfolgreich aufbauen kann."
+    "whyFit": "Seine Gruendungserfahrung, kombiniert mit Konzernverstaendnis und Innovationsfreude, macht ihn zum Intraprenuer, der neue Ventures erfolgreich aufbauen kann.",
+    "uniqueValue": "Kombiniert eigene Gruendungserfahrung, Konzernverstaendnis und Coaching-Fuehrung. Ihre internen Ventures werden von jemandem aufgebaut, der Startup-Speed und Konzernlogik gleichermassen navigiert."
   },
   {
     "id": "corporate-university-dean",
@@ -965,11 +1763,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Konzerne mit eigener Corporate University, grosse Mittelstaendler",
     "description": "Fuehrt eine Corporate University und verantwortet das gesamte interne Bildungsoekosystem eines Grossunternehmens.",
-    "requiredTags": ["education", "leadership", "coaching", "curriculum"],
-    "bonusTags": ["strategy", "ai", "adult-education"],
+    "requiredTags": [
+      "education",
+      "leadership",
+      "coaching",
+      "curriculum"
+    ],
+    "bonusTags": [
+      "strategy",
+      "ai",
+      "adult-education"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christians Bildungskompetenz, Fuehrungserfahrung und Coaching-Expertise befaehigen ihn, eine Corporate University strategisch und inhaltlich auf hoechstem Niveau zu fuehren."
+    "whyFit": "Christians Bildungskompetenz, Fuehrungserfahrung und Coaching-Expertise befaehigen ihn, eine Corporate University strategisch und inhaltlich auf hoechstem Niveau zu fuehren.",
+    "uniqueValue": "Bringt Hochschuldidaktik, Coaching-Zertifizierung und KI-Kompetenz auf Leitungsebene mit. Ihre Corporate University wird von jemandem gefuehrt, der akademische Tiefe mit unternehmerischem Weitblick verbindet."
   },
   {
     "id": "technology-adoption-strategist",
@@ -977,11 +1785,21 @@
     "category": "Transformation & Change",
     "companyType": "Beratungen, Konzerne, Tech-Unternehmen",
     "description": "Entwickelt Strategien fuer die erfolgreiche Einfuehrung neuer Technologien und sorgt fuer nachhaltige Akzeptanz bei Nutzern.",
-    "requiredTags": ["ai", "change-management", "training", "strategy"],
-    "bonusTags": ["communication", "coaching", "automation"],
+    "requiredTags": [
+      "ai",
+      "change-management",
+      "training",
+      "strategy"
+    ],
+    "bonusTags": [
+      "communication",
+      "coaching",
+      "automation"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Seine Erfahrung mit KI-Einfuehrung, Change-Management und Trainingskompetenz machen ihn zum Strategen, der Technologieadoption menschenzentriert gestaltet."
+    "whyFit": "Seine Erfahrung mit KI-Einfuehrung, Change-Management und Trainingskompetenz machen ihn zum Strategen, der Technologieadoption menschenzentriert gestaltet.",
+    "uniqueValue": "Vereint KI-Hands-on-Erfahrung, Change-Management und Coaching-Kompetenz. Ihre Technologieeinfuehrung wird von jemandem strategisch begleitet, der Akzeptanz nicht erzwingt, sondern durch Befaehigung schafft."
   },
   {
     "id": "ai-upskilling-program-director",
@@ -989,11 +1807,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Konzerne, Bildungstraeger, KI-Akademien",
     "description": "Konzipiert und leitet grossangelegte KI-Qualifizierungsprogramme fuer Mitarbeiter aller Ebenen und Fachrichtungen.",
-    "requiredTags": ["ai", "training", "education", "leadership"],
-    "bonusTags": ["prompt-engineering", "curriculum", "adult-education"],
+    "requiredTags": [
+      "ai",
+      "training",
+      "education",
+      "leadership"
+    ],
+    "bonusTags": [
+      "prompt-engineering",
+      "curriculum",
+      "adult-education"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine praktische KI-Erfahrung, didaktische Kompetenz und Fuehrungserfahrung befaehigen ihn, KI-Upskilling im grossen Massstab wirksam zu gestalten."
+    "whyFit": "Seine praktische KI-Erfahrung, didaktische Kompetenz und Fuehrungserfahrung befaehigen ihn, KI-Upskilling im grossen Massstab wirksam zu gestalten.",
+    "uniqueValue": "Kombiniert produktive KI-Entwicklung, Curriculum-Design und Fuehrungserfahrung. Ihre KI-Qualifizierung im grossen Massstab wird von jemandem geleitet, der Didaktik und Technologie auf Expertenniveau verbindet."
   },
   {
     "id": "chief-empowerment-officer",
@@ -1001,11 +1829,21 @@
     "category": "People & Kultur",
     "companyType": "Progressive Unternehmen, Purpose-driven Companies, B-Corps",
     "description": "Foerdert als C-Level die Selbstwirksamkeit und Eigenverantwortung aller Mitarbeitenden und schafft eine Kultur des Empowerments.",
-    "requiredTags": ["coaching", "leadership", "values", "culture"],
-    "bonusTags": ["inclusion", "org-development", "team-dynamics"],
+    "requiredTags": [
+      "coaching",
+      "leadership",
+      "values",
+      "culture"
+    ],
+    "bonusTags": [
+      "inclusion",
+      "org-development",
+      "team-dynamics"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Sein wertebasiertes Coaching, seine Fuehrungserfahrung und sein tiefer Glaube an menschliches Potenzial machen ihn zum natuerlichen Chief Empowerment Officer."
+    "whyFit": "Sein wertebasiertes Coaching, seine Fuehrungserfahrung und sein tiefer Glaube an menschliches Potenzial machen ihn zum natuerlichen Chief Empowerment Officer.",
+    "uniqueValue": "Bringt wertebasiertes Coaching, Fuehrungserfahrung und Neurodiversitaets-Verstaendnis mit. Ihr Empowerment-Programm wird von jemandem verantwortet, der an menschliches Potenzial nicht nur glaubt, sondern es systematisch freisetzt."
   },
   {
     "id": "organizational-diagnostician",
@@ -1013,11 +1851,21 @@
     "category": "Beratung & Strategie",
     "companyType": "OE-Beratungen, Konzerne, Management-Diagnostik-Firmen",
     "description": "Diagnostiziert organisationale Staerken und Schwaechen mit systemischen und analytischen Methoden und leitet gezielte Interventionen ab.",
-    "requiredTags": ["systemic", "analytics", "coaching", "process"],
-    "bonusTags": ["org-development", "data", "research"],
+    "requiredTags": [
+      "systemic",
+      "analytics",
+      "coaching",
+      "process"
+    ],
+    "bonusTags": [
+      "org-development",
+      "data",
+      "research"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Die Verbindung aus analytischem Ingenieurdenken, systemischem Coaching und Datenaffinitaet macht ihn zum praezisen Organisationsdiagnostiker."
+    "whyFit": "Die Verbindung aus analytischem Ingenieurdenken, systemischem Coaching und Datenaffinitaet macht ihn zum praezisen Organisationsdiagnostiker.",
+    "uniqueValue": "Vereint Ingenieur-Analytik, systemisches Coaching und Datenaffinitaet. Ihre Organisationsdiagnosen werden mit der Praezision eines Ingenieurs und dem Einfuehlungsvermoegen eines Coaches durchgefuehrt."
   },
   {
     "id": "cross-functional-innovation-coach",
@@ -1025,11 +1873,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Konzerne, Innovationsberatungen, Matrix-Organisationen",
     "description": "Coacht interdisziplinaere und interkulturelle Teams bei Innovationsprojekten und foerdert kreative Zusammenarbeit ueber Abteilungsgrenzen hinweg.",
-    "requiredTags": ["coaching", "innovation", "facilitation", "cross-cultural"],
-    "bonusTags": ["team-dynamics", "international", "methodology"],
+    "requiredTags": [
+      "coaching",
+      "innovation",
+      "facilitation",
+      "cross-cultural"
+    ],
+    "bonusTags": [
+      "team-dynamics",
+      "international",
+      "methodology"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine interkulturelle Erfahrung, Innovationskompetenz und Coaching-Ausbildung befaehigen ihn, diverse Teams zu Hoechstleistungen in der Innovation zu fuehren."
+    "whyFit": "Seine interkulturelle Erfahrung, Innovationskompetenz und Coaching-Ausbildung befaehigen ihn, diverse Teams zu Hoechstleistungen in der Innovation zu fuehren.",
+    "uniqueValue": "Kombiniert interkulturelle Erfahrung, Coaching-Zertifizierung und technische Breite. Ihre interdisziplinaeren Innovationsteams werden von jemandem gecoacht, der selbst ueber Fachgrenzen hinweg gearbeitet hat."
   },
   {
     "id": "purpose-and-performance-architect",
@@ -1037,11 +1895,21 @@
     "category": "People & Kultur",
     "companyType": "Purpose-driven Companies, progressive Konzerne, B-Corps",
     "description": "Verbindet Sinnorientierung mit Leistungssteuerung und entwickelt Systeme, die Purpose und Performance gleichermassen foerdern.",
-    "requiredTags": ["values", "coaching", "analytics", "leadership"],
-    "bonusTags": ["kpi", "culture", "strategy"],
+    "requiredTags": [
+      "values",
+      "coaching",
+      "analytics",
+      "leadership"
+    ],
+    "bonusTags": [
+      "kpi",
+      "culture",
+      "strategy"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christians Werte-Fokus aus dem Coaching, verbunden mit analytischer Staerke und Fuehrungserfahrung, ermoeglicht ihm die seltene Bruecke zwischen Sinn und Ergebnis."
+    "whyFit": "Christians Werte-Fokus aus dem Coaching, verbunden mit analytischer Staerke und Fuehrungserfahrung, ermoeglicht ihm die seltene Bruecke zwischen Sinn und Ergebnis.",
+    "uniqueValue": "Bringt wertebasiertes Coaching, KPI-Erfahrung und P&L-Verantwortung zusammen. Sie bekommen eine Architektur, die Sinn und Leistung verbindet -- entwickelt von jemandem, der beides fuer unverhandelbar haelt."
   },
   {
     "id": "digital-humanities-lead",
@@ -1049,11 +1917,21 @@
     "category": "Bildung & Lehre",
     "companyType": "Universitaeten, Forschungseinrichtungen, Kulturinstitutionen",
     "description": "Verbindet geisteswissenschaftliche Forschung mit digitalen Methoden und KI-Werkzeugen fuer neue Erkenntnisformen.",
-    "requiredTags": ["ai", "research", "writing", "education"],
-    "bonusTags": ["science", "methodology", "teaching"],
+    "requiredTags": [
+      "ai",
+      "research",
+      "writing",
+      "education"
+    ],
+    "bonusTags": [
+      "science",
+      "methodology",
+      "teaching"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine KI-Kompetenz, wissenschaftliche Denkweise und Schreibfaehigkeit machen ihn zum Brueckenbauer zwischen Technologie und Geisteswissenschaften."
+    "whyFit": "Seine KI-Kompetenz, wissenschaftliche Denkweise und Schreibfaehigkeit machen ihn zum Brueckenbauer zwischen Technologie und Geisteswissenschaften.",
+    "uniqueValue": "Vereint KI-Entwicklungskompetenz, wissenschaftliches Denken und Schreibfaehigkeit. Ihre Digital-Humanities-Arbeit wird von jemandem geleitet, der Technologie als Erkenntnistool und nicht als Selbstzweck begreift."
   },
   {
     "id": "engineering-culture-coach",
@@ -1061,11 +1939,21 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Tech-Unternehmen, Engineering-Organisationen, Automotive",
     "description": "Coacht Engineering-Organisationen bei Kulturentwicklung und Fuehrung und verbindet technische Exzellenz mit gesunder Teamkultur.",
-    "requiredTags": ["engineering", "coaching", "culture", "leadership"],
-    "bonusTags": ["team-dynamics", "values", "change-management"],
+    "requiredTags": [
+      "engineering",
+      "coaching",
+      "culture",
+      "leadership"
+    ],
+    "bonusTags": [
+      "team-dynamics",
+      "values",
+      "change-management"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Als Ingenieur und Coach versteht Christian beide Welten – er kann Engineering-Kulturen von innen heraus transformieren, weil er ihre Sprache spricht."
+    "whyFit": "Als Ingenieur und Coach versteht Christian beide Welten – er kann Engineering-Kulturen von innen heraus transformieren, weil er ihre Sprache spricht.",
+    "uniqueValue": "Kombiniert eigene Ingenieur-Karriere mit Coaching-Zertifizierung und Kulturgestaltungskompetenz. Ihre Engineering-Kultur wird von jemandem transformiert, der am Whiteboard genauso ueberzeugend ist wie im Coaching-Gespraech."
   },
   {
     "id": "team-performance-scientist",
@@ -1073,11 +1961,21 @@
     "category": "People & Kultur",
     "companyType": "HR-Tech, Beratungen, Forschungsinstitute, Tech-Konzerne",
     "description": "Erforscht und optimiert Team-Performance mit wissenschaftlichen Methoden aus Neurowissenschaft und Verhaltensforschung.",
-    "requiredTags": ["team-dynamics", "analytics", "coaching", "neuroscience"],
-    "bonusTags": ["data", "research", "systemic"],
+    "requiredTags": [
+      "team-dynamics",
+      "analytics",
+      "coaching",
+      "neuroscience"
+    ],
+    "bonusTags": [
+      "data",
+      "research",
+      "systemic"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine Kombination aus analytischem Denken, Neurowissenschafts-Verstaendnis und praktischer Team-Coaching-Erfahrung macht ihn zum echten Team-Performance-Forscher."
+    "whyFit": "Seine Kombination aus analytischem Denken, Neurowissenschafts-Verstaendnis und praktischer Team-Coaching-Erfahrung macht ihn zum echten Team-Performance-Forscher.",
+    "uniqueValue": "Bringt Datenanalyse, Neurowissenschafts-Verstaendnis und praktische Team-Coaching-Erfahrung zusammen. Ihre Team-Performance wird erstmals wissenschaftlich gemessen und gleichzeitig menschlich optimiert."
   },
   {
     "id": "capability-building-director",
@@ -1085,11 +1983,21 @@
     "category": "People & Kultur",
     "companyType": "Konzerne, Beratungen, grosse Mittelstaendler",
     "description": "Baut strategisch Faehigkeiten in der Organisation auf und verantwortet die langfristige Kompetenzentwicklung ueber alle Bereiche.",
-    "requiredTags": ["leadership-development", "training", "strategy", "coaching"],
-    "bonusTags": ["curriculum", "adult-education", "talent"],
+    "requiredTags": [
+      "leadership-development",
+      "training",
+      "strategy",
+      "coaching"
+    ],
+    "bonusTags": [
+      "curriculum",
+      "adult-education",
+      "talent"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Seine breite Erfahrung in Coaching, Training und strategischer Entwicklung befaehigt ihn, organisationsweites Capability Building ganzheitlich zu gestalten."
+    "whyFit": "Seine breite Erfahrung in Coaching, Training und strategischer Entwicklung befaehigt ihn, organisationsweites Capability Building ganzheitlich zu gestalten.",
+    "uniqueValue": "Vereint Coaching-Zertifizierung, Curriculum-Design und strategische Fuehrungserfahrung. Ihr organisationsweites Capability Building wird von jemandem gestaltet, der individuelle Entwicklung und Unternehmensstrategie verzahnt."
   },
   {
     "id": "knowledge-transfer-architect",
@@ -1097,11 +2005,21 @@
     "category": "Innovation & Digital",
     "companyType": "Wissensintensive Unternehmen, Beratungen, Konzerne",
     "description": "Gestaltet Systeme und Prozesse fuer effizienten Wissenstransfer und nutzt KI fuer die Bewahrung und Weitergabe von Expertenwissen.",
-    "requiredTags": ["ai", "education", "process", "methodology"],
-    "bonusTags": ["automation", "analytics", "teaching"],
+    "requiredTags": [
+      "ai",
+      "education",
+      "process",
+      "methodology"
+    ],
+    "bonusTags": [
+      "automation",
+      "analytics",
+      "teaching"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine KI-Kompetenz fuer Wissensverarbeitung, didaktisches Verstaendnis und Prozessdenken machen ihn zum Architekten fuer nachhaltigen Wissenstransfer."
+    "whyFit": "Seine KI-Kompetenz fuer Wissensverarbeitung, didaktisches Verstaendnis und Prozessdenken machen ihn zum Architekten fuer nachhaltigen Wissenstransfer.",
+    "uniqueValue": "Kombiniert KI-Entwicklung, Hochschuldidaktik und Prozessverstaendnis. Ihr Wissenstransfer wird von jemandem architektonisch gestaltet, der Technologie, Lernwissenschaft und operative Realitaet verbindet."
   },
   {
     "id": "fractional-cto-cpo",
@@ -1109,11 +2027,21 @@
     "category": "Engineering & Technik",
     "companyType": "Startups, Scale-ups, KMU ohne eigene C-Level-Technik",
     "description": "Uebernimmt als Teilzeit-CTO oder -CPO die technische Fuehrung fuer Unternehmen, die keine Vollzeit-C-Level-Position benoetigen.",
-    "requiredTags": ["engineering", "ai", "leadership", "strategy"],
-    "bonusTags": ["product-development", "web-development", "startup"],
+    "requiredTags": [
+      "engineering",
+      "ai",
+      "leadership",
+      "strategy"
+    ],
+    "bonusTags": [
+      "product-development",
+      "web-development",
+      "startup"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine breite technische Kompetenz von Engineering ueber KI bis Web-Entwicklung, kombiniert mit strategischem Denken, macht ihn zum vielseitigen Fractional CTO/CPO."
+    "whyFit": "Seine breite technische Kompetenz von Engineering ueber KI bis Web-Entwicklung, kombiniert mit strategischem Denken, macht ihn zum vielseitigen Fractional CTO/CPO.",
+    "uniqueValue": "Bringt Maschinenbau, KI-Entwicklung und Web-Programmierung mit strategischer Fuehrung zusammen. Sie bekommen einen Fractional CTO, der vom Hardware-Design bis zum KI-Deployment die gesamte technische Bandbreite abdeckt."
   },
   {
     "id": "startup-in-residence",
@@ -1121,11 +2049,21 @@
     "category": "Innovation & Digital",
     "companyType": "Konzerne mit Startup-Programmen, Acceleratoren, Innovationszentren",
     "description": "Baut als Unternehmer im Konzern neue Geschaeftsideen auf und verbindet Startup-Mentalitaet mit Konzernressourcen und KI-Technologie.",
-    "requiredTags": ["startup", "innovation", "coaching", "ai"],
-    "bonusTags": ["business-planning", "strategy", "leadership"],
+    "requiredTags": [
+      "startup",
+      "innovation",
+      "coaching",
+      "ai"
+    ],
+    "bonusTags": [
+      "business-planning",
+      "strategy",
+      "leadership"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine Gruendungserfahrung, Innovationsfreude, Coaching-Kompetenz und KI-Expertise machen ihn zum idealen Startup-in-Residence, der Ideen zum Fliegen bringt."
+    "whyFit": "Seine Gruendungserfahrung, Innovationsfreude, Coaching-Kompetenz und KI-Expertise machen ihn zum idealen Startup-in-Residence, der Ideen zum Fliegen bringt.",
+    "uniqueValue": "Vereint Gruendungserfahrung, KI-Kompetenz und Coaching-Fuehrung. Ihr Startup-in-Residence bringt nicht nur Innovationsideen mit, sondern auch die technische und unternehmerische Kompetenz zur Umsetzung."
   },
   {
     "id": "corporate-anthropologist",
@@ -1133,11 +2071,21 @@
     "category": "Beratung & Strategie",
     "companyType": "Innovative Beratungen, Konzerne, Forschungsinstitute",
     "description": "Erforscht Unternehmenskulturen mit ethnographischen Methoden und liefert tiefe Einblicke in gelebte Kultur und informelle Strukturen.",
-    "requiredTags": ["research", "cross-cultural", "coaching", "systemic"],
-    "bonusTags": ["communication", "culture", "writing"],
+    "requiredTags": [
+      "research",
+      "cross-cultural",
+      "coaching",
+      "systemic"
+    ],
+    "bonusTags": [
+      "communication",
+      "culture",
+      "writing"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine interkulturelle Erfahrung, systemisches Denken und Coaching-Faehigkeit zur tiefen Gespraechsfuehrung machen ihn zum einfuehlsamen Erforscher von Unternehmenskulturen."
+    "whyFit": "Seine interkulturelle Erfahrung, systemisches Denken und Coaching-Faehigkeit zur tiefen Gespraechsfuehrung machen ihn zum einfuehlsamen Erforscher von Unternehmenskulturen.",
+    "uniqueValue": "Kombiniert interkulturelle Erfahrung, systemisches Coaching und wissenschaftliches Forschungsdenken. Ihre Kulturanalyse wird von jemandem durchgefuehrt, der tiefe Gespraeche fuehren und Muster praezise beschreiben kann."
   },
   {
     "id": "workplace-futurist",
@@ -1145,11 +2093,21 @@
     "category": "Transformation & Change",
     "companyType": "Think Tanks, Beratungen, Konzerne, HR-Tech",
     "description": "Entwirft Zukunftsszenarien fuer die Arbeitswelt und beratet Unternehmen, wie sie sich auf KI, Neurodiversitaet und neue Arbeitsmodelle vorbereiten.",
-    "requiredTags": ["ai", "strategy", "coaching", "neurodiversity"],
-    "bonusTags": ["transformation", "values", "innovation"],
+    "requiredTags": [
+      "ai",
+      "strategy",
+      "coaching",
+      "neurodiversity"
+    ],
+    "bonusTags": [
+      "transformation",
+      "values",
+      "innovation"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine Kombination aus KI-Vision, Coaching-Tiefe und Neurodiversitaets-Verstaendnis gibt ihm eine einzigartige Perspektive auf die Zukunft der Arbeit."
+    "whyFit": "Seine Kombination aus KI-Vision, Coaching-Tiefe und Neurodiversitaets-Verstaendnis gibt ihm eine einzigartige Perspektive auf die Zukunft der Arbeit.",
+    "uniqueValue": "Bringt KI-Praxis, Coaching-Tiefe und Neurodiversitaets-Erfahrung mit. Ihre Zukunftsszenarien fuer die Arbeitswelt werden von jemandem entwickelt, der die Trends nicht nur beobachtet, sondern selbst lebt."
   },
   {
     "id": "head-of-adaptive-learning",
@@ -1157,11 +2115,21 @@
     "category": "Bildung & Lehre",
     "companyType": "EdTech, Hochschulen, Konzern-Akademien, Bildungsplattformen",
     "description": "Entwickelt adaptive Lernsysteme, die sich mit KI und Neurowissenschaft an individuelle Lernbeduerfnisse anpassen.",
-    "requiredTags": ["education", "ai", "neuroscience", "learning-design"],
-    "bonusTags": ["curriculum", "neurodiversity", "methodology"],
+    "requiredTags": [
+      "education",
+      "ai",
+      "neuroscience",
+      "learning-design"
+    ],
+    "bonusTags": [
+      "curriculum",
+      "neurodiversity",
+      "methodology"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Sein Verstaendnis fuer unterschiedliche Lerngehirne, KI-Kompetenz und Lerndesign-Erfahrung machen ihn zum Gestalter von Lernsystemen, die wirklich individuell sind."
+    "whyFit": "Sein Verstaendnis fuer unterschiedliche Lerngehirne, KI-Kompetenz und Lerndesign-Erfahrung machen ihn zum Gestalter von Lernsystemen, die wirklich individuell sind.",
+    "uniqueValue": "Vereint Neurodiversitaets-Verstaendnis, KI-Entwicklung und Lerndesign-Expertise. Ihre adaptiven Lernsysteme werden von jemandem aufgebaut, der verschiedene Lerngehirne aus eigener Erfahrung versteht."
   },
   {
     "id": "people-technology-strategist",
@@ -1169,11 +2137,21 @@
     "category": "People & Kultur",
     "companyType": "HR-Tech, Konzerne, Beratungen mit People-Tech-Fokus",
     "description": "Entwickelt Strategien fuer den Einsatz von KI und Automatisierung im HR-Bereich und verbindet Technologie mit menschenzentriertem Ansatz.",
-    "requiredTags": ["ai", "coaching", "leadership", "automation"],
-    "bonusTags": ["strategy", "values", "analytics"],
+    "requiredTags": [
+      "ai",
+      "coaching",
+      "leadership",
+      "automation"
+    ],
+    "bonusTags": [
+      "strategy",
+      "values",
+      "analytics"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Seine KI-Praxis, Coaching-Kompetenz und Fuehrungserfahrung befaehigen ihn, People-Technologie so einzusetzen, dass sie Menschen dient statt sie zu ersetzen."
+    "whyFit": "Seine KI-Praxis, Coaching-Kompetenz und Fuehrungserfahrung befaehigen ihn, People-Technologie so einzusetzen, dass sie Menschen dient statt sie zu ersetzen.",
+    "uniqueValue": "Kombiniert KI-Entwicklungserfahrung, Coaching-Kompetenz und Werteorientierung. Ihre People-Tech-Strategie wird von jemandem verantwortet, der Technologie konsequent in den Dienst der Menschen stellt."
   },
   {
     "id": "impact-measurement-lead",
@@ -1181,11 +2159,21 @@
     "category": "Operations & Prozesse",
     "companyType": "Impact-Investoren, NGOs, Purpose-Unternehmen, Stiftungen",
     "description": "Entwickelt Systeme zur Messung und Bewertung von gesellschaftlichem und organisationalem Impact mit datengetriebenen Methoden.",
-    "requiredTags": ["analytics", "coaching", "kpi", "process"],
-    "bonusTags": ["data", "reporting", "values"],
+    "requiredTags": [
+      "analytics",
+      "coaching",
+      "kpi",
+      "process"
+    ],
+    "bonusTags": [
+      "data",
+      "reporting",
+      "values"
+    ],
     "minClusters": 2,
     "isRevelation": true,
-    "whyFit": "Seine analytische Staerke, sein KPI-Verstaendnis und sein Coaching-Blick fuer qualitative Wirkung machen ihn zum Impact-Measurement-Experten, der Zahlen und Bedeutung verbindet."
+    "whyFit": "Seine analytische Staerke, sein KPI-Verstaendnis und sein Coaching-Blick fuer qualitative Wirkung machen ihn zum Impact-Measurement-Experten, der Zahlen und Bedeutung verbindet.",
+    "uniqueValue": "Bringt Engineering-Analytik, Coaching-Blick und KPI-Erfahrung zusammen. Ihre Impact-Messung wird von jemandem aufgebaut, der quantitative Praezision mit qualitativem Wirkungsverstaendnis vereint."
   },
   {
     "id": "leadership-ai-integration-coach",
@@ -1193,10 +2181,20 @@
     "category": "Coaching & Entwicklung",
     "companyType": "Beratungen, Konzerne, Fuehrungsakademien, KI-Firmen",
     "description": "Coacht Fuehrungskraefte bei der Integration von KI in ihren Fuehrungsalltag und entwickelt neue Fuehrungskompetenzen fuer das KI-Zeitalter.",
-    "requiredTags": ["ai", "coaching", "leadership", "prompt-engineering"],
-    "bonusTags": ["training", "values", "methodology"],
+    "requiredTags": [
+      "ai",
+      "coaching",
+      "leadership",
+      "prompt-engineering"
+    ],
+    "bonusTags": [
+      "training",
+      "values",
+      "methodology"
+    ],
     "minClusters": 3,
     "isRevelation": true,
-    "whyFit": "Christian lebt die Verbindung von KI und Fuehrung taeglich – seine Coaching-Expertise und tiefe KI-Praxis machen ihn zum authentischen Begleiter fuer Fuehrungskraefte im KI-Zeitalter."
+    "whyFit": "Christian lebt die Verbindung von KI und Fuehrung taeglich – seine Coaching-Expertise und tiefe KI-Praxis machen ihn zum authentischen Begleiter fuer Fuehrungskraefte im KI-Zeitalter.",
+    "uniqueValue": "Vereint taegliche KI-Praxis, St. Galler Coaching-Zertifizierung und eigene Fuehrungserfahrung. Ihre Fuehrungskraefte werden von jemandem ins KI-Zeitalter begleitet, der die Integration selbst taeglich lebt."
   }
 ]

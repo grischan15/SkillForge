@@ -8,9 +8,12 @@ import ClusterTabs from './components/navigation/ClusterTabs'
 import SkillGrid from './components/skills/SkillGrid'
 import ReactionZone from './components/forge/ReactionZone'
 import RoleResults from './components/results/RoleResults'
+import DiscoveryTeaser from './components/results/DiscoveryTeaser'
+import OnboardingHint from './components/shared/OnboardingHint'
 import DragOverlayCard from './components/shared/DragOverlayCard'
 import { useForge } from './hooks/useForge'
 import { useMatching } from './hooks/useMatching'
+import { useDiscoveryProgress } from './hooks/useDiscoveryProgress'
 import { useReducedMotion } from './hooks/useReducedMotion'
 import clusters from './data/clusters.json'
 import skills from './data/skills.json'
@@ -23,7 +26,8 @@ function App() {
   const reducedMotion = useReducedMotion()
 
   const { forgedSkills, addSkill, removeSkill, clearForge } = useForge()
-  const { matches, revelations } = useMatching(forgedSkills)
+  const { matches, revelations, forgedTags } = useMatching(forgedSkills)
+  const { clusterCount, uniqueClusters, isUnlocked, progress } = useDiscoveryProgress(forgedSkills)
 
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 8 } }),
@@ -91,19 +95,33 @@ function App() {
 
           {/* Right: Forge (sticky sidebar on desktop, bottom on mobile) */}
           <aside className="
-            hidden lg:flex lg:flex-col lg:w-80 xl:w-96
+            hidden lg:flex lg:flex-col lg:w-80 xl:w-96 gap-3
             lg:sticky lg:top-4 lg:self-start lg:max-h-[calc(100dvh-6rem)]
             lg:overflow-y-auto
           ">
+            <OnboardingHint
+              forgedSkillCount={forgedSkills.length}
+              reducedMotion={reducedMotion}
+            />
             <ReactionZone
               forgedSkills={forgedSkills}
               onRemove={removeSkill}
               onClear={clearForge}
               reducedMotion={reducedMotion}
             />
+            <DiscoveryTeaser
+              clusterCount={clusterCount}
+              uniqueClusters={uniqueClusters}
+              isUnlocked={isUnlocked}
+              progress={progress}
+              matchCount={matches.length + revelations.length}
+              reducedMotion={reducedMotion}
+            />
             <RoleResults
               matches={matches}
               revelations={revelations}
+              isUnlocked={isUnlocked}
+              forgedTags={forgedTags}
               reducedMotion={reducedMotion}
             />
           </aside>
@@ -129,7 +147,7 @@ function App() {
               </span>
             </button>
             {mobileForgeOpen && (
-              <div className="px-4 pb-4 overflow-y-auto max-h-[calc(70dvh-3.5rem)]">
+              <div className="px-4 pb-4 overflow-y-auto max-h-[calc(70dvh-3.5rem)] flex flex-col gap-3">
                 <ReactionZone
                   forgedSkills={forgedSkills}
                   onRemove={removeSkill}
@@ -137,9 +155,19 @@ function App() {
                   reducedMotion={reducedMotion}
                   inline
                 />
+                <DiscoveryTeaser
+                  clusterCount={clusterCount}
+                  uniqueClusters={uniqueClusters}
+                  isUnlocked={isUnlocked}
+                  progress={progress}
+                  matchCount={matches.length + revelations.length}
+                  reducedMotion={reducedMotion}
+                />
                 <RoleResults
                   matches={matches}
                   revelations={revelations}
+                  isUnlocked={isUnlocked}
+                  forgedTags={forgedTags}
                   reducedMotion={reducedMotion}
                 />
               </div>
