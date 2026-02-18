@@ -7,6 +7,20 @@ const proofPoints = [
   { icon: '🎯', metric: '4.96 / 5.0', label: 'Coaching-Bewertung', detail: '387 UE, 6 Diplome, ISO 17024' },
 ]
 
+const myValues = [
+  { icon: '🕊️', label: 'Freiheit' },
+  { icon: '❤️', label: 'Agape' },
+  { icon: '💎', label: 'Klarheit' },
+]
+
+const myStrengths = [
+  { icon: '✨', label: 'Positive Einstellung' },
+  { icon: '🏆', label: 'Höchstleistung' },
+  { icon: '🧭', label: 'Selbstbewusstsein' },
+  { icon: '🎼', label: 'Arrangeur' },
+  { icon: '⚡', label: 'Tatkraft' },
+]
+
 export default function Welcome({ onStart, clusters }) {
   const reducedMotion = useReducedMotion()
 
@@ -62,9 +76,9 @@ export default function Welcome({ onStart, clusters }) {
       />
 
       {/* Claim */}
-      <motion.p variants={itemVariants} className="text-ink-light text-lg sm:text-xl font-medium mb-3 leading-relaxed italic">
-        Menschenorientierter Systemarchitekt<br />
-        mit Pioniercharakter
+      <motion.p variants={itemVariants} className="text-ink text-base sm:text-lg font-medium mb-3 max-w-lg leading-relaxed px-4 italic">
+        Ich sehe Stärken, baue Strukturen und schaffe Räume,
+        in denen Arbeit Sinn macht.
       </motion.p>
 
       {/* Emotional Hook */}
@@ -75,6 +89,43 @@ export default function Welcome({ onStart, clusters }) {
           Entdecke die Kompetenzen hinter dem Anspruch.
         </span>
       </motion.p>
+
+      {/* Values & Strengths — like a company presents its culture */}
+      <motion.div
+        variants={itemVariants}
+        className="w-full max-w-xl mb-8 px-4 space-y-4"
+      >
+        {/* Values */}
+        <div>
+          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">Meine Werte</p>
+          <div className="flex flex-wrap justify-center gap-2">
+            {myValues.map(v => (
+              <span
+                key={v.label}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-sand/50 border border-border-light"
+              >
+                <span role="img" aria-hidden="true">{v.icon}</span>
+                {v.label}
+              </span>
+            ))}
+          </div>
+        </div>
+        {/* Strengths */}
+        <div>
+          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">Meine Stärken <span className="normal-case tracking-normal font-normal">(CliftonStrengths)</span></p>
+          <div className="flex flex-wrap justify-center gap-2">
+            {myStrengths.map(s => (
+              <span
+                key={s.label}
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-white border border-border-light"
+              >
+                <span role="img" aria-hidden="true">{s.icon}</span>
+                {s.label}
+              </span>
+            ))}
+          </div>
+        </div>
+      </motion.div>
 
       {/* Proof Points */}
       <motion.div
