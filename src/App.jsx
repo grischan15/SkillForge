@@ -11,6 +11,7 @@ import RoleResults from './components/results/RoleResults'
 import DiscoveryTeaser from './components/results/DiscoveryTeaser'
 import OnboardingHint from './components/shared/OnboardingHint'
 import DragOverlayCard from './components/shared/DragOverlayCard'
+import WelcomeBanner from './components/shared/WelcomeBanner'
 import { useForge } from './hooks/useForge'
 import { useMatching } from './hooks/useMatching'
 import { useDiscoveryProgress } from './hooks/useDiscoveryProgress'
@@ -77,6 +78,7 @@ function App() {
         onDragEnd={handleDragEnd}
         onDragCancel={handleDragCancel}
       >
+        <WelcomeBanner reducedMotion={reducedMotion} />
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-6 flex-1 min-h-0">
           {/* Left: Tabs + Skills */}
           <div className="flex-1 min-w-0 flex flex-col">

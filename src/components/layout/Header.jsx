@@ -4,10 +4,7 @@ export default function Header({ compact = false, onBack }) {
       <header className="py-3 mb-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img src="images/P3_Logo_RZ_Bild_rot.png" alt="P3" className="w-7 h-7 object-contain" />
-          <div>
-            <h1 className="text-lg font-bold text-ink leading-tight">SkillForge</h1>
-            <p className="text-xs text-ink-muted">Kompetenz-Schmiede von Christian Schmidt</p>
-          </div>
+          <h1 className="text-lg font-bold text-ink leading-tight">SkillForge</h1>
         </div>
         <button
           onClick={onBack}
@@ -39,7 +36,7 @@ export default function Header({ compact = false, onBack }) {
         <h1 className="text-3xl sm:text-4xl font-bold text-ink">SkillForge</h1>
       </div>
       <p className="text-ink-light text-base sm:text-lg">
-        Interaktive Kompetenz-Schmiede
+        Was kann ich für Ihr Unternehmen tun?
       </p>
     </header>
   )
