@@ -113,7 +113,7 @@ export default function DiscoveryTeaser({
                 <span className="ml-auto text-xs text-ink-muted text-right leading-tight">
                   {revelationCount > 0 && <>{revelationCount} Entdeckung{revelationCount !== 1 && 'en'}</>}
                   {revelationCount > 0 && standardCount > 0 && ', '}
-                  {standardCount > 0 && <>{standardCount} passende</>}
+                  {standardCount > 0 && <>{standardCount} passende Rollen</>}
                 </span>
               )}
             </div>
