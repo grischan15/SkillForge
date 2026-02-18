@@ -1,8 +1,8 @@
 # STATE.md – SkillForge
 
-## Version: 0.3.0 (Landing Page & Data Polish)
+## Version: 0.4.0 (Progressive Discovery Flow)
 
-## Status: Landing Page mit Werten/Staerken, Skill-Daten aktualisiert, 32 Skills in 6 Clustern
+## Status: Discovery-Teaser mit Unlock-Mechanik, RoleCards als Mini-Stellenanzeigen, JobAd-Modal
 
 ### Tech-Stack
 - React 19 + Vite 7 (Port 5180)
@@ -30,6 +30,27 @@
 - [x] 3 Proof-Point-Karten (15+ Jahre, 3 Kontinente, 4.96/5.0)
 - [x] Neuer Claim: Vision-getrieben statt Titel-basiert
 - [x] Klienten-Namen anonymisiert (DSGVO)
+- [x] Discovery-Teaser: Immer sichtbare Gold-Box mit Fortschrittsanzeige (0/3 → 3/3 Cluster)
+- [x] Unlock-Mechanik: Rollen-Ergebnisse erst ab 3 verschiedenen Clustern sichtbar
+- [x] RoleCards als Mini-Stellenanzeigen: Titel, Score, Kategorie, Skill-Tags, Mehrwert-Teaser
+- [x] JobAd-Modal: Vollstaendiges Stellenprofil mit Kompetenz-Abgleich, Mehrwert, Anforderungsprofil
+- [x] SkillTag-Komponente: Matched/Unmatched Pills mit deutschen Labels
+- [x] uniqueValue-Feld fuer alle 100 Rollen ("Ihr Mehrwert fuer die Firma")
+- [x] OnboardingHint: Einmaliger Tooltip beim ersten Besuch (localStorage)
+- [x] Cluster-Diversity-Tracking via useDiscoveryProgress Hook
+
+### Aenderungen v0.3.0 → v0.4.0
+- **Progressive Discovery Flow:** Strategie B (Always-Visible Teaser + Progressive Reveal) implementiert
+- **DiscoveryTeaser:** Gold-Box zeigt Fortschritt (0/3 Cluster), aktive Cluster als farbige Pills, Lock/Unlock-Icons
+- **Unlock-Gate:** Alle Rollen (Standard + Revelation) erst ab 3 verschiedenen Clustern sichtbar
+- **RoleCard Redesign:** Mini-Stellenanzeigen mit Titel, Score, Kategorie, requiredTags als SkillTag-Pills, uniqueValue-Teaser
+- **JobAdModal:** Portal-basiertes Modal mit Sektionen: Ueber die Rolle, Kompetenz-Abgleich, Mehrwert, Anforderungsprofil
+- **SkillTag:** Wiederverwendbare Tag-Komponente mit Matched (gruen/Haken) vs Unmatched (grau) Styling, 50+ deutsche Labels
+- **uniqueValue:** 100 Rollen mit "Ihr Mehrwert fuer die Firma" Text angereichert
+- **OnboardingHint:** Einmaliger Tooltip ("Waehlen Sie Kompetenzen...") mit localStorage-Persistenz
+- **useDiscoveryProgress:** Neuer Hook fuer Cluster-Diversity-Tracking und Unlock-Status
+- **useMatching erweitert:** Gibt jetzt zusaetzlich forgedTags (Set) zurueck fuer Tag-Level-Visualisierung
+- **App.jsx Integration:** DiscoveryTeaser + OnboardingHint in Desktop-Sidebar und Mobile-Forge eingebaut
 
 ### Aenderungen v0.2.0 → v0.3.0
 - **Landing Page Redesign:** Kandidat praesentiert sich wie ein Unternehmen seine Kultur zeigt
@@ -60,6 +81,7 @@
 
 ### Bekannte offene Punkte
 - Rollen-Beschreibungen (roles.json) noch nicht validiert
+- JobAd-Templates (intro, requirements, idealCandidate) noch nicht in roles.json integriert
 
 ### Dateistruktur
 ```
@@ -70,7 +92,7 @@ src/
   data/
     clusters.json             # 6 Cluster (data-process entfernt)
     skills.json               # 32 Skills (evidence-validiert)
-    roles.json                # 100 Rollen (PRUEFEN!)
+    roles.json                # 100 Rollen + uniqueValue (PRUEFEN!)
     matchingEngine.js         # Offline Matching-Algorithmus
   components/
     layout/                   # AppShell, Header, Footer
@@ -78,12 +100,14 @@ src/
     navigation/               # ClusterTabs
     skills/                   # SkillGrid, SkillCard
     forge/                    # ReactionZone, ForgedSkillChip, ForgePrompt
-    results/                  # RoleResults, RoleCard, MatchScore, RevelationBadge
-    shared/                   # DragOverlayCard, EmptyState
+    results/                  # RoleResults, RoleCard, MatchScore, RevelationBadge,
+                              # DiscoveryTeaser, JobAdModal, SkillTag
+    shared/                   # DragOverlayCard, EmptyState, OnboardingHint
   hooks/
     useForge.js               # Schmiede State
-    useMatching.js            # Rollen-Matching
+    useMatching.js            # Rollen-Matching + forgedTags
     useReducedMotion.js       # prefers-reduced-motion
+    useDiscoveryProgress.js   # Cluster-Diversity + Unlock-Status
 public/
   images/
     BW_MW20220613_34995.jpg   # Portraitfoto

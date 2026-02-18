@@ -17,10 +17,22 @@
 - [x] **Skill-Evidence Updates:** Entwicklungsleiter, NVH Simulation, FK-Script
 - [x] **DSGVO:** Klienten-Namen anonymisiert
 
+### Phase 1.5: Progressive Discovery (v0.3.0 → v0.4.0)
+- [x] **Discovery-Teaser:** Immer sichtbare Gold-Box mit Cluster-Fortschritt (0/3 → 3/3)
+- [x] **Unlock-Mechanik:** Rollen erst ab 3 verschiedenen Clustern sichtbar
+- [x] **RoleCard Redesign:** Mini-Stellenanzeigen mit Skill-Tags und Mehrwert-Teaser
+- [x] **JobAd-Modal:** Vollstaendiges Stellenprofil (Portal, Kompetenz-Abgleich, Mehrwert)
+- [x] **uniqueValue:** "Ihr Mehrwert fuer die Firma" fuer alle 100 Rollen
+- [x] **OnboardingHint:** Einmaliger Tooltip mit localStorage-Persistenz
+- [x] **useDiscoveryProgress:** Hook fuer Cluster-Diversity-Tracking
+
 #### Naechste Schritte (vor Go-Live):
 - [ ] **Rollen-Beschreibungen pruefen** (roles.json)
   - `description` und `whyFit` Felder validieren
   - `requiredTags` auf sinnvolle Zuordnung pruefen (Tags haben sich geaendert!)
+- [ ] **JobAd-Templates integrieren** (roles.json)
+  - `jobAd` Objekt mit intro, requirements[], idealCandidate fuer alle Rollen
+  - JobAdModal rendert diese Daten bereits, Feld fehlt noch in roles.json
 - [x] Deployment auf apps.p3coaching.de/skillforge/ (GitHub Actions + FTP)
 
 ### Phase 2: KI-Integration
@@ -53,3 +65,7 @@
 | 2026-02-17 | Skill-Evidence praezisiert | Entwicklungsleiter Asien (statt Senior), NVH Simulation aufgebaut mit fachlicher Weisungsbefugnis, FK-Script weltweit, Engineering-Pionier Asien. |
 | 2026-02-18 | Deployment komplett | GitHub Pages (auto) + ALL-INKL (manuell via FTP). gh CLI installiert, Repo erstellt, Workflows von Quest Board kopiert. |
 | 2026-02-18 | Pfad-Bug /skill-forge/ vs /skillforge/ | vite.config.js base und workflow server-dir muessen EXAKT uebereinstimmen. Bindestrich-Unterschied verursachte 404. Lesson Learned in 00_project_template/10_skills_tools/deployment_react_vite.md dokumentiert. |
+| 2026-02-18 | Strategie B: Always-Visible Teaser + Progressive Reveal | 3 UX-Strategien evaluiert: A (Wizard) zu rigide, C (Narrative Scroll) zu aufwendig. B bietet Storytelling ohne Zwang: Teaser motiviert, Unlock-Gate belohnt Exploration, RoleCards als Mini-Stellenanzeigen verkaufen den Mehrwert. |
+| 2026-02-18 | Unlock-Gate bei 3 Clustern (alle Rollen) | Nicht nur Revelation-Rollen, sondern ALLE Rollen-Ergebnisse erst ab 3 verschiedenen Clustern sichtbar. Zwingt zu breiter Exploration statt Eincluster-Spam. |
+| 2026-02-18 | uniqueValue-Feld in roles.json | Neues Feld "Ihr Mehrwert fuer die Firma" pro Rolle. Fokussiert auf einzigartige Skill-Kombinationen, formelle Anrede (Sie), 1-2 Saetze. KI-generiert, sollte validiert werden. |
+| 2026-02-18 | Parallele Subagents fuer Content-Generierung | 4 Agents parallel: Architecture Plan, uniqueValue-Texte, JobAd-Templates, UX-Copy. Spart ~60% Zeit gegenueber sequentieller Ausfuehrung. |
