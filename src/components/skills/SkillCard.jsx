@@ -47,6 +47,7 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
       animate={{ opacity: 1, y: 0 }}
       transition={reducedMotion ? { duration: 0 } : { delay: index * 0.03, duration: 0.25 }}
       className={`
+        relative
         bg-white rounded-xl border border-border-light border-l-4 ${borderColor}
         shadow-sm hover:shadow-md
         transition-shadow duration-normal ease-out
@@ -73,7 +74,6 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
                 text-ink-muted text-lg font-bold
                 transition-colors duration-normal
                 min-h-[32px] min-w-[32px] cursor-pointer
-                lg:opacity-0 lg:group-hover:opacity-100
               "
               aria-label={`${skill.name} zur Schmiede hinzufuegen`}
               title="Zur Schmiede hinzufuegen"
@@ -99,9 +99,9 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
         )}
       </div>
 
-      {/* Evidence popover (desktop hover) */}
+      {/* Evidence popover (desktop hover) – absolute so it doesn't stretch the grid row */}
       {showEvidence && skill.evidence.length > 0 && (
-        <div className="hidden lg:block border-t border-border-light px-4 py-3 bg-container/50">
+        <div className="hidden lg:block absolute top-full left-0 right-0 z-20 border border-border-light rounded-b-xl px-4 py-3 bg-white shadow-md">
           <ul className="space-y-1">
             {skill.evidence.map((item, i) => (
               <li key={i} className="text-xs text-ink-light flex gap-1.5">
