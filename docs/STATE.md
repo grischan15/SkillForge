@@ -1,8 +1,8 @@
 # STATE.md – SkillForge
 
-## Version: 0.2.0 (Evidence-Validated)
+## Version: 0.3.0 (Landing Page & Data Polish)
 
-## Status: Skill-Daten evidence-validiert, 32 Skills in 6 Clustern
+## Status: Landing Page mit Werten/Staerken, Skill-Daten aktualisiert, 32 Skills in 6 Clustern
 
 ### Tech-Stack
 - React 19 + Vite 7 (Port 5180)
@@ -11,7 +11,7 @@
 - Framer Motion
 
 ### Features (implementiert)
-- [x] Willkommensseite mit Portraitfoto + Claim + CTA
+- [x] Willkommensseite mit Portraitfoto, Unterschrift, Claim, Werten, Staerken, Proof Points + CTA
 - [x] P3-Logo (roter Fluegel) als Branding + Favicon
 - [x] 6 Kompetenz-Cluster als Tabs (wrappen bei kleiner Breite)
 - [x] 32 Skill-Karten mit Evidenz-Popovers
@@ -24,6 +24,23 @@
 - [x] Zurueck-Button zur Startseite
 - [x] LinkedIn-Link im Footer
 - [x] Evidence-Validation: Alle Skills nur noch mit harten Quellen belegt
+- [x] Handschriftliche Unterschrift als persoenliches Branding
+- [x] Werte-Sektion (Freiheit, Agape, Klarheit) auf Startseite
+- [x] Staerken-Sektion (CliftonStrengths) auf Startseite
+- [x] 3 Proof-Point-Karten (15+ Jahre, 3 Kontinente, 4.96/5.0)
+- [x] Neuer Claim: Vision-getrieben statt Titel-basiert
+- [x] Klienten-Namen anonymisiert (DSGVO)
+
+### Aenderungen v0.2.0 → v0.3.0
+- **Landing Page Redesign:** Kandidat praesentiert sich wie ein Unternehmen seine Kultur zeigt
+- **Neuer Claim:** "Ich sehe Staerken, baue Strukturen und schaffe Raeume, in denen Arbeit Sinn macht."
+- **Hook:** "Vom Entwicklungsleiter Asien zum Master Coach" als emotionaler Einstieg
+- **Werte + Staerken:** Freiheit/Agape/Klarheit + 5 CliftonStrengths als Pill-Badges
+- **3 Proof Points:** Zahlen-Karten (Engineering, Fuehrung, Coaching)
+- **Unterschrift:** Handschriftliche SVG-Signatur unter dem Namen
+- **Skill-Updates:** Entwicklungsleiter Asien explizit, NVH Simulation aufgebaut, FK-Script weltweit, Engineering-Pionier Asien
+- **DSGVO:** Alle Klienten-Namen in Evidence-Texten anonymisiert
+- **Speaker:** Marc Stoehr durch EFC.AG / M. Stoehr ersetzt
 
 ### Aenderungen v0.1.0 → v0.2.0
 - **Evidence-Validation:** Alle 32 Skills gegen harte Quellen geprueft (Zeugnisse, Diplome, ProvenExpert, Broschuere, Vita-Referenzen)
@@ -35,10 +52,8 @@
 - **Component-Cleanup:** data-process Referenzen aus ForgedSkillChip, SkillCard, ClusterTabs entfernt
 
 ### Bekannte offene Punkte
-- Willkommensseite: Text/Claim anpassen
-- Portraitfoto: Bildausschnitt im Kreis optimierbar
 - Rollen-Beschreibungen (roles.json) noch nicht validiert
-- Deployment auf apps.p3coaching.de/skill-forge/
+- Deployment auf apps.p3coaching.de/skill-forge/ (GitHub Actions + FTP Setup)
 
 ### Dateistruktur
 ```
@@ -67,6 +82,7 @@ public/
   images/
     BW_MW20220613_34995.jpg   # Portraitfoto
     P3_Logo_RZ_Bild_rot.png   # P3 Fluegel-Logo
+    signature_Schwarz.svg     # Handschriftliche Unterschrift
 ```
 
 ### Datenquelle

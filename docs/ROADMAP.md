@@ -13,13 +13,15 @@
 - [x] **Master Resume als Quelle entfernt**
 - [x] **data-process Cluster in engineering gemergt**
 
+- [x] **Landing Page Redesign:** Claim, Werte, Staerken, Proof Points, Unterschrift
+- [x] **Skill-Evidence Updates:** Entwicklungsleiter, NVH Simulation, FK-Script
+- [x] **DSGVO:** Klienten-Namen anonymisiert
+
 #### Naechste Schritte (vor Go-Live):
-- [ ] **Willkommensseite Text anpassen** (Claim, Beschreibung)
 - [ ] **Rollen-Beschreibungen pruefen** (roles.json)
   - `description` und `whyFit` Felder validieren
   - `requiredTags` auf sinnvolle Zuordnung pruefen (Tags haben sich geaendert!)
-- [ ] Portraitfoto: Bildausschnitt optimieren (evtl. zugeschnittene Version)
-- [ ] Deployment auf apps.p3coaching.de/skill-forge/
+- [ ] Deployment auf apps.p3coaching.de/skill-forge/ (GitHub Actions + FTP)
 
 ### Phase 2: KI-Integration
 - Dynamische Revelation-Generierung via API
@@ -45,3 +47,7 @@
 | 2026-02-17 | data-process Cluster aufgeloest | Nur 1 Skill (Six Sigma/DFSS) verblieb nach Evidence-Pruefung. In engineering gemergt statt eigenen Cluster mit 1 Skill. |
 | 2026-02-17 | Karriere- und Gruendungsberatung getrennt | Komplett unterschiedliche Beratungsfelder, jeweils eigener Skill. Gruendungsberatung = Existenzgruendungsberater-Zertifikat, Karriereberatung = ProvenExpert-belegt. |
 | 2026-02-17 | 5 neue Skills eingefuehrt | Fuehrungskraefteentwicklung (LeadershipCoach Diplom), Karriereberatung (ProvenExpert), Sozialkompetenz (Continental Note 1), Speaker (Vitesco Townhalls), Gruendungsberatung (umbenannt von Startup-Beratung) |
+| 2026-02-17 | Landing Page: Spiess umgedreht | Kandidat praesentiert sich wie ein Unternehmen seine Kultur zeigt: Werte (Freiheit, Agape, Klarheit), CliftonStrengths, Proof Points. Vision-getriebener Claim statt generischer Titel. |
+| 2026-02-17 | Claim geaendert | Alt: "Menschenorientierter Systemarchitekt mit Pioniercharakter". Neu: "Ich sehe Staerken, baue Strukturen und schaffe Raeume, in denen Arbeit Sinn macht." Destilliert aus persoenlicher Vision + CliftonStrengths. |
+| 2026-02-17 | Klienten-Namen anonymisiert | DSGVO-konform: Alle Einzelpersonen-Namen in Evidence-Texten durch "Klient/Klientin" ersetzt. Firmennamen (Karoka AG, EFC.AG) bleiben. |
+| 2026-02-17 | Skill-Evidence praezisiert | Entwicklungsleiter Asien (statt Senior), NVH Simulation aufgebaut mit fachlicher Weisungsbefugnis, FK-Script weltweit, Engineering-Pionier Asien. |
