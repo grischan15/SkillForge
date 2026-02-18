@@ -23,7 +23,6 @@ function App() {
   const [showWelcome, setShowWelcome] = useState(true)
   const [activeCluster, setActiveCluster] = useState(clusters[0].id)
   const [activeSkillId, setActiveSkillId] = useState(null)
-  const [mobileForgeOpen, setMobileForgeOpen] = useState(false)
   const reducedMotion = useReducedMotion()
 
   const { forgedSkills, addSkill, removeSkill, clearForge } = useForge()
@@ -97,7 +96,7 @@ function App() {
 
           {/* Right: Forge (sticky sidebar on desktop, bottom on mobile) */}
           <aside className="
-            hidden lg:flex lg:flex-col lg:w-80 xl:w-96 gap-3
+            flex flex-col lg:w-80 xl:w-96 gap-3
             lg:sticky lg:top-4 lg:self-start lg:max-h-[calc(100dvh-6rem)]
             lg:overflow-y-auto
           ">
@@ -124,55 +123,6 @@ function App() {
               reducedMotion={reducedMotion}
             />
           </aside>
-        </div>
-
-        {/* Mobile Forge (fixed bottom) */}
-        <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40">
-          <div
-            className={`bg-white border-t border-border shadow-lg transition-all duration-slow ease-out ${
-              mobileForgeOpen ? 'max-h-[70dvh]' : 'max-h-14'
-            } overflow-hidden`}
-          >
-            <button
-              onClick={() => setMobileForgeOpen(prev => !prev)}
-              className="w-full flex items-center justify-between px-4 py-3 min-h-[48px] text-left"
-            >
-              <span className="font-semibold text-ink flex items-center gap-2">
-                <img src="images/P3_Logo_RZ_Bild_rot.png" alt="" className="w-5 h-5 object-contain" />
-                Schmiede ({forgedSkills.length})
-              </span>
-              <span className="text-ink-muted text-sm">
-                {mobileForgeOpen ? '▼' : '▲'}
-              </span>
-            </button>
-            {mobileForgeOpen && (
-              <div className="px-4 pb-4 overflow-y-auto max-h-[calc(70dvh-3.5rem)] flex flex-col gap-3">
-                <OnboardingHint reducedMotion={reducedMotion} />
-                <ReactionZone
-                  forgedSkills={forgedSkills}
-                  onRemove={removeSkill}
-                  onClear={clearForge}
-                  reducedMotion={reducedMotion}
-                  inline
-                />
-                <DiscoveryTeaser
-                  clusterCount={clusterCount}
-                  uniqueClusters={uniqueClusters}
-                  isUnlocked={isUnlocked}
-                  progress={progress}
-                  matchCount={matches.length + revelations.length}
-                  reducedMotion={reducedMotion}
-                />
-                <RoleResults
-                  matches={matches}
-                  revelations={revelations}
-                  isUnlocked={isUnlocked}
-                  forgedTags={forgedTags}
-                  reducedMotion={reducedMotion}
-                />
-              </div>
-            )}
-          </div>
         </div>
 
         <DragOverlay dropAnimation={reducedMotion ? null : undefined}>
