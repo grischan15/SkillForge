@@ -1,24 +1,11 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
-const STORAGE_KEY = 'skillforge-onboarding-seen'
-
 export default function OnboardingHint({ reducedMotion }) {
-  const [visible, setVisible] = useState(() => {
-    try {
-      return !localStorage.getItem(STORAGE_KEY)
-    } catch {
-      return true
-    }
-  })
+  const [visible, setVisible] = useState(true)
 
   function dismiss() {
     setVisible(false)
-    try {
-      localStorage.setItem(STORAGE_KEY, '1')
-    } catch {
-      // localStorage unavailable
-    }
   }
 
   const duration = reducedMotion ? 0 : 0.3
