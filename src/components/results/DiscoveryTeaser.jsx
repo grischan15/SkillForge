@@ -14,11 +14,9 @@ export default function DiscoveryTeaser({
   const duration = reducedMotion ? 0 : 0.4
 
   return (
-    <motion.div
-      layout
-      transition={{ duration, ease: 'easeInOut' }}
+    <div
       className={`
-        rounded-xl border overflow-hidden
+        rounded-xl border
         ${isUnlocked
           ? 'bg-revelation-bg/50 border-revelation-gold/20'
           : 'bg-revelation-bg border-revelation-gold/40'
@@ -119,7 +117,7 @@ export default function DiscoveryTeaser({
           </motion.div>
         )}
       </AnimatePresence>
-    </motion.div>
+    </div>
   )
 }
 
