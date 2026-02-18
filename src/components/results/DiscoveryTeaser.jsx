@@ -45,10 +45,10 @@ export default function DiscoveryTeaser({
             {/* Subtext */}
             <p className="text-xs text-ink-muted mb-3 leading-relaxed">
               {clusterCount === 0
-                ? 'Manche Rollen werden erst sichtbar, wenn Sie Kompetenzen aus verschiedenen Clustern kombinieren.'
-                : clusterCount === 2
-                  ? 'Noch ein Cluster \u2014 dann werden die Entdeckungsrollen sichtbar.'
-                  : 'Legen Sie Skills aus verschiedenen Clustern in die Schmiede, um diese Rollen freizuschalten.'
+                ? 'Ihre regulären Rollenvorschläge erscheinen sofort. Aber die spannendsten Entdeckungen? Die brauchen Skills aus mindestens drei verschiedenen Clustern. 😉'
+                : clusterCount === 1
+                  ? 'Noch zwei Cluster – dann enthüllt die Schmiede überraschende Rollen, die Sie vielleicht nicht auf dem Radar hatten.'
+                  : 'Noch ein Cluster – und die Entdeckungsrollen werden sichtbar. Fast geschafft!'
               }
             </p>
 
@@ -108,7 +108,7 @@ export default function DiscoveryTeaser({
                 <UnlockIcon className="w-5 h-5 text-revelation-gold flex-shrink-0" />
               </motion.div>
               <span className="font-semibold text-ink text-sm">
-                Entdeckungsrollen freigeschaltet
+                Entdeckungsrollen freigeschaltet 🎉
               </span>
               {matchCount > 0 && (
                 <span className="ml-auto text-xs text-ink-muted">
