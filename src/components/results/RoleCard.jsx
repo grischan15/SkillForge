@@ -60,8 +60,20 @@ export default function RoleCard({
         </div>
       )}
 
-      {/* Unique Value */}
-      {(role.uniqueValue || role.whyFit) && (
+      {/* Business Impact (revelations) or Unique Value (standard) */}
+      {isRevelation && role.businessImpact ? (
+        <div className="mt-2 pt-2 border-t border-revelation-gold/20">
+          <p className="text-[10px] uppercase tracking-wider text-revelation-gold font-medium mb-1">
+            Warum Ihr Unternehmen diese Rolle braucht
+          </p>
+          <p className="text-xs text-ink-light leading-relaxed line-clamp-3">
+            {role.businessImpact}
+          </p>
+          <p className="text-[10px] text-ink-muted mt-1.5 italic">
+            Diese Rolle können Sie besetzen – oder als Transformationsprojekt starten. 😉
+          </p>
+        </div>
+      ) : (role.uniqueValue || role.whyFit) ? (
         <div className="mt-2 pt-2 border-t border-border-light/60">
           <p className="text-[10px] uppercase tracking-wider text-ink-muted font-medium mb-1">
             Ihr Mehrwert
@@ -70,7 +82,7 @@ export default function RoleCard({
             {role.uniqueValue || role.whyFit}
           </p>
         </div>
-      )}
+      ) : null}
 
       {/* Details button */}
       {onShowDetails && (

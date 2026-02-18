@@ -130,6 +130,21 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
               </Section>
             )}
 
+            {/* Business Impact (revelations only) */}
+            {role.isRevelation && role.businessImpact && (
+              <div className="bg-revelation-bg border-l-4 border-revelation-gold rounded-r-lg p-4">
+                <p className="text-xs uppercase tracking-wider text-revelation-gold font-semibold mb-1.5">
+                  Warum Ihr Unternehmen diese Rolle braucht
+                </p>
+                <p className="text-sm text-ink leading-relaxed">
+                  {role.businessImpact}
+                </p>
+                <p className="text-xs text-ink-muted mt-2 italic">
+                  Diese Rolle können Sie besetzen – oder als Transformationsprojekt starten. 😉
+                </p>
+              </div>
+            )}
+
             {/* Unique Value — highlighted */}
             {(role.uniqueValue || role.whyFit) && (
               <div className="bg-p3-green/5 border-l-4 border-p3-green rounded-r-lg p-4">
