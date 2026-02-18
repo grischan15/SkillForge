@@ -8,7 +8,8 @@ export default function DiscoveryTeaser({
   uniqueClusters,
   isUnlocked,
   progress,
-  matchCount = 0,
+  revelationCount = 0,
+  standardCount = 0,
   reducedMotion,
 }) {
   const duration = reducedMotion ? 0 : 0.4
@@ -108,9 +109,11 @@ export default function DiscoveryTeaser({
               <span className="font-semibold text-ink text-sm">
                 Entdeckungsrollen freigeschaltet 🎉
               </span>
-              {matchCount > 0 && (
-                <span className="ml-auto text-xs text-ink-muted">
-                  {matchCount} {matchCount === 1 ? 'Rolle' : 'Rollen'} gefunden
+              {(revelationCount > 0 || standardCount > 0) && (
+                <span className="ml-auto text-xs text-ink-muted text-right leading-tight">
+                  {revelationCount > 0 && <>{revelationCount} Entdeckung{revelationCount !== 1 && 'en'}</>}
+                  {revelationCount > 0 && standardCount > 0 && ', '}
+                  {standardCount > 0 && <>{standardCount} passende</>}
                 </span>
               )}
             </div>

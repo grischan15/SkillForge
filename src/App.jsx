@@ -133,7 +133,8 @@ function App() {
               uniqueClusters={uniqueClusters}
               isUnlocked={isUnlocked}
               progress={progress}
-              matchCount={matches.length + revelations.length}
+              revelationCount={revelations.length}
+              standardCount={matches.length}
               reducedMotion={reducedMotion}
             />
             <RoleResults
