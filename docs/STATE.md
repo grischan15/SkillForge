@@ -1,8 +1,8 @@
 # STATE.md – SkillForge
 
-## Version: 0.5.0 (UX Funnel Restructure)
+## Version: 0.5.1 (UX Polish + Responsive Fixes)
 
-## Status: Standard-Rollen sofort sichtbar, Revelations-first bei 3+ Clustern, businessImpact auf Revelation-Cards
+## Status: Responsive auf allen Bildschirmgroessen, WelcomeBanner, collapsible Skills, getrennte Rollenzaehlung
 
 ### Tech-Stack
 - React 19 + Vite 7 (Port 5180)
@@ -37,9 +37,25 @@
 - [x] JobAd-Modal: Vollstaendiges Stellenprofil mit Kompetenz-Abgleich, Mehrwert, Anforderungsprofil
 - [x] SkillTag-Komponente: Matched/Unmatched Pills mit deutschen Labels
 - [x] uniqueValue-Feld fuer alle 100 Rollen ("Ihr Mehrwert fuer die Firma")
-- [x] OnboardingHint: Persistenter Motivations-Hinweis (bleibt bis X-Klick, Desktop + Mobile)
+- [x] OnboardingHint: Persistenter Motivations-Hinweis (bleibt bis X-Klick, Session-only)
+- [x] WelcomeBanner: Goldenes 3-Schritte-Banner erklaert Forge-Flow (Session-only, kein localStorage)
 - [x] businessImpact-Feld auf Revelation-RoleCards + JobAdModal (Trojan-Horse-Strategie)
 - [x] Cluster-Diversity-Tracking via useDiscoveryProgress Hook
+- [x] Collapsible SkillGrid auf kleinen Screens (optional, wenn Rollen sichtbar)
+- [x] Scrollbare Skills + Aside auf allen Bildschirmgroessen (max-h-[50vh])
+- [x] Getrennte Rollenzaehlung: "X Entdeckungen, Y passende Rollen"
+
+### Aenderungen v0.5.0 → v0.5.1
+- **WelcomeBanner:** Goldenes Slide-in-Banner erklaert 3-Schritte-Forge-Flow (Session-only, kein localStorage)
+- **Header:** Landing-Subtitle "Was kann ich fuer Ihr Unternehmen tun?", Compact-Header ohne Subtitle
+- **DiscoveryTeaser Fix:** Layout-Collapse-Bug behoben (motion.div layout + overflow-hidden entfernt)
+- **SkillCard Fixes:** + Button immer sichtbar (opacity-Bug), Evidence-Popover absolut positioniert (kein Grid-Row-Stretch)
+- **Mobile Layout:** Forge/Rollen auf allen Bildschirmgroessen sichtbar (hidden Bottom-Panel entfernt, Aside immer im Fluss)
+- **Info-Boxen Session-only:** localStorage-Persistenz entfernt, WelcomeBanner + OnboardingHint erscheinen bei jedem Seitenaufruf
+- **Scrollbare Bereiche:** SkillGrid + Aside je max-h-[50vh] auf kleinen Screens mit eigenem Scrollbar
+- **Collapsible Skills:** Optionaler Einklapp-Button auf kleinen Screens (nur wenn Rollen existieren, nicht Default)
+- **Getrennte Rollenzaehlung:** DiscoveryTeaser zeigt "X Entdeckungen, Y passende Rollen" statt Gesamtzahl
+- **Dateistruktur:** WelcomeBanner.jsx neu in shared/, Mobile-Forge-Panel entfernt aus App.jsx
 
 ### Aenderungen v0.4.0 → v0.5.0
 - **Neuer Skill:** Werte- & Kulturentwicklung (lead-culture) im Leadership-Cluster, Level 4
@@ -116,7 +132,7 @@ src/
     forge/                    # ReactionZone, ForgedSkillChip, ForgePrompt
     results/                  # RoleResults, RoleCard, MatchScore, RevelationBadge,
                               # DiscoveryTeaser, JobAdModal, SkillTag
-    shared/                   # DragOverlayCard, EmptyState, OnboardingHint
+    shared/                   # DragOverlayCard, EmptyState, OnboardingHint, WelcomeBanner
   hooks/
     useForge.js               # Schmiede State
     useMatching.js            # Rollen-Matching + forgedTags

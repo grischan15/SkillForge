@@ -34,6 +34,17 @@
 - [x] **businessImpact:** 50 Revelation-Rollen mit Unternehmensbedarf-Text (Trojan-Horse)
 - [x] **DiscoveryTeaser:** Neue Texte fuer alle Cluster-Zustaende
 
+### Phase 1.7: UX Polish + Responsive (v0.5.0 → v0.5.1)
+- [x] **WelcomeBanner:** Goldenes 3-Schritte-Banner erklaert Forge-Flow
+- [x] **Header-Redesign:** Hook-Subtitle auf Landing, kein Subtitle im Compact-Modus
+- [x] **DiscoveryTeaser Fix:** Layout-Collapse bei Rollen-Aenderungen behoben
+- [x] **SkillCard Fixes:** + Button immer sichtbar, Evidence-Popover ohne Grid-Stretch
+- [x] **Responsive Layout:** Forge/Rollen immer sichtbar, kein verstecktes Bottom-Panel
+- [x] **Session-only Boxen:** Kein localStorage, Boxen bei jedem Besuch wieder da
+- [x] **Scrollbare Bereiche:** Skills + Aside je max-h-[50vh] auf kleinen Screens
+- [x] **Collapsible Skills:** Optionaler Einklapp-Button wenn Rollen sichtbar
+- [x] **Getrennte Zaehlung:** "X Entdeckungen, Y passende Rollen" im DiscoveryTeaser
+
 #### Naechste Schritte (vor Go-Live):
 - [ ] **Rollen-Beschreibungen pruefen** (roles.json)
   - `description` und `whyFit` Felder validieren
@@ -43,12 +54,28 @@
   - JobAdModal rendert diese Daten bereits, Feld fehlt noch in roles.json
 - [x] Deployment auf apps.p3coaching.de/skillforge/ (GitHub Actions + FTP)
 
-### Phase 2: KI-Integration
+### Phase 2: Evidence-Download + Lead-Capture
+- [ ] **Lead-Capture-Formular:** Name, Firma, E-Mail-Adresse vor Download
+- [ ] **Evidence-PDF:** Kuratiertes Kompetenz-Portfolio als einzelne PDF
+  - Klickbares Inhaltsverzeichnis (pro Cluster / Evidenz-Quelle)
+  - Bookmarks fuer Schnellnavigation
+  - Skills verlinken auf relevante PDF-Seite
+  - Automatische Seitenzahl-Referenzen in der App
+- [ ] **Alternativen evaluiert:** Mega-PDF vs. Einzel-Dokumente
+  - Mega-PDF: Ein Download, Recruiter findet alles an einem Ort. Braucht gutes Inhaltsverzeichnis.
+  - Einzel-Dokumente: Granularer, aber viele Downloads. Recruiter verliert Ueberblick.
+  - **Empfehlung:** Kuratierte Mega-PDF mit klickbarem Inhaltsverzeichnis + Bookmarks.
+    Recruiter findet schnell die relevante Stelle ueber Cluster-Gliederung.
+- [ ] **Backend-Anbindung:** Formular-Daten speichern (Serverless Function oder Simple API)
+- [ ] **E-Mail-Benachrichtigung:** Recruiter erhaelt Download-Link, Christian erhaelt Lead-Info
+- [ ] **Tracking:** Welche Rollen/Skills wurden angeschaut bevor Download?
+
+### Phase 3: KI-Integration
 - Dynamische Revelation-Generierung via API
 - Share-URL fuer Recruiter
 - Polish + Feinschliff
 
-### Phase 3: Job-Upload
+### Phase 4: Job-Upload
 - Unternehmen laedt Stellenanzeige hoch
 - Auto-Match + KI-Vorschlaege
 
@@ -82,3 +109,10 @@
 | 2026-02-18 | businessImpact Trojan Horse | Neues Feld auf Revelation-Cards: "Warum Ihr Unternehmen diese Rolle braucht". Verschiebt Gespraech von Kandidaten-Fit zu Unternehmens-Need. Recruiter denkt: "Stimmt, diese Rolle braeuchten wir." |
 | 2026-02-18 | OnboardingHint persistent | Auto-Dismiss bei erstem Skill war kontraproduktiv. Hint bleibt als motivationaler Anker, teast Revelation-Mechanik. Nur manuelles X schliesst ihn. |
 | 2026-02-18 | Werte- & Kulturentwicklung Skill | Luecke im Leadership-Cluster geschlossen. Evidence: Vitesco Rebranding, FK-Script weltweit, P3 Kulturentwicklung. Ergaenzt lead-change und lead-orgdev. |
+| 2026-02-18 | WelcomeBanner statt Inline-Erklaerung | Goldenes Banner erklaert 3-Schritte-Flow (Skills waehlen, Rollen sehen, Entdeckungen). Session-only: kein localStorage, da Recruiter beim zweiten Besuch die Anleitung nochmal lesen will. |
+| 2026-02-18 | Mobile: Aside im Seitenfluss statt Fixed-Bottom-Panel | Verstecktes Bottom-Panel "Schmiede (0)" wurde von Usern nicht gefunden. Aside jetzt immer sichtbar im normalen Dokumentfluss unterhalb der Skills. |
+| 2026-02-18 | Scrollbare Bereiche (50vh) | Skills + Aside je max-h-[50vh] auf kleinen Screens. Beide Bereiche scrollen unabhaengig, Schmiede + Rollen immer erreichbar. |
+| 2026-02-18 | Collapsible Skills (opt-in) | Skills-Einklapp-Button erscheint nur auf kleinen Screens + nur wenn Rollenvorschlaege existieren. Default: aufgeklappt. Recruiter kann Skills einklappen um sich auf Rollen zu fokussieren. |
+| 2026-02-18 | Evidence-Popover absolut statt inline | Inline-Evidence streckte CSS-Grid-Row und verzerrte Nachbar-Cards. Absolut positioniert schwebt als Overlay, kein Layout-Impact. |
+| 2026-02-18 | Getrennte Rollenzaehlung | "11 Rollen gefunden" suggerierte 11 Entdeckungsrollen. Jetzt "X Entdeckungen, Y passende Rollen" - korrekte Zuordnung. |
+| 2026-02-18 | Evidence-Download + Lead-Capture (Idee) | Skills referenzieren Quellen (Zeugnisse, Diplome). Idee: Kuratierte Mega-PDF mit klickbarem Inhaltsverzeichnis zum Download, gegated hinter Lead-Capture (Name, Firma, Email). Mega-PDF > Einzel-Dokumente weil ein Download, ein Ort. Inhaltsverzeichnis + Bookmarks fuer schnelle Navigation. |
