@@ -45,6 +45,8 @@
 - [x] **Collapsible Skills:** Optionaler Einklapp-Button wenn Rollen sichtbar
 - [x] **Getrennte Zaehlung:** "X Entdeckungen, Y passende Rollen" im DiscoveryTeaser
 
+### Phase 1.8: Layout-Umbau + Landing-Rebranding (v0.5.1 → v0.6.0) — abgeschlossen
+
 #### Naechste Schritte (vor Go-Live):
 - [ ] **Rollen-Beschreibungen pruefen** (roles.json)
   - `description` und `whyFit` Felder validieren
@@ -95,7 +97,11 @@
 | 2026-02-17 | Karriere- und Gruendungsberatung getrennt | Komplett unterschiedliche Beratungsfelder, jeweils eigener Skill. Gruendungsberatung = Existenzgruendungsberater-Zertifikat, Karriereberatung = ProvenExpert-belegt. |
 | 2026-02-17 | 5 neue Skills eingefuehrt | Fuehrungskraefteentwicklung (LeadershipCoach Diplom), Karriereberatung (ProvenExpert), Sozialkompetenz (Continental Note 1), Speaker (Vitesco Townhalls), Gruendungsberatung (umbenannt von Startup-Beratung) |
 | 2026-02-17 | Landing Page: Spiess umgedreht | Kandidat praesentiert sich wie ein Unternehmen seine Kultur zeigt: Werte (Freiheit, Agape, Klarheit), CliftonStrengths, Proof Points. Vision-getriebener Claim statt generischer Titel. |
-| 2026-02-17 | Claim geaendert | Alt: "Menschenorientierter Systemarchitekt mit Pioniercharakter". Neu: "Ich sehe Staerken, baue Strukturen und schaffe Raeume, in denen Arbeit Sinn macht." Destilliert aus persoenlicher Vision + CliftonStrengths. |
+| 2026-02-17 | Claim geaendert | Alt: "Menschenorientierter Systemarchitekt mit Pioniercharakter". Destilliert aus persoenlicher Vision + CliftonStrengths. |
+| 2026-03-04 | Claim v2: "wirkt" statt "Sinn macht" | "Sinn" zu abstrakt/interpretierbar fuer CEOs/Recruiter. "wirkt" = unmissverstaendlich, multivalent (funktioniert + erzeugt Wirkung). Purpose-Alignment als Hook darunter. |
+| 2026-03-04 | CTA "Rollen-Match starten" | "Kompetenzen entdecken" war aus Kandidaten-Sicht. Recruiter denken in Rollen + Matching. Neuer CTA + Subline "Staerken in Aktion sehen". |
+| 2026-03-04 | Layout-Umbau: Rollen unter Grid | Rollen in schmaler Sidebar unsichtbar. Jetzt volle Breite unter dem Grid — deutlich sichtbarer. Schmiede als einziger Sidebar-Content, groesser + farbiger. |
+| 2026-03-04 | "Cluster" → "Bereich" | Fachbegriff "Cluster" fuer Recruiter/CEOs unverstaendlich. "Bereich" ist natuerliche Sprache. |
 | 2026-02-17 | Klienten-Namen anonymisiert | DSGVO-konform: Alle Einzelpersonen-Namen in Evidence-Texten durch "Klient/Klientin" ersetzt. Firmennamen (Karoka AG, EFC.AG) bleiben. |
 | 2026-02-17 | Skill-Evidence praezisiert | Entwicklungsleiter Asien (statt Senior), NVH Simulation aufgebaut mit fachlicher Weisungsbefugnis, FK-Script weltweit, Engineering-Pionier Asien. |
 | 2026-02-18 | Deployment komplett | GitHub Pages (auto) + ALL-INKL (manuell via FTP). gh CLI installiert, Repo erstellt, Workflows von Quest Board kopiert. |

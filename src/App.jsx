@@ -9,9 +9,8 @@ import SkillGrid from './components/skills/SkillGrid'
 import ReactionZone from './components/forge/ReactionZone'
 import RoleResults from './components/results/RoleResults'
 import DiscoveryTeaser from './components/results/DiscoveryTeaser'
-import OnboardingHint from './components/shared/OnboardingHint'
 import DragOverlayCard from './components/shared/DragOverlayCard'
-import WelcomeBanner from './components/shared/WelcomeBanner'
+import ForgeGuide from './components/shared/ForgeGuide'
 import { useForge } from './hooks/useForge'
 import { useMatching } from './hooks/useMatching'
 import { useDiscoveryProgress } from './hooks/useDiscoveryProgress'
@@ -79,7 +78,11 @@ function App() {
         onDragEnd={handleDragEnd}
         onDragCancel={handleDragCancel}
       >
-        <WelcomeBanner reducedMotion={reducedMotion} />
+        <ForgeGuide
+          forgedSkills={forgedSkills}
+          clusterCount={clusterCount}
+          reducedMotion={reducedMotion}
+        />
         <div className="flex flex-col lg:flex-row gap-4 lg:gap-6 flex-1 min-h-0">
           {/* Left: Tabs + Skills */}
           <div className="flex-1 min-w-0 flex flex-col">
@@ -114,38 +117,39 @@ function App() {
             )}
           </div>
 
-          {/* Right: Forge (sticky sidebar on desktop, bottom on mobile) */}
+          {/* Right: Forge sidebar (only Schmiede) */}
           <aside className="
-            flex flex-col lg:w-80 xl:w-96 gap-3
-            max-h-[50vh] lg:max-h-[calc(100dvh-6rem)]
-            overflow-y-auto
+            flex flex-col lg:w-88 xl:w-96 gap-3
             lg:sticky lg:top-4
           ">
-            <OnboardingHint reducedMotion={reducedMotion} />
             <ReactionZone
               forgedSkills={forgedSkills}
               onRemove={removeSkill}
               onClear={clearForge}
               reducedMotion={reducedMotion}
             />
-            <DiscoveryTeaser
-              clusterCount={clusterCount}
-              uniqueClusters={uniqueClusters}
-              isUnlocked={isUnlocked}
-              progress={progress}
-              revelationCount={revelations.length}
-              standardCount={matches.length}
-              reducedMotion={reducedMotion}
-            />
-            <RoleResults
-              matches={matches}
-              revelations={revelations}
-              isUnlocked={isUnlocked}
-              forgedTags={forgedTags}
-              reducedMotion={reducedMotion}
-            />
           </aside>
         </div>
+
+        {/* Role results — full width below the grid */}
+        <section className="mt-6 flex flex-col gap-4">
+          <DiscoveryTeaser
+            clusterCount={clusterCount}
+            uniqueClusters={uniqueClusters}
+            isUnlocked={isUnlocked}
+            progress={progress}
+            revelationCount={revelations.length}
+            standardCount={matches.length}
+            reducedMotion={reducedMotion}
+          />
+          <RoleResults
+            matches={matches}
+            revelations={revelations}
+            isUnlocked={isUnlocked}
+            forgedTags={forgedTags}
+            reducedMotion={reducedMotion}
+          />
+        </section>
 
         <DragOverlay dropAnimation={reducedMotion ? null : undefined}>
           {activeSkill ? <DragOverlayCard skill={activeSkill} /> : null}

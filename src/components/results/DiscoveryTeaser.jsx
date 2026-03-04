@@ -1,5 +1,7 @@
+import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import clusters from '../../data/clusters.json'
+import InfoModal from '../shared/InfoModal'
 
 const clusterMap = Object.fromEntries(clusters.map(c => [c.id, c]))
 
@@ -12,7 +14,19 @@ export default function DiscoveryTeaser({
   standardCount = 0,
   reducedMotion,
 }) {
+  const [showInfo, setShowInfo] = useState(false)
+  const prevUnlocked = useRef(isUnlocked)
   const duration = reducedMotion ? 0 : 0.4
+
+  // Auto-show info modal when discovery roles get unlocked
+  useEffect(() => {
+    if (isUnlocked && !prevUnlocked.current) {
+      // Small delay so unlock animation plays first
+      const timer = setTimeout(() => setShowInfo(true), 600)
+      return () => clearTimeout(timer)
+    }
+    prevUnlocked.current = isUnlocked
+  }, [isUnlocked])
 
   return (
     <div
@@ -44,10 +58,10 @@ export default function DiscoveryTeaser({
             {/* Subtext */}
             <p className="text-xs text-ink-muted mb-3 leading-relaxed">
               {clusterCount === 0
-                ? 'Ihre regulären Rollenvorschläge erscheinen sofort. Aber die spannendsten Entdeckungen? Die brauchen Skills aus mindestens drei verschiedenen Clustern. 😉'
+                ? 'Ihre regulären Rollenvorschläge erscheinen sofort. Aber die spannendsten Entdeckungen? Die brauchen Skills aus mindestens drei verschiedenen Bereichen. 😉'
                 : clusterCount === 1
-                  ? 'Noch zwei Cluster – dann enthüllt die Schmiede überraschende Rollen, die Sie vielleicht nicht auf dem Radar hatten.'
-                  : 'Noch ein Cluster – und die Entdeckungsrollen werden sichtbar. Fast geschafft!'
+                  ? 'Noch zwei Bereiche – dann enthüllt die Schmiede überraschende Rollen, die Sie vielleicht nicht auf dem Radar hatten.'
+                  : 'Noch ein Bereich – und die Entdeckungsrollen werden sichtbar. Fast geschafft!'
               }
             </p>
 
@@ -55,7 +69,7 @@ export default function DiscoveryTeaser({
             <div className="mb-3">
               <div className="flex justify-between items-center mb-1">
                 <span className="text-xs text-ink-muted">
-                  {clusterCount} von 3 Clustern aktiviert
+                  {clusterCount} von 3 Bereichen aktiviert
                 </span>
               </div>
               <div className="h-2 bg-border-light rounded-full overflow-hidden">
@@ -109,6 +123,13 @@ export default function DiscoveryTeaser({
               <span className="font-semibold text-ink text-sm">
                 Entdeckungsrollen freigeschaltet 🎉
               </span>
+              <button
+                onClick={() => setShowInfo(true)}
+                className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-ink-muted hover:text-ink hover:bg-white/60 transition-colors cursor-pointer"
+                aria-label="Was sind Entdeckungsrollen?"
+              >
+                <span className="text-sm font-bold">ⓘ</span>
+              </button>
               {(revelationCount > 0 || standardCount > 0) && (
                 <span className="ml-auto text-xs text-ink-muted text-right leading-tight">
                   {revelationCount > 0 && <>{revelationCount} Entdeckung{revelationCount !== 1 && 'en'}</>}
@@ -120,7 +141,38 @@ export default function DiscoveryTeaser({
           </motion.div>
         )}
       </AnimatePresence>
+
+      <DiscoveryInfoModal open={showInfo} onClose={() => setShowInfo(false)} />
     </div>
+  )
+}
+
+export function DiscoveryInfoModal({ open, onClose }) {
+  return (
+    <InfoModal open={open} onClose={onClose} title="Entdeckungsrollen freigeschaltet!">
+      <p>
+        Sie haben Kompetenzen aus 3+&nbsp;verschiedenen Fachgebieten ausgewählt. Genau diese
+        Vielfalt ist entscheidend: Wer viele Fachsprachen spricht, eröffnet Positionen, die
+        bei eindimensionaler Betrachtung unsichtbar bleiben.
+      </p>
+      <div>
+        <p className="font-semibold text-ink mb-1">Was sind Entdeckungsrollen?</p>
+        <p>
+          Das sind Positionen, die Ihr Unternehmen vielleicht nicht auf dem Radar hätte&nbsp;—
+          die aber genau durch diese einzigartige Kombination verschiedener Fachgebiete
+          möglich werden.
+        </p>
+      </div>
+      <div>
+        <p className="font-semibold text-ink mb-1">Worin unterscheiden sie sich?</p>
+        <p>
+          <strong className="text-ink">Passende Rollen</strong> matchen die offensichtlichen
+          Stärken aus einzelnen Bereichen. <strong className="text-ink">Entdeckungsrollen</strong> zeigen
+          die überraschenden Möglichkeiten, die erst durch die Verbindung verschiedener
+          Fachsprachen entstehen&nbsp;— und die Ihr Unternehmen sonst vielleicht übersehen würde.
+        </p>
+      </div>
+    </InfoModal>
   )
 }
 

@@ -13,8 +13,44 @@
       "Fabrikationsgeheimnis verifiziert und in globalen GM-Entwicklungsprozess implementiert (GM Zeugnis)",
       "NVH-Expertise divisionsuebergreifend gesucht, Netzwerke initiiert (Continental Interne Beurteilung)"
     ],
-    "tags": ["nvh", "acoustics", "automotive", "testing", "engineering"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "NVH Engineer",
+        "company": "GM Powertrain",
+        "period": "07/2006-03/2012",
+        "context": "Fabrikationsgeheimnis verifiziert und in globalen GM-Entwicklungsprozess implementiert"
+      },
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "NVH/Akustik-Bereich in Produktlinie Turbolader von Null aufgebaut, divisionsuebergreifende Netzwerke initiiert"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Disziplinarische und fachliche Fuehrung von 4 MA am Standort Regensburg, abteilungsuebergreifende NVH-Zustaendigkeit"
+      }
+    ],
+    "tags": [
+      "nvh",
+      "acoustics",
+      "automotive",
+      "testing",
+      "engineering",
+      "pattern-recognition",
+      "neural-networks",
+      "complex-data-handling"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      1,
+      1,
+      0,
+      0,
+      1
+    ]
   },
   {
     "id": "eng-product",
@@ -22,16 +58,42 @@
     "name": "Produktentwicklung",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "Engineering-Pionier Asien, Full Lifecycle",
+    "keyMetric": "Full Lifecycle, Budget-Verantwortung Asien",
     "evidence": [
       "Turbolader-Entwicklung fuer globale OEMs, mehrere Karrierestufen (Vitesco Endzeugnis)",
-      "Entwicklungsleiter Asien: Engineering-Pionierarbeit in 2 Jahren erfolgreich abgeschlossen (Continental Zwischenzeugnis)",
-      "Aufbau lokaler Abteilungen: Design, Prototypenbau, NVH, Validierung, TearDown (Continental Zwischenzeugnis)",
       "Budget-Verantwortung fuer Entwicklungsaktivitaeten Region Asien (Continental Zwischenzeugnis)",
+      "Aufbau lokaler Abteilungen: Applikationsdesign, Validierung, Test, Prototypen (Continental Zwischenzeugnis)",
+      "Erfolgreicher Launch Tear-Down und Prototypenshop (Continental Zwischenzeugnis)",
       "Darstellung von Entwicklungsthemen bei Kunden (Vitesco Endzeugnis)"
     ],
-    "tags": ["product-development", "automotive", "engineering", "lifecycle"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Budget-Verantwortung fuer Entwicklungsaktivitaeten Region Asien, Aufbau lokaler Abteilungen und Prototypenshop"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Turbolader-Entwicklung fuer globale OEMs, Darstellung von Entwicklungsthemen bei Kunden"
+      }
+    ],
+    "tags": [
+      "product-development",
+      "automotive",
+      "engineering",
+      "lifecycle"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "eng-cad",
@@ -39,16 +101,37 @@
     "name": "CAD & Simulation",
     "level": 3,
     "levelLabel": "Solide",
-    "keyMetric": "NVH Simulation aufgebaut, fachuebergreifend verantwortlich",
+    "keyMetric": "Dipl.-Ing. Physik, Akustik-Messtechnik",
     "evidence": [
       "Dipl.-Ing. Physikalische Technik, FH Giessen-Friedberg 2007 (Diplom-Urkunde)",
-      "NVH Simulation fuer Turbolader aufgebaut, fachuebergreifend verantwortlich (Continental/Vitesco)",
-      "Fachliche Weisungsbefugnis ueber Simulationskollegen trotz disziplinarischer Zuordnung zur Simulationsabteilung (Vitesco Endzeugnis)",
       "Programmierung von Berechnungsroutinen bei GM Powertrain (GM Zeugnis)",
+      "Wartung, Weiter- und Neuentwicklung von Mess-Methoden und -Prozeduren (GM Zeugnis)",
+      "Akustik-Messsysteme: PAK, NVH-Pruefstandsoftware (GM/TL Engineering Zeugnis)",
       "Detailoptimierung akustischer Eigenschaften in Kostenreduzierungsprojekten (TL Engineering Zeugnis)"
     ],
-    "tags": ["cad", "matlab", "simulation", "engineering", "measurement"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "NVH Engineer",
+        "company": "GM Powertrain",
+        "period": "07/2006-03/2012",
+        "context": "Programmierung von Berechnungsroutinen, Entwicklung von Mess-Methoden und NVH-Pruefstandsoftware"
+      }
+    ],
+    "tags": [
+      "cad",
+      "matlab",
+      "simulation",
+      "engineering",
+      "measurement"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      null,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "eng-sixsigma",
@@ -64,8 +147,42 @@
       "Schnittstellenoptimierung zwischen Europa und Asien (Continental Zwischenzeugnis)",
       "Prozessverbesserung und Qualitaetssicherung in Turbolader-Entwicklung (Vitesco Endzeugnis)"
     ],
-    "tags": ["six-sigma", "dfss", "process", "statistics", "quality", "engineering"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Design for Six Sigma Training absolviert und Kenntnisse in Praxis umgesetzt"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Schnittstellenoptimierung zwischen Europa und Asien"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Statistische Analyse in NVH-Validierungsprozessen, Prozessverbesserung in Turbolader-Entwicklung"
+      }
+    ],
+    "tags": [
+      "six-sigma",
+      "dfss",
+      "process",
+      "statistics",
+      "quality",
+      "engineering"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      2,
+      0,
+      1,
+      1
+    ]
   },
   {
     "id": "lead-team",
@@ -79,10 +196,44 @@
       "Disziplinarische Fuehrung an Standorten Regensburg und Shanghai (Vitesco Endzeugnis)",
       "Fuehrungsfaehigkeit Note 1 und Sozialverhalten Note 1 (Continental Interne Beurteilung)",
       "Team uebertraf Erwartungen in hohem Masse (Vitesco Endzeugnis)",
-      "Aufbau eines lokalen Nachfolgers als Leiter der Entwicklung (Continental Zwischenzeugnis)"
+      "Aufbau eines lokalen Nachfolgers als Leiter der Entwicklung (Continental Zwischenzeugnis)",
+      "4 Abteilungen in Shanghai aufgebaut: Applikationsdesign, Validierung, Test, Prototypen — inklusive Kundenverhandlungen und Steering-Committee-Praesentationen (Continental Zwischenzeugnis)"
     ],
-    "tags": ["leadership", "team-building", "management", "talent"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Fuehrungsfaehigkeit Note 1, NVH-Team aufgebaut und gefuehrt"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "17-koepfiges Engineering-Team in Shanghai aufgebaut, lokalen Nachfolger entwickelt"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Disziplinarische Fuehrung an Standorten Regensburg und Shanghai, Team uebertraf Erwartungen"
+      }
+    ],
+    "tags": [
+      "leadership",
+      "team-building",
+      "management",
+      "talent"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      1,
+      1,
+      0,
+      2,
+      1,
+      1
+    ]
   },
   {
     "id": "lead-international",
@@ -90,16 +241,36 @@
     "name": "Internationale Fuehrung",
     "level": 5,
     "levelLabel": "Expert",
-    "keyMetric": "Entwicklungsleiter Asien, 2 Jahre Shanghai",
+    "keyMetric": "2 Jahre Shanghai, Teams DE/CN",
     "evidence": [
-      "Entwicklungsleiter Asien, 2 Jahre am Standort Shanghai/China (Continental Zwischenzeugnis)",
+      "2 Jahre Senior Engineering Manager am Standort Shanghai/China (Vitesco Endzeugnis)",
       "Turbolader-Entwicklungsaktivitaeten Region Asien verantwortet (Continental Zwischenzeugnis)",
       "Schnittstellenmanagement zwischen Europa und Asien (Continental Zwischenzeugnis)",
       "Vermittlung zwischen Kulturunterschieden bei Teams und Kunden (Continental Zwischenzeugnis)",
       "Untersuchung Mitarbeiterbindung im Kontext oekonomischer und sozialer Randbedingungen (Continental Zwischenzeugnis)"
     ],
-    "tags": ["international", "leadership", "cross-cultural", "global"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "2 Jahre Senior Engineering Manager Shanghai, Schnittstellenmanagement Europa-Asien, interkulturelle Vermittlung"
+      }
+    ],
+    "tags": [
+      "international",
+      "leadership",
+      "cross-cultural",
+      "global"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "lead-change",
@@ -113,10 +284,50 @@
       "Mindset-Kampagne fuer Produktlinie entwickelt (Continental Interne Beurteilung)",
       "Kommunikationsprozess-Anpassung und Schulung bei Organisationsaenderungen (Vitesco Endzeugnis)",
       "Peer-Consulting gewinnbringend fuer Produktlinie eingebracht (Continental Interne Beurteilung)",
-      "Strategische Ausrichtung der Produktlinie in allen Regionen koordiniert (Vitesco Endzeugnis)"
+      "Strategische Ausrichtung der Produktlinie in allen Regionen koordiniert (Vitesco Endzeugnis)",
+      "Vitesco Rebranding nach Carve-out von Continental strategisch verantwortet und umgesetzt (Head of Communication)",
+      "Leadership-Skript: Entwicklung und Implementation eines strukturierten Fuehrungsleitfadens (Doehler-CV)",
+      "Peer-Consulting als Eskalations-Vermeidungsprozess: FK disziplinarisch/fachlich, Rollen-/Abteilungskonflikte vor Top-Management-Entscheidung strukturiert bearbeitet (Continental Interne Beurteilung)",
+      "Leadership-Skript als lebendes Dokument: definierte wie Fuehrungskraefte aller Ebenen die Post-Carve-out-Realitaet navigieren — taeglich angewendet, nicht archiviert (Vitesco Head of Communication)"
     ],
-    "tags": ["change-management", "transformation", "leadership", "culture"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Mindset-Kampagne fuer Produktlinie entwickelt, Peer-Consulting eingebracht"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Kommunikationsprozess-Anpassung bei Organisationsaenderungen, strategische Ausrichtung koordiniert"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies",
+        "period": "02/2021-06/2021",
+        "context": "Vitesco Spin-off und Rebranding nach Carve-out von Continental strategisch verantwortet und kommuniziert"
+      }
+    ],
+    "tags": [
+      "change-management",
+      "transformation",
+      "leadership",
+      "culture"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      2,
+      0,
+      1,
+      0,
+      1,
+      2,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "lead-stakeholder",
@@ -130,10 +341,50 @@
       "Pruefung aller internen und externen Veroeffentlichungen der Produktlinie (Vitesco Endzeugnis)",
       "Townhall-, Tech-Day-, Strategie-Praesentationen eigenstaendig erstellt (Vitesco Endzeugnis)",
       "Von Kunden und Geschaeftspartnern sehr geschaetzt (Vitesco Endzeugnis + GM Zeugnis)",
-      "Vertretung der Produktlinie bei Kundenstrategie- und Business-Unit-Konferenzen (Vitesco Endzeugnis)"
+      "Vertretung der Produktlinie bei Kundenstrategie- und Business-Unit-Konferenzen (Vitesco Endzeugnis)",
+      "Cross-disziplinaere Uebersetzungsfaehigkeit: spricht die Sprache von Ingenieuren, Fuehrungskraeften, Coaches und Datenanalysten — verbindet Kraefte die normalerweise aneinander vorbeireden (Merck-Bewerbung/Selbsteinschaetzung)"
     ],
-    "tags": ["stakeholder", "communication", "leadership", "presentations"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "NVH Engineer",
+        "company": "GM Powertrain",
+        "period": "07/2006-03/2012",
+        "context": "Von Kunden und Geschaeftspartnern sehr geschaetzt"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Vertretung der Produktlinie bei Kundenstrategie- und Business-Unit-Konferenzen"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies",
+        "period": "02/2021-06/2021",
+        "context": "Pruefung aller Veroeffentlichungen, eigenstaendige Erstellung von Townhall- und Strategie-Praesentationen"
+      },
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Cross-disziplinaere Brueckenfunktion: Engineering-Hintergrund, Coaching-Tiefe und KI-Kompetenz als integriertes Toolkit"
+      }
+    ],
+    "tags": [
+      "stakeholder",
+      "communication",
+      "leadership",
+      "presentations"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      2,
+      1,
+      2,
+      2,
+      2,
+      3
+    ]
   },
   {
     "id": "lead-orgdev",
@@ -147,27 +398,46 @@
       "Entwicklungsstandort Asien mit 4 Abteilungen aufgebaut (Continental Zwischenzeugnis)",
       "Peer-Consulting-Framework in Produktlinie etabliert (Continental Interne Beurteilung)",
       "Divisionsuebergreifende NVH-Netzwerke initiiert (Continental Interne Beurteilung)",
-      "Koordination von Mitarbeiterschulungen und Wissensvermittlung (Continental Zwischenzeugnis)"
+      "Koordination von Mitarbeiterschulungen und Wissensvermittlung (Continental Zwischenzeugnis)",
+      "Werte- und Kulturentwicklung als durchgehender Schwerpunkt bei Continental/Vitesco — von Abteilungsebene bis Produktlinie (Continental/Vitesco Zeugnisse)",
+      "Steering Committee der Produktlinie erteilte expliziten Auftrag, eigenen Fuehrungsansatz auf gesamte Produktlinie zu uebertragen — Peer-Consulting, Mindset-Kampagnen, strukturierte Konfliktloesung als kulturelle Infrastruktur (Continental/Vitesco)"
     ],
-    "tags": ["org-development", "leadership", "culture", "structure"],
-    "highlight": false
-  },
-  {
-    "id": "lead-culture",
-    "clusterId": "leadership",
-    "name": "Werte- & Kulturentwicklung",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "Vitesco Rebranding, Fuehrungskraeftescript weltweit",
-    "evidence": [
-      "Conti zu Vitesco: Komplettes Rebranding, Hauptverantwortlich Kultur- und Wertewechsel (Vitesco Endzeugnis)",
-      "Werteintegration der Continental in der Produktlinie mitverantwortlich (Continental Interne Beurteilung)",
-      "Fuehrungskraeftescript entwickelt und eingefuehrt, weltweit gueltig in Produktlinie (Continental Interne Beurteilung)",
-      "Werteentwicklung und Integration als professionelle Dienstleistung (P3 Broschuere Unternehmenskultur)",
-      "Continental Leadership Forum: 4 Module Fuehrungskompetenz inkl. Kulturentwicklung (Teilnahmebescheinigung)"
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "NVH-Bereich als Greenfield aufgebaut, Peer-Consulting-Framework etabliert, divisionsuebergreifende Netzwerke initiiert"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Entwicklungsstandort Asien mit 4 Abteilungen aufgebaut, Mitarbeiterschulungen koordiniert"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies",
+        "period": "02/2021-06/2021",
+        "context": "Steering Committee Mandat: eigenen Fuehrungsansatz auf gesamte Produktlinie skaliert"
+      }
     ],
-    "tags": ["culture", "values", "transformation", "purpose", "leadership"],
-    "highlight": true
+    "tags": [
+      "org-development",
+      "leadership",
+      "culture",
+      "structure"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "lead-social",
@@ -181,10 +451,44 @@
       "Sozialverhalten Note 1 in interner Beurteilung (Continental Interne Beurteilung)",
       "Vertrauensvolle und offene Atmosphaere geschaffen, jederzeit vorbildlich (Vitesco Endzeugnis)",
       "Kooperatives, sicheres und zuvorkommendes Auftreten (Continental Zwischenzeugnis)",
-      "Mindset-Kampagne und Peer-Consulting gewinnbringend eingebracht (Continental Interne Beurteilung)"
+      "Mindset-Kampagne und Peer-Consulting gewinnbringend eingebracht (Continental Interne Beurteilung)",
+      "Peer-Consulting als strukturierter Prozess: Eskalationsvermeidung bei FK-Konflikten, Rollen- und Abteilungsgrenzen ueberschreitend, vor Top-Management-Eskalation (Continental Interne Beurteilung)"
     ],
-    "tags": ["social-competence", "group-dynamics", "leadership", "empathy"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Sozialverhalten Note 1, Peer-Consulting und Mindset-Kampagne eingebracht"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Kooperatives und zuvorkommendes Auftreten im interkulturellen Kontext"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Vertrauensvolle und offene Atmosphaere geschaffen, jederzeit vorbildlich"
+      }
+    ],
+    "tags": [
+      "social-competence",
+      "group-dynamics",
+      "leadership",
+      "empathy"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "coach-stgallen",
@@ -198,10 +502,32 @@
       "6 Diplome: Coach, TeamCoach, BusinessCoach, LeadershipCoach, Master of Coaching, M.B.C. (CAS Diplome)",
       "Dreifach wissenschaftlich validiertes 5-dimensionales Modell (CAS Diplome)",
       "ISO 17024 und ICI zertifiziert (CAS Diplome)",
-      "4.96/5.0 bei 30 verifizierten Bewertungen (ProvenExpert)"
+      "4.96/5.0 bei 30 verifizierten Bewertungen (ProvenExpert)",
+      "2.200+ Coaching-Stunden mit Fuehrungskraeften, Gruendern und Teams (P3-Coaching Praxiserfahrung)"
     ],
-    "tags": ["coaching", "st-galler", "methodology", "certified"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Master of Business Coaching mit 387 UE, 6 Diplome, ISO 17024 Zertifizierung, 2.200+ Coaching-Stunden, 4.96/5.0 Kundenbewertung"
+      }
+    ],
+    "tags": [
+      "coaching",
+      "st-galler",
+      "methodology",
+      "certified"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "coach-hypno",
@@ -213,12 +539,32 @@
     "evidence": [
       "Milton-Sprachmuster im Master of Coaching Curriculum (CAS Diplom Master of Coaching)",
       "Lineare Trancezustaende induzieren und steuern (CAS Diplom Master of Coaching)",
-      "Klienten berichten von intensiven Trance-Erlebnissen: 'mega ueberrascht, wie intensiv' (Klient, ProvenExpert)",
+      "Klienten berichten von intensiven Trance-Erlebnissen: 'mega ueberrascht, wie intensiv' (Aaron Solbrig, ProvenExpert)",
       "Systemische Kommunikation mit unbewussten Persoenlichkeitsanteilen (CAS Diplom)",
-      "Integration Hypnose in Business-Coaching, Klienten lassen sich trotz Skepsis ein (Klientin, ProvenExpert)"
+      "Integration Hypnose in Business-Coaching, Klienten lassen sich trotz Skepsis ein (Tabea M., ProvenExpert)"
     ],
-    "tags": ["coaching", "hypnosystemic", "communication", "trance"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Milton-Sprachmuster und Trance-Arbeit im Coaching-Kontext angewendet, verifiziert durch Klientenfeedback"
+      }
+    ],
+    "tags": [
+      "coaching",
+      "hypnosystemic",
+      "communication",
+      "trance"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "coach-values",
@@ -230,12 +576,32 @@
     "evidence": [
       "4.96/5.0 verifizierte Kundenbewertung, 30 Reviews, 100% Empfehlung (ProvenExpert)",
       "Wertorientierter systemischer Coaching-Ansatz als Kernmethodik (6 CAS Diplome)",
-      "Klienten berichten Wiederentdeckung persoenlicher Werte (Klient, ProvenExpert)",
-      "CEO Karoka AG: 'seit dem Coaching lebe ich meinen Wert staerker und bewusster' (ProvenExpert)",
+      "Klienten berichten Wiederentdeckung persoenlicher Werte (Aaron Solbrig, ProvenExpert)",
+      "CEO Karoka AG: 'seit dem Coaching lebe ich meinen Wert staerker und bewusster' (Roman Kalberer, ProvenExpert)",
       "Werteentwicklung und Integration als Dienstleistung (P3 Broschuere Unternehmenskultur)"
     ],
-    "tags": ["coaching", "values", "transformation", "purpose"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Wertorientierter systemischer Coaching-Ansatz als Kernmethodik, 4.96/5.0 Bewertung bei 100% Empfehlungsrate"
+      }
+    ],
+    "tags": [
+      "coaching",
+      "values",
+      "transformation",
+      "purpose"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "coach-team",
@@ -251,8 +617,34 @@
       "Peer-Consulting in Produktlinie Turbolader eingebracht (Continental Interne Beurteilung)",
       "Diversity Team Development als Dienstleistung (P3 Broschuere Unternehmenskultur)"
     ],
-    "tags": ["coaching", "team-coaching", "systemic", "team-dynamics"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Peer-Consulting in Produktlinie Turbolader eingebracht"
+      },
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "TeamCoach Diplom, Systemische Aufstellungen und Diversity Team Development als Dienstleistung"
+      }
+    ],
+    "tags": [
+      "coaching",
+      "team-coaching",
+      "systemic",
+      "team-dynamics"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
   },
   {
     "id": "coach-nature",
@@ -262,14 +654,34 @@
     "levelLabel": "Solide",
     "keyMetric": "Outdoor-Setting, Erlebnispaedagogik",
     "evidence": [
-      "Naturbasierter Coaching-Ansatz, Klienten berichten von Offenbarung (Klient, ProvenExpert)",
-      "Outdoor-Setting: Freiheit und Grenzenlosigkeit vs. geschlossene Raeume (Klient, ProvenExpert)",
+      "Naturbasierter Coaching-Ansatz, Klienten berichten von Offenbarung (Aaron Solbrig, ProvenExpert)",
+      "Outdoor-Setting: Freiheit und Grenzenlosigkeit vs. geschlossene Raeume (Aaron Solbrig, ProvenExpert)",
       "Erlebnispaedagogische Elemente integriert (P3 Profil)",
-      "Naturbasierter Ansatz liess Klientin tiefer eintauchen (Klientin, ProvenExpert)",
+      "Christians naturbasierter Ansatz liess tiefer eintauchen (Tabea M., ProvenExpert)",
       "Outdoor-Coaching als bewusstes Qualitaetsmerkmal, mehrfach in Reviews erwaehnt (ProvenExpert)"
     ],
-    "tags": ["coaching", "nature", "outdoor", "experiential"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Naturbasierter Coaching-Ansatz als Qualitaetsmerkmal, Outdoor-Settings mit erlebnispaedagogischen Elementen"
+      }
+    ],
+    "tags": [
+      "coaching",
+      "nature",
+      "outdoor",
+      "experiential"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "coach-neuro",
@@ -285,8 +697,35 @@
       "Hypnose-Adaptationen fuer ADHS: kuerzere Induktionen, multisensorisch (Vita NeuroMethodik)",
       "Eigene ADHS/HSP-Erfahrung als Grundlage (P3 Profil)"
     ],
-    "tags": ["coaching", "neurodiversity", "adhd", "hsp", "inclusion"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "ADHS-Framework entwickelt, fraktionierte Trance-Formate und Hypnose-Adaptationen fuer neurodivergente Klienten"
+      },
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2023",
+        "context": "Neurodivergenz-freundliche Design-Patterns in SkillForge/NeuroForge umgesetzt"
+      }
+    ],
+    "tags": [
+      "coaching",
+      "neurodiversity",
+      "adhd",
+      "hsp",
+      "inclusion"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
   },
   {
     "id": "coach-leadership-dev",
@@ -294,16 +733,64 @@
     "name": "Fuehrungskraefteentwicklung",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "Hauptverantwortlich FK-Entwicklung, weltweit gueltiger Script",
+    "keyMetric": "LeadershipCoach Diplom, Leadership Forum",
     "evidence": [
       "Diplom Wertorientierter systemischer LeadershipCoach, 53 UE (CAS Diplom)",
-      "Hauptverantwortlich fuer Fuehrungskraefteentwicklung in der Produktlinie (Continental Interne Beurteilung)",
-      "Fuehrungskraeftescript entwickelt, weltweit gueltig in der Produktlinie (Continental Interne Beurteilung)",
       "Continental Leadership Forum: 4 Module, 8 Tage, Fuehrungskompetenz-Entwicklung (Teilnahmebescheinigung)",
-      "Werteorientierte Fuehrung im Kontext als Dienstleistung (P3 Broschuere Unternehmenskultur)"
+      "Curriculum: Neurologische Ebenen im Leadership, Fuehrungsinstrumente (CAS Diplom LeadershipCoach)",
+      "Werteorientierte Fuehrung im Kontext als Dienstleistung (P3 Broschuere Unternehmenskultur)",
+      "Peer-Consulting und kollegiale Beratung fuer Fuehrungskraefte (Leadership Forum + Continental Beurteilung)",
+      "Leadership-Skript bei Vitesco entwickelt und implementiert: strukturierter Leitfaden fuer Fuehrung auf allen Ebenen im Post-Carve-out-Kontext (Head of Communication)",
+      "Interner systemischer Coach fuer Fuehrungskraefte aller Ebenen — auch deutlich ueber eigener Fuehrungsebene — seit Group Leader Acoustics (Continental Interne Beurteilung)"
     ],
-    "tags": ["coaching", "leadership-development", "executive", "training"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Continental Leadership Forum absolviert, Peer-Consulting etabliert, interner systemischer Coach fuer Fuehrungskraefte auch ueber eigener Fuehrungsebene"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies",
+        "period": "02/2021-06/2021",
+        "context": "Leadership-Skript entwickelt und implementiert: strukturierter Fuehrungsleitfaden fuer Post-Carve-out"
+      },
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "LeadershipCoach Diplom, werteorientierte Fuehrung als Coaching-Dienstleistung"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Interner Coach und Peer-Consulting fuer Fuehrungskraefte auf allen Ebenen der Produktlinie"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Interne Fuehrungskraefteentwicklung im interkulturellen Kontext, Mitarbeiterbindung und Nachfolgeentwicklung"
+      }
+    ],
+    "tags": [
+      "coaching",
+      "leadership-development",
+      "executive",
+      "training"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      2,
+      0,
+      2,
+      2,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "ai-prompt",
@@ -319,8 +806,28 @@
       "Neurodivergenz-optimiertes Prompting: kurze Kontexte, klare Strukturen (eigene Projekte)",
       "Token-Optimierung durch kontextuelle Komprimierung (Git Logs verifizierbar)"
     ],
-    "tags": ["ai", "prompt-engineering", "optimization", "frameworks"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2023",
+        "context": "Systematische Prompt-Bibliotheken in 6+ Projekten, Dokumentations-Pattern und Token-Optimierung entwickelt"
+      }
+    ],
+    "tags": [
+      "ai",
+      "prompt-engineering",
+      "optimization",
+      "frameworks"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "ai-claude",
@@ -336,8 +843,29 @@
       "Eigene Projekt-Templates und Konventionen erstellt (00_project_template/)",
       "Intensive Nutzung seit 18+ Monaten, Workflows optimiert (Git-Historie)"
     ],
-    "tags": ["ai", "claude", "development", "cli", "coding"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2023",
+        "context": "6+ React/Vite Projekte mit Claude Code realisiert, eigene Projekt-Templates und Konventionen erstellt"
+      }
+    ],
+    "tags": [
+      "ai",
+      "claude",
+      "development",
+      "cli",
+      "coding"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "ai-comfyui",
@@ -353,8 +881,28 @@
       "Multi-Modell-Verifikationsstrategien entwickelt (eigene Workflows)",
       "Hardware-Setup fuer lokale KI-Inferenz optimiert (eigene Infrastruktur)"
     ],
-    "tags": ["ai", "image-generation", "local-ai", "training"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2023",
+        "context": "Lokale KI-Infrastruktur mit ComfyUI, Ollama und LM Studio aufgebaut, LoRA Training durchgefuehrt"
+      }
+    ],
+    "tags": [
+      "ai",
+      "image-generation",
+      "local-ai",
+      "training"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "ai-automation",
@@ -370,8 +918,29 @@
       "Google Search Automation dokumentiert (Jobhunt/03_automation/)",
       "Workflow-Design fuer Bewerbungs-Pipeline (Jobhunt NeuroForge Quests)"
     ],
-    "tags": ["ai", "automation", "n8n", "workflow", "integration"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2023",
+        "context": "n8n Workflow-Automatisierung, API-Integration und automatisierte Dokumenten-Pipelines fuer Jobhunt-Projekt"
+      }
+    ],
+    "tags": [
+      "ai",
+      "automation",
+      "n8n",
+      "workflow",
+      "integration"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "ai-frameworks",
@@ -387,8 +956,28 @@
       "Projekt-Template-System mit standardisierten Konventionen (00_project_template/)",
       "Prompt-Pattern-Bibliothek ueber 6+ Projekte konsolidiert (Git-Historie)"
     ],
-    "tags": ["ai", "frameworks", "methodology", "innovation"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2023",
+        "context": "Temporale Dokumentations-Architektur und Neurodivergenz-Design-Patterns als wiederverwendbare Frameworks entwickelt"
+      }
+    ],
+    "tags": [
+      "ai",
+      "frameworks",
+      "methodology",
+      "innovation"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "ai-webdev",
@@ -404,8 +993,28 @@
       "Barrierefreie, HSP-freundliche Interfaces: WCAG, 48px Touch-Targets (SkillForge)",
       "Responsive Design: Mobile/Tablet/Desktop (SkillForge, NeuroForge)"
     ],
-    "tags": ["ai", "web-development", "react", "design-system"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2023",
+        "context": "6+ React/Vite Projekte mit Design-System, barrierefreie Interfaces und Multi-Hosting-Deployment"
+      }
+    ],
+    "tags": [
+      "ai",
+      "web-development",
+      "react",
+      "design-system"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "biz-startup",
@@ -418,11 +1027,41 @@
       "Zertifizierter Existenzgruendungsberater, 12 Monate Ausbildung (gruenderberatungen.de Zertifikat)",
       "10-Schritte-Programm: Von Gruenderpersoenlichkeit bis Finanzplanung (Zertifikat)",
       "Erfolgreiche Tandemberatung bei 4 Klienten mit erfahrenen Beratern (Zertifikat)",
-      "Klientin: 'kompletter Businessplan in 1.5 Wochen, 100% zuverlaessig' (ProvenExpert)",
-      "Klient: 'kuemmert sich um alles, Punkte absolut verstaendlich' (ProvenExpert)"
+      "Laura Riesinger: 'kompletter Businessplan in 1.5 Wochen, 100% zuverlaessig' (ProvenExpert)",
+      "Andreas Schneider: 'kuemmert sich um alles, Punkte absolut verstaendlich' (ProvenExpert)",
+      "Strukturierte Gruendungsentscheidung inkl. Timing und Umfang begleitet (Existenzgruendungsberater Zertifikat)",
+      "Markt- und Zielgruppenanalyse als Teil der Gruendungsberatung (Existenzgruendungsberater Zertifikat)"
     ],
-    "tags": ["startup", "consulting", "business-planning", "funding"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Zertifizierter Existenzgruendungsberater, Tandemberatung bei 4 Klienten, verifiziert durch ProvenExpert-Bewertungen"
+      },
+      {
+        "role": "Gruendungsberater",
+        "company": "P3-Coaching (selbststaendig)",
+        "period": "06/2022-12/2023",
+        "context": "Strukturierte Gruendungsentscheidung inkl. Timing und Umfang, Markt- und Zielgruppenanalyse, Tandemberatung"
+      }
+    ],
+    "tags": [
+      "startup",
+      "consulting",
+      "business-planning",
+      "funding"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
   },
   {
     "id": "biz-karriere",
@@ -432,14 +1071,40 @@
     "levelLabel": "Solide",
     "keyMetric": "Berufliche Neuorientierung, Coaching",
     "evidence": [
-      "Klient (SAP/SCRUM Master): Berufliche Neuorientierung erfolgreich begleitet (ProvenExpert)",
-      "Klient: 'entscheidend fuer beruflichen und persoenlichen Erfolg' (ProvenExpert)",
-      "Klientin: 'professionelle und persoenliche Themen beraten, Experten-Vernetzung' (ProvenExpert)",
-      "Klient: Strukturierte Gruendungsentscheidung inkl. Timing und Umfang begleitet (ProvenExpert)",
+      "Aaron Solbrig (SAP/SCRUM Master): Berufliche Neuorientierung erfolgreich begleitet (ProvenExpert)",
+      "Daniel Janzen: 'entscheidend fuer beruflichen und persoenlichen Erfolg' (ProvenExpert)",
+      "Ina Simeonova: 'professionelle und persoenliche Themen beraten, Experten-Vernetzung' (ProvenExpert)",
+      "TM: Strukturierte Gruendungsentscheidung inkl. Timing und Umfang begleitet (ProvenExpert)",
       "Coaching-Profil umfasst Fuehrungskraeftecoaching und Lifecoaching (Qualifikationsprofil)"
     ],
-    "tags": ["career", "consulting", "coaching", "reorientation"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Berufliche Neuorientierung und Fuehrungskraeftecoaching, verifiziert durch ProvenExpert-Bewertungen"
+      },
+      {
+        "role": "Gruendungsberater",
+        "company": "P3-Coaching (selbststaendig)",
+        "period": "06/2022-12/2023",
+        "context": "Gruendungsentscheidung als Karriereentscheidung begleitet — Timing, Scope, persoenliche Passung"
+      }
+    ],
+    "tags": [
+      "career",
+      "consulting",
+      "coaching",
+      "reorientation"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "biz-market",
@@ -455,8 +1120,46 @@
       "Definition strategische Ausrichtung der Produktlinie in allen Regionen (Vitesco Endzeugnis)",
       "Markt- und Zielgruppenanalyse als Teil der Gruendungsberatung (Existenzgruendungsberater Zertifikat)"
     ],
-    "tags": ["market-analysis", "strategy", "business", "competitive"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Verantwortung fuer strategische Untersuchungen, Marktanalysen und Strategieansaetze der Produktlinie"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies",
+        "period": "02/2021-06/2021",
+        "context": "Teilnahme an Kundenstrategie- und Business-Unit-Konferenzen, strategische Ausrichtung in allen Regionen"
+      },
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Markt- und Zielgruppenanalyse als Teil der Gruendungsberatung"
+      },
+      {
+        "role": "Gruendungsberater",
+        "company": "P3-Coaching (selbststaendig)",
+        "period": "06/2022-12/2023",
+        "context": "Markt- und Zielgruppenanalyse, Wettbewerbsanalyse und Zielgruppendefinition als fester Bestandteil der Gruendungsberatung"
+      }
+    ],
+    "tags": [
+      "market-analysis",
+      "strategy",
+      "business",
+      "competitive"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      1,
+      0,
+      2
+    ]
   },
   {
     "id": "biz-communication",
@@ -470,10 +1173,38 @@
       "Verantwortung fuer alle Kommunikationsthemen der Produktlinie und Standort (Vitesco Endzeugnis)",
       "Pruefung aller internen und externen Veroeffentlichungen inkl. Freigabelaeufe (Vitesco Endzeugnis)",
       "Eigenstaendige Erstellung Townhall-, Tech-Day-, Strategie-Praesentationen (Vitesco Endzeugnis)",
-      "Unterstuetzung globaler Standorte bei Kommunikation und Veroeffentlichungen (Vitesco Endzeugnis)"
+      "Unterstuetzung globaler Standorte bei Kommunikation und Veroeffentlichungen (Vitesco Endzeugnis)",
+      "Kommunikationsstrategie fuer Identitaetsfindung der Produktlinie waehrend Continental Carve-out entwickelt — Narrativ das Orientierung in Unsicherheit gab (Vitesco Head of Communication)"
     ],
-    "tags": ["communication", "corporate", "business", "strategy"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Kommunikationsthemen der Produktlinie mitverantwortet"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies",
+        "period": "02/2021-06/2021",
+        "context": "Verantwortung fuer alle internen und externen Veroeffentlichungen, Townhall- und Strategie-Praesentationen"
+      }
+    ],
+    "tags": [
+      "communication",
+      "corporate",
+      "business",
+      "strategy"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
   },
   {
     "id": "did-mint",
@@ -489,8 +1220,47 @@
       "Erlebnispaedagogische Ansaetze aus Coaching in Lehre uebertragen (P3 Profil)",
       "Spaced Repetition und Embodied Learning systematisch angewendet (Vita NeuroMethodik)"
     ],
-    "tags": ["teaching", "stem", "education", "mathematics", "physics"],
-    "highlight": true
+    "positions": [
+      {
+        "role": "NVH Engineer",
+        "company": "GM Powertrain",
+        "period": "07/2006-03/2012",
+        "context": "Industrie-Erfahrung als authentischer Praxisbezug fuer MINT-Unterricht"
+      },
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Industrie-Erfahrung als authentischer Praxisbezug fuer MINT-Unterricht"
+      },
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Erlebnispaedagogische Ansaetze aus Coaching in Lehre uebertragen"
+      },
+      {
+        "role": "Lehrer Physik+Mathe",
+        "company": "ESS Darmstadt",
+        "period": "seit 12/2023",
+        "context": "Neurowissenschaftliche Lernmethoden und Spaced Repetition im MINT-Unterricht angewendet"
+      }
+    ],
+    "tags": [
+      "teaching",
+      "stem",
+      "education",
+      "mathematics",
+      "physics"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      3,
+      1,
+      3,
+      3,
+      3
+    ]
   },
   {
     "id": "did-neuro",
@@ -506,8 +1276,34 @@
       "Polyvagal-Theorie kritisch evaluiert, Grenzen klar benannt (Vita NeuroMethodik)",
       "Wissenschaftliche Fundierung: Hebb, Fields, Gallagher zitiert (Vita NeuroMethodik)"
     ],
-    "tags": ["neuroscience", "methodology", "learning", "education"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "NSDR, Spaced Repetition und Embodied Learning als neurobiologisch fundierte Coaching-Prinzipien entwickelt"
+      },
+      {
+        "role": "Lehrer Physik+Mathe",
+        "company": "ESS Darmstadt",
+        "period": "seit 12/2023",
+        "context": "Neurowissenschaftliche Methoden im Unterrichtskontext angewendet"
+      }
+    ],
+    "tags": [
+      "neuroscience",
+      "methodology",
+      "learning",
+      "education"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ]
   },
   {
     "id": "did-adult",
@@ -523,8 +1319,40 @@
       "Vermittlung von Wissen zu internen Prozessen (Continental Zwischenzeugnis)",
       "Coaching-basierte Erwachsenenbildung ueber P3-Coaching (ProvenExpert Reviews)"
     ],
-    "tags": ["adult-education", "training", "leadership-development", "facilitation"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Continental Leadership Forum absolviert, Peer Consulting in Produktlinie etabliert"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Koordination von Mitarbeiterschulungen und Wissensvermittlung in Shanghai"
+      },
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Coaching-basierte Erwachsenenbildung als Dienstleistung"
+      }
+    ],
+    "tags": [
+      "adult-education",
+      "training",
+      "leadership-development",
+      "facilitation"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      1,
+      0,
+      2
+    ]
   },
   {
     "id": "did-wissenschaft",
@@ -540,8 +1368,29 @@
       "Power Posing und Polyvagal-Theorie kritisch analysiert (Vita NeuroMethodik + Wiss. Arbeiten)",
       "Verbindliche 8-Stufen-Kapitelstruktur mit wiss. Studien und historischer Tradition (Vita Wiss. Arbeiten)"
     ],
-    "tags": ["research", "writing", "methodology", "science", "education"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "48.000-Woerter Buchprojekt mit wissenschaftlicher 3-Stufen-Quellenbewertung und exegetischer Sprachfundierung"
+      }
+    ],
+    "tags": [
+      "research",
+      "writing",
+      "methodology",
+      "science",
+      "education"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   {
     "id": "did-speaker",
@@ -553,11 +1402,49 @@
     "evidence": [
       "Eigenstaendige Erstellung und Vortrag von Townhall-Praesentationen (Vitesco Endzeugnis)",
       "Tech-Day und Strategie-Praesentationen fuer Produktlinie (Vitesco Endzeugnis)",
-      "Speaker-Referenz: Vertriebscamp Andalusien 2022, EFC.AG / M. Stoehr (P3 Broschuere)",
+      "Marc Stoehr Speaker-Referenz: Vertriebscamp Andalusien 2022 (P3 Broschuere)",
       "Peer-Consulting als Moderationsformat etabliert (Continental Interne Beurteilung)",
       "Leadership-Netzwerk als Dienstleistung (P3 Broschuere Unternehmenskultur)"
     ],
-    "tags": ["speaking", "facilitation", "moderation", "presentations"],
-    "highlight": false
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Peer-Consulting als Moderationsformat etabliert"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies",
+        "period": "09/2019-01/2021",
+        "context": "Townhall-, Tech-Day- und Strategie-Praesentationen eigenstaendig erstellt und vorgetragen"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies",
+        "period": "02/2021-06/2021",
+        "context": "Townhall-Praesentationen und Strategie-Kommunikation fuer Produktlinie"
+      },
+      {
+        "role": "Systemischer Coach",
+        "company": "P3-Coaching",
+        "period": "seit 07/2021",
+        "context": "Speaker-Auftritte (Vertriebscamp Andalusien 2022), Leadership-Netzwerk als Dienstleistung"
+      }
+    ],
+    "tags": [
+      "speaking",
+      "facilitation",
+      "moderation",
+      "presentations"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      1,
+      1,
+      3,
+      0,
+      3
+    ]
   }
 ]

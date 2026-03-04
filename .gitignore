@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Architecture exports (moved to other projects)
+JobForge_Architektur_*.md

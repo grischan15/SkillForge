@@ -20,11 +20,14 @@ export default function ClusterTabs({ clusters, activeCluster, onSelect }) {
   const active = clusters.find(c => c.id === activeCluster)
 
   return (
-    <div className="mb-4">
+    <div className="mb-4 rounded-xl border border-border-light bg-white p-3">
+      <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">
+        6 Kompetenz-Bereiche
+      </p>
       <nav
-        className="flex flex-wrap gap-1.5 pb-2 -mx-1 px-1"
+        className="flex flex-wrap gap-1.5"
         role="tablist"
-        aria-label="Kompetenz-Cluster"
+        aria-label="Kompetenz-Bereiche"
       >
         {clusters.map(cluster => {
           const isActive = cluster.id === activeCluster
@@ -57,7 +60,7 @@ export default function ClusterTabs({ clusters, activeCluster, onSelect }) {
 
       {/* Active cluster label - visible when tab text is hidden (small screens) */}
       {active && (
-        <p className={`sm:hidden text-sm font-semibold mt-1 px-1 ${clusterDescColorMap[active.id] || 'text-ink'}`}>
+        <p className={`sm:hidden text-sm font-semibold mt-1 ${clusterDescColorMap[active.id] || 'text-ink'}`}>
           {active.icon} {active.label}
         </p>
       )}

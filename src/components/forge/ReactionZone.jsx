@@ -39,19 +39,19 @@ export default function ReactionZone({ forgedSkills, onRemove, onClear, reducedM
     <div
       ref={setNodeRef}
       className={`
-        rounded-xl border-2 border-dashed p-4
+        rounded-xl border-2 p-5 min-h-[200px]
         transition-all duration-normal ease-out
         ${isOver
           ? 'border-p3-red bg-p3-red/5 shadow-forge-glow'
           : hasSkills
             ? 'border-forge-border bg-forge-bg'
-            : 'border-border bg-white'
+            : 'border-border-light bg-container'
         }
       `}
     >
       <div className="flex items-center justify-between mb-3">
-        <h2 className="font-bold text-base text-ink flex items-center gap-2">
-          <img src="images/P3_Logo_RZ_Bild_rot.png" alt="" className="w-5 h-5 object-contain" />
+        <h2 className="font-bold text-lg text-ink flex items-center gap-2">
+          <img src="images/P3_Logo_RZ_Bild_rot.png" alt="" className="w-6 h-6 object-contain" />
           Die Schmiede
         </h2>
         {hasSkills && (

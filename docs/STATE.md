@@ -1,8 +1,8 @@
 # STATE.md – SkillForge
 
-## Version: 0.5.1 (UX Polish + Responsive Fixes)
+## Version: 0.6.0 (Layout-Umbau + Landing-Rebranding)
 
-## Status: Responsive auf allen Bildschirmgroessen, WelcomeBanner, collapsible Skills, getrennte Rollenzaehlung
+## Status: 2-Spalten-Layout mit grosser Schmiede-Sidebar, Rollen volle Breite darunter, neuer Claim + CTA
 
 ### Tech-Stack
 - React 19 + Vite 7 (Port 5180)
@@ -13,7 +13,7 @@
 ### Features (implementiert)
 - [x] Willkommensseite mit Portraitfoto, Unterschrift, Claim, Werten, Staerken, Proof Points + CTA
 - [x] P3-Logo (roter Fluegel) als Branding + Favicon
-- [x] 6 Kompetenz-Cluster als Tabs (wrappen bei kleiner Breite)
+- [x] 6 Kompetenz-Bereiche als Tabs in beschrifteter Box
 - [x] 33 Skill-Karten mit Evidenz-Popovers
 - [x] Drag & Drop + Tap-to-Add [+]
 - [x] Schmiede (Reaction Zone) immer sichtbar
@@ -29,7 +29,7 @@
 - [x] Werte-Sektion (Freiheit, Agape, Klarheit) auf Startseite
 - [x] Staerken-Sektion (CliftonStrengths) auf Startseite
 - [x] 3 Proof-Point-Karten (15+ Jahre, 3 Kontinente, 4.96/5.0)
-- [x] Neuer Claim: Vision-getrieben statt Titel-basiert
+- [x] Claim: "...in denen Arbeit wirkt." + Hook mit Purpose-Alignment
 - [x] Klienten-Namen anonymisiert (DSGVO)
 - [x] Discovery-Teaser: Immer sichtbare Gold-Box mit Fortschrittsanzeige (0/3 → 3/3 Cluster)
 - [x] Unlock-Mechanik: Rollen-Ergebnisse erst ab 3 verschiedenen Clustern sichtbar
@@ -37,25 +37,37 @@
 - [x] JobAd-Modal: Vollstaendiges Stellenprofil mit Kompetenz-Abgleich, Mehrwert, Anforderungsprofil
 - [x] SkillTag-Komponente: Matched/Unmatched Pills mit deutschen Labels
 - [x] uniqueValue-Feld fuer alle 100 Rollen ("Ihr Mehrwert fuer die Firma")
-- [x] OnboardingHint: Persistenter Motivations-Hinweis (bleibt bis X-Klick, Session-only)
-- [x] WelcomeBanner: Goldenes 3-Schritte-Banner erklaert Forge-Flow (Session-only, kein localStorage)
+- [x] ForgeGuide: 4-Schritte-Leitsystem mit animierten Step-Dots (ersetzt OnboardingHint + WelcomeBanner)
+- [x] InfoModal: Wiederverwendbares Modal fuer Erklaerungen (Discovery-Rollen, Workflow)
 - [x] businessImpact-Feld auf Revelation-RoleCards + JobAdModal (Trojan-Horse-Strategie)
 - [x] Cluster-Diversity-Tracking via useDiscoveryProgress Hook
 - [x] Collapsible SkillGrid auf kleinen Screens (optional, wenn Rollen sichtbar)
-- [x] Scrollbare Skills + Aside auf allen Bildschirmgroessen (max-h-[50vh])
 - [x] Getrennte Rollenzaehlung: "X Entdeckungen, Y passende Rollen"
+- [x] Layout: Schmiede in breiter Sidebar (lg:w-88), Rollen volle Breite unter dem Grid
+- [x] Schmiede (ReactionZone): Groesser (min-h-200px), solid Border, staerkerer Hintergrund
+- [x] CTA-Button: "Rollen-Match starten" + Subline "Staerken in Aktion sehen"
+- [x] Terminologie: "Cluster" → "Bereich" durchgaengig (ForgeGuide, DiscoveryTeaser, ClusterTabs)
+
+### Aenderungen v0.5.1 → v0.6.0
+- **Layout-Umbau:** Rollen (DiscoveryTeaser + RoleResults) aus Sidebar in volle Breite unter dem Grid
+- **Schmiede groesser:** min-h-200px, p-5, text-lg Titel, solid Border, bg-container Empty-State, Sidebar lg:w-88
+- **ClusterTabs-Box:** Beschrifteter Container mit Label "6 Kompetenz-Bereiche"
+- **Terminologie:** "Cluster" → "Bereich" in ForgeGuide (Step 2+3), DiscoveryTeaser (Locked-Texte, Progress)
+- **SkillGrid:** max-h-[50vh] entfernt, natuerliche Hoehe
+- **Neuer Claim:** "...in denen Arbeit wirkt." (statt "Sinn macht")
+- **Neuer Hook:** "...ich bringe zusammen, was zusammengehoert: Menschen, Staerken und den richtigen Purpose."
+- **CTA-Button:** "Rollen-Match starten →" + Subline "Staerken in Aktion sehen"
+- **Leitsatz:** "Entdecke die Kompetenzen hinter dem Anspruch — und finde die passende Rolle."
+- **ForgeGuide + InfoModal:** Ersetzen OnboardingHint + WelcomeBanner (geloescht)
 
 ### Aenderungen v0.5.0 → v0.5.1
-- **WelcomeBanner:** Goldenes Slide-in-Banner erklaert 3-Schritte-Forge-Flow (Session-only, kein localStorage)
 - **Header:** Landing-Subtitle "Was kann ich fuer Ihr Unternehmen tun?", Compact-Header ohne Subtitle
 - **DiscoveryTeaser Fix:** Layout-Collapse-Bug behoben (motion.div layout + overflow-hidden entfernt)
 - **SkillCard Fixes:** + Button immer sichtbar (opacity-Bug), Evidence-Popover absolut positioniert (kein Grid-Row-Stretch)
 - **Mobile Layout:** Forge/Rollen auf allen Bildschirmgroessen sichtbar (hidden Bottom-Panel entfernt, Aside immer im Fluss)
-- **Info-Boxen Session-only:** localStorage-Persistenz entfernt, WelcomeBanner + OnboardingHint erscheinen bei jedem Seitenaufruf
-- **Scrollbare Bereiche:** SkillGrid + Aside je max-h-[50vh] auf kleinen Screens mit eigenem Scrollbar
-- **Collapsible Skills:** Optionaler Einklapp-Button auf kleinen Screens (nur wenn Rollen existieren, nicht Default)
-- **Getrennte Rollenzaehlung:** DiscoveryTeaser zeigt "X Entdeckungen, Y passende Rollen" statt Gesamtzahl
-- **Dateistruktur:** WelcomeBanner.jsx neu in shared/, Mobile-Forge-Panel entfernt aus App.jsx
+- **Info-Boxen Session-only:** localStorage-Persistenz entfernt
+- **Collapsible Skills:** Optionaler Einklapp-Button auf kleinen Screens
+- **Getrennte Rollenzaehlung:** "X Entdeckungen, Y passende Rollen"
 
 ### Aenderungen v0.4.0 → v0.5.0
 - **Neuer Skill:** Werte- & Kulturentwicklung (lead-culture) im Leadership-Cluster, Level 4
@@ -84,7 +96,7 @@
 
 ### Aenderungen v0.2.0 → v0.3.0
 - **Landing Page Redesign:** Kandidat praesentiert sich wie ein Unternehmen seine Kultur zeigt
-- **Neuer Claim:** "Ich sehe Staerken, baue Strukturen und schaffe Raeume, in denen Arbeit Sinn macht."
+- **Neuer Claim:** "Ich sehe Staerken, baue Strukturen und schaffe Raeume, in denen Arbeit wirkt."
 - **Hook:** "Vom Entwicklungsleiter Asien zum Master Coach" als emotionaler Einstieg
 - **Werte + Staerken:** Freiheit/Agape/Klarheit + 5 CliftonStrengths als Pill-Badges
 - **3 Proof Points:** Zahlen-Karten (Engineering, Fuehrung, Coaching)
@@ -132,7 +144,7 @@ src/
     forge/                    # ReactionZone, ForgedSkillChip, ForgePrompt
     results/                  # RoleResults, RoleCard, MatchScore, RevelationBadge,
                               # DiscoveryTeaser, JobAdModal, SkillTag
-    shared/                   # DragOverlayCard, EmptyState, OnboardingHint, WelcomeBanner
+    shared/                   # DragOverlayCard, EmptyState, ForgeGuide, InfoModal
   hooks/
     useForge.js               # Schmiede State
     useMatching.js            # Rollen-Matching + forgedTags
