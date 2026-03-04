@@ -1,8 +1,8 @@
 # STATE.md – SkillForge
 
-## Version: 0.6.0 (Layout-Umbau + Landing-Rebranding)
+## Version: 0.6.1 (Kontakt-CTAs + LinkedIn-Footer)
 
-## Status: 2-Spalten-Layout mit grosser Schmiede-Sidebar, Rollen volle Breite darunter, neuer Claim + CTA
+## Status: 2-Spalten-Layout mit grosser Schmiede-Sidebar, Rollen volle Breite darunter, Kontakt-CTAs im Stellenprofil
 
 ### Tech-Stack
 - React 19 + Vite 7 (Port 5180)
@@ -47,6 +47,12 @@
 - [x] Schmiede (ReactionZone): Groesser (min-h-200px), solid Border, staerkerer Hintergrund
 - [x] CTA-Button: "Rollen-Match starten" + Subline "Staerken in Aktion sehen"
 - [x] Terminologie: "Cluster" → "Bereich" durchgaengig (ForgeGuide, DiscoveryTeaser, ClusterTabs)
+- [x] JobAdModal: Kontakt-CTAs (WhatsApp, E-Mail, LinkedIn) mit vorformulierten Nachrichten
+- [x] Footer: LinkedIn prominent als eigener Button mit Icon (statt verstecktem Textlink)
+
+### Aenderungen v0.6.0 → v0.6.1
+- **JobAdModal Kontakt-CTAs:** WhatsApp (vorformuliert mit Rollentitel+Kategorie), E-Mail (Betreff+Body mit uniqueValue/companyType), LinkedIn-Profil — alle 48px Touch-Targets, responsive (untereinander Mobile, nebeneinander Desktop)
+- **Footer Redesign:** LinkedIn als eigener blauer Button mit Icon + "Christian Schmidt auf LinkedIn", P3 Coaching + Impressum als separate Textzeile darunter
 
 ### Aenderungen v0.5.1 → v0.6.0
 - **Layout-Umbau:** Rollen (DiscoveryTeaser + RoleResults) aus Sidebar in volle Breite unter dem Grid
