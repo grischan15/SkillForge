@@ -47,7 +47,7 @@
 
 ### Phase 1.8: Layout-Umbau + Landing-Rebranding (v0.5.1 → v0.6.0) — abgeschlossen
 
-### Phase 1.9: Kontakt-CTAs (v0.6.0 → v0.6.1) — abgeschlossen
+### Phase 1.9: Kontakt-CTAs + Landing Polish (v0.6.0 → v0.6.2) — abgeschlossen
 
 #### Naechste Schritte (vor Go-Live):
 - [ ] **Rollen-Beschreibungen pruefen** (roles.json)

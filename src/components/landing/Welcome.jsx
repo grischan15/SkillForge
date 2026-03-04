@@ -10,17 +10,17 @@ const proofPoints = [
 ]
 
 const myValues = [
-  { icon: '🕊️', label: 'Freiheit' },
-  { icon: '❤️', label: 'Agape' },
-  { icon: '💎', label: 'Klarheit' },
+  { icon: '🕊️', label: 'Freiheit', tooltip: 'Eigenverantwortung statt Micromanagement — Raum für echte Entwicklung.' },
+  { icon: '❤️', label: 'Agape', tooltip: 'Bedingungslose Wertschätzung — Menschen sehen, nicht nur Funktionen.' },
+  { icon: '💎', label: 'Klarheit', tooltip: 'Ehrliche Kommunikation — auch wenn es unbequem wird.' },
 ]
 
 const myStrengths = [
-  { icon: '✨', label: 'Positive Einstellung' },
-  { icon: '🏆', label: 'Höchstleistung' },
-  { icon: '🧭', label: 'Selbstbewusstsein' },
-  { icon: '🎼', label: 'Arrangeur' },
-  { icon: '⚡', label: 'Tatkraft' },
+  { icon: '✨', label: 'Positive Einstellung', tooltip: 'Ich sehe Potenzial, wo andere Probleme sehen.' },
+  { icon: '🏆', label: 'Höchstleistung', tooltip: 'Ich finde den Hebel, der aus gut herausragend macht.' },
+  { icon: '🧭', label: 'Selbstbewusstsein', tooltip: 'Vertrauen in die eigene Richtung — auch gegen den Strom.' },
+  { icon: '🎼', label: 'Arrangeur', tooltip: 'Komplexität orchestrieren — die richtigen Menschen am richtigen Platz.' },
+  { icon: '⚡', label: 'Tatkraft', tooltip: 'Weniger reden, mehr machen — vom Impuls zur Umsetzung.' },
 ]
 
 export default function Welcome({ onStart, clusters }) {
@@ -93,43 +93,6 @@ export default function Welcome({ onStart, clusters }) {
         </span>
       </motion.p>
 
-      {/* Values & Strengths — like a company presents its culture */}
-      <motion.div
-        variants={itemVariants}
-        className="w-full max-w-xl mb-8 px-4 space-y-4"
-      >
-        {/* Values */}
-        <div>
-          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">Meine Werte</p>
-          <div className="flex flex-wrap justify-center gap-2">
-            {myValues.map(v => (
-              <span
-                key={v.label}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-sand/50 border border-border-light"
-              >
-                <span role="img" aria-hidden="true">{v.icon}</span>
-                {v.label}
-              </span>
-            ))}
-          </div>
-        </div>
-        {/* Strengths */}
-        <div>
-          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">Meine Stärken <span className="normal-case tracking-normal font-normal">(CliftonStrengths)</span></p>
-          <div className="flex flex-wrap justify-center gap-2">
-            {myStrengths.map(s => (
-              <span
-                key={s.label}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-white border border-border-light"
-              >
-                <span role="img" aria-hidden="true">{s.icon}</span>
-                {s.label}
-              </span>
-            ))}
-          </div>
-        </div>
-      </motion.div>
-
       {/* Proof Points */}
       <motion.div
         variants={itemVariants}
@@ -188,6 +151,61 @@ export default function Welcome({ onStart, clusters }) {
               {cluster.labelShort}
             </span>
           ))}
+        </div>
+      </motion.div>
+
+      {/* Values & Strengths — with hover tooltips */}
+      <motion.div
+        variants={itemVariants}
+        className="w-full max-w-xl mt-8 mb-2 px-4 space-y-4"
+      >
+        {/* Values */}
+        <div>
+          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">Meine Werte</p>
+          <div className="flex flex-wrap justify-center gap-2">
+            {myValues.map(v => (
+              <span
+                key={v.label}
+                className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-sand/50 border border-border-light cursor-default"
+              >
+                <span role="img" aria-hidden="true">{v.icon}</span>
+                {v.label}
+                <span className="
+                  pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2
+                  px-3 py-2 rounded-lg bg-ink text-white text-xs leading-relaxed
+                  w-56 text-center shadow-lg
+                  opacity-0 group-hover:opacity-100 transition-opacity duration-200
+                  hidden sm:block
+                ">
+                  {v.tooltip}
+                </span>
+              </span>
+            ))}
+          </div>
+        </div>
+        {/* Strengths */}
+        <div>
+          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">Meine Stärken <span className="normal-case tracking-normal font-normal">(CliftonStrengths)</span></p>
+          <div className="flex flex-wrap justify-center gap-2">
+            {myStrengths.map(s => (
+              <span
+                key={s.label}
+                className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-white border border-border-light cursor-default"
+              >
+                <span role="img" aria-hidden="true">{s.icon}</span>
+                {s.label}
+                <span className="
+                  pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2
+                  px-3 py-2 rounded-lg bg-ink text-white text-xs leading-relaxed
+                  w-56 text-center shadow-lg
+                  opacity-0 group-hover:opacity-100 transition-opacity duration-200
+                  hidden sm:block
+                ">
+                  {s.tooltip}
+                </span>
+              </span>
+            ))}
+          </div>
         </div>
       </motion.div>
 

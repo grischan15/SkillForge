@@ -1,6 +1,6 @@
 # STATE.md – SkillForge
 
-## Version: 0.6.1 (Kontakt-CTAs + LinkedIn-Footer)
+## Version: 0.6.2 (Landing-Reorder + Tooltips)
 
 ## Status: 2-Spalten-Layout mit grosser Schmiede-Sidebar, Rollen volle Breite darunter, Kontakt-CTAs im Stellenprofil
 
@@ -49,6 +49,12 @@
 - [x] Terminologie: "Cluster" → "Bereich" durchgaengig (ForgeGuide, DiscoveryTeaser, ClusterTabs)
 - [x] JobAdModal: Kontakt-CTAs (WhatsApp, E-Mail, LinkedIn) mit vorformulierten Nachrichten
 - [x] Footer: LinkedIn prominent als eigener Button mit Icon (statt verstecktem Textlink)
+- [x] Landing-Reihenfolge: Proof Points → CTA → Kompetenz-Bereiche → Werte/Staerken
+- [x] Hover-Tooltips auf Werte- und Staerken-Pills (Desktop)
+
+### Aenderungen v0.6.1 → v0.6.2
+- **Landing-Reorder:** Proof Points direkt nach Claim, CTA Button danach, Kompetenz-Bereiche darunter, Werte+Staerken ganz unten
+- **Hover-Tooltips:** Werte (Freiheit, Agape, Klarheit) und Staerken (CliftonStrengths) mit erklaerenden Tooltips bei Hover, nur Desktop (hidden sm:block)
 
 ### Aenderungen v0.6.0 → v0.6.1
 - **JobAdModal Kontakt-CTAs:** WhatsApp (vorformuliert mit Rollentitel+Kategorie), E-Mail (Betreff+Body mit uniqueValue/companyType), LinkedIn-Profil — alle 48px Touch-Targets, responsive (untereinander Mobile, nebeneinander Desktop)
