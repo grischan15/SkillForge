@@ -798,20 +798,20 @@
     "name": "Prompt Engineering",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "Systematische Patterns, Optimierung",
+    "keyMetric": "33 Monate, 7+ Projekte, 4 validierte Patterns",
     "evidence": [
-      "Systematische Prompt-Bibliotheken in 6+ Projekten aufgebaut (GitHub/Git Logs)",
+      "Systematische Prompt-Bibliotheken in 7+ Projekten aufgebaut (GitHub/Git Logs)",
       "CLAUDE.md/STATE.md/ROADMAP.md Dokumentations-Pattern entwickelt (alle eigenen Projekte)",
-      "Multi-Turn Dialogoptimierung in Praxis erprobt (Git Commit-Historie)",
+      "Multi-Turn Dialogoptimierung in 33 Monaten Praxis erprobt (Git Commit-Historie)",
       "Neurodivergenz-optimiertes Prompting: kurze Kontexte, klare Strukturen (eigene Projekte)",
-      "Token-Optimierung durch kontextuelle Komprimierung (Git Logs verifizierbar)"
+      "4 validierte Prompt-Patterns in jedem Projekt im Einsatz (Jobhunt, SkillForge, NeuroForge u.a.)"
     ],
     "positions": [
       {
         "role": "AI Expert",
         "company": "Eigene Projekte",
-        "period": "seit 2023",
-        "context": "Systematische Prompt-Bibliotheken in 6+ Projekten, Dokumentations-Pattern und Token-Optimierung entwickelt"
+        "period": "seit 06/2023",
+        "context": "Systematische Prompt-Bibliotheken in 7+ Projekten, 33 Monate kontinuierliche Optimierung, 4 validierte Patterns"
       }
     ],
     "tags": [
@@ -833,22 +833,22 @@
     "id": "ai-claude",
     "clusterId": "ai-digital",
     "name": "Claude Code CLI",
-    "level": 4,
-    "levelLabel": "Fortgeschritten",
-    "keyMetric": "6+ Projekte, intensive Nutzung",
+    "level": 5,
+    "levelLabel": "Expert",
+    "keyMetric": "7 Projekte, 187+ Commits, ~21.000 LOC, eigene Templates",
     "evidence": [
-      "6+ vollstaendige React/Vite Projekte mit Claude Code realisiert (GitHub verifizierbar)",
+      "7 vollstaendige Projekte mit Claude Code realisiert, 187+ Commits (GitHub verifizierbar)",
+      "~21.000 LOC produktiver Code mit KI-Pair-Programming (Git Logs verifizierbar)",
       "Temporale Dokumentations-Architektur entwickelt und standardisiert (CLAUDE.md in allen Projekten)",
-      "Co-Authored-By in 50+ Git-Commits (Git Logs verifizierbar)",
       "Eigene Projekt-Templates und Konventionen erstellt (00_project_template/)",
-      "Intensive Nutzung seit 18+ Monaten, Workflows optimiert (Git-Historie)"
+      "33 Monate intensive Nutzung, eigene Workflows und Patterns optimiert (Git-Historie)"
     ],
     "positions": [
       {
         "role": "AI Expert",
         "company": "Eigene Projekte",
-        "period": "seit 2023",
-        "context": "6+ React/Vite Projekte mit Claude Code realisiert, eigene Projekt-Templates und Konventionen erstellt"
+        "period": "seit 06/2023",
+        "context": "7 Projekte, 187+ Commits, ~21.000 LOC mit Claude Code, eigene Templates und Konventionen"
       }
     ],
     "tags": [
@@ -908,22 +908,22 @@
     "id": "ai-automation",
     "clusterId": "ai-digital",
     "name": "KI-Automation (n8n)",
-    "level": 3,
-    "levelLabel": "Solide",
-    "keyMetric": "n8n Workflows, API-Integration",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "29+ produktive Automationen, 4 n8n Workflows live",
     "evidence": [
-      "n8n Workflow-Automatisierung in Planung und Evaluierung (Jobhunt ROADMAP)",
-      "API-Integration verschiedener KI-Anbieter (eigene Projekte)",
-      "Automatisierte Dokumenten-Pipelines konzipiert (Jobhunt Projekt)",
-      "Google Search Automation dokumentiert (Jobhunt/03_automation/)",
-      "Workflow-Design fuer Bewerbungs-Pipeline (Jobhunt NeuroForge Quests)"
+      "29+ produktive Automationen live im Einsatz (Jobhunt Pipeline, PDF-Generierung, Scheduling)",
+      "4 n8n Workflows produktiv: Job-Scraping, KI-Scoring, Enrichment, PDF-Export",
+      "API-Integration: JSearch, Arbeitsagentur API, OpenAI (eigene Projekte)",
+      "End-to-End-Orchestrierung: Scraping → Scoring → Enrichment → Export (Jobhunt Projekt)",
+      "Schedule Trigger, Error Handling, Retry-Logik in allen Workflows (n8n)"
     ],
     "positions": [
       {
         "role": "AI Expert",
         "company": "Eigene Projekte",
-        "period": "seit 2023",
-        "context": "n8n Workflow-Automatisierung, API-Integration und automatisierte Dokumenten-Pipelines fuer Jobhunt-Projekt"
+        "period": "seit 06/2023",
+        "context": "29+ produktive Automationen, 4 n8n Workflows live, End-to-End Job-Pipeline orchestriert"
       }
     ],
     "tags": [
@@ -933,7 +933,7 @@
       "workflow",
       "integration"
     ],
-    "highlight": false,
+    "highlight": true,
     "evidenceMapping": [
       0,
       0,
@@ -946,22 +946,22 @@
     "id": "ai-frameworks",
     "clusterId": "ai-digital",
     "name": "Eigene KI-Frameworks",
-    "level": 3,
-    "levelLabel": "Solide",
-    "keyMetric": "Dokumentations-Architektur, Design-Patterns",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "7 Projekte, standardisierte Frameworks, wiederverwendbare Patterns",
     "evidence": [
-      "Temporale Dokumentations-Architektur: CLAUDE.md/STATE.md/ROADMAP.md (alle Projekte)",
+      "Temporale Dokumentations-Architektur: CLAUDE.md/STATE.md/ROADMAP.md in 7 Projekten standardisiert",
       "Neurodivergenz-Design-Patterns: 48px Touch-Targets, prefers-reduced-motion (SkillForge/NeuroForge)",
       "Deployment-Pattern: DEPLOY_TARGET fuer Multi-Hosting (SkillForge CLAUDE.md)",
       "Projekt-Template-System mit standardisierten Konventionen (00_project_template/)",
-      "Prompt-Pattern-Bibliothek ueber 6+ Projekte konsolidiert (Git-Historie)"
+      "Eigene Frameworks in 7 Projekten validiert und iteriert (Git-Historie ueber 33 Monate)"
     ],
     "positions": [
       {
         "role": "AI Expert",
         "company": "Eigene Projekte",
-        "period": "seit 2023",
-        "context": "Temporale Dokumentations-Architektur und Neurodivergenz-Design-Patterns als wiederverwendbare Frameworks entwickelt"
+        "period": "seit 06/2023",
+        "context": "Eigene Frameworks in 7 Projekten standardisiert: Dokumentations-Architektur, Design-Patterns, Deployment-Patterns"
       }
     ],
     "tags": [
@@ -985,20 +985,20 @@
     "name": "Web-Entwicklung mit KI",
     "level": 4,
     "levelLabel": "Fortgeschritten",
-    "keyMetric": "6 React-Projekte, Design-System",
+    "keyMetric": "4 deployed Apps, ~21.000 LOC, Design-System",
     "evidence": [
-      "6+ vollstaendige React/Vite Projekte realisiert (GitHub verifizierbar)",
+      "4 deployed Web-Apps (React 19/Vite): Jobhunt Dashboard, SkillForge, NeuroForge, P3Coaching (GitHub verifizierbar)",
+      "~21.000 LOC produktiver Code mit KI-Pair-Programming (Git Logs verifizierbar)",
       "P3/NeuroForge Design-System mit Tailwind v4 entwickelt (SkillForge index.css)",
-      "GitHub Pages und ALL-INKL Deployment konfiguriert (CLAUDE.md Projekte)",
       "Barrierefreie, HSP-freundliche Interfaces: WCAG, 48px Touch-Targets (SkillForge)",
-      "Responsive Design: Mobile/Tablet/Desktop (SkillForge, NeuroForge)"
+      "Responsive Design: Mobile/Tablet/Desktop mit Breakpoint-System (SkillForge, NeuroForge)"
     ],
     "positions": [
       {
         "role": "AI Expert",
         "company": "Eigene Projekte",
-        "period": "seit 2023",
-        "context": "6+ React/Vite Projekte mit Design-System, barrierefreie Interfaces und Multi-Hosting-Deployment"
+        "period": "seit 06/2023",
+        "context": "4 deployed Web-Apps, ~21.000 LOC, Design-System mit Tailwind, Responsive und barrierefrei"
       }
     ],
     "tags": [
@@ -1006,6 +1006,122 @@
       "web-development",
       "react",
       "design-system"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "ai-devtools",
+    "clusterId": "ai-digital",
+    "name": "Dev-Toolchain & CI/CD",
+    "level": 4,
+    "levelLabel": "Fortgeschritten",
+    "keyMetric": "187+ Commits, GitHub Actions, Multi-Target Deployment",
+    "evidence": [
+      "187+ Git-Commits ueber 7 Projekte, strukturierte Branch-Strategien (GitHub verifizierbar)",
+      "GitHub Actions CI/CD Pipelines: Lint, Build, Deploy automatisiert (Jobhunt, SkillForge)",
+      "Multi-Target Deployment: GitHub Pages, ALL-INKL, Supabase (CLAUDE.md Projekte)",
+      "Cursor IDE + Claude Code CLI als primaere Entwicklungsumgebung (33 Monate)",
+      "Terminal/Bash-Proficiency auf Windows + WSL, Git-Workflows optimiert (eigene Projekte)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 06/2023",
+        "context": "187+ Commits, GitHub Actions CI/CD, Multi-Target Deployment ueber 7 Projekte"
+      }
+    ],
+    "tags": [
+      "ai",
+      "devtools",
+      "git",
+      "ci-cd",
+      "deployment",
+      "cli"
+    ],
+    "highlight": true,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "ai-supabase",
+    "clusterId": "ai-digital",
+    "name": "Supabase Backend & Infra",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Edge Functions, DB-Migrations, Schema-Design",
+    "evidence": [
+      "Supabase Edge Functions (Deno/TypeScript): Telegram-Webhook, Scoring, Enrichment (GitHub verifizierbar)",
+      "DB-Schema-Design: 10+ Tabellen, Migrations-System mit Versionierung (85_supabase/migrations/)",
+      "PostgREST API-Integration in React Dashboard und n8n Workflows (Jobhunt Projekt)",
+      "Row Level Security und Service-Role-Key Management (Supabase Projekt)",
+      "Schema-Migrationen mit Auto-Backup und Rollback-Strategie (eigene Konvention)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2024",
+        "context": "Supabase als Backend-Plattform: Edge Functions, DB-Migrations, Schema-Design fuer Jobhunt-Pipeline"
+      }
+    ],
+    "tags": [
+      "ai",
+      "supabase",
+      "backend",
+      "database",
+      "edge-functions",
+      "infrastructure"
+    ],
+    "highlight": false,
+    "evidenceMapping": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "ai-bots",
+    "clusterId": "ai-digital",
+    "name": "Bot-Entwicklung & Notifications",
+    "level": 3,
+    "levelLabel": "Solide",
+    "keyMetric": "Telegram Bot produktiv, Inline-Keyboards, Webhook-Integration",
+    "evidence": [
+      "Telegram Bot produktiv im Einsatz: Job-Notifications mit Inline-Keyboards (Jobhunt Projekt)",
+      "Webhook-Integration: Telegram → Supabase Edge Function → DB-Update (End-to-End)",
+      "Interaktive Commands: /status, Dismiss mit Reason-Tracking, Top/Flop-Listen (Git Logs)",
+      "Notification-Pipeline: n8n → Telegram mit formatierten Messages und Action-Buttons",
+      "Bot-Architektur: Stateless Webhook-Handler, kein Polling, skalierbar (eigene Architektur)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Eigene Projekte",
+        "period": "seit 2024",
+        "context": "Telegram Bot als User-Interface fuer Jobhunt-Pipeline: Notifications, Inline-Keyboards, Webhook-basiert"
+      }
+    ],
+    "tags": [
+      "ai",
+      "telegram",
+      "bot",
+      "webhook",
+      "notifications"
     ],
     "highlight": false,
     "evidenceMapping": [

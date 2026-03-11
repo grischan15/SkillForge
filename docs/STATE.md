@@ -1,6 +1,6 @@
 # STATE.md – SkillForge
 
-## Version: 0.6.2 (Landing-Reorder + Tooltips)
+## Version: 0.6.3 (Skills-Daten-Update)
 
 ## Status: 2-Spalten-Layout mit grosser Schmiede-Sidebar, Rollen volle Breite darunter, Kontakt-CTAs im Stellenprofil
 
@@ -14,7 +14,7 @@
 - [x] Willkommensseite mit Portraitfoto, Unterschrift, Claim, Werten, Staerken, Proof Points + CTA
 - [x] P3-Logo (roter Fluegel) als Branding + Favicon
 - [x] 6 Kompetenz-Bereiche als Tabs in beschrifteter Box
-- [x] 33 Skill-Karten mit Evidenz-Popovers
+- [x] 35 Skill-Karten mit Evidenz-Popovers
 - [x] Drag & Drop + Tap-to-Add [+]
 - [x] Schmiede (Reaction Zone) immer sichtbar
 - [x] Matching-Engine (100 Rollen: 50 Standard + 50 Revelation)
@@ -51,6 +51,13 @@
 - [x] Footer: LinkedIn prominent als eigener Button mit Icon (statt verstecktem Textlink)
 - [x] Landing-Reihenfolge: Proof Points → CTA → Kompetenz-Bereiche → Werte/Staerken
 - [x] Hover-Tooltips auf Werte- und Staerken-Pills (Desktop)
+
+### Aenderungen v0.6.2 → v0.6.3
+- **Skills-Daten-Update:** 33 → 35 Skills, Quelle: Jobhunt/35_scoring_data_jobhunt/skills.json
+- **2 neue Skills:** Dev-Toolchain & CI/CD (ai-devtools, L4), Supabase Backend & Infra (ai-supabase, L3)
+- **Level-Upgrades:** Claude Code 4→5, Automation 3→4, KI-Frameworks 3→4
+- **Praezisere Metriken:** Quantifizierte Evidence (z.B. "33 Monate, 187+ Commits, ~21.000 LOC")
+- **14 Highlight-Skills** (vorher 12): ai-automation und ai-devtools neu als Highlights
 
 ### Aenderungen v0.6.1 → v0.6.2
 - **Landing-Reorder:** Proof Points direkt nach Claim, CTA Button danach, Kompetenz-Bereiche darunter, Werte+Staerken ganz unten
@@ -91,7 +98,7 @@
 - **businessImpact-Display:** Goldene Sektion auf RoleCards + JobAdModal mit "Warum Ihr Unternehmen diese Rolle braucht"
 - **DiscoveryTeaser:** Texte fuer alle Cluster-Zustaende (0/1/2) ueberarbeitet, sofortige Rollenvorschlaege erwaehnt
 - **SkillTag:** purpose-Label hinzugefuegt
-- **Skill-Count:** 32 → 33, Rollen-Count: 100 (50 Standard + 50 Revelation)
+- **Skill-Count:** 32 → 33 → 35, Rollen-Count: 100 (50 Standard + 50 Revelation)
 
 ### Aenderungen v0.3.0 → v0.4.0
 - **Progressive Discovery Flow:** Strategie B (Always-Visible Teaser + Progressive Reveal) implementiert
@@ -145,7 +152,7 @@ src/
   index.css                   # Tailwind v4 Theme + Base Styles
   data/
     clusters.json             # 6 Cluster (data-process entfernt)
-    skills.json               # 33 Skills (evidence-validiert)
+    skills.json               # 35 Skills (evidence-validiert, quantifizierte Metriken)
     roles.json                # 100 Rollen + uniqueValue + businessImpact (PRUEFEN!)
     matchingEngine.js         # Offline Matching-Algorithmus
   components/
