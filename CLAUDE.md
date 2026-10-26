@@ -58,3 +58,9 @@
 Wenn der User "docs updaten" sagt:
 - STATE.md und ROADMAP.md aktualisieren
 - Danach automatisch committen
+
+<!-- p3-kommunikation:start -->
+## Kommunikation
+- Eingang: `01_Kommunikation/`. Neues liegt direkt im Ordner. Bei „Wo machen wir weiter?“ zusammen mit Session-Log und ROADMAP vorstellen und besprechen, nichts selbst umsetzen. Christian entscheidet: umsetzen, in die ROADMAP oder verwerfen. Danach nach `01_Kommunikation/_archiv/JJJJ_MM_TT/`.
+- Ausgehend an Empfänger ohne CLI-Projekt: `01_Kommunikation/ausgang/`. An andere CLI-Projekte direkt in deren `01_Kommunikation/`. Keine Rückmeldung an den Absender.
+<!-- p3-kommunikation:end -->
