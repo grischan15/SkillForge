@@ -1,4 +1,5 @@
 import { useLang } from '../../i18n/LanguageContext'
+import ClusterIcon from '../shared/ClusterIcon'
 const clusterColorMap = {
   'engineering': 'border-cluster-engineering text-cluster-engineering bg-cluster-engineering-bg',
   'leadership': 'border-cluster-leadership text-cluster-leadership bg-cluster-leadership-bg',
@@ -23,8 +24,8 @@ export default function ClusterTabs({ clusters, activeCluster, onSelect }) {
   const heading = lang === 'en' ? '6 competence areas' : '6 Kompetenz-Bereiche'
 
   return (
-    <div className="mb-4 rounded-xl border border-border-light bg-white p-3">
-      <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">
+    <div className="mb-4 p3-cut-box bg-white p-3">
+      <p className="p3-eyebrow mb-2">
         {heading}
       </p>
       <nav
@@ -44,17 +45,17 @@ export default function ClusterTabs({ clusters, activeCluster, onSelect }) {
               onClick={() => onSelect(cluster.id)}
               className={`
                 flex items-center gap-1.5 px-3 py-2
-                rounded-lg border-2 text-sm font-medium
+                rounded-sm border-2 text-sm font-semibold
                 whitespace-nowrap min-h-[48px]
-                transition-all duration-normal ease-out
+                transition-colors duration-normal
                 cursor-pointer
                 ${isActive
                   ? colors
-                  : 'border-transparent text-ink-muted bg-white hover:bg-container hover:text-ink-light'
+                  : 'border-transparent text-ink-light bg-white hover:bg-salbei-tint hover:text-ink'
                 }
               `}
             >
-              <span role="img" aria-hidden="true" className="text-base">{cluster.icon}</span>
+              <ClusterIcon id={cluster.id} size={18} />
               <span className="hidden sm:inline">{cluster.labelShort}</span>
             </button>
           )
@@ -64,7 +65,7 @@ export default function ClusterTabs({ clusters, activeCluster, onSelect }) {
       {/* Active cluster label - visible when tab text is hidden (small screens) */}
       {active && (
         <p className={`sm:hidden text-sm font-semibold mt-1 ${clusterDescColorMap[active.id] || 'text-ink'}`}>
-          {active.icon} {active.label}
+          <span className="inline-flex items-center gap-1.5"><ClusterIcon id={active.id} /> {active.label}</span>
         </p>
       )}
     </div>

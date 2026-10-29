@@ -1,0 +1,118 @@
+/* ============================================================
+   P3 Designsystem — SPACING, RADIUS, SHADOW, MOTION, LAYOUT
+   4px base grid. Form is KANTIG (Spec v1.0 §04): radii 0–4px,
+   NO pills, NO gradients ever, shadows low & sparse.
+   The P3 signature is the carved edge "P3-Kante" (px-deep
+   clip-paths below) — same depth on every edge regardless of
+   element size, because depth is px not %.
+   ============================================================ */
+
+:root {
+  /* ---- Spacing (4px base) ---- */
+  --space-0:   0;
+  --space-1:   0.25rem;  /* 4  */
+  --space-2:   0.5rem;   /* 8  */
+  --space-3:   0.75rem;  /* 12 */
+  --space-4:   1rem;     /* 16 */
+  --space-5:   1.5rem;   /* 24 */
+  --space-6:   2rem;     /* 32 */
+  --space-7:   3rem;     /* 48 */
+  --space-8:   4rem;     /* 64 */
+  --space-9:   6rem;     /* 96  */
+  --space-10:  8rem;     /* 128 */
+  --space-11:  10rem;    /* 160 */
+
+  /* ---- Three separated spacing pots — NEVER mix across pots ----
+     Rule of gestalt: the gap BETWEEN two blocks must be ≥ 2× the largest
+     gap INSIDE a block, or grouping collapses and the page tires the eye.
+     "Weißraum" = distance, not colour — a Sand page with correct spacing
+     reads calmer than a white page with tight spacing. */
+  /* 1 · WITHIN an element — padding, icon↔text, label↔field: 4·8·16·24 */
+  --inset-2xs: var(--space-1); /* 4  */
+  --inset-xs:  var(--space-2); /* 8  */
+  --inset-sm:  var(--space-4); /* 16 */
+  --inset-md:  var(--space-5); /* 24 */
+  /* 2 · BETWEEN elements — card↔card, paragraph↔button: 32·48·64 */
+  --gap-sm: var(--space-6); /* 32 */
+  --gap-md: var(--space-7); /* 48 */
+  --gap-lg: var(--space-8); /* 64 */
+  /* 3 · BETWEEN sections — vertical section padding: 96·128·160 */
+  --section-sm: var(--space-9);  /* @kind spacing */ /* 96  */
+  --section-md: var(--space-10); /* @kind spacing */ /* 128 */
+  --section-lg: var(--space-11); /* @kind spacing */ /* 160 */
+
+  /* Section rhythm defaults */
+  --section-y:      var(--section-md); /* @kind spacing */ /* 128 — generous by default */
+  --content-gap:    var(--gap-md);     /* 48 — between-element default */
+
+  /* ---- Breakpoints (reference values for @media — not usable inside @media) ---- */
+  --bp-sm: 640px;  /* @kind other */
+  --bp-md: 768px;  /* @kind other */
+  --bp-lg: 1024px; /* @kind other */
+  --bp-xl: 1280px; /* @kind other */
+
+  /* ---- Radius (KANTIG — Spec v1.0 §04: 0–4px, no pills) ---- */
+  --radius-xs:   0;
+  --radius-sm:   2px;
+  --radius-md:   3px;    /* default card / input */
+  --radius-lg:   4px;    /* max radius in the system */
+  --radius-xl:   4px;    /* legacy alias — capped kantig */
+  --radius-pill: 4px;    /* DEPRECATED: no pills. Kept kantig to neutralise stray use */
+
+  /* ---- P3-Kante — carved edge (Spec v1.0 §06) ----
+     The edge IS the P3 bildmark's own outer contour (assets/box/_generator.py):
+     an organic hand-cut quadrilateral, one gentle bulge/indent per side.
+     Percentage polygons scale to any element; per-ratio variants keep the
+     wobble proportional. For exact-px amplitude on dynamic sizes use
+     assets/box/p3box.js (p3BoxClip). band=hero/dividers, box=cards,
+     btn=buttons, tall=portrait columns. */
+  /* DEPRECATED for full-width use — a band cuts all four sides, so a full-bleed
+     section gets a visible left/right notch ("Kasten"). Use --p3-cut-bottom /
+     --p3-cut-section instead. Kept for inset dividers; P3Box.warnDeprecatedBand()
+     logs a dev warning wherever .p3-cut-band / .band is still applied. */
+  --p3-cut-band: polygon(0.23% 0.77%, 41.20% 2.47%, 99.77% 0.77%, 99.94% 24.79%, 99.56% 68.12%, 99.77% 99.23%, 62.47% 98.43%, 0.23% 99.23%, 0.45% 77.88%, 0.39% 30.30%); /* @kind other */
+  --p3-cut-box: polygon(0.45% 0.45%, 41.24% 2.15%, 99.55% 0.45%, 99.88% 24.63%, 99.14% 68.23%, 99.55% 99.55%, 62.42% 98.74%, 0.45% 99.55%, 0.88% 78.06%, 0.76% 30.17%); /* @kind other */
+  --p3-cut-btn: polygon(0.51% 2.22%, 41.25% 5.34%, 99.49% 2.22%, 99.82% 25.53%, 99.08% 67.58%, 99.49% 97.78%, 62.40% 96.31%, 0.51% 97.78%, 0.94% 77.06%, 0.82% 30.88%); /* @kind other */
+  --p3-cut-btn-sm: polygon(0.71% 2.89%, 41.28% 7.44%, 99.29% 2.89%, 99.72% 25.88%, 98.76% 67.34%, 99.29% 97.11%, 62.35% 94.96%, 0.71% 97.11%, 1.27% 76.68%, 1.11% 31.15%); /* @kind other */
+  --p3-cut-tall: polygon(0.52% 0.34%, 41.25% 2.04%, 99.48% 0.34%, 99.81% 24.57%, 99.07% 68.28%, 99.48% 99.66%, 62.40% 98.86%, 0.52% 99.66%, 0.95% 78.13%, 0.83% 30.13%); /* @kind other */
+  --p3-cut:        var(--p3-cut-box); /* @kind other */ /* alias */
+  --p3-cut-strong: var(--p3-cut-btn); /* @kind other */ /* alias (buttons) */
+
+  /* ---- Full-bleed WEBSITE sections — sides run edge to edge ----
+     Deliberate second form language: small elements carry the ORGANIC
+     bildmark contour above; full-width sections carry STRAIGHT facets with a
+     single apex (41% top / 61% bottom), because the organic wobble becomes
+     grotesque at 1400px. Depth here is % (grows with section height) — for
+     constant px depth use p3SectionClip()/applyP3Section() in assets/box/p3box.js,
+     which is the recommended path for real website sections. */
+  --p3-cut-bottom:  polygon(0% 0%, 100% 0%, 100% 97.4%, 61% 100%, 0% 97.4%);             /* @kind other */ /* only bottom — website hero at the very top */
+  --p3-cut-section: polygon(0% 2.4%, 41% 0%, 100% 2.4%, 100% 97.6%, 61% 100%, 0% 97.6%); /* @kind other */ /* top+bottom, sides flush — inset panel / WerteApp / section change */
+
+  /* ---- Borders ---- */
+  --border-width:      1px; /* @kind other */
+  --border-width-thick: 2px; /* @kind other */
+
+  /* ---- Shadows (LOW & SPARSE — Spec v1.0 §04. No glows, no gradients) ---- */
+  --shadow-xs:  0 1px 1px rgba(26, 44, 70, 0.05);
+  --shadow-sm:  0 1px 3px rgba(26, 44, 70, 0.07);
+  --shadow-md:  0 3px 8px rgba(26, 44, 70, 0.09);
+  --shadow-lg:  0 6px 16px rgba(26, 44, 70, 0.11);
+  --shadow-focus: 0 0 0 3px rgba(209, 89, 59, 0.40); /* terrakotta focus ring */
+
+  /* ---- Motion ---- */
+  --ease-standard: cubic-bezier(0.22, 0.61, 0.36, 1); /* @kind other */
+  --ease-out:      cubic-bezier(0.16, 1, 0.30, 1); /* @kind other */
+  --ease-in-out:   cubic-bezier(0.65, 0, 0.35, 1); /* @kind other */
+  --dur-fast:   140ms; /* @kind other */
+  --dur-base:   220ms; /* @kind other */
+  --dur-slow:   420ms; /* @kind other */
+
+  /* ---- Layout ---- */
+  --container:      1180px; /* @kind other */
+  --container-wide: 1360px; /* @kind other */
+  --container-text: 720px; /* @kind other */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}

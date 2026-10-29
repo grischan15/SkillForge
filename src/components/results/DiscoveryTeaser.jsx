@@ -1,27 +1,29 @@
+import { Info } from 'lucide-react'
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import InfoModal from '../shared/InfoModal'
+import ClusterIcon from '../shared/ClusterIcon'
 import { useLang } from '../../i18n/LanguageContext'
 
 const TEXT = {
   de: {
     title: 'Entdeckungsrollen',
-    hint0: 'Ihre regulären Rollenvorschläge erscheinen sofort. Aber die spannendsten Entdeckungen? Die brauchen Skills aus mindestens drei verschiedenen Bereichen. 😉',
+    hint0: 'Ihre regulären Rollenvorschläge erscheinen sofort. Aber die spannendsten Entdeckungen? Die brauchen Skills aus mindestens drei verschiedenen Bereichen.',
     hint1: 'Noch zwei Bereiche – dann enthüllt die Schmiede überraschende Rollen, die Sie vielleicht nicht auf dem Radar hatten.',
     hint2: 'Noch ein Bereich – und die Entdeckungsrollen werden sichtbar. Fast geschafft!',
     progress: (n) => `${n} von 3 Bereichen aktiviert`,
-    unlocked: 'Entdeckungsrollen freigeschaltet 🎉',
+    unlocked: 'Entdeckungsrollen freigeschaltet',
     whatAre: 'Was sind Entdeckungsrollen?',
     discoveries: (n) => `${n} Entdeckung${n !== 1 ? 'en' : ''}`,
     matching: (n) => `${n} passende Rollen`,
   },
   en: {
     title: 'Discovery roles',
-    hint0: 'Your regular role suggestions appear right away. But the most exciting discoveries? They need skills from at least three different areas. 😉',
+    hint0: 'Your regular role suggestions appear right away. But the most exciting discoveries? They need skills from at least three different areas.',
     hint1: 'Two more areas – then the forge reveals surprising roles you may not have had on your radar.',
     hint2: 'One more area – and the discovery roles appear. Almost there!',
     progress: (n) => `${n} of 3 areas activated`,
-    unlocked: 'Discovery roles unlocked 🎉',
+    unlocked: 'Discovery roles unlocked',
     whatAre: 'What are discovery roles?',
     discoveries: (n) => `${n} discover${n !== 1 ? 'ies' : 'y'}`,
     matching: (n) => `${n} matching role${n !== 1 ? 's' : ''}`,
@@ -58,10 +60,10 @@ export default function DiscoveryTeaser({
   return (
     <div
       className={`
-        rounded-xl border
+        rounded-sm border
         ${isUnlocked
-          ? 'bg-revelation-bg/50 border-revelation-gold/20'
-          : 'bg-revelation-bg border-revelation-gold/40'
+          ? 'bg-white border-revelation/40'
+          : 'bg-revelation-bg border-revelation/50'
         }
       `}
     >
@@ -76,8 +78,8 @@ export default function DiscoveryTeaser({
           >
             {/* Header */}
             <div className="flex items-center gap-2 mb-3">
-              <LockIcon className="w-5 h-5 text-revelation-gold flex-shrink-0" />
-              <h3 className="font-semibold text-ink text-sm">
+              <LockIcon className="w-5 h-5 text-revelation flex-shrink-0" />
+              <h3 className="font-semibold text-ink text-base">
                 {t.title}
               </h3>
             </div>
@@ -94,9 +96,9 @@ export default function DiscoveryTeaser({
                   {t.progress(clusterCount)}
                 </span>
               </div>
-              <div className="h-2 bg-border-light rounded-full overflow-hidden">
+              <div className="h-2 bg-white overflow-hidden">
                 <motion.div
-                  className="h-full bg-revelation-gold rounded-full"
+                  className="h-full bg-revelation"
                   initial={false}
                   animate={{ width: `${progress * 100}%` }}
                   transition={{ duration, ease: 'easeOut' }}
@@ -114,11 +116,11 @@ export default function DiscoveryTeaser({
                     <span
                       key={clusterId}
                       className={`
-                        inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs
-                        bg-${cluster.color}/10 text-${cluster.color} border border-${cluster.color}/30
+                        inline-flex items-center gap-1 px-2 py-0.5 rounded-sm text-xs font-semibold
+                        bg-${cluster.color}-bg text-${cluster.color} border border-${cluster.color}/30
                       `}
                     >
-                      <span className="text-xs">{cluster.icon}</span>
+                      <ClusterIcon id={cluster.id} size={12} />
                       {cluster.labelShort}
                     </span>
                   )
@@ -138,19 +140,19 @@ export default function DiscoveryTeaser({
               <motion.div
                 initial={reducedMotion ? false : { rotate: -15 }}
                 animate={{ rotate: 0 }}
-                transition={{ duration: 0.4, type: 'spring', stiffness: 200 }}
+                transition={{ duration: 0.3, ease: 'easeOut' }}
               >
-                <UnlockIcon className="w-5 h-5 text-revelation-gold flex-shrink-0" />
+                <UnlockIcon className="w-5 h-5 text-revelation flex-shrink-0" />
               </motion.div>
               <span className="font-semibold text-ink text-sm">
                 {t.unlocked}
               </span>
               <button
                 onClick={() => setShowInfo(true)}
-                className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-ink-muted hover:text-ink hover:bg-white/60 transition-colors cursor-pointer"
+                className="flex-shrink-0 w-10 h-10 rounded-sm flex items-center justify-center text-moosgruen hover:text-tannenblau hover:bg-salbei transition-colors cursor-pointer"
                 aria-label={t.whatAre}
               >
-                <span className="text-sm font-bold">ⓘ</span>
+                <Info size={18} strokeWidth={2} aria-hidden="true" />
               </button>
               {(revelationCount > 0 || standardCount > 0) && (
                 <span className="ml-auto text-xs text-ink-muted text-right leading-tight">

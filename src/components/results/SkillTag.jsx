@@ -103,11 +103,11 @@ export default function SkillTag({ tag, isMatched }) {
   return (
     <span
       className={`
-        inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium
+        inline-flex items-center gap-1 px-2 py-0.5 rounded-sm text-xs font-semibold
         transition-colors duration-200
         ${isMatched
-          ? 'bg-p3-green/10 text-p3-green border border-p3-green/30'
-          : 'bg-container text-ink-muted border border-border-light'
+          ? 'bg-success-bg text-success border border-success/40'
+          : 'bg-gray-100 text-ink-light border border-border'
         }
       `}
     >

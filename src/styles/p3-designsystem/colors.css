@@ -1,0 +1,110 @@
+/* ============================================================
+   P3 Designsystem — COLORS
+   Source of truth: P3-Markenkompass (2026), S.10–11.
+   Brand palette is print-first; neutrals, states and interaction
+   variants are the documented web extension (see readme "Lücke").
+   ============================================================ */
+
+:root {
+  /* ---- Brand palette (Markenkompass S.10) ---- */
+  --p3-tannenblau: #1A2C46; /* darkest — body text, headlines, dark surfaces */
+  --p3-moosgruen:  #385453; /* primary brand — Herzholz. surfaces, icons     */
+  --p3-salbei:     #A3D2CC; /* Splintholz — light surfaces, accents           */
+  --p3-terrakotta: #D1593B; /* CTA + large-type accent. NEVER body text       */
+  --p3-sand:       #F4F0E1; /* Boden — page background / canvas               */
+
+  /* ---- Brand interaction variants (web extension) ---- */
+  --p3-tannenblau-hover:  #142236;
+  --p3-tannenblau-active: #0E1826;
+  --p3-moosgruen-hover:   #2C4342;
+  --p3-moosgruen-active:  #223433;
+  --p3-salbei-hover:      #8FC6BF;
+  --p3-salbei-active:     #7BB8B0;
+  --p3-terrakotta-hover:  #BC4A2E;
+  --p3-terrakotta-active: #A33D24;
+  /* soft tints for hover fills / selected rows on light surfaces */
+  --p3-salbei-tint:       #E4F1EF; /* salbei @ ~20% over sand */
+  --p3-terrakotta-tint:   #F6E1DA;
+
+  /* ---- Neutral ramp (derived from Tannenblau hue ~216°, low chroma) ---- */
+  --p3-gray-950: #10192A;
+  --p3-gray-900: #1A2C46; /* == tannenblau (ink) */
+  --p3-gray-800: #2A3B54;
+  --p3-gray-700: #3F4E64;
+  --p3-gray-600: #55637A; /* secondary text on light — passes AA on sand/white */
+  --p3-gray-500: #6E7B90;
+  --p3-gray-400: #929DAF;
+  --p3-gray-300: #B7BFCB;
+  --p3-gray-200: #D5DAE1;
+  --p3-gray-100: #E9ECF0;
+  --p3-gray-50:  #F5F6F8;
+  --p3-white:    #FFFFFF;
+
+  /* ---- Semantic states (web extension) ----
+     Muted to PALETTE chroma so NOTHING rivals Terrakotta — it stays the only
+     loud colour in the interface. States render as a quiet Sand/White surface
+     with Tannenblau text and the state colour as a 4px cut edge / icon accent
+     only: never a filled bar, never white text, never Terrakotta. */
+  --p3-success:  #3F6B52; /* de-saturated forest green */
+  --p3-warning:  #8F7328; /* de-saturated ochre         */
+  --p3-error:    #8A3A32; /* de-saturated brick (distinct from Terrakotta CTA) */
+  --p3-info:     var(--p3-moosgruen);
+
+  /* Semantic aliases — reach for these in product code */
+  --state-success: var(--p3-success);
+  --state-warning: var(--p3-warning);
+  --state-error:   var(--p3-error);
+  --state-info:    var(--p3-info);
+  /* State element surfaces + text (obey the contrast matrix) */
+  --state-surface:     var(--p3-sand);       /* default state surface         */
+  --state-surface-alt: var(--p3-white);      /* when the element sits ON Sand  */
+  --state-text:        var(--p3-tannenblau); /* @kind color */ /* 12.3:1 on Sand · ~14:1 on White */
+
+  /* Faint soft-fill tints (optional; text stays Tannenblau) */
+  --p3-success-bg:   #E7EDE7;
+  --p3-warning-bg:   #EFE9D6;
+  --p3-error-bg:     #EEE0DC;
+  --p3-info-bg:      var(--p3-salbei-tint);
+
+  /* ============================================================
+     SEMANTIC ALIASES — reach for these in product code
+     ============================================================ */
+
+  /* Surfaces */
+  --surface-page:     var(--p3-sand);       /* Boden — default canvas */
+  --surface-card:     var(--p3-white);
+  --surface-raised:   var(--p3-white);
+  --surface-sunken:   #EEE9D6;              /* slightly darker than sand */
+  --surface-inverse:  var(--p3-tannenblau); /* dark sections            */
+  --surface-brand:    var(--p3-moosgruen);  /* Herzholz section         */
+  --surface-accent:   var(--p3-salbei);     /* Splintholz block         */
+
+  /* Text (role → color; obey the Markenkompass contrast matrix) */
+  --text-heading:     var(--p3-tannenblau); /* @kind color */
+  --text-body:        var(--p3-tannenblau); /* @kind color */
+  --text-muted:       var(--p3-gray-600); /* @kind color */
+  --text-on-brand:    var(--p3-sand); /* @kind color */      /* text on moosgruen        */
+  --text-on-inverse:  var(--p3-sand); /* @kind color */      /* text on tannenblau       */
+  --text-on-accent:   var(--p3-tannenblau); /* @kind color */ /* text on salbei          */
+  --text-accent:      var(--p3-terrakotta); /* @kind color */ /* large type / numerals only */
+  --text-link:        var(--p3-moosgruen); /* @kind color */
+  --text-link-hover:  var(--p3-terrakotta); /* @kind color */
+  /* Links on dark surfaces (Tannenblau / Moosgrün / photo) — Salbei, never Terrakotta */
+  --text-link-on-dark: var(--p3-salbei); /* @kind color */
+
+  /* Lines & borders */
+  --border-subtle:    var(--p3-gray-200);
+  --border-default:   var(--p3-gray-300);
+  --border-strong:    var(--p3-tannenblau);
+  --border-on-dark:   rgba(244,240,225,0.22);
+
+  /* Call-to-action */
+  --cta-bg:           var(--p3-terrakotta);
+  --cta-bg-hover:     var(--p3-terrakotta-hover);
+  --cta-bg-active:    var(--p3-terrakotta-active);
+  --cta-text:         var(--p3-sand); /* @kind color */      /* Terrakotta→Sand, 3.54 — OK for ≥18px bold */
+
+  /* Focus */
+  --focus-ring:       var(--p3-terrakotta);
+  --focus-ring-dark:  var(--p3-salbei);
+}

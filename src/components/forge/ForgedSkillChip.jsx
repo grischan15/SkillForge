@@ -11,7 +11,7 @@ const clusterChipColors = {
 }
 
 export default function ForgedSkillChip({ skill, onRemove, reducedMotion }) {
-  const colors = clusterChipColors[skill.clusterId] || 'bg-container text-ink border-border'
+  const colors = clusterChipColors[skill.clusterId] || 'bg-sunken text-ink border-border'
   const { lang } = useLang()
 
   return (
@@ -22,7 +22,7 @@ export default function ForgedSkillChip({ skill, onRemove, reducedMotion }) {
       exit={reducedMotion ? {} : { scale: 0.8, opacity: 0 }}
       className={`
         inline-flex items-center gap-1 px-2.5 py-1
-        rounded-full text-xs font-medium
+        rounded-sm text-xs font-semibold
         border ${colors}
       `}
     >
@@ -31,7 +31,7 @@ export default function ForgedSkillChip({ skill, onRemove, reducedMotion }) {
         onClick={() => onRemove(skill.id)}
         className="
           shrink-0 w-4 h-4 flex items-center justify-center
-          rounded-full hover:bg-black/10
+          rounded-sm hover:bg-tannenblau/10
           text-current opacity-60 hover:opacity-100
           transition-opacity cursor-pointer
         "

@@ -1,3 +1,4 @@
+import { Info } from 'lucide-react'
 import { useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import RoleCard from './RoleCard'
@@ -37,11 +38,11 @@ export default function RoleResults({
         <AnimatePresence>
           {/* Revelations FIRST (above standard) */}
           {isUnlocked && revelations.length > 0 && (
-            <section>
+            <section key="revelations">
               <div className="flex items-center gap-2 mb-2">
                 <RevelationBadge />
-                <h3 className="text-sm font-semibold text-revelation-gold tracking-wide">
-                  {en ? 'Did you have these roles on your radar? 😉' : 'Hätten Sie diese Rollen auf dem Radar? 😉'}
+                <h3 className="text-base font-semibold text-ink">
+                  {en ? 'Did you have these roles on your radar?' : 'Hätten Sie diese Rollen auf dem Radar?'}
                 </h3>
                 <InfoButton onClick={() => setShowDiscoveryInfo(true)} label={en ? 'What are discovery roles?' : 'Was sind Entdeckungsrollen?'} />
               </div>
@@ -63,9 +64,9 @@ export default function RoleResults({
 
           {/* Standard matches SECOND */}
           {matches.length > 0 && (
-            <section className={isUnlocked && revelations.length > 0 ? 'mt-4' : ''}>
+            <section key="matches" className={isUnlocked && revelations.length > 0 ? 'mt-4' : ''}>
               <div className="flex items-center gap-2 mb-2">
-                <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wide">
+                <h3 className="p3-eyebrow">
                   {en ? 'Matching roles' : 'Passende Rollen'} ({matches.length})
                 </h3>
                 <InfoButton onClick={() => setShowMatchInfo(true)} label={en ? 'What are matching roles?' : 'Was sind passende Rollen?'} />
@@ -132,10 +133,10 @@ function InfoButton({ onClick, label }) {
   return (
     <button
       onClick={onClick}
-      className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-ink-muted hover:text-ink hover:bg-container transition-colors cursor-pointer"
+      className="flex-shrink-0 w-10 h-10 rounded-sm flex items-center justify-center text-moosgruen hover:text-tannenblau hover:bg-salbei transition-colors cursor-pointer"
       aria-label={label}
     >
-      <span className="text-sm font-bold">ⓘ</span>
+      <Info size={18} strokeWidth={2} aria-hidden="true" />
     </button>
   )
 }

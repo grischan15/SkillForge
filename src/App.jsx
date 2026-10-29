@@ -1,3 +1,4 @@
+import { ChevronDown, ChevronUp } from 'lucide-react'
 import { useState, useCallback, useMemo } from 'react'
 import { DndContext, PointerSensor, TouchSensor, KeyboardSensor, useSensors, useSensor, DragOverlay } from '@dnd-kit/core'
 import AppShell from './components/layout/AppShell'
@@ -105,13 +106,13 @@ function App() {
                 onClick={() => setSkillsCollapsed(prev => !prev)}
                 className="
                   lg:hidden flex items-center gap-1.5 mb-2
-                  py-2 px-3 rounded-lg
-                  text-xs text-ink-muted hover:text-ink
-                  hover:bg-container transition-colors cursor-pointer
-                  min-h-[36px]
+                  py-2 px-3 rounded-sm
+                  text-sm font-semibold text-moosgruen hover:text-tannenblau
+                  hover:bg-salbei transition-colors cursor-pointer
+                  min-h-[48px]
                 "
               >
-                <span>{skillsCollapsed ? '▼' : '▲'}</span>
+                {skillsCollapsed ? <ChevronDown size={16} aria-hidden="true" /> : <ChevronUp size={16} aria-hidden="true" />}
                 <span>{skillsCollapsed ? (lang === 'en' ? `Show skills (${filteredSkills.length})` : `Skills anzeigen (${filteredSkills.length})`) : (lang === 'en' ? 'Collapse skills' : 'Skills einklappen')}</span>
               </button>
             )}

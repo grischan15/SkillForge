@@ -3,25 +3,33 @@ import { motion } from 'framer-motion'
 import { useReducedMotion } from '../../hooks/useReducedMotion'
 import InfoModal from '../shared/InfoModal'
 import { useLang } from '../../i18n/LanguageContext'
+import ClusterIcon from '../shared/ClusterIcon'
+import { Cog, Users, Star, Feather, Heart, Gem, Sun, Trophy, Mountain, LayoutGrid, Zap } from 'lucide-react'
+
+const ICONS = { cog: Cog, users: Users, star: Star, feather: Feather, heart: Heart, gem: Gem, sun: Sun, trophy: Trophy, mountain: Mountain, layout: LayoutGrid, zap: Zap }
+const Icon = ({ name, size = 16, className = '' }) => {
+  const C = ICONS[name]
+  return C ? <C size={size} strokeWidth={2} className={className} aria-hidden="true" /> : null
+}
 
 const TEXT = {
   de: {
     proofPoints: [
-      { icon: '⚙️', metric: '15+ Jahre', label: 'Automotive Engineering', detail: 'NVH, Six Sigma, Entwicklungsleiter' },
-      { icon: '👥', metric: '3 Kontinente', label: 'Führungserfahrung', detail: 'Teams bis 17 MA, Note 1' },
-      { icon: '🎯', metric: '4.96 / 5.0', label: 'Coaching-Bewertung', detail: '387 UE, 6 Diplome, ISO 17024' },
+      { icon: 'cog', metric: '15+ Jahre', label: 'Automotive Engineering', detail: 'NVH, Six Sigma, Entwicklungsleiter' },
+      { icon: 'users', metric: '3 Kontinente', label: 'Führungserfahrung', detail: 'Teams bis 17 MA, Note 1' },
+      { icon: 'star', metric: '4.96 / 5.0', label: 'Coaching-Bewertung', detail: '387 UE, 6 Diplome, ISO 17024' },
     ],
     values: [
-      { icon: '🕊️', label: 'Freiheit', tooltip: 'Eigenverantwortung statt Micromanagement — Raum für echte Entwicklung.' },
-      { icon: '❤️', label: 'Agape', tooltip: 'Bedingungslose Wertschätzung — Menschen sehen, nicht nur Funktionen.' },
-      { icon: '💎', label: 'Klarheit', tooltip: 'Ehrliche Kommunikation — auch wenn es unbequem wird.' },
+      { icon: 'feather', label: 'Freiheit', tooltip: 'Eigenverantwortung statt Micromanagement — Raum für echte Entwicklung.' },
+      { icon: 'heart', label: 'Agape', tooltip: 'Bedingungslose Wertschätzung — Menschen sehen, nicht nur Funktionen.' },
+      { icon: 'gem', label: 'Klarheit', tooltip: 'Ehrliche Kommunikation — auch wenn es unbequem wird.' },
     ],
     strengths: [
-      { icon: '✨', label: 'Positive Einstellung', tooltip: 'Ich sehe Potenzial, wo andere Probleme sehen.' },
-      { icon: '🏆', label: 'Höchstleistung', tooltip: 'Ich finde den Hebel, der aus gut herausragend macht.' },
-      { icon: '🧭', label: 'Selbstbewusstsein', tooltip: 'Vertrauen in die eigene Richtung — auch gegen den Strom.' },
-      { icon: '🎼', label: 'Arrangeur', tooltip: 'Komplexität orchestrieren — die richtigen Menschen am richtigen Platz.' },
-      { icon: '⚡', label: 'Tatkraft', tooltip: 'Weniger reden, mehr machen — vom Impuls zur Umsetzung.' },
+      { icon: 'sun', label: 'Positive Einstellung', tooltip: 'Ich sehe Potenzial, wo andere Probleme sehen.' },
+      { icon: 'trophy', label: 'Höchstleistung', tooltip: 'Ich finde den Hebel, der aus gut herausragend macht.' },
+      { icon: 'mountain', label: 'Selbstbewusstsein', tooltip: 'Vertrauen in die eigene Richtung — auch gegen den Strom.' },
+      { icon: 'layout', label: 'Arrangeur', tooltip: 'Komplexität orchestrieren — die richtigen Menschen am richtigen Platz.' },
+      { icon: 'zap', label: 'Tatkraft', tooltip: 'Weniger reden, mehr machen — vom Impuls zur Umsetzung.' },
     ],
     claim: 'Ich sehe Stärken, baue Strukturen und schaffe Räume, in denen Arbeit wirkt.',
     hook: 'Vom Entwicklungsleiter Asien zum Master Coach\u00a0— ich bringe zusammen, was zusammengehört: Menschen, Stärken und den richtigen Purpose.',
@@ -42,21 +50,21 @@ const TEXT = {
   },
   en: {
     proofPoints: [
-      { icon: '⚙️', metric: '15+ years', label: 'Automotive Engineering', detail: 'NVH, Six Sigma, Head of Engineering' },
-      { icon: '👥', metric: '3 continents', label: 'Leadership experience', detail: 'Teams of up to 17, top rating' },
-      { icon: '🎯', metric: '4.96 / 5.0', label: 'Coaching rating', detail: '387 teaching units, 6 diplomas, ISO 17024' },
+      { icon: 'cog', metric: '15+ years', label: 'Automotive Engineering', detail: 'NVH, Six Sigma, Head of Engineering' },
+      { icon: 'users', metric: '3 continents', label: 'Leadership experience', detail: 'Teams of up to 17, top rating' },
+      { icon: 'star', metric: '4.96 / 5.0', label: 'Coaching rating', detail: '387 teaching units, 6 diplomas, ISO 17024' },
     ],
     values: [
-      { icon: '🕊️', label: 'Freedom', tooltip: 'Ownership instead of micromanagement — room for real growth.' },
-      { icon: '❤️', label: 'Agape', tooltip: 'Unconditional appreciation — seeing people, not just functions.' },
-      { icon: '💎', label: 'Clarity', tooltip: 'Honest communication — even when it gets uncomfortable.' },
+      { icon: 'feather', label: 'Freedom', tooltip: 'Ownership instead of micromanagement — room for real growth.' },
+      { icon: 'heart', label: 'Agape', tooltip: 'Unconditional appreciation — seeing people, not just functions.' },
+      { icon: 'gem', label: 'Clarity', tooltip: 'Honest communication — even when it gets uncomfortable.' },
     ],
     strengths: [
-      { icon: '✨', label: 'Positivity', tooltip: 'I see potential where others see problems.' },
-      { icon: '🏆', label: 'Maximizer', tooltip: 'I find the lever that turns good into outstanding.' },
-      { icon: '🧭', label: 'Self-Assurance', tooltip: 'Trust in my own direction — even against the current.' },
-      { icon: '🎼', label: 'Arranger', tooltip: 'Orchestrating complexity — the right people in the right place.' },
-      { icon: '⚡', label: 'Activator', tooltip: 'Less talk, more action — from impulse to execution.' },
+      { icon: 'sun', label: 'Positivity', tooltip: 'I see potential where others see problems.' },
+      { icon: 'trophy', label: 'Maximizer', tooltip: 'I find the lever that turns good into outstanding.' },
+      { icon: 'mountain', label: 'Self-Assurance', tooltip: 'Trust in my own direction — even against the current.' },
+      { icon: 'layout', label: 'Arranger', tooltip: 'Orchestrating complexity — the right people in the right place.' },
+      { icon: 'zap', label: 'Activator', tooltip: 'Less talk, more action — from impulse to execution.' },
     ],
     claim: 'I see strengths, build structures and create spaces where work makes an impact.',
     hook: 'From Head of Engineering Asia to Master Coach\u00a0— I bring together what belongs together: people, strengths and the right purpose.',
@@ -106,7 +114,7 @@ export default function Welcome({ onStart, clusters }) {
       {/* Photo */}
       <motion.div
         variants={itemVariants}
-        className="w-40 h-40 sm:w-48 sm:h-48 lg:w-52 lg:h-52 rounded-full bg-sand border-4 border-white shadow-lg overflow-hidden mb-4"
+        className="w-40 h-48 sm:w-44 sm:h-52 lg:w-48 lg:h-56 p3-box--tall bg-salbei overflow-hidden mb-5"
       >
         <img
           src="images/BW_MW20220613_34995.jpg"
@@ -115,13 +123,13 @@ export default function Welcome({ onStart, clusters }) {
           style={{ objectPosition: '50% 25%' }}
           onError={(e) => {
             e.target.style.display = 'none'
-            e.target.parentElement.innerHTML = '<span class="flex items-center justify-center w-full h-full text-5xl">👤</span>'
+            e.target.parentElement.innerHTML = ''
           }}
         />
       </motion.div>
 
       {/* Name */}
-      <motion.h2 variants={itemVariants} className="text-2xl sm:text-3xl font-bold text-ink mb-1">
+      <motion.h2 variants={itemVariants} className="font-display font-black text-3xl sm:text-4xl text-ink mb-1">
         Christian Schmidt
       </motion.h2>
 
@@ -130,19 +138,19 @@ export default function Welcome({ onStart, clusters }) {
         variants={itemVariants}
         src="images/signature_Schwarz.svg"
         alt=""
-        className="h-8 sm:h-10 w-auto opacity-50 mb-5"
+        className="h-8 sm:h-10 w-auto opacity-60 mb-5"
         aria-hidden="true"
       />
 
       {/* Claim */}
-      <motion.p variants={itemVariants} className="text-ink text-base sm:text-lg font-medium mb-3 max-w-lg leading-relaxed px-4 italic">
+      <motion.p variants={itemVariants} className="text-ink text-lg sm:text-xl mb-3 max-w-lg leading-snug px-4 italic">
         {t.claim}
       </motion.p>
 
       {/* Emotional Hook */}
       <motion.p variants={itemVariants} className="text-ink-muted text-sm sm:text-base mb-8 max-w-lg leading-relaxed px-4">
         {t.hook}
-        <span className="block mt-2 text-ink-light font-medium">
+        <span className="block mt-2 text-ink-light font-semibold">
           {t.lead}
         </span>
       </motion.p>
@@ -155,11 +163,11 @@ export default function Welcome({ onStart, clusters }) {
         {t.proofPoints.map((point) => (
           <div
             key={point.label}
-            className="flex flex-col items-center gap-1 p-4 rounded-xl bg-white border border-border-light shadow-xs"
+            className="p3-cut-box flex flex-col items-center gap-1 p-4 bg-white"
           >
-            <span className="text-2xl" role="img" aria-hidden="true">{point.icon}</span>
-            <span className="text-lg sm:text-xl font-bold text-ink">{point.metric}</span>
-            <span className="text-xs font-semibold text-ink-light tracking-wide uppercase">{point.label}</span>
+            <Icon name={point.icon} size={22} className="text-moosgruen mb-1" />
+            <span className="font-display font-black text-xl sm:text-2xl text-terrakotta">{point.metric}</span>
+            <span className="text-sm font-semibold text-ink">{point.label}</span>
             <span className="text-xs text-ink-muted">{point.detail}</span>
           </div>
         ))}
@@ -169,39 +177,30 @@ export default function Welcome({ onStart, clusters }) {
       <motion.button
         variants={itemVariants}
         onClick={() => setShowInfo(true)}
-        className="
-          bg-p3-red hover:bg-p3-red-hover text-white
-          font-semibold text-base sm:text-lg
-          px-8 py-4 rounded-xl
-          shadow-md hover:shadow-lg
-          transition-all duration-normal ease-out
-          min-h-[56px] cursor-pointer
-        "
-        whileHover={reducedMotion ? {} : { scale: 1.03 }}
-        whileTap={reducedMotion ? {} : { scale: 0.98 }}
+        className="p3-button font-semibold text-base sm:text-lg px-10 py-4 min-h-[56px] cursor-pointer"
+        data-variant="primary"
       >
         {t.cta}
-        <span className="block text-sm font-normal opacity-80 mt-0.5">
+        <span className="block text-sm font-normal mt-0.5">
           {t.ctaSub}
         </span>
       </motion.button>
 
       {/* Cluster Preview */}
       <motion.div variants={itemVariants} className="mt-8 mb-2">
-        <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-3">{t.areas}</p>
+        <p className="p3-eyebrow mb-3">{t.areas}</p>
         <div className="flex flex-wrap justify-center gap-3">
           {clusters.map(cluster => (
             <span
               key={cluster.id}
               className="
                 inline-flex items-center gap-1.5
-                px-3 py-1.5 rounded-full
-                text-sm text-ink-light
-                bg-white border border-border-light
-                shadow-xs
+                px-3 py-1.5 rounded-sm
+                text-sm text-ink
+                bg-white border border-border
               "
             >
-              <span role="img" aria-hidden="true">{cluster.icon}</span>
+              <ClusterIcon id={cluster.id} className={`text-${cluster.color}`} />
               {cluster.labelShort}
             </span>
           ))}
@@ -215,18 +214,18 @@ export default function Welcome({ onStart, clusters }) {
       >
         {/* Values */}
         <div>
-          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">{t.myValues}</p>
+          <p className="p3-eyebrow mb-2">{t.myValues}</p>
           <div className="flex flex-wrap justify-center gap-2">
             {t.values.map(v => (
               <span
                 key={v.label}
-                className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-sand/50 border border-border-light cursor-default"
+                className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-sm text-sm font-semibold text-ink bg-salbei-tint border border-salbei cursor-default"
               >
-                <span role="img" aria-hidden="true">{v.icon}</span>
+                <Icon name={v.icon} size={14} className="text-moosgruen" />
                 {v.label}
                 <span className="
                   pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2
-                  px-3 py-2 rounded-lg bg-ink text-white text-xs leading-relaxed
+                  px-3 py-2 rounded-sm bg-ink text-sand text-xs leading-relaxed font-normal
                   w-56 text-center shadow-lg
                   opacity-0 group-hover:opacity-100 transition-opacity duration-200
                   hidden sm:block
@@ -239,18 +238,18 @@ export default function Welcome({ onStart, clusters }) {
         </div>
         {/* Strengths */}
         <div>
-          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">{t.myStrengths} <span className="normal-case tracking-normal font-normal">(CliftonStrengths)</span></p>
+          <p className="p3-eyebrow mb-2">{t.myStrengths} <span className="font-sans normal-case tracking-normal font-normal text-ink-muted">(CliftonStrengths)</span></p>
           <div className="flex flex-wrap justify-center gap-2">
             {t.strengths.map(s => (
               <span
                 key={s.label}
-                className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-white border border-border-light cursor-default"
+                className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-sm text-sm font-semibold text-ink bg-white border border-border cursor-default"
               >
-                <span role="img" aria-hidden="true">{s.icon}</span>
+                <Icon name={s.icon} size={14} className="text-moosgruen" />
                 {s.label}
                 <span className="
                   pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2
-                  px-3 py-2 rounded-lg bg-ink text-white text-xs leading-relaxed
+                  px-3 py-2 rounded-sm bg-ink text-sand text-xs leading-relaxed font-normal
                   w-56 text-center shadow-lg
                   opacity-0 group-hover:opacity-100 transition-opacity duration-200
                   hidden sm:block
@@ -275,7 +274,7 @@ export default function Welcome({ onStart, clusters }) {
         <div className="space-y-4 pt-2">
           {t.steps.map((step, i) => (
             <div key={step.title} className="flex items-start gap-3">
-              <span className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm ${i === 2 ? 'bg-revelation-gold/20 text-revelation-gold' : 'bg-p3-red/10 text-p3-red'}`}>{i + 1}</span>
+              <span className="flex-shrink-0 w-7 font-display font-black text-2xl leading-none text-terrakotta">{i + 1}</span>
               <div>
                 <p className="font-semibold text-ink mb-0.5">{step.title}</p>
                 <p>{step.text}</p>

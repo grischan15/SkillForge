@@ -1,86 +1,167 @@
 @import "tailwindcss";
 
 /* ============================================
-   SkillForge Design System
-   Based on P3/NeuroForge Design Tokens
+   SkillForge — P3 Designsystem (Markenkompass 2026)
+   Token files in ./styles/p3-designsystem/ are 1:1 copies of
+   OneDrive 41_Design_System_CD_CI/p3-designsystem/tokens/ — do not edit,
+   replace them on a design system update.
+   Bridge pattern: 002_project_template/10_frontend_foundation/src/p3-theme.css
+   Fonts: Adobe kit nlu0dtg via <link> in index.html.
    ============================================ */
+@import "./styles/p3-designsystem/colors.css" layer(base);
+@import "./styles/p3-designsystem/typography.css" layer(base);
+@import "./styles/p3-designsystem/layout.css" layer(base);
+@import "./styles/p3-designsystem/elements.css" layer(components);
 
+/* Colours: Tailwind default palette off, only brand colours exist as utilities */
+@theme inline {
+  --color-*: initial;
+
+  /* Brand palette */
+  --color-tannenblau: var(--p3-tannenblau);
+  --color-moosgruen: var(--p3-moosgruen);
+  --color-moosgruen-hover: var(--p3-moosgruen-hover);
+  --color-salbei: var(--p3-salbei);
+  --color-salbei-hover: var(--p3-salbei-hover);
+  --color-salbei-tint: var(--p3-salbei-tint);
+  --color-terrakotta: var(--p3-terrakotta);
+  --color-terrakotta-hover: var(--p3-terrakotta-hover);
+  --color-terrakotta-tint: var(--p3-terrakotta-tint);
+  --color-sand: var(--p3-sand);
+  --color-white: var(--p3-white);
+  --color-black: #000;
+
+  /* Neutral ramp (derived from Tannenblau) */
+  --color-gray-100: var(--p3-gray-100);
+  --color-gray-200: var(--p3-gray-200);
+  --color-gray-300: var(--p3-gray-300);
+  --color-gray-500: var(--p3-gray-500);
+  --color-gray-600: var(--p3-gray-600);
+  --color-gray-700: var(--p3-gray-700);
+
+  /* States (muted, never Terrakotta) */
+  --color-success: var(--state-success);
+  --color-success-bg: var(--p3-success-bg);
+
+  /* App roles */
+  --color-canvas: var(--surface-page);
+  --color-sunken: var(--surface-sunken);
+  --color-ink: var(--text-heading);
+  --color-ink-light: var(--p3-gray-700);
+  --color-ink-muted: var(--text-muted);
+  --color-border: var(--border-subtle);
+  --color-border-light: var(--p3-gray-100);
+  --color-border-strong: var(--border-strong);
+  --color-cta: var(--cta-bg);
+  --color-cta-hover: var(--cta-bg-hover);
+  --color-on-cta: var(--cta-text);
+
+  /* "Revelation" = hidden roles discovered. Large accent → Terrakotta family */
+  --color-revelation: var(--p3-terrakotta);
+  --color-revelation-bg: var(--p3-terrakotta-tint);
+
+  /* Foreign brands (share buttons only) */
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #20bd5a;
+  --color-linkedin: #0A66C2;
+  --color-linkedin-hover: #094ea0;
+
+  /* ---- 6 cluster colours: palette + muted additions (palette chroma) ----
+     base = text/border (AA on white and on its -bg), -bg = quiet surface,
+     -light = selected surface. Terrakotta stays reserved for CTA. */
+  --color-cluster-engineering: var(--p3-tannenblau);
+  --color-cluster-engineering-bg: #E9ECF0;
+  --color-cluster-engineering-light: #D5DAE1;
+  --color-cluster-leadership: var(--p3-moosgruen);
+  --color-cluster-leadership-bg: #E6ECEB;
+  --color-cluster-leadership-light: #CFDBDA;
+  --color-cluster-coaching: #34625C;          /* Salbei, deepened for text */
+  --color-cluster-coaching-bg: var(--p3-salbei-tint);
+  --color-cluster-coaching-light: #C8E3DF;
+  --color-cluster-ai: #5E4B6B;                /* addition: muted aubergine */
+  --color-cluster-ai-bg: #EEEAF0;
+  --color-cluster-ai-light: #DDD5E2;
+  --color-cluster-business: #7A5537;          /* addition: wood brown */
+  --color-cluster-business-bg: #F1EAE3;
+  --color-cluster-business-light: #E4D5C7;
+  --color-cluster-didaktik: #6E5418;          /* addition: ochre (near DS warning) */
+  --color-cluster-didaktik-bg: #F2ECDC;
+  --color-cluster-didaktik-light: #E6DAB9;
+}
+
+/* Type, radius, shadow, motion — values from the design system */
 @theme {
-  /* ---- Base Colors (P3) ---- */
-  --color-sand: #d5d4c7;
-  --color-container: #f8f8f6;
-  --color-ink: #25313a;
-  --color-ink-light: #4a5568;
-  --color-ink-muted: #6b7280;
-  --color-p3-red: #c60a0f;
-  --color-p3-red-hover: #a50810;
-  --color-p3-green: #2d8a4e;
-  --color-white: #ffffff;
-  --color-border: #e2e0d8;
-  --color-border-light: #eeedea;
+  --font-*: initial;
+  --font-sans: "proxima-nova", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "natom-pro-title", "Arial Black", system-ui, sans-serif;
 
-  /* ---- 7 Cluster Colors (warm, HSP-friendly) ---- */
-  --color-cluster-engineering: #4a6fa5;
-  --color-cluster-engineering-bg: #eef2f8;
-  --color-cluster-engineering-light: #dce4f0;
-  --color-cluster-leadership: #8b5e3c;
-  --color-cluster-leadership-bg: #f5efea;
-  --color-cluster-leadership-light: #ecdfd4;
-  --color-cluster-coaching: #6b8e6b;
-  --color-cluster-coaching-bg: #eff5ef;
-  --color-cluster-coaching-light: #ddeadd;
-  --color-cluster-ai: #7b68ae;
-  --color-cluster-ai-bg: #f1eff7;
-  --color-cluster-ai-light: #e3dfef;
-  --color-cluster-data: #c49a3c;
-  --color-cluster-data-bg: #faf5ea;
-  --color-cluster-data-light: #f2e8ce;
-  --color-cluster-business: #b85c38;
-  --color-cluster-business-bg: #f8efeb;
-  --color-cluster-business-light: #f0ddd4;
-  --color-cluster-didaktik: #5b8a9a;
-  --color-cluster-didaktik-bg: #eef4f6;
-  --color-cluster-didaktik-light: #dce9ee;
+  /* Proxima has 400/600 only, Natom title 900 only → no fake bold */
+  --font-weight-normal: 400;
+  --font-weight-medium: 600;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 600;
+  --font-weight-black: 900;
 
-  /* ---- Forge / Revelation ---- */
-  --color-forge-bg: #fdfcfa;
-  --color-forge-border: #d5d4c7;
-  --color-forge-glow: rgba(198, 10, 15, 0.12);
-  --color-revelation-gold: #d4a020;
-  --color-revelation-bg: #fdf8ee;
+  --text-eyebrow: 0.875rem;
+  --tracking-eyebrow: 0.16em;
 
-  /* ---- Typography ---- */
-  --font-sans: 'Avenir', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  /* KANTIG: 0–4px, no pills */
+  --radius-*: initial;
+  --radius-xs: 0;
+  --radius-sm: 2px;
+  --radius-md: 3px;
+  --radius-lg: 4px;
+  --radius-xl: 4px;
+  --radius-2xl: 4px;
+  --radius-full: 4px;
 
-  /* ---- Shadows (5-level hierarchy) ---- */
-  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
-  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.12);
-  --shadow-drag: 0 12px 24px rgba(0, 0, 0, 0.15);
-  --shadow-forge-glow: 0 0 20px rgba(198, 10, 15, 0.12);
+  /* Shadows low & sparse, Tannenblau-based, no glow */
+  --shadow-*: initial;
+  --shadow-xs: 0 1px 1px rgba(26, 44, 70, 0.05);
+  --shadow-sm: 0 1px 3px rgba(26, 44, 70, 0.07);
+  --shadow-md: 0 3px 8px rgba(26, 44, 70, 0.09);
+  --shadow-lg: 0 6px 16px rgba(26, 44, 70, 0.11);
+  --shadow-xl: 0 6px 16px rgba(26, 44, 70, 0.11);
+  --shadow-drag: 0 6px 16px rgba(26, 44, 70, 0.14);
 
-  /* ---- Animation ---- */
-  --ease-out: cubic-bezier(0.4, 0, 0.2, 1);
-  --duration-fast: 100ms;
-  --duration-normal: 200ms;
-  --duration-slow: 300ms;
+  /* Motion: calm */
+  --ease-out: cubic-bezier(0.16, 1, 0.30, 1);
+  --ease-standard: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --duration-fast: 140ms;
+  --duration-normal: 220ms;
+  --duration-slow: 420ms;
 }
 
-/* ---- Base Styles ---- */
-html {
-  font-family: var(--font-sans);
-  color: var(--color-ink);
-  background-color: var(--color-container);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ---- Base ---- */
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* --text-body is both a colour and a size in the DS; the later (size) wins → set colour explicitly */
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    color: var(--text-heading);
+    background-color: var(--surface-page);
+  }
+  /* App UI: lists and links are styled per component, not as flowing text */
+  ul, ol { margin: 0; padding-left: 0; }
+  li { margin-bottom: 0; }
+  button { font-family: inherit; }
 }
 
-body {
-  margin: 0;
-  min-height: 100dvh;
+/* ---- Small P3 helpers for the app ---- */
+.p3-eyebrow {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--text-eyebrow);
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--text-accent);
 }
+.font-display { text-transform: uppercase; letter-spacing: 0.005em; }
 
 /* ---- Reduced Motion (global) ---- */
 @media (prefers-reduced-motion: reduce) {
@@ -92,25 +173,14 @@ body {
   }
 }
 
-/* ---- Focus Visible (accessibility) ---- */
+/* ---- Focus: 3px Terrakotta ring ---- */
 :focus-visible {
-  outline: 2px solid var(--color-p3-red);
+  outline: 3px solid var(--focus-ring);
   outline-offset: 2px;
-  border-radius: 4px;
 }
 
 /* ---- Scrollbar (subtle) ---- */
-::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-  border-radius: 3px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: var(--color-ink-muted);
-}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border-default); }
+::-webkit-scrollbar-thumb:hover { background: var(--p3-gray-500); }

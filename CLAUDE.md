@@ -5,7 +5,7 @@
 - App: SkillForge – Interaktive Kompetenz-Schmiede fuer Recruiter
 - Typ: React SPA (Vite + Tailwind CSS v4)
 - Hosting: apps.p3coaching.de/skillforge/
-- Design-System: P3/NeuroForge Tokens als Tailwind v4 Theme (in index.css)
+- Design-System: P3 Designsystem (Markenkompass 2026) als Tailwind v4 Theme (src/index.css)
 - Sprache UI: Deutsch (Zielmarkt DACH)
 - Code/Commits: Englisch
 - Dev-Server: Port 5180 (`npm run dev`)
@@ -46,12 +46,20 @@
 
 ## Design-Regeln
 
+- **CD:** P3 Designsystem (Markenkompass 2026). Token-Dateien in `src/styles/p3-designsystem/` sind
+  1:1-Kopien aus `OneDrive - P3Coaching/41_Design_System_CD_CI/p3-designsystem/tokens/`. Nie editieren,
+  bei DS-Update komplett ersetzen. Tailwind-Bruecke in `src/index.css` (Muster: Template `p3-theme.css`)
+- Farben nur ueber Theme-Utilities (`bg-moosgruen`, `text-ink`, `bg-cta` …), Tailwind-Standardpalette ist aus.
+  Terrakotta nur CTA (`p3-button data-variant="primary"`) und grosse Schrift/Eyebrows, nie Fliesstext
+- Kantig: Radien max 4px (Theme deckelt alle `rounded-*`), Karten mit `p3-cut-box`, keine Gradients, keine Emojis
+- Schrift: Natom Pro Title 900 Versalien (`font-display font-black`, h1/h2, `.p3-eyebrow`) + Proxima Nova.
+  Adobe-Kit `nlu0dtg` per `<link>` in index.html (domaingebunden)
+- 6 Cluster-Farben: Tannenblau, Moosgruen, Salbei (vertieft) + 3 gedaempfte Zusatztoene (Aubergine, Holzbraun,
+  Ocker), alle AA auf Weiss und auf ihrem `-bg`/`-light`. Cluster-Symbole: Lucide (`ClusterIcon.jsx`)
 - Touch-Targets: min 48px (WCAG + Neurodivergenz)
 - prefers-reduced-motion: global respektiert
 - Light-Mode only (Phase 1)
-- 6 distinkte Cluster-Farben (warm, HSP-freundlich)
-- Font: Avenir, system-ui, sans-serif
-- Branding: P3 Fluegel-Logo (public/images/P3_Logo_RZ_Bild_rot.png)
+- Branding: Bildmarke `public/images/bildmark-terrakotta.svg` (nie nachzeichnen)
 
 ## Commit-Stil
 

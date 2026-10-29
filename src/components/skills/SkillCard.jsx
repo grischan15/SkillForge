@@ -20,11 +20,9 @@ const clusterBorderMap = {
 function LevelStars({ level }) {
   const { lang } = useLang()
   return (
-    <span className="flex gap-0.5" aria-label={TEXT[lang].level(level)}>
+    <span className="flex gap-1 items-center" role="img" aria-label={TEXT[lang].level(level)}>
       {[1, 2, 3, 4, 5].map(i => (
-        <span key={i} className={`text-xs ${i <= level ? 'text-p3-red' : 'text-border'}`}>
-          ★
-        </span>
+        <span key={i} className={`block w-2 h-2 ${i <= level ? 'bg-moosgruen' : 'bg-gray-200'}`} />
       ))}
     </span>
   )
@@ -57,8 +55,8 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
       transition={reducedMotion ? { duration: 0 } : { delay: index * 0.03, duration: 0.25 }}
       className={`
         relative
-        bg-white rounded-xl border border-border-light border-l-4 ${borderColor}
-        shadow-sm hover:shadow-md
+        bg-white rounded-sm border border-border border-l-4 ${borderColor}
+        shadow-xs hover:shadow-md
         transition-shadow duration-normal ease-out
         ${isDragging ? 'opacity-40' : ''}
         ${isForged ? 'opacity-50 pointer-events-none' : 'cursor-grab active:cursor-grabbing'}
@@ -78,11 +76,11 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
                 onTapAdd(skill)
               }}
               className="
-                shrink-0 w-8 h-8 flex items-center justify-center
-                rounded-lg bg-container hover:bg-p3-red hover:text-white
-                text-ink-muted text-lg font-bold
+                shrink-0 w-10 h-10 flex items-center justify-center
+                rounded-sm bg-salbei-tint hover:bg-moosgruen hover:text-sand
+                text-moosgruen text-lg font-semibold
                 transition-colors duration-normal
-                min-h-[32px] min-w-[32px] cursor-pointer
+                min-h-[40px] min-w-[40px] cursor-pointer
               "
               aria-label={t.add(skill.name)}
               title={t.addTitle}
@@ -102,7 +100,7 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
         </p>
 
         {isForged && (
-          <span className="inline-block mt-2 text-xs text-p3-green font-medium">
+          <span className="inline-block mt-2 text-xs text-success font-semibold">
             {t.inForge}
           </span>
         )}
@@ -110,7 +108,7 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
 
       {/* Evidence popover (desktop hover) – absolute so it doesn't stretch the grid row */}
       {showEvidence && skill.evidence.length > 0 && (
-        <div className="hidden lg:block absolute top-full left-0 right-0 z-20 border border-border-light rounded-b-xl px-4 py-3 bg-white shadow-md">
+        <div className="hidden lg:block absolute top-full left-0 right-0 z-20 border border-border rounded-b-sm px-4 py-3 bg-white shadow-md">
           <ul className="space-y-1">
             {skill.evidence.map((item, i) => (
               <li key={i} className="text-xs text-ink-light flex gap-1.5">
@@ -129,7 +127,7 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
             e.stopPropagation()
             setShowEvidence(prev => !prev)
           }}
-          className="w-full px-4 py-2 text-xs text-ink-muted text-left border-t border-border-light hover:bg-container/50 transition-colors cursor-pointer min-h-[36px]"
+          className="w-full px-4 py-2 text-xs text-ink-muted text-left border-t border-border-light hover:bg-salbei-tint transition-colors cursor-pointer min-h-[44px]"
         >
           {showEvidence ? t.less : t.more}
         </button>

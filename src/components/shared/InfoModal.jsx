@@ -41,7 +41,7 @@ export default function InfoModal({ open, onClose, title, children, actionLabel,
       >
         {/* Backdrop */}
         <div
-          className="absolute inset-0 bg-ink/40 backdrop-blur-sm"
+          className="absolute inset-0 bg-tannenblau/50"
           onClick={onClose}
         />
 
@@ -54,15 +54,15 @@ export default function InfoModal({ open, onClose, title, children, actionLabel,
           role="dialog"
           aria-modal="true"
           aria-labelledby="info-modal-title"
-          className="relative w-full max-w-lg max-h-[80dvh] overflow-y-auto bg-white rounded-2xl shadow-xl"
+          className="relative w-full max-w-lg max-h-[80dvh] overflow-y-auto bg-white rounded-sm shadow-lg"
         >
           {/* Close button */}
           <button
             ref={closeRef}
             onClick={onClose}
-            className="absolute top-3 right-3 w-10 h-10 rounded-full
+            className="absolute top-3 right-3 w-12 h-12 rounded-sm
               flex items-center justify-center
-              text-ink-muted hover:text-ink hover:bg-container
+              text-ink-light hover:text-tannenblau hover:bg-salbei
               transition-colors z-10 cursor-pointer"
             aria-label={lang === 'en' ? 'Close' : 'Schließen'}
           >
@@ -74,7 +74,7 @@ export default function InfoModal({ open, onClose, title, children, actionLabel,
           {/* Content */}
           <div className="p-6">
             {title && (
-              <h2 id="info-modal-title" className="text-lg font-bold text-ink mb-4 pr-8">
+              <h2 id="info-modal-title" className="text-2xl font-black text-ink leading-none mb-5 pr-10">
                 {title}
               </h2>
             )}
@@ -85,7 +85,8 @@ export default function InfoModal({ open, onClose, title, children, actionLabel,
             {actionLabel && (
               <button
                 onClick={onAction || onClose}
-                className="mt-6 w-full bg-p3-red hover:bg-p3-red-hover text-white font-semibold text-base px-6 py-3 rounded-xl shadow-md hover:shadow-lg transition-all duration-normal ease-out min-h-[48px] cursor-pointer"
+                className="p3-button mt-6 w-full font-semibold text-base px-6 py-3 min-h-[52px] cursor-pointer"
+                data-variant="primary"
               >
                 {actionLabel}
               </button>

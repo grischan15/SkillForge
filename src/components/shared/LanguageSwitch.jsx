@@ -9,7 +9,7 @@ export default function LanguageSwitch() {
     <div
       role="group"
       aria-label={lang === 'en' ? 'Language' : 'Sprache'}
-      className="inline-flex rounded-lg border border-border bg-white p-0.5 shadow-xs"
+      className="inline-flex rounded-sm border border-border bg-white p-0.5"
     >
       {LANGS.map(code => {
         const active = code === lang
@@ -21,10 +21,10 @@ export default function LanguageSwitch() {
             aria-label={LABELS[code]}
             lang={code}
             className={`
-              min-w-[44px] min-h-[44px] px-2 rounded-md
-              text-xs font-semibold uppercase tracking-wide
+              min-w-[48px] min-h-[48px] px-2 rounded-sm
+              font-display font-black text-xs tracking-[0.12em]
               transition-colors duration-normal cursor-pointer
-              ${active ? 'bg-ink text-white' : 'text-ink-muted hover:text-ink hover:bg-container'}
+              ${active ? 'bg-moosgruen text-sand' : 'text-ink-muted hover:text-ink hover:bg-salbei-tint'}
             `}
           >
             {code}

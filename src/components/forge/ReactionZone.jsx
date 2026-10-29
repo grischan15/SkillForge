@@ -28,7 +28,7 @@ export default function ReactionZone({ forgedSkills, onRemove, onClear, reducedM
             </div>
             <button
               onClick={onClear}
-              className="text-xs text-ink-muted hover:text-p3-red transition-colors cursor-pointer mb-3"
+              className="text-xs text-ink-muted hover:text-terrakotta transition-colors cursor-pointer mb-3"
             >
               {en ? 'Remove all' : 'Alle entfernen'}
             </button>
@@ -42,25 +42,25 @@ export default function ReactionZone({ forgedSkills, onRemove, onClear, reducedM
     <div
       ref={setNodeRef}
       className={`
-        rounded-xl border-2 p-5 min-h-[200px]
-        transition-all duration-normal ease-out
+        p3-cut-box p-5 min-h-[200px]
+        transition-colors duration-normal
         ${isOver
-          ? 'border-p3-red bg-p3-red/5 shadow-forge-glow'
+          ? 'bg-salbei-tint shadow-[inset_0_0_0_3px_var(--p3-moosgruen)]'
           : hasSkills
-            ? 'border-forge-border bg-forge-bg'
-            : 'border-border-light bg-container'
+            ? 'bg-white'
+            : 'bg-white shadow-[inset_0_0_0_2px_var(--p3-gray-300)]'
         }
       `}
     >
       <div className="flex items-center justify-between mb-3">
-        <h2 className="font-bold text-lg text-ink flex items-center gap-2">
-          <img src="images/P3_Logo_RZ_Bild_rot.png" alt="" className="w-6 h-6 object-contain" />
+        <h2 className="font-black text-xl text-ink flex items-center gap-2">
+          <img src="images/bildmark-terrakotta.svg" alt="" className="w-6 h-6 object-contain" />
           {en ? 'The Forge' : 'Die Schmiede'}
         </h2>
         {hasSkills && (
           <button
             onClick={onClear}
-            className="text-xs text-ink-muted hover:text-p3-red transition-colors cursor-pointer min-h-[32px] px-2"
+            className="text-sm font-semibold text-moosgruen underline underline-offset-2 hover:text-tannenblau transition-colors cursor-pointer min-h-[48px] px-2"
           >
             {en ? 'Clear' : 'Leeren'}
           </button>

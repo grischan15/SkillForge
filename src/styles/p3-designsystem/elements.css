@@ -1,0 +1,168 @@
+/* ============================================================
+   P3 Designsystem — ELEMENTS
+   Interaction + form CSS that inline styles can't express:
+   the carved P3-Kante helpers and the Button state machine
+   (Spec v1.0 §02 "Variante B" + §06 "P3-Kante").
+   Kept in the token closure so consumers get it from styles.css.
+   ============================================================ */
+
+/* ---- P3 Kanten-Box shapes (Spec v1.0 §06) — organic hand-cut edges ----
+   The edge IS the bildmark's own outer contour (assets/box/_generator.py):
+   one gentle bulge/indent per side, no straight facets, no waves. Applied
+   as clip-path so it works everywhere; per-ratio variants keep the wobble
+   proportional. For exact-px amplitude on dynamic sizes, generate a clip at
+   runtime with assets/box/p3box.js. */
+.p3-cut-box, .p3-cut, .hl, .p3-box--square { clip-path: var(--p3-cut-box); }
+.p3-cut-band, .band, .p3-box--banner       { clip-path: var(--p3-cut-band); }
+.p3-box--tall                              { clip-path: var(--p3-cut-tall); }
+.p3-cut-btn, .p3-cut-strong, .p3-box--button { clip-path: var(--p3-cut-btn); }
+.p3-box--button-sm                         { clip-path: var(--p3-cut-btn-sm); }
+
+/* ---- Full-bleed WEBSITE sections — sides flush, form only top/bottom ----
+   Rule: every full-width section (hero like section) runs edge to edge left/right.
+   Website hero at the very top: upper edge smooth (a top cut "bursts" into
+   nothing) → .p3-cut-bottom. Inset panel / app surface (WerteApp): deliberate
+   card on Sand, cut top AND bottom → .p3-cut-section. Small boxes and buttons
+   keep the organic all-round cut above.
+   For constant px depth prefer P3Box.applyP3Section(el, {edges}). */
+.p3-cut-bottom  { clip-path: var(--p3-cut-bottom); }
+.p3-cut-section { clip-path: var(--p3-cut-section); }
+
+/* ============================================================
+   BUTTON — Variante B (Markenfarben, calm not floaty)
+   Colours live here (not inline) so :hover/:active/:focus win.
+   Standard Terrakotta/Sand · Hover Salbei + Text→Tannenblau
+   · Aktiv Moosgrün/Sand (1px down) · Fokus 3px Ring · Disabled grau.
+   The Button component adds .p3-button + data-variant + the
+   --p3-cut-btn clip automatically.
+   ============================================================ */
+/* Colours live here so :hover/:active/:focus win over inline styles.
+   The carved edge is a clip-path (data-size sm uses a tighter cut). */
+.p3-button {
+  clip-path: var(--p3-cut-btn);
+  transition:
+    background var(--dur-fast) var(--ease-standard),
+    color var(--dur-fast) var(--ease-standard),
+    transform var(--dur-fast) var(--ease-standard);
+}
+.p3-button[data-size="sm"] { clip-path: var(--p3-cut-btn-sm); }
+
+/* -- Primary: Terrakotta CTA -- */
+.p3-button[data-variant="primary"]        { background: var(--p3-terrakotta); color: var(--p3-sand); }
+.p3-button[data-variant="primary"]:hover  { background: var(--p3-salbei);     color: var(--p3-tannenblau); }
+.p3-button[data-variant="primary"]:active { background: var(--p3-moosgruen);  color: var(--p3-sand); transform: translateY(1px); }
+
+/* -- Secondary: Moosgrün -- */
+.p3-button[data-variant="secondary"]        { background: var(--p3-moosgruen); color: var(--p3-sand); }
+.p3-button[data-variant="secondary"]:hover  { background: var(--p3-salbei);    color: var(--p3-tannenblau); }
+.p3-button[data-variant="secondary"]:active { background: var(--p3-moosgruen-active); color: var(--p3-sand); transform: translateY(1px); }
+
+/* -- Ghost: outlined Moosgrün (inset border, clipped to the wobble) -- */
+.p3-button[data-variant="ghost"]        { background: transparent; color: var(--p3-moosgruen); box-shadow: inset 0 0 0 2px var(--p3-moosgruen); }
+.p3-button[data-variant="ghost"]:hover  { background: var(--p3-salbei); color: var(--p3-tannenblau); box-shadow: inset 0 0 0 2px transparent; }
+.p3-button[data-variant="ghost"]:active { background: var(--p3-moosgruen); color: var(--p3-sand); box-shadow: inset 0 0 0 2px transparent; transform: translateY(1px); }
+
+/* -- Ghost on dark surfaces / imagery: contour + label in Sand --
+   Ghost is ALWAYS a firm 2px contour, coloured against its ground
+   (light → Moosgrün, dark/photo → Sand). Never a thin low-contrast
+   hairline, never a contour without contrast, never scattered as the
+   default: use it only at a real fork — two CTAs, one dominant. */
+.p3-button[data-variant="ghost"][data-on="dark"]        { color: var(--p3-sand); box-shadow: inset 0 0 0 2px var(--p3-sand); }
+.p3-button[data-variant="ghost"][data-on="dark"]:hover  { background: var(--p3-sand); color: var(--p3-tannenblau); box-shadow: inset 0 0 0 2px transparent; }
+.p3-button[data-variant="ghost"][data-on="dark"]:active { background: var(--p3-salbei); color: var(--p3-tannenblau); box-shadow: inset 0 0 0 2px transparent; transform: translateY(1px); }
+.p3-button[data-variant="ghost"][data-on="dark"]:focus-visible { outline-color: var(--focus-ring-dark); }
+
+/* -- Subtle: Salbei -- */
+.p3-button[data-variant="subtle"]        { background: var(--p3-salbei); color: var(--p3-tannenblau); }
+.p3-button[data-variant="subtle"]:hover  { background: var(--p3-salbei-active); color: var(--p3-tannenblau); }
+.p3-button[data-variant="subtle"]:active { background: var(--p3-moosgruen); color: var(--p3-sand); transform: translateY(1px); }
+
+/* Focus: 3px ring via outline (clip-path would clip a box-shadow ring). */
+.p3-button:focus-visible               { outline: 3px solid var(--focus-ring); outline-offset: 3px; }
+.p3-button[data-variant="primary"]:focus-visible { outline-color: var(--focus-ring-dark); }
+
+/* Disabled: grau, no shadow, no colour shift */
+.p3-button[disabled],
+.p3-button[aria-disabled="true"] {
+  background: var(--p3-gray-200) !important;
+  color: var(--p3-gray-500) !important;
+  transform: none !important;
+  box-shadow: none !important;
+  cursor: not-allowed;
+}
+
+/* ---- Form field focus (kantig, Terrakotta ring) ---- */
+.p3-input:focus-visible,
+.p3-field:focus-within .p3-input {
+  border-color: var(--p3-moosgruen);
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 1px;
+}
+
+/* ============================================================
+   LAYOUT HELPERS — container + section rhythm
+   Section padding always comes from the section pot (96/128/160);
+   inner padding from the inset pot (4/8/16/24). Never mix pots.
+   ============================================================ */
+.p3-container       { width: 100%; max-width: var(--container); margin-inline: auto; padding-inline: var(--inset-md); }
+.p3-container--wide { max-width: var(--container-wide); }
+.p3-container--text { max-width: var(--container-text); }
+.p3-section         { padding-block: var(--section-y); }
+
+/* ============================================================
+   WEBSITE THEME BASICS — form controls
+   Flowing-text basics (lists, tables, quotes, figures) live in
+   typography.css. Everything here uses tokens only.
+   ============================================================ */
+select.p3-select, textarea.p3-textarea {
+  width: 100%; font: inherit; color: var(--text-body);
+  background: var(--surface-card);
+  border: 1.5px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+}
+select.p3-select:focus, textarea.p3-textarea:focus {
+  outline: none;
+  border-color: var(--p3-moosgruen);
+  box-shadow: 0 0 0 3px var(--shadow-focus);
+}
+input[type="checkbox"], input[type="radio"] { accent-color: var(--p3-moosgruen); width: 18px; height: 18px; }
+label.p3-label {
+  font-weight: var(--fw-emphasis); font-size: var(--text-sm);
+  color: var(--text-heading); display: inline-block; margin-bottom: var(--space-1);
+}
+::placeholder { color: var(--text-muted); opacity: 1; }
+
+/* Focus visible everywhere — 3px Terrakotta, Salbei on dark */
+a:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--focus-ring); outline-offset: 3px; }
+.on-dark a:focus-visible, [data-on="dark"] :focus-visible { outline-color: var(--focus-ring-dark); }
+
+/* ============================================================
+   SEMANTIC STATE ELEMENT — quiet surface + carved edge (nicht Bootstrap)
+   Sand/White Fläche · Tannenblau Text (12.3:1 / ~14:1) · State-Farbe nur als
+   4px Kante links + optionaler Marker. Nie Terrakotta, nie weiße Schrift.
+   ============================================================ */
+.p3-state {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  background: var(--state-surface);
+  color: var(--state-text);
+  border-left: 4px solid var(--p3-moosgruen);
+  padding: 12px 15px;
+  clip-path: var(--p3-cut-box);
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  line-height: var(--lh-snug);
+}
+.p3-state--on-sand { background: var(--state-surface-alt); } /* white, avoids Sand-on-Sand */
+.p3-state__mark { width: 8px; height: 8px; margin-top: 4px; background: var(--p3-moosgruen); flex: 0 0 auto; }
+.p3-state__title { font-weight: 600; color: var(--state-text); }
+.p3-state--success { border-left-color: var(--state-success); }
+.p3-state--success .p3-state__mark { background: var(--state-success); }
+.p3-state--warning { border-left-color: var(--state-warning); }
+.p3-state--warning .p3-state__mark { background: var(--state-warning); }
+.p3-state--error { border-left-color: var(--state-error); }
+.p3-state--error .p3-state__mark { background: var(--state-error); }
+.p3-state--info { border-left-color: var(--state-info); }
+.p3-state--info .p3-state__mark { background: var(--state-info); }

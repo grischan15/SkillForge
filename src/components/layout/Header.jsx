@@ -14,8 +14,8 @@ export default function Header({ compact = false, onBack }) {
     return (
       <header className="py-3 mb-4 flex items-center justify-between gap-3">
         <div className="flex items-center gap-3">
-          <img src="images/P3_Logo_RZ_Bild_rot.png" alt="P3" className="w-7 h-7 object-contain" />
-          <h1 className="text-lg font-bold text-ink leading-tight">SkillForge</h1>
+          <img src="images/bildmark-terrakotta.svg" alt="P3 Coaching" className="w-8 h-8 object-contain" />
+          <h1 className="font-display font-black text-xl text-ink leading-none">SkillForge</h1>
         </div>
         <div className="flex items-center gap-2">
           <LanguageSwitch />
@@ -23,13 +23,13 @@ export default function Header({ compact = false, onBack }) {
             onClick={onBack}
             className="
               shrink-0 flex items-center gap-1.5
-              px-4 py-2 rounded-lg
-              bg-white border border-border
-              text-sm font-medium text-ink-light
-              hover:bg-container hover:text-ink hover:border-ink-muted
-              transition-all duration-normal cursor-pointer
+              px-4 py-2 rounded-sm
+              bg-transparent
+              text-sm font-semibold text-moosgruen
+              shadow-[inset_0_0_0_2px_var(--p3-moosgruen)]
+              hover:bg-salbei hover:text-tannenblau hover:shadow-none
+              transition-colors duration-normal cursor-pointer
               min-h-[48px]
-              shadow-xs hover:shadow-sm
             "
             aria-label={t.back}
           >
@@ -49,10 +49,10 @@ export default function Header({ compact = false, onBack }) {
         <LanguageSwitch />
       </div>
       <div className="flex items-center justify-center gap-3 mb-2">
-        <img src="images/P3_Logo_RZ_Bild_rot.png" alt="P3" className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
-        <h1 className="text-3xl sm:text-4xl font-bold text-ink">SkillForge</h1>
+        <img src="images/bildmark-terrakotta.svg" alt="P3 Coaching" className="w-11 h-11 sm:w-14 sm:h-14 object-contain" />
+        <h1 className="font-display font-black text-4xl sm:text-6xl text-ink leading-none">SkillForge</h1>
       </div>
-      <p className="text-ink-light text-base sm:text-lg">
+      <p className="text-ink-light text-lg sm:text-xl mt-1">
         {t.tagline}
       </p>
     </header>

@@ -106,13 +106,13 @@ export default function ForgeGuide({ forgedSkills, clusterCount, reducedMotion }
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: -10 }}
         transition={{ duration }}
-        className="bg-revelation-bg border border-revelation-gold/30 rounded-xl px-4 py-3 mb-4"
+        className="bg-salbei-tint border-l-4 border-moosgruen p3-cut-box px-4 py-3 mb-4"
         role="status"
         aria-live="polite"
       >
         <div className="flex items-start gap-3">
           {/* Icon */}
-          <span className="mt-0.5 text-revelation-gold shrink-0" aria-hidden="true">
+          <span className="mt-0.5 text-moosgruen shrink-0" aria-hidden="true">
             <Icon />
           </span>
 
@@ -128,8 +128,8 @@ export default function ForgeGuide({ forgedSkills, clusterCount, reducedMotion }
             <span
               key={s.id}
               className={`
-                block w-1.5 h-1.5 rounded-full transition-colors duration-300
-                ${s.id === currentStep ? 'bg-revelation-gold' : s.id < currentStep ? 'bg-revelation-gold/40' : 'bg-ink-muted/25'}
+                block w-2 h-2 transition-colors duration-300
+                ${s.id === currentStep ? 'bg-moosgruen' : s.id < currentStep ? 'bg-moosgruen/40' : 'bg-gray-300'}
               `}
             />
           ))}
