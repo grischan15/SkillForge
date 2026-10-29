@@ -1,0 +1,861 @@
+{
+  "forward-deployed-engineer": {
+    "title": "Forward Deployed Engineer / Applied AI",
+    "category": "Innovation & Digital",
+    "companyType": "AI startups, tech corporations, consulting firms (OpenAI, Mistral, BCG X, Salesforce)",
+    "description": "Works inside client companies, understands the business and builds tailored AI/LLM solutions end to end. Part engineer, part consultant, part product manager. Closes the AI competence gap, one client at a time.",
+    "whyFit": "Christian's business understanding, coaching and discovery strength, and hands-on AI fluency (Claude Code, agents, MCP) fit the adjacent FDE titles (Applied AI / Implementation / Solutions / Deployment Strategist) — the role needs exactly this bridge between business and AI.",
+    "uniqueValue": "Combines business diagnosis from coaching with lived AI engineering practice: his own agent orchestration, multi-provider LLM integration and a live B2B SaaS with a paying customer. Your clients get someone who listens, understands the problem and builds the solution himself.",
+    "businessImpact": "Most AI pilots fail not because of the technology, but at the transition into the customer's day-to-day work. An FDE who speaks both business and code gets your AI products into productive use faster and turns pilot customers into reference customers."
+  },
+  "vp-people-and-culture": {
+    "title": "VP People & Culture",
+    "category": "People & Culture",
+    "companyType": "Large corporations, large mid-sized companies (Mittelstand), tech companies",
+    "description": "Is responsible for strategic people development and corporate culture at executive board level. Shapes transformation, values and leadership culture across the entire company.",
+    "whyFit": "Christian's combination of certified coaching, leadership experience and a lived focus on values makes him ideal for bridging people strategy and culture change.",
+    "uniqueValue": "Combines certified C-level coaching with real leadership experience and a data-driven approach — for the first time, your people strategy is shaped by someone who masters both the human and the analytical side."
+  },
+  "head-of-learning-and-development": {
+    "title": "Head of L&D",
+    "category": "People & Culture",
+    "companyType": "Large corporations, large mid-sized companies (Mittelstand), consulting firms",
+    "description": "Leads the learning and development department and designs training programs for all levels of the hierarchy. Is responsible for leadership development and modern learning formats.",
+    "whyFit": "His experience in adult education, his coaching certification and his didactic competence form the perfect foundation for modern L&D leadership.",
+    "uniqueValue": "Brings university-level didactics, coaching certification and AI competence to your L&D department. Your learning programs become evidence-based, technologically modern and still human."
+  },
+  "karriereberater": {
+    "title": "Career Consultant",
+    "category": "Coaching & Development",
+    "companyType": "Consulting firms, outplacement firms, education providers, self-employed",
+    "description": "Advises people in professional transition phases and helps with taking stock, defining goals and application strategy.",
+    "whyFit": "Christian knows career changes from his own experience and combines coaching competence with strategic thinking and a genuine understanding of professional reorientation.",
+    "uniqueValue": "Unites his own career-change experience with systemic coaching and business understanding — your clients receive not standard advice, but strategically grounded repositioning with depth."
+  },
+  "executive-coach-angestellt": {
+    "title": "Executive Coach (Employed)",
+    "category": "Coaching & Development",
+    "companyType": "Consulting firms, coaching agencies, corporations with an internal coaching department",
+    "description": "Coaches executives and top management in companies on the basis of sound methodology. Supports personal and professional development at C-level.",
+    "whyFit": "His St. Gallen coaching certification, additional hypnosystemic training and his own leadership experience give him the credibility and depth for executive coaching.",
+    "uniqueValue": "Brings a St. Gallen coaching certification AND his own C-level experience — your executives are coached by someone who knows their challenges first-hand."
+  },
+  "coaching-akademie-dozent": {
+    "title": "Coaching Academy Lecturer",
+    "category": "Education & Teaching",
+    "companyType": "Coaching academies, continuing education institutes, universities",
+    "description": "Teaches coaching methods and theory in training programs for aspiring coaches. Combines scientific grounding with practical experience.",
+    "whyFit": "The combination of certified coaching training, didactic skill and a scientific background makes him an ideal trainer for future coaches.",
+    "uniqueValue": "Unites a scientific STEM background with certified coaching practice and university-level didactics. Your coaching program gains a rare bridge between empirical research and practice."
+  },
+  "director-org-development": {
+    "title": "Director Org Development",
+    "category": "People & Culture",
+    "companyType": "Large corporations, large mid-sized companies (Mittelstand), consulting firms",
+    "description": "Steers organizational development at the strategic level and shapes structures, processes and culture for sustainable business success.",
+    "whyFit": "His systemic understanding, paired with leadership experience and coaching competence, enables him to develop organizations holistically.",
+    "uniqueValue": "Combines systemic coaching thinking with engineering analytics — your OD projects are steered with both human sensitivity and structural precision."
+  },
+  "chief-transformation-officer": {
+    "title": "Chief Transformation Officer",
+    "category": "Transformation & Change",
+    "companyType": "Large corporations, mid-sized companies (Mittelstand) in periods of upheaval, PE portfolio companies",
+    "description": "Is responsible, at C-level, for the entire corporate transformation and steers change processes across all areas.",
+    "whyFit": "Christian's broad experience from engineering through coaching to AI, combined with leadership competence, makes him a holistic transformation shaper.",
+    "uniqueValue": "Understands transformation from the shop floor to the executive board: engineering, coaching, AI and P&L responsibility in one person. You get a Chief Transformation Officer who speaks every language in the company."
+  },
+  "head-of-digital-innovation": {
+    "title": "Head of Digital Innovation",
+    "category": "Innovation & Digital",
+    "companyType": "Large corporations, tech companies, mid-sized companies (Mittelstand) with a digitalization strategy",
+    "description": "Leads the digital innovation department and identifies technology trends such as AI for new business models and process optimization.",
+    "whyFit": "His practical AI experience with Claude, automation and web development gives him real hands-on competence beyond PowerPoint innovation.",
+    "uniqueValue": "Brings real hands-on AI experience instead of consultant slides — your innovation department is led by someone who has built productive AI systems himself."
+  },
+  "ai-transformation-manager": {
+    "title": "AI Transformation Manager",
+    "category": "Innovation & Digital",
+    "companyType": "Large corporations, mid-sized companies (Mittelstand), AI-focused consulting firms",
+    "description": "Steers the adoption of AI in the company and supports teams in integrating AI tools into existing workflows.",
+    "whyFit": "Christian combines technical AI understanding with change management and coaching — he can guide both the technology and the people through the transformation.",
+    "uniqueValue": "Unites technical AI depth with change management and coaching competence. You get a transformation manager who understands both the algorithm and the fear of it."
+  },
+  "technical-team-lead": {
+    "title": "Technical Team Lead",
+    "category": "Engineering & Technology",
+    "companyType": "Automotive suppliers, mechanical engineering, technology companies",
+    "description": "Leads a technical team in both functional and line management terms, combining engineering expertise with people leadership.",
+    "whyFit": "His engineering background, combined with coaching training and team leadership experience, makes him the ideal technical leader with a focus on people.",
+    "uniqueValue": "Combines deep engineering knowledge with certified coaching training. Your technical teams are led by someone who can join the technical discussion and develop people as a human being."
+  },
+  "nvh-engineering-manager": {
+    "title": "NVH Engineering Manager",
+    "category": "Engineering & Technology",
+    "companyType": "OEMs, automotive suppliers, acoustics specialists",
+    "description": "Leads the NVH (Noise, Vibration, Harshness) department and is responsible for acoustic development projects in vehicle engineering.",
+    "whyFit": "NVH is Christian's core competence from the automotive world — here he combines deep technical expertise with leadership experience in his specialist field.",
+    "uniqueValue": "Brings together NVH expertise, leadership experience and coaching competence. Your acoustics team gets a manager who combines technical excellence with genuine team development."
+  },
+  "head-of-quality-and-process": {
+    "title": "Head of Quality & Process",
+    "category": "Operations & Processes",
+    "companyType": "Manufacturing companies, automotive, mechanical engineering, pharma",
+    "description": "Is responsible for quality management and process optimization in the company. Establishes standards and drives continuous improvement.",
+    "whyFit": "Six Sigma expertise, ISO knowledge and leadership experience make him a data-driven quality manager with a strategic view.",
+    "uniqueValue": "Combines Six Sigma methodology and TÜV certification experience with coaching competence. Your quality culture becomes not only process-driven, but also anchored in people."
+  },
+  "six-sigma-consultant": {
+    "title": "Six Sigma Consultant",
+    "category": "Consulting & Strategy",
+    "companyType": "Consulting firms, large corporations, manufacturing companies",
+    "description": "Advises companies on the introduction and application of Six Sigma and DFSS for process optimization and defect reduction.",
+    "whyFit": "His DFSS certification and statistical knowledge, combined with practical experience in the automotive industry, form the basis for well-founded consulting.",
+    "uniqueValue": "Brings together DFSS certification and automotive practical experience with coaching ability. Your Six Sigma projects become not only methodologically sound, but also truly supported by the teams."
+  },
+  "corporate-trainer": {
+    "title": "Corporate Trainer",
+    "category": "Coaching & Development",
+    "companyType": "Large corporations, consulting firms, training institutes",
+    "description": "Designs and delivers trainings and workshops for employees and executives in companies.",
+    "whyFit": "Christian's didactic competence, coaching training and practical experience in a wide range of industries make his trainings particularly effective.",
+    "uniqueValue": "Unites university-level didactics, systemic coaching and industry experience from automotive to AI. Your trainings are designed by someone who understands learning transfer both scientifically and practically."
+  },
+  "startup-berater": {
+    "title": "Startup Advisor",
+    "category": "Consulting & Strategy",
+    "companyType": "Founder centers, accelerators, chambers of commerce (IHK), economic development agencies",
+    "description": "Advises founders and young companies on business model, financing and market entry.",
+    "whyFit": "His own founding experience, business planning competence and coaching ability make him an advisor who can support founders holistically.",
+    "uniqueValue": "Brings his own founding experience, P&L responsibility and coaching competence. Your founders get not theoretical advice, but a sparring partner who knows entrepreneurial risk first-hand."
+  },
+  "dozent-hochschule": {
+    "title": "University Lecturer",
+    "category": "Education & Teaching",
+    "companyType": "Universities, universities of applied sciences, cooperative degree programs",
+    "description": "Teaches at a university in technical or business degree programs and combines research with practice-oriented teaching.",
+    "whyFit": "His STEM background, his enjoyment of imparting knowledge and his ability to make complex content understandable make him well suited to university teaching.",
+    "uniqueValue": "Combines practical experience from industry, coaching and AI with didactic competence. Your students learn from someone who can bring theory to life through years of application."
+  },
+  "mint-lehrer": {
+    "title": "STEM Teacher",
+    "category": "Education & Teaching",
+    "companyType": "Schools, vocational schools, education providers",
+    "description": "Teaches natural science and technical subjects and inspires students for STEM topics.",
+    "whyFit": "Christian's ability to explain complex technical matters clearly, and his understanding of neurodivergent learners, make him a committed STEM teacher.",
+    "uniqueValue": "Brings industry practical experience, an understanding of neurodiversity and AI competence into STEM teaching. Your students learn from someone who unites inclusion and enthusiasm for technology."
+  },
+  "projektleiter-automotive": {
+    "title": "Automotive Project Manager",
+    "category": "Engineering & Technology",
+    "companyType": "OEMs, automotive suppliers, engineering service providers",
+    "description": "Leads complex development projects in the automotive sector and coordinates interdisciplinary teams across the entire product creation process.",
+    "whyFit": "His deep automotive background, combined with leadership competence and process understanding, makes him a skilled project manager in this demanding industry.",
+    "uniqueValue": "Unites deep automotive expertise with coaching training and Six Sigma methodology. Your development projects are steered by someone who masters technology, process and team dynamics equally."
+  },
+  "change-manager": {
+    "title": "Change Manager",
+    "category": "Transformation & Change",
+    "companyType": "Large corporations, consulting firms, mid-sized companies (Mittelstand) in periods of change",
+    "description": "Plans and steers change processes in organizations and ensures lasting acceptance among employees and executives.",
+    "whyFit": "Christian's coaching competence and communication strength enable him not only to plan change, but to truly bring people along.",
+    "uniqueValue": "Combines systemic coaching with engineering analytics and real leadership experience. Your change process is not only planned, but accompanied with a deep understanding of human resistance."
+  },
+  "organisationsentwickler": {
+    "title": "Organizational Development Specialist",
+    "category": "People & Culture",
+    "companyType": "Large corporations, mid-sized companies (Mittelstand), consulting firms, public sector",
+    "description": "Analyzes and shapes organizational structures, processes and culture to position companies for the future.",
+    "whyFit": "His systemic thinking from coaching, combined with an engineering understanding of structure, enables uniquely analytical and at the same time people-centered OD work.",
+    "uniqueValue": "Combines engineering structural thinking with systemic coaching and AI data analysis. Your OD work becomes, for the first time, both intuitively human and measurably analytical."
+  },
+  "head-of-hr": {
+    "title": "Head of HR",
+    "category": "People & Culture",
+    "companyType": "Mid-sized companies (Mittelstand), larger companies, tech firms",
+    "description": "Leads the HR department and is responsible for recruiting, people development, compensation and employee retention.",
+    "whyFit": "His coaching training and leadership experience make him an HR leader who goes beyond administration to do real people development.",
+    "uniqueValue": "Brings coaching certification, P&L experience and AI competence to your HR leadership. You get an HR head who sees people work as a strategic value lever and not as an administrative apparatus."
+  },
+  "talent-development-manager": {
+    "title": "Talent Development Manager",
+    "category": "People & Culture",
+    "companyType": "Large corporations, tech companies, large mid-sized companies (Mittelstand)",
+    "description": "Develops and implements programs for talent promotion and succession planning in the company.",
+    "whyFit": "Christian knows how to recognize individual strengths and develop them in a targeted way — a core competence from his coaching practice that fits talent development perfectly.",
+    "uniqueValue": "Unites certified coaching, didactic expertise and data-driven thinking. Your talent development becomes scientifically grounded, individual and, for the first time, directly linked to business results."
+  },
+  "agile-coach": {
+    "title": "Agile Coach",
+    "category": "Coaching & Development",
+    "companyType": "Tech companies, large corporations, agile consulting firms",
+    "description": "Supports teams and organizations in introducing and deepening agile ways of working and promotes self-organization.",
+    "whyFit": "The combination of sound coaching, lean understanding and a technical background makes him an Agile Coach who understands both teams and technology.",
+    "uniqueValue": "Combines sound coaching training with a genuine engineering background and lean experience. Your Agile Coach understands not only frameworks, but also the technical realities of your teams."
+  },
+  "scrum-master": {
+    "title": "Scrum Master",
+    "category": "Operations & Processes",
+    "companyType": "Tech companies, software firms, agile organizations",
+    "description": "Supports Scrum teams as a servant leader, facilitates events and removes obstacles to effective collaboration.",
+    "whyFit": "His facilitation skills, process understanding and coaching approach make him a Scrum Master who truly develops teams instead of merely moderating meetings.",
+    "uniqueValue": "Brings systemic coaching and an engineer's process understanding into the Scrum role. Your teams get a Scrum Master who goes beyond ceremonies to do real team development."
+  },
+  "product-owner": {
+    "title": "Product Owner",
+    "category": "Innovation & Digital",
+    "companyType": "Tech companies, software firms, digital agencies",
+    "description": "Is responsible for the product vision and prioritizes the backlog to create maximum customer value.",
+    "whyFit": "Christian's product development experience from industry, combined with strategic thinking and stakeholder communication, makes him an effective Product Owner.",
+    "uniqueValue": "Unites industrial product development experience with business understanding and coaching competence. Your Product Owner not only prioritizes backlogs, but understands market, technology and team dynamics."
+  },
+  "head-of-engineering": {
+    "title": "Head of Engineering",
+    "category": "Engineering & Technology",
+    "companyType": "Tech companies, mechanical engineering, automotive suppliers",
+    "description": "Leads the entire engineering department and is responsible for technical strategy, innovation and team building.",
+    "whyFit": "A deep engineering background plus leadership experience and the ability to inspire and build technical teams qualify him for this role.",
+    "uniqueValue": "Brings coaching training and change management experience into technical leadership. Your engineering department gets a leader who lives technical excellence and people leadership as equals."
+  },
+  "director-training-and-development": {
+    "title": "Director Training & Development",
+    "category": "People & Culture",
+    "companyType": "Large corporations, consulting firms, large education providers",
+    "description": "Steers strategic training and development work and develops curricula for various target groups in the company.",
+    "whyFit": "His experience in curriculum design, adult education and leadership development forms the foundation for strategic training work at director level.",
+    "uniqueValue": "Unites university-level didactics, curriculum design and AI competence at director level. Your training department is led by someone who thinks about education scientifically and designs it to be technologically future-proof."
+  },
+  "business-development-manager": {
+    "title": "Business Development Manager",
+    "category": "Consulting & Strategy",
+    "companyType": "Mid-sized companies (Mittelstand), consulting firms, tech companies, startups",
+    "description": "Opens up new business areas, builds strategic partnerships and develops go-to-market strategies.",
+    "whyFit": "His strategic mindset, founding experience and ability to communicate complex topics clearly make him a strong business developer.",
+    "uniqueValue": "Combines founding experience, P&L responsibility and technical AI understanding. Your business development gets someone who not only identifies new business areas, but can also assess their feasibility technically."
+  },
+  "innovation-manager": {
+    "title": "Innovation Manager",
+    "category": "Innovation & Digital",
+    "companyType": "Large corporations, mid-sized companies (Mittelstand), research institutions",
+    "description": "Identifies innovation potential, steers the innovation process and takes new ideas from conception to implementation.",
+    "whyFit": "Christian's experience with patents, research and AI, combined with entrepreneurial thinking, makes him an innovation manager who does not just ideate, but implements.",
+    "uniqueValue": "Brings together patent experience, hands-on AI competence and entrepreneurial thinking. Your innovation department is steered by someone who does not just collect ideas, but takes them to market readiness."
+  },
+  "lean-consultant": {
+    "title": "Lean Consultant",
+    "category": "Consulting & Strategy",
+    "companyType": "Consulting firms, manufacturing companies, logistics",
+    "description": "Advises companies on introducing lean principles to streamline processes and eliminate waste.",
+    "whyFit": "His process understanding from the automotive industry and his Six Sigma knowledge give him the practical foundation for effective lean consulting.",
+    "uniqueValue": "Unites automotive lean practice with Six Sigma methodology and coaching competence. Your lean transformation is optimized not only on the process side, but also anchored culturally."
+  },
+  "process-excellence-manager": {
+    "title": "Process Excellence Manager",
+    "category": "Operations & Processes",
+    "companyType": "Large corporations, manufacturing companies, shared service centers",
+    "description": "Drives continuous process improvement and establishes best practices for operational excellence.",
+    "whyFit": "His Six Sigma methodology and data-driven approach enable him to analyze processes systematically and improve them sustainably.",
+    "uniqueValue": "Combines Six Sigma certification with AI data analysis and a coaching approach. Your process optimization becomes data-driven AND accepted by people — a combination that secures lasting results."
+  },
+  "ki-berater": {
+    "title": "AI Consultant",
+    "category": "Innovation & Digital",
+    "companyType": "Consulting firms, mid-sized companies (Mittelstand), large corporations, education providers",
+    "description": "Advises companies on the strategic and practical introduction of artificial intelligence into business processes.",
+    "whyFit": "His practical AI experience with Claude, automation and prompt engineering gives him the hands-on competence that many AI consultants lack.",
+    "uniqueValue": "Brings productive AI development experience, coaching competence and industry understanding. You get AI consulting from someone who does not just present, but has built and introduced AI systems himself."
+  },
+  "digital-learning-designer": {
+    "title": "Digital Learning Designer",
+    "category": "Education & Teaching",
+    "companyType": "EdTech companies, large corporations, universities, e-learning providers",
+    "description": "Designs digital learning environments and e-learning formats using modern technologies and didactic principles.",
+    "whyFit": "The combination of didactic know-how, AI competence and web development skills makes him a Digital Learning Designer who masters content AND technology.",
+    "uniqueValue": "Unites web development, AI competence and university-level didactics in one person. Your digital learning formats are designed by someone who builds the technology, understands didactics and keeps neurodiversity in mind."
+  },
+  "head-of-customer-success": {
+    "title": "Head of Customer Success",
+    "category": "Consulting & Strategy",
+    "companyType": "SaaS companies, tech firms, consulting firms",
+    "description": "Leads the customer success team and ensures that customers get maximum value from products and services.",
+    "whyFit": "Christian's coaching approach and communication strength predestine him to build customer relationships as equals and to lead teams with a customer focus.",
+    "uniqueValue": "Combines coaching training, technical understanding and leadership experience. Your customer success team is built by someone who shapes customer relationships as equals, with real depth."
+  },
+  "vp-operations": {
+    "title": "VP Operations",
+    "category": "Operations & Processes",
+    "companyType": "Large corporations, large mid-sized companies (Mittelstand), manufacturing companies",
+    "description": "Is responsible for overall operational leadership and optimizes processes, efficiency and budget control at executive board level.",
+    "whyFit": "His deep process understanding from industry, paired with leadership experience and P&L awareness, qualifies him for overall operational responsibility.",
+    "uniqueValue": "Brings together P&L experience, Six Sigma methodology and a coaching leadership style. Your operational leadership is held by someone who increases efficiency without losing the people along the way."
+  },
+  "teamleiter-qualitaetssicherung": {
+    "title": "Quality Assurance Team Lead",
+    "category": "Engineering & Technology",
+    "companyType": "Manufacturing companies, automotive, mechanical engineering, pharma",
+    "description": "Leads the QA team and ensures compliance with quality standards and norms in development and production.",
+    "whyFit": "His engineering experience with testing and standards, combined with leadership competence, makes him a QA team lead with technical depth and a focus on people.",
+    "uniqueValue": "Unites engineering test expertise and knowledge of standards with coaching-based team leadership. Your QA department gets a lead who confidently steers both ISO audits and employee development."
+  },
+  "pruefer-tuev-dekra": {
+    "title": "TÜV/DEKRA Inspector",
+    "category": "Engineering & Technology",
+    "companyType": "TÜV, DEKRA, SGS, testing and certification bodies",
+    "description": "Tests and certifies products, facilities and systems according to national and international norms and standards.",
+    "whyFit": "His technical foundation, knowledge of standards and systematic approach make him a thorough and competent inspector.",
+    "uniqueValue": "Brings mechanical engineering expertise, TÜV certification knowledge and systematic analytics. You get an inspector who combines technical depth with structured engineering thinking."
+  },
+  "referent-stadtwerke": {
+    "title": "Specialist Officer, Municipal Utilities",
+    "category": "Consulting & Strategy",
+    "companyType": "Municipal utilities (Stadtwerke), energy suppliers, municipal enterprises",
+    "description": "Works as a subject-matter specialist (Referent) on strategic and operational topics at municipal utilities and local suppliers.",
+    "whyFit": "His combination of technical understanding, communication strength and process thinking fits ideally into the interface role at municipal enterprises.",
+    "uniqueValue": "Unites technical understanding, process thinking and coaching communication. Your interface role is filled by someone who confidently connects technology, administration and stakeholders."
+  },
+  "referent-oeffentlicher-dienst": {
+    "title": "Public Sector Specialist Officer",
+    "category": "Operations & Processes",
+    "companyType": "Ministries, public authorities, public administration",
+    "description": "Works as a subject-matter specialist (Referent) on substantive topics in public administration and prepares decision papers.",
+    "whyFit": "Christian's structured way of working and ability to prepare complex matters, combined with process understanding, suit specialist officer work in the public sector.",
+    "uniqueValue": "Combines analytical engineering thinking with didactic preparation skills and AI understanding. Your specialist unit gains someone who prepares complex matters precisely and comprehensibly."
+  },
+  "unternehmensberater": {
+    "title": "Management Consultant",
+    "category": "Consulting & Strategy",
+    "companyType": "Management consultancies, strategy consultancies, boutique consultancies",
+    "description": "Advises companies on strategic, organizational and operational challenges and develops tailored solutions.",
+    "whyFit": "His industry experience, analytical skills and coaching competence make him a consultant who does not just analyze, but also supports change.",
+    "uniqueValue": "Brings coaching competence, deep technical knowledge and P&L experience to consulting. Your clients get a consultant who does not just give recommendations, but supports their implementation on the human side."
+  },
+  "interimsmanager": {
+    "title": "Interim Manager",
+    "category": "Consulting & Strategy",
+    "companyType": "Mid-sized companies (Mittelstand), large corporations, PE portfolio companies, restructurings",
+    "description": "Temporarily takes on leadership responsibility in companies and resolves acute management bottlenecks or steers phases of change.",
+    "whyFit": "His broad experience across different industries, quick grasp and leadership strength make him an effective interim manager.",
+    "uniqueValue": "Unites P&L responsibility, a coaching leadership style and broad industry experience from automotive to AI. You get an interim manager who has an immediate impact and does not leave teams behind, but builds them up."
+  },
+  "senior-consultant": {
+    "title": "Senior Consultant",
+    "category": "Consulting & Strategy",
+    "companyType": "Management consultancies, IT consultancies, specialist consultancies",
+    "description": "Leads consulting projects independently and contributes specialist expertise in strategy, processes or transformation.",
+    "whyFit": "The combination of technical depth, strategic overview and coaching ability makes him a Senior Consultant who steers projects holistically.",
+    "uniqueValue": "Combines technical depth with strategic overview and a systemic coaching approach. Your consulting projects are steered holistically — from analysis through to anchoring with the people involved."
+  },
+  "bereichsleiter-technik": {
+    "title": "Head of Technical Division",
+    "category": "Engineering & Technology",
+    "companyType": "Mid-sized companies (Mittelstand), mechanical engineering, automotive suppliers, plant engineering",
+    "description": "Leads the entire technical division of a company with multiple teams and is responsible for technical development and innovation.",
+    "whyFit": "His engineering foundation, leadership experience and ability to build and inspire teams qualify him for technical division leadership.",
+    "uniqueValue": "Brings an engineering foundation, coaching training and P&L responsibility experience. Your technical division gets someone who drives innovation while building teams sustainably."
+  },
+  "technischer-geschaeftsfuehrer": {
+    "title": "Chief Technology Officer / Managing Director Technology",
+    "category": "Engineering & Technology",
+    "companyType": "Mid-sized companies (Mittelstand), SMEs, technical companies, engineering firms",
+    "description": "As technical managing director, leads a company with a focus on product development, innovation and technical strategy.",
+    "whyFit": "The rare combination of deep technical understanding, strategic business sense and leadership qualities makes him the ideal technical managing director for the Mittelstand.",
+    "uniqueValue": "Unites deep engineering knowledge with managing director experience and AI competence. You get a technical managing director who is as much at home in the engine room as in the strategy meeting."
+  },
+  "leiter-weiterbildung": {
+    "title": "Head of Continuing Education",
+    "category": "Education & Teaching",
+    "companyType": "Chambers of commerce (IHK), education providers, academies, large corporations",
+    "description": "Leads the continuing education department and develops target-group-specific programs for professional qualification.",
+    "whyFit": "His experience in adult education and coaching, combined with strategic thinking and leadership competence, make him an effective head of continuing education.",
+    "uniqueValue": "Combines university-level didactics, coaching certification and AI competence in continuing education leadership. Your programs become scientifically grounded, modern and geared toward real learning transfer."
+  },
+  "leiter-ausbildung": {
+    "title": "Head of Apprenticeship Training",
+    "category": "Education & Teaching",
+    "companyType": "Mid-sized companies (Mittelstand), large corporations, skilled trades businesses, public sector",
+    "description": "Is responsible for in-company vocational training and designs apprenticeship programs for the next generation.",
+    "whyFit": "His didactic competence and enjoyment of developing young people, paired with a technical background, predestine him for leading apprenticeship training.",
+    "uniqueValue": "Brings an engineering background, didactic competence and an understanding of neurodiversity to apprenticeship leadership. Your apprentices learn from someone who unites technical excellence and individual support."
+  },
+  "head-of-people-analytics": {
+    "title": "Head of People Analytics",
+    "category": "People & Culture",
+    "companyType": "Large corporations, tech companies, HR tech firms",
+    "description": "Builds data-driven HR analytics and delivers insights on talent, engagement and organizational development.",
+    "whyFit": "His data analysis skills from the engineering world, combined with people understanding from coaching, make him a people analytics leader with real depth.",
+    "uniqueValue": "Unites data analysis from engineering with coaching-based people understanding. Your people analytics is built by someone who interprets the numbers AND understands the people behind them."
+  },
+  "fuehrungskraefteentwickler": {
+    "title": "Leadership Development Specialist",
+    "category": "Coaching & Development",
+    "companyType": "Large corporations, consulting firms, academies, large mid-sized companies (Mittelstand)",
+    "description": "Designs and supports programs for developing leaders at various levels of the hierarchy.",
+    "whyFit": "Christian's own leadership experience, his coaching background and his focus on values make his leadership development particularly authentic and effective.",
+    "uniqueValue": "Combines his own leadership experience, St. Gallen coaching certification and didactic expertise. Your leadership development is shaped by someone who has not only taught leadership, but lived it."
+  },
+  "campus-manager": {
+    "title": "Campus Manager",
+    "category": "Education & Teaching",
+    "companyType": "Education providers, corporate universities, universities",
+    "description": "Leads an education site and coordinates course offerings, staff and operational processes.",
+    "whyFit": "His educational experience, leadership competence and organizational talent make him a suitable head of an education site.",
+    "uniqueValue": "Brings educational experience, leadership competence and an understanding of AI innovation. Your education site is led by someone who combines pedagogical quality and operational excellence."
+  },
+  "akademieleiter": {
+    "title": "Academy Director",
+    "category": "Education & Teaching",
+    "companyType": "Academies, continuing education institutes, corporate academies",
+    "description": "Leads an academy or educational institution and is responsible for the program, faculty and strategic direction.",
+    "whyFit": "The combination of educational expertise, coaching experience and leadership skills enables him to run an academy both in terms of content and as a business.",
+    "uniqueValue": "Combines coaching expertise, curriculum competence and entrepreneurial thinking. Your academy gets a director who brings together depth of content and strategic business management."
+  },
+  "chief-learning-officer": {
+    "title": "Chief Learning Officer",
+    "category": "People & Culture",
+    "companyType": "Large corporations, tech companies, innovative mid-sized companies (Mittelstand)",
+    "description": "As a C-level executive, shapes a company's entire learning strategy and integrates cutting-edge technologies such as AI into educational processes.",
+    "whyFit": "Christian's unique combination of AI expertise, educational competence and leadership experience makes him a CLO who truly leads learning into the future.",
+    "uniqueValue": "Brings together AI development experience, university didactics and C-level leadership competence. You get a CLO who doesn't just buy learning technology, but can build and evaluate it himself.",
+    "businessImpact": "Companies that lead learning strategically have 30% higher employee retention. A CLO with technology understanding builds learning architectures that make your workforce future-ready."
+  },
+  "neurodivergent-workplace-designer": {
+    "title": "Neurodivergent Workplace Designer",
+    "category": "People & Culture",
+    "companyType": "Large tech companies, progressive companies, HR consultancies",
+    "description": "Designs work environments and processes that optimally integrate neurodivergent talent and leverage their strengths.",
+    "whyFit": "As a neurodivergent coach himself with design system experience, Christian understands the needs first-hand and can create work environments that truly work.",
+    "uniqueValue": "Combines personal neurodivergent experience with design system competence and coaching training. Your inclusive work environments are designed by someone who knows the needs first-hand.",
+    "businessImpact": "Neurodivergent talent often brings above-average problem-solving strengths. Systematically unlocking this potential taps an unused talent pool and strengthens your employer branding."
+  },
+  "ai-ethics-and-governance-lead": {
+    "title": "AI Ethics & Governance Lead",
+    "category": "Innovation & Digital",
+    "companyType": "Large corporations, tech companies, regulatory authorities",
+    "description": "Develops ethical guidelines and governance frameworks for the responsible use of artificial intelligence.",
+    "whyFit": "His deep AI practice, combined with values-based coaching and ethical awareness, enables him to shape AI governance with genuine understanding of both technology AND people.",
+    "uniqueValue": "Combines productive AI development experience with values-based coaching and engineering ethics. Your AI governance is owned by someone who understands technology AND practices ethical reflection.",
+    "businessImpact": "The EU AI Act makes AI governance a compliance obligation. Establishing ethical guardrails now safeguards your ability to innovate and avoids costly regulatory risks."
+  },
+  "innovation-lab-director": {
+    "title": "Innovation Lab Director",
+    "category": "Innovation & Digital",
+    "companyType": "Large corporations, research institutions, tech companies",
+    "description": "Leads an innovation lab in which new business models, technologies and products are prototyped.",
+    "whyFit": "His startup experience, AI competence and enthusiasm for innovation make him a lab director who understands both the technical and the entrepreneurial side.",
+    "uniqueValue": "Brings together founding experience, hands-on AI competence and coaching-based leadership. Your innovation lab is led by someone who can build prototypes himself and coaches teams to high performance.",
+    "businessImpact": "Disruptive markets require dedicated innovation spaces. A lab director with corporate fluency builds the bridge between rapid experimentation and scalable implementation within your structure."
+  },
+  "human-ai-interaction-researcher": {
+    "title": "Human-AI Interaction Researcher",
+    "category": "Innovation & Digital",
+    "companyType": "Research institutes, large tech companies, universities",
+    "description": "Researches the interface between humans and AI and develops insights for better human-machine collaboration.",
+    "whyFit": "Christian's understanding of human behavior from coaching, combined with practical AI experience and scientific thinking, makes him a unique researcher at this interface.",
+    "uniqueValue": "Combines practical AI development, coaching insight into human behavior and scientific thinking. You get a researcher who knows both sides of the human-AI interface from experience.",
+    "businessImpact": "AI products don't fail because of technology, but because of poor user experience. Designing human-AI interaction rather than just building it leads to higher adoption and customer satisfaction."
+  },
+  "head-of-employee-experience": {
+    "title": "Head of Employee Experience",
+    "category": "People & Culture",
+    "companyType": "Tech companies, large corporations, progressive mid-sized companies (Mittelstand)",
+    "description": "Shapes the entire employee experience from onboarding to offboarding and creates a culture in which people thrive.",
+    "whyFit": "His coaching approach and deep understanding of human needs enable him to create an employee experience that goes beyond fruit-basket perks.",
+    "uniqueValue": "Combines systemic coaching, neurodiversity expertise and data-driven thinking. Your employee experience is designed by someone who addresses real needs beyond employer branding.",
+    "businessImpact": "Employee satisfaction is not a soft factor but a direct driver of retention and productivity. Systematically designing the employee experience measurably reduces your turnover and strengthens your employer branding."
+  },
+  "tech-company-culture-architect": {
+    "title": "Tech Company Culture Architect",
+    "category": "People & Culture",
+    "companyType": "Tech companies, scale-ups, digital platforms",
+    "description": "Shapes company culture in tech companies and combines technical excellence with people-centered leadership.",
+    "whyFit": "The rare combination of tech understanding, coaching expertise and culture-building competence makes him a culture architect who speaks both worlds.",
+    "uniqueValue": "Brings his own engineering experience, coaching certification and AI competence. Your tech culture is shaped by someone who knows the engineering mindset from the inside and can transform it.",
+    "businessImpact": "Scale-ups often lose their culture in hypergrowth. Designing and scaling cultural DNA early secures your innovative strength even at 200+ employees and reduces costly culture conflicts."
+  },
+  "edtech-product-manager": {
+    "title": "EdTech Product Manager",
+    "category": "Innovation & Digital",
+    "companyType": "EdTech startups, education platforms, publishers with a digital division",
+    "description": "Is responsible for product development of an educational technology platform and connects pedagogical requirements with technical implementation.",
+    "whyFit": "His deep understanding of education, AI competence and product development experience make him an EdTech PM who truly brings pedagogy and technology together.",
+    "uniqueValue": "Combines university didactics, AI development competence and product experience from industry. Your EdTech product is owned by someone who equally masters pedagogy, technology and business model.",
+    "businessImpact": "The EdTech market is growing by 16% annually. Products that unite pedagogy and tech achieve higher user retention and better learning outcomes -- a clear competitive advantage."
+  },
+  "digital-coaching-platform-founder": {
+    "title": "Digital Coaching Platform Founder",
+    "category": "Innovation & Digital",
+    "companyType": "Own venture, venture-backed startup, incubator",
+    "description": "Founds and develops a digital coaching platform that combines AI-powered coaching tools with human expertise.",
+    "whyFit": "Christian unites coaching certification, AI competence, web development and a founder's spirit – the perfect foundation for an innovative coaching platform.",
+    "uniqueValue": "Combines certified coaching practice, productive AI development and web programming in one person. You get a founder who can build the product himself, safeguard the methodology and run the business.",
+    "businessImpact": "Demand for coaching is rising, but scaling is expensive. Combining platform logic with coaching quality opens up mass markets without loss of quality and produces measurable development effects."
+  },
+  "industrial-transformation-coach": {
+    "title": "Industrial Transformation Coach",
+    "category": "Transformation & Change",
+    "companyType": "Industrial corporations, automotive companies, mechanical engineering firms",
+    "description": "Guides industrial companies through profound transformation and coaches leaders through the shift from traditional to modern industry.",
+    "whyFit": "As an engineer who became a coach, Christian understands the language and culture of industry and can shape transformation from the inside.",
+    "uniqueValue": "Brings together his own engineering career, coaching training and AI competence. Your industrial transformation is guided by someone who speaks the language of the shop floor and coaches leaders as an equal.",
+    "businessImpact": "Industry 4.0 requires not only new technology but cultural change. Guiding transformations with industry fluency avoids costly false starts and accelerates your time-to-value on digitalization projects."
+  },
+  "chief-knowledge-officer": {
+    "title": "Chief Knowledge Officer",
+    "category": "Innovation & Digital",
+    "companyType": "Large corporations, consultancies, knowledge-intensive companies",
+    "description": "As a C-level executive, is responsible for knowledge management and the strategic use of AI for organizational learning and knowledge retention.",
+    "whyFit": "His AI competence for knowledge processing, educational background and process understanding make him a CKO who leads knowledge management into the AI era.",
+    "uniqueValue": "Combines AI development experience, didactic competence and process understanding at C-level. Your knowledge management is led into the AI era by someone who understands technology AND knowledge transfer.",
+    "businessImpact": "Knowledge loss through turnover costs companies millions. A CKO with AI competence builds systematic knowledge architectures that secure your expert knowledge and make it scalable across the organization."
+  },
+  "organizational-physicist": {
+    "title": "Organizational Physicist",
+    "category": "Consulting & Strategy",
+    "companyType": "Innovative consultancies, research institutions, think tanks",
+    "description": "Applies principles from physics and engineering to organizational dynamics and develops new models for systemic relationships.",
+    "whyFit": "Christian's unique combination of a physics/engineering background and systemic coaching thinking enables him to analyze organizations with scientific precision.",
+    "uniqueValue": "Combines a physics and engineering background with a systemic coaching approach. You get an organizational development consultant who models organizational dynamics with scientific precision and intervenes in a human way.",
+    "businessImpact": "Complex organizations can no longer be steered intuitively. Quantitatively modeling system dynamics leads to better decisions and avoids costly misjudgments in transformations."
+  },
+  "ai-coaching-hybridrolle": {
+    "title": "AI Coaching Hybrid Role",
+    "category": "Coaching & Development",
+    "companyType": "Tech companies, HR tech, innovative consultancies",
+    "description": "Combines AI expertise with coaching competence and develops new approaches in which AI tools support and complement coaching processes.",
+    "whyFit": "Christian already lives this hybrid role – he uses AI as a tool in coaching and is one of the few who can authentically combine both worlds.",
+    "uniqueValue": "Brings certified coaching practice and productive AI development together in one person. Your AI-supported coaching approaches are developed by someone who practices both disciplines at expert level.",
+    "businessImpact": "Coaching scales poorly and is expensive. Developing AI-supported hybrid formats increases your coaching reach by a factor of 10 without loss of quality and makes development measurable."
+  },
+  "design-thinking-facilitator": {
+    "title": "Design Thinking Facilitator",
+    "category": "Coaching & Development",
+    "companyType": "Consultancies, innovation agencies, large corporations with an innovation department",
+    "description": "Facilitates design thinking workshops and guides teams in user-centered problem solving and idea development.",
+    "whyFit": "His facilitation skills, methodological foundation and ability to lead diverse teams to creative collaboration make him a strong DT facilitator.",
+    "uniqueValue": "Combines systemic coaching, engineering problem-solving competence and intercultural experience. Your design thinking workshops are facilitated by someone who pairs methodological depth with genuine understanding of innovation.",
+    "businessImpact": "User-centered innovation needs structured creative processes. An experienced facilitator accelerates your product development, lowers the risk of flops and builds innovation competence internally."
+  },
+  "future-of-work-strategist": {
+    "title": "Future of Work Strategist",
+    "category": "Transformation & Change",
+    "companyType": "Large corporations, consultancies, think tanks, HR tech",
+    "description": "Develops strategies for the future of work and advises companies on how to integrate AI, remote work and new work models.",
+    "whyFit": "His experience with AI, transformation and coaching, along with his understanding of neurodivergent ways of working, make him a credible thought leader for tomorrow's world of work.",
+    "uniqueValue": "Combines AI practice, coaching expertise and neurodiversity experience. Your future-of-work strategy is developed by someone who doesn't see technology, humanity and inclusion as contradictions.",
+    "businessImpact": "Hybrid work, AI and generational change are fundamentally transforming work. Using future scenarios strategically makes your organization resilient and attracts top talent with modern work models."
+  },
+  "head-of-neurodiversity-and-inclusion": {
+    "title": "Head of Neurodiversity & Inclusion",
+    "category": "People & Culture",
+    "companyType": "Large tech companies, progressive companies, DEI consultancies",
+    "description": "Leads the neurodiversity and inclusion strategy and creates conditions in which neurodivergent talent can realize their potential.",
+    "whyFit": "As someone personally affected, with coaching expertise and leadership experience, Christian brings the authenticity and professional competence this role requires.",
+    "uniqueValue": "Brings personal neurodivergent experience, coaching certification and leadership competence. You get a leader who doesn't preach inclusion in theory, but shapes it from lived experience.",
+    "businessImpact": "15-20% of the population is neurodivergent, often with excellent problem-solving strengths. Systematically integrating this talent taps an unused pool and measurably increases your innovative strength."
+  },
+  "technical-evangelist": {
+    "title": "Technical Evangelist",
+    "category": "Innovation & Digital",
+    "companyType": "Tech companies, AI firms, developer relations teams",
+    "description": "Communicates technical innovations internally and externally, gives talks and inspires communities about new technologies.",
+    "whyFit": "Christian's ability to communicate complex technical topics in an understandable and inspiring way, combined with his broad tech knowledge, makes him an ideal evangelist.",
+    "uniqueValue": "Combines broad tech knowledge from engineering through AI to web, university didactics and strong communication skills. Your technology communication is carried by someone who conveys complex topics in an inspiring way.",
+    "businessImpact": "Developer adoption decides platform success. A credible technical evangelist builds community trust, accelerates your product adoption and generates high-quality developer feedback."
+  },
+  "learning-experience-architect": {
+    "title": "Learning Experience Architect",
+    "category": "Education & Teaching",
+    "companyType": "EdTech, large corporations, education innovators, e-learning providers",
+    "description": "Designs holistic learning experiences incorporating neuroscience, AI and modern instructional design.",
+    "whyFit": "The combination of neuroscientific understanding, AI competence and learning design experience enables him to create learning experiences that truly reach the brain.",
+    "uniqueValue": "Combines understanding of neuroscience, AI development and university didactics. Your learning experiences are architected by someone who knows how brains learn and how technology helps.",
+    "businessImpact": "Learning programs with high engagement achieve 3x higher completion rates. Designing learning as an experience increases your training ROI and makes knowledge building measurably more effective."
+  },
+  "workforce-transformation-lead": {
+    "title": "Workforce Transformation Lead",
+    "category": "Transformation & Change",
+    "companyType": "Large corporations, consultancies, companies undergoing industrial transformation",
+    "description": "Steers the transformation of the workforce and develops strategies for upskilling, reskilling and new work models.",
+    "whyFit": "Christian understands both the technical and the human side of transformation – he can coach workforces AND convey the necessary AI competence.",
+    "uniqueValue": "Brings together engineering transformation experience, coaching competence and AI practice. Your workforce transformation is steered by someone who lives upskilling himself and guides people in a human way.",
+    "businessImpact": "Large transformations often fail because of workforce readiness, not strategy. Systematically planning workforce change accelerates your transformation and minimizes costly knowledge gaps."
+  },
+  "head-of-digital-transformation": {
+    "title": "Head of Digital Transformation",
+    "category": "Transformation & Change",
+    "companyType": "Mid-sized companies (Mittelstand), large corporations, public sector",
+    "description": "Leads the company's digital transformation and connects technological innovation with organizational change.",
+    "whyFit": "His hands-on AI experience, paired with transformation and leadership competence, makes him a head of digitalization who can deliver not just strategy but also implementation.",
+    "uniqueValue": "Combines hands-on AI development, change management and leadership experience. Your digitalization is led by someone who doesn't just create strategy decks but implements technology himself.",
+    "businessImpact": "Digital transformation is not an IT question but a business model overhaul. Combining tech competence with change leadership accelerates your digitalization and opens up new revenue streams."
+  },
+  "stem-education-innovator": {
+    "title": "STEM Education Innovator",
+    "category": "Education & Teaching",
+    "companyType": "Education innovators, EdTech, foundations, ministries",
+    "description": "Develops innovative concepts for STEM education and integrates modern technologies such as AI into science teaching.",
+    "whyFit": "His STEM background, AI competence and didactic skill enable him to rethink STEM education with cutting-edge technology.",
+    "uniqueValue": "Combines STEM subject expertise, AI competence and didactic experience. Your STEM education innovation is driven by someone who unites physics, programming and pedagogy in one person.",
+    "businessImpact": "The STEM skills shortage threatens the ability to innovate. Starting earlier and rethinking STEM education builds your talent pipeline for the long term and positions you as an education partner."
+  },
+  "ai-literacy-director": {
+    "title": "AI Literacy Director",
+    "category": "Education & Teaching",
+    "companyType": "Large corporations, education providers, consultancies, ministries",
+    "description": "Builds organization-wide AI competence and develops programs that teach employees to work competently with AI.",
+    "whyFit": "Christian's practical AI experience and educational competence make him the ideal person to build AI literacy – he masters both the technology and the didactics behind it.",
+    "uniqueValue": "Brings productive AI experience, university didactics and leadership competence. Your AI literacy programs are built by someone who doesn't just explain AI but uses it productively every day.",
+    "businessImpact": "AI tools sit unused because teams don't know how to use them. Systematic AI literacy measurably increases your productivity and is what makes AI investments create value in the first place."
+  },
+  "people-science-lead": {
+    "title": "People Science Lead",
+    "category": "People & Culture",
+    "companyType": "Large tech companies, HR tech, people analytics firms",
+    "description": "Combines data analysis with behavioral science and neuroscience to develop evidence-based people strategies.",
+    "whyFit": "His combination of analytical thinking, understanding of neuroscience and coaching expertise makes him a people scientist who unites data and humanity.",
+    "uniqueValue": "Combines data analysis from engineering, understanding of neuroscience and systemic coaching. Your people science is led by someone who brings together hard data and human complexity.",
+    "businessImpact": "People decisions based on gut feeling cost millions. Grounding HR strategies in science leads to better hiring, retention and development decisions with measurable ROI."
+  },
+  "industrial-ai-coach": {
+    "title": "Industrial AI Coach",
+    "category": "Coaching & Development",
+    "companyType": "Industrial companies, automotive, mechanical engineering, consultancies",
+    "description": "Coaches industrial companies in integrating AI into existing manufacturing and development processes.",
+    "whyFit": "As an engineer with AI expertise and coaching training, Christian speaks the language of industry and can introduce AI where others fail on cultural barriers.",
+    "uniqueValue": "Combines mechanical engineering expertise, AI development experience and coaching certification. Your industrial teams are coached through the AI transformation by someone who understands their machines AND their concerns.",
+    "businessImpact": "AI in production often fails because of lack of acceptance, not technology. A coach with industry fluency builds AI competence that actually makes your process optimization effective."
+  },
+  "smart-factory-culture-lead": {
+    "title": "Smart Factory Culture Lead",
+    "category": "Transformation & Change",
+    "companyType": "Manufacturing corporations, automotive OEMs, Industry 4.0 companies",
+    "description": "Shapes culture in smart factories and combines technological automation with people-centered leadership.",
+    "whyFit": "His industry experience, lean knowledge and AI competence, paired with an understanding of culture, make him a bridge builder between the smart factory and people.",
+    "uniqueValue": "Brings lean experience, AI competence and a coaching-based understanding of culture. Your smart factory culture is shaped by someone who doesn't see automation and humanity as opposites.",
+    "businessImpact": "Smart factory projects fail in 70% of cases due to cultural resistance. Combining technology rollout with culture work drastically increases your digitalization success rate."
+  },
+  "transformation-design-lead": {
+    "title": "Transformation Design Lead",
+    "category": "Transformation & Change",
+    "companyType": "Consultancies, large corporations, design agencies with a strategy focus",
+    "description": "Designs holistic transformation processes and combines design thinking with change management.",
+    "whyFit": "Christian's design system experience, coaching competence and understanding of transformation enable him not just to manage change but to design it.",
+    "uniqueValue": "Combines design system experience, systemic coaching and engineering structural thinking. Your transformation processes are designed by someone who sees change as an architecture that can be shaped.",
+    "businessImpact": "Top-down transformations create resistance. Designing change in a participatory way increases your acceptance rate, accelerates adoption and makes change sustainably effective."
+  },
+  "resilience-officer": {
+    "title": "Resilience Officer",
+    "category": "People & Culture",
+    "companyType": "Large corporations, healthcare, crisis-prone industries, VUCA companies",
+    "description": "Strengthens organizational and individual resilience and develops programs for mental health and resilience.",
+    "whyFit": "His coaching background, understanding of neurodiversity and personal experience with resilience make him an authentic resilience officer.",
+    "uniqueValue": "Combines coaching certification, neurodiversity experience and a personal resilience story. Your resilience programs are owned by someone who doesn't just know methods but authentically lives resilience.",
+    "businessImpact": "Volatile markets and crises are the new normal. Systematically building resilience makes your organization more resistant, lowers the risk of absences and sustainably strengthens employee well-being."
+  },
+  "systems-thinking-consultant": {
+    "title": "Systems Thinking Consultant",
+    "category": "Consulting & Strategy",
+    "companyType": "Consultancies, research institutions, large corporations",
+    "description": "Advises organizations using systems thinking and helps them understand complex interrelationships and identify leverage points.",
+    "whyFit": "The combination of an engineering understanding of systems and a systemic coaching approach gives Christian a unique perspective on complex organizational questions.",
+    "uniqueValue": "Brings together an engineering understanding of systems and systemic coaching. Your organizational consulting gains an analytical depth that unites technical precision with human complexity.",
+    "businessImpact": "Complex problems cannot be solved linearly. Systems thinking finds leverage points that achieve maximum impact with minimal effort and avoids costly treatment of symptoms."
+  },
+  "hybrid-role-designer": {
+    "title": "Hybrid Role Designer",
+    "category": "People & Culture",
+    "companyType": "Progressive HR departments, new work consultancies, tech companies",
+    "description": "Develops novel role profiles that cross traditional boundaries and combine AI augmentation with human strengths.",
+    "whyFit": "Christian himself lives the concept of the hybrid role – his career shows how to combine engineering, coaching and AI into something new and valuable.",
+    "uniqueValue": "Combines his own multi-cluster career, understanding of organizational development and AI competence. You get a role designer who doesn't just describe the future of interdisciplinary roles in theory but embodies it himself.",
+    "businessImpact": "Rigid job profiles no longer fit interdisciplinary challenges. Rethinking roles and strategically combining competencies unlocks untapped talent potential in your organization."
+  },
+  "internal-venture-builder": {
+    "title": "Internal Venture Builder",
+    "category": "Innovation & Digital",
+    "companyType": "Large corporations with innovation units, corporate incubators",
+    "description": "Builds new business areas and ventures within a corporation and combines entrepreneurial spirit with corporate resources.",
+    "whyFit": "His founding experience, combined with an understanding of corporations and enthusiasm for innovation, makes him an intrapreneur who can successfully build new ventures.",
+    "uniqueValue": "Combines his own founding experience, understanding of corporations and coaching-based leadership. Your internal ventures are built by someone who navigates startup speed and corporate logic equally well.",
+    "businessImpact": "New business areas need startup speed within corporate structures. A venture builder with internal fluency accelerates your innovation pipeline and opens up new revenue sources faster."
+  },
+  "corporate-university-dean": {
+    "title": "Corporate University Dean",
+    "category": "Education & Teaching",
+    "companyType": "Large corporations with their own corporate university, large mid-sized companies (Mittelstand)",
+    "description": "Leads a corporate university and is responsible for the entire internal education ecosystem of a large company.",
+    "whyFit": "Christian's educational competence, leadership experience and coaching expertise enable him to lead a corporate university strategically and in terms of content at the highest level.",
+    "uniqueValue": "Brings university didactics, coaching certification and AI competence to a leadership level. Your corporate university is led by someone who combines academic depth with entrepreneurial vision.",
+    "businessImpact": "Corporate universities with a clear strategy increase employee retention by 40%. A dean with business fluency builds learning architectures that contribute directly to your business goals."
+  },
+  "technology-adoption-strategist": {
+    "title": "Technology Adoption Strategist",
+    "category": "Transformation & Change",
+    "companyType": "Consultancies, large corporations, tech companies",
+    "description": "Develops strategies for the successful introduction of new technologies and ensures lasting acceptance among users.",
+    "whyFit": "His experience with AI adoption, change management and training competence make him a strategist who shapes technology adoption in a people-centered way.",
+    "uniqueValue": "Combines hands-on AI experience, change management and coaching competence. Your technology rollout is strategically guided by someone who doesn't force acceptance but creates it through empowerment.",
+    "businessImpact": "70% of tech rollouts fail due to lack of adoption, not the technology. Planning adoption strategically is what makes your IT investments truly pay off and avoids costly shelfware."
+  },
+  "ai-upskilling-program-director": {
+    "title": "AI Upskilling Program Director",
+    "category": "Education & Teaching",
+    "companyType": "Large corporations, education providers, AI academies",
+    "description": "Designs and leads large-scale AI qualification programs for employees at all levels and in all disciplines.",
+    "whyFit": "His practical AI experience, didactic competence and leadership experience enable him to shape AI upskilling effectively at scale.",
+    "uniqueValue": "Combines productive AI development, curriculum design and leadership experience. Your large-scale AI qualification is led by someone who combines didactics and technology at expert level.",
+    "businessImpact": "AI doesn't replace jobs, but it does replace employees without AI skills. Large-scale upskilling secures your competitiveness and makes existing teams future-ready instead of recruiting externally."
+  },
+  "chief-empowerment-officer": {
+    "title": "Chief Empowerment Officer",
+    "category": "People & Culture",
+    "companyType": "Progressive companies, purpose-driven companies, B Corps",
+    "description": "As a C-level executive, promotes self-efficacy and personal responsibility among all employees and creates a culture of empowerment.",
+    "whyFit": "His values-based coaching, leadership experience and deep belief in human potential make him a natural Chief Empowerment Officer.",
+    "uniqueValue": "Brings values-based coaching, leadership experience and an understanding of neurodiversity. Your empowerment program is owned by someone who doesn't just believe in human potential but systematically unleashes it.",
+    "businessImpact": "Empowered teams are 21% more productive and innovative. A Chief Empowerment Officer builds systematic enablement structures that measurably increase your talent development and lower turnover."
+  },
+  "organizational-diagnostician": {
+    "title": "Organizational Diagnostician",
+    "category": "Consulting & Strategy",
+    "companyType": "Organizational development consultancies, large corporations, management diagnostics firms",
+    "description": "Diagnoses organizational strengths and weaknesses using systemic and analytical methods and derives targeted interventions.",
+    "whyFit": "The combination of analytical engineering thinking, systemic coaching and affinity for data makes him a precise organizational diagnostician.",
+    "uniqueValue": "Combines engineering analytics, systemic coaching and affinity for data. Your organizational diagnoses are carried out with the precision of an engineer and the empathy of a coach.",
+    "businessImpact": "Organizational problems are often symptoms of deeper patterns. Precise diagnostics finds causes instead of symptoms and enables targeted interventions with higher ROI."
+  },
+  "cross-functional-innovation-coach": {
+    "title": "Cross-Functional Innovation Coach",
+    "category": "Coaching & Development",
+    "companyType": "Large corporations, innovation consultancies, matrix organizations",
+    "description": "Coaches interdisciplinary and intercultural teams on innovation projects and fosters creative collaboration across departmental boundaries.",
+    "whyFit": "His intercultural experience, innovation competence and coaching training enable him to lead diverse teams to peak performance in innovation.",
+    "uniqueValue": "Combines intercultural experience, coaching certification and technical breadth. Your interdisciplinary innovation teams are coached by someone who has himself worked across disciplinary boundaries.",
+    "businessImpact": "Silos are innovation killers. A coach who connects professional cultures increases your cross-functional collaboration, accelerates product development and reduces costly misunderstandings."
+  },
+  "purpose-and-performance-architect": {
+    "title": "Purpose & Performance Architect",
+    "category": "People & Culture",
+    "companyType": "Purpose-driven companies, progressive large corporations, B Corps",
+    "description": "Connects purpose orientation with performance management and develops systems that promote purpose and performance equally.",
+    "whyFit": "Christian's focus on values from coaching, combined with analytical strength and leadership experience, enables the rare bridge between meaning and results.",
+    "uniqueValue": "Brings together values-based coaching, KPI experience and P&L responsibility. You get an architecture that connects meaning and performance -- developed by someone who considers both non-negotiable.",
+    "businessImpact": "Purpose-driven companies grow 3x faster. Systematically connecting purpose and performance attracts top talent, increases engagement and delivers better business results."
+  },
+  "digital-humanities-lead": {
+    "title": "Digital Humanities Lead",
+    "category": "Education & Teaching",
+    "companyType": "Universities, research institutions, cultural institutions",
+    "description": "Connects humanities research with digital methods and AI tools for new forms of knowledge.",
+    "whyFit": "His AI competence, scientific mindset and writing ability make him a bridge builder between technology and the humanities.",
+    "uniqueValue": "Combines AI development competence, scientific thinking and writing ability. Your digital humanities work is led by someone who sees technology as a tool for gaining knowledge and not as an end in itself.",
+    "businessImpact": "Humanities methods combined with data analysis open up new insights. Digital humanities create innovative research formats and make cultural knowledge digitally usable."
+  },
+  "engineering-culture-coach": {
+    "title": "Engineering Culture Coach",
+    "category": "Coaching & Development",
+    "companyType": "Tech companies, engineering organizations, automotive",
+    "description": "Coaches engineering organizations in culture development and leadership and combines technical excellence with a healthy team culture.",
+    "whyFit": "As an engineer and coach, Christian understands both worlds – he can transform engineering cultures from the inside because he speaks their language.",
+    "uniqueValue": "Combines his own engineering career with coaching certification and culture-building competence. Your engineering culture is transformed by someone who is as convincing at the whiteboard as in a coaching conversation.",
+    "businessImpact": "A toxic engineering culture leads to burnout and turnover. A coach with an engineering background builds psychological safety, increases team productivity and retains your top developers."
+  },
+  "team-performance-scientist": {
+    "title": "Team Performance Scientist",
+    "category": "People & Culture",
+    "companyType": "HR tech, consultancies, research institutes, large tech companies",
+    "description": "Researches and optimizes team performance using scientific methods from neuroscience and behavioral research.",
+    "whyFit": "His combination of analytical thinking, understanding of neuroscience and practical team coaching experience makes him a true team performance researcher.",
+    "uniqueValue": "Brings together data analysis, understanding of neuroscience and practical team coaching experience. Your team performance is scientifically measured for the first time and optimized in a human way at the same time.",
+    "businessImpact": "High-performance teams are up to 5x more productive. Scientifically optimizing team performance measurably increases your team effectiveness and makes performance improvement reproducible."
+  },
+  "capability-building-director": {
+    "title": "Capability Building Director",
+    "category": "People & Culture",
+    "companyType": "Large corporations, consultancies, large mid-sized companies (Mittelstand)",
+    "description": "Strategically builds capabilities in the organization and is responsible for long-term competence development across all areas.",
+    "whyFit": "His broad experience in coaching, training and strategic development enables him to shape organization-wide capability building holistically.",
+    "uniqueValue": "Combines coaching certification, curriculum design and strategic leadership experience. Your organization-wide capability building is shaped by someone who interlinks individual development and corporate strategy.",
+    "businessImpact": "Strategies often fail due to missing capabilities. Systematic capability building makes your strategies executable, closes competence gaps in a structured way and increases organizational performance."
+  },
+  "knowledge-transfer-architect": {
+    "title": "Knowledge Transfer Architect",
+    "category": "Innovation & Digital",
+    "companyType": "Knowledge-intensive companies, consultancies, large corporations",
+    "description": "Designs systems and processes for efficient knowledge transfer and uses AI to preserve and pass on expert knowledge.",
+    "whyFit": "His AI competence for knowledge processing, didactic understanding and process thinking make him the architect for sustainable knowledge transfer.",
+    "uniqueValue": "Combines AI development, university didactics and process understanding. Your knowledge transfer is architected by someone who connects technology, learning science and operational reality.",
+    "businessImpact": "Research knowledge often remains unused because transfer is missing. Systematic knowledge transfer accelerates your innovation, opens up research collaborations and makes external knowledge usable internally."
+  },
+  "fractional-cto-cpo": {
+    "title": "Fractional CTO/CPO",
+    "category": "Engineering & Technology",
+    "companyType": "Startups, scale-ups, SMEs without their own technical C-level",
+    "description": "Takes on technical leadership as a part-time CTO or CPO for companies that do not need a full-time C-level position.",
+    "whyFit": "His broad technical competence from engineering through AI to web development, combined with strategic thinking, makes him a versatile Fractional CTO/CPO.",
+    "uniqueValue": "Brings together mechanical engineering, AI development and web programming with strategic leadership. You get a Fractional CTO who covers the entire technical range from hardware design to AI deployment.",
+    "businessImpact": "Startups need tech leadership but cannot afford a full-time CTO. A Fractional CTO brings in senior expertise cost-efficiently and avoids costly tech missteps."
+  },
+  "startup-in-residence": {
+    "title": "Startup in Residence",
+    "category": "Innovation & Digital",
+    "companyType": "Large corporations with startup programs, accelerators, innovation centers",
+    "description": "As an entrepreneur within a corporation, builds new business ideas and combines a startup mentality with corporate resources and AI technology.",
+    "whyFit": "His founding experience, enthusiasm for innovation, coaching competence and AI expertise make him the ideal startup in residence who makes ideas take flight.",
+    "uniqueValue": "Combines founding experience, AI competence and coaching-based leadership. Your startup in residence brings not only innovation ideas but also the technical and entrepreneurial competence to execute them.",
+    "businessImpact": "Innovation needs entrepreneurial thinking within corporate structures. A startup in residence brings startup speed, quickly validates new business models and opens up growth opportunities."
+  },
+  "corporate-anthropologist": {
+    "title": "Corporate Anthropologist",
+    "category": "Consulting & Strategy",
+    "companyType": "Innovative consultancies, large corporations, research institutes",
+    "description": "Researches corporate cultures using ethnographic methods and delivers deep insights into lived culture and informal structures.",
+    "whyFit": "His intercultural experience, systemic thinking and coaching ability for deep conversation make him an empathetic researcher of corporate cultures.",
+    "uniqueValue": "Combines intercultural experience, systemic coaching and scientific research thinking. Your cultural analysis is carried out by someone who can hold deep conversations and describe patterns precisely.",
+    "businessImpact": "Organizational cultures follow invisible rules. Ethnographic methods uncover hidden dynamics that can block or accelerate your change initiatives."
+  },
+  "workplace-futurist": {
+    "title": "Workplace Futurist",
+    "category": "Transformation & Change",
+    "companyType": "Think tanks, consultancies, large corporations, HR tech",
+    "description": "Designs future scenarios for the world of work and advises companies on how to prepare for AI, neurodiversity and new work models.",
+    "whyFit": "His combination of AI vision, coaching depth and understanding of neurodiversity gives him a unique perspective on the future of work.",
+    "uniqueValue": "Brings AI practice, coaching depth and neurodiversity experience. Your future scenarios for the world of work are developed by someone who doesn't just observe the trends but lives them himself.",
+    "businessImpact": "Work models are changing radically. Planning workplace strategies to be future-proof avoids costly misinvestments in real estate and creates work environments that attract top talent."
+  },
+  "head-of-adaptive-learning": {
+    "title": "Head of Adaptive Learning",
+    "category": "Education & Teaching",
+    "companyType": "EdTech, universities, corporate academies, education platforms",
+    "description": "Develops adaptive learning systems that use AI and neuroscience to adapt to individual learning needs.",
+    "whyFit": "His understanding of different learning brains, AI competence and learning design experience make him a designer of learning systems that are truly individual.",
+    "uniqueValue": "Combines understanding of neurodiversity, AI development and learning design expertise. Your adaptive learning systems are built by someone who understands different learning brains from personal experience.",
+    "businessImpact": "One-size-fits-all learning wastes potential. Adaptive systems increase learning effectiveness by 40%, reduce dropout rates and make education investments more effective."
+  },
+  "people-technology-strategist": {
+    "title": "People Technology Strategist",
+    "category": "People & Culture",
+    "companyType": "HR tech, large corporations, consultancies with a people tech focus",
+    "description": "Develops strategies for the use of AI and automation in HR and combines technology with a people-centered approach.",
+    "whyFit": "His AI practice, coaching competence and leadership experience enable him to deploy people technology in a way that serves people rather than replacing them.",
+    "uniqueValue": "Combines AI development experience, coaching competence and values orientation. Your people tech strategy is owned by someone who consistently puts technology in the service of people.",
+    "businessImpact": "HR tech often fails because humanity is missing. Deploying people technology in a values-based way increases HR efficiency AND employee satisfaction -- a rare double effect."
+  },
+  "impact-measurement-lead": {
+    "title": "Impact Measurement Lead",
+    "category": "Operations & Processes",
+    "companyType": "Impact investors, NGOs, purpose-driven companies, foundations",
+    "description": "Develops systems for measuring and evaluating societal and organizational impact using data-driven methods.",
+    "whyFit": "His analytical strength, understanding of KPIs and coach's eye for qualitative impact make him an impact measurement expert who connects numbers and meaning.",
+    "uniqueValue": "Brings together engineering analytics, a coach's eye and KPI experience. Your impact measurement is built by someone who unites quantitative precision with a qualitative understanding of impact.",
+    "businessImpact": "Impact without measurement is hope. Systematic impact measurement makes impact visible, legitimizes investments and optimizes your societal or organizational effectiveness."
+  },
+  "leadership-ai-integration-coach": {
+    "title": "Leadership AI Integration Coach",
+    "category": "Coaching & Development",
+    "companyType": "Consultancies, large corporations, leadership academies, AI firms",
+    "description": "Coaches leaders in integrating AI into their day-to-day leadership and develops new leadership competencies for the AI age.",
+    "whyFit": "Christian lives the connection of AI and leadership every day – his coaching expertise and deep AI practice make him an authentic companion for leaders in the AI age.",
+    "uniqueValue": "Combines daily AI practice, St. Gallen coaching certification and his own leadership experience. Your leaders are guided into the AI age by someone who lives the integration himself every day.",
+    "businessImpact": "Leaders without AI competence fall behind. Coaching leadership AI integration makes your leadership level future-ready, improves decision quality and drives AI adoption top-down."
+  }
+}

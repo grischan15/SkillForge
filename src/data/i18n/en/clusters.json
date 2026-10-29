@@ -1,0 +1,32 @@
+{
+  "engineering": {
+    "label": "Engineering & Physics",
+    "labelShort": "Engineering",
+    "description": "Dipl.-Ing. (German engineering diploma) in physics, 15+ years in automotive, NVH/acoustics, Six Sigma/DFSS"
+  },
+  "leadership": {
+    "label": "Leadership & Management",
+    "labelShort": "Leadership",
+    "description": "Teams of up to 17 people, 3 continents, change management, social competence"
+  },
+  "coaching": {
+    "label": "Coaching & Development",
+    "labelShort": "Coaching",
+    "description": "Certified Master Coach (St. Gallen model), 387 teaching units, 4.96/5.0"
+  },
+  "ai-digital": {
+    "label": "AI & Digital",
+    "labelShort": "AI",
+    "description": "Agentic AI & multi-agent orchestration, multi-provider LLM, live B2B SaaS, Claude Code CLI — 24 projects / ~4,400 commits"
+  },
+  "business": {
+    "label": "Business & Strategy",
+    "labelShort": "Business",
+    "description": "Certified business start-up consultant, career consulting, corporate communication, digital product development & SaaS"
+  },
+  "didaktik": {
+    "label": "Teaching & Education",
+    "labelShort": "Teaching",
+    "description": "STEM foundation, neuroscience-based methodology, adult education, speaker"
+  }
+}

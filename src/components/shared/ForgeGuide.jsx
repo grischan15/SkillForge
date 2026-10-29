@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useLang } from '../../i18n/LanguageContext'
 
 /* ── SVG Icons ── */
 function FlameIcon() {
@@ -43,24 +44,28 @@ const STEPS = [
     id: 1,
     label: 'Feuer entfachen',
     icon: FlameIcon,
+    textEn: 'The forge is waiting for your first ore. Pick a competence area above (e.g.\u202FEngineering, Leadership) and tap \u2295 to melt down your first skill.',
     text: 'Die Schmiede wartet auf Ihr erstes Erz. Wählen Sie oben einen Kompetenz-Bereich (z.\u202FB. Engineering, Leadership) und tippen Sie auf \u2295, um Ihren ersten Skill einzuschmelzen.',
   },
   {
     id: 2,
     label: 'Erze mischen',
     icon: AnvilIcon,
+    textEn: 'First ore is glowing! The strongest alloys come from different metals — switch areas for new ores.',
     text: 'Erstes Erz glüht! Die stärksten Legierungen entstehen aus verschiedenen Metallen — wechseln Sie den Bereich für neue Erze.',
   },
   {
     id: 3,
     label: 'Legierung formen',
     icon: TemperatureIcon,
+    textEn: 'Two veins of ore combined! One more area and the forge reveals hidden alloys.',
     text: 'Zwei Erzadern vereint! Noch ein Bereich und die Schmiede enthüllt verborgene Legierungen.',
   },
   {
     id: 4,
     label: 'Meisterschmied',
     icon: SparksIcon,
+    textEn: 'Forge at full heat! Discover your roles — including the surprising ones. \u2193',
     text: 'Schmiede auf Höchsttemperatur! Entdecken Sie Ihre Rollen — auch die überraschenden. \u2193',
   },
 ]
@@ -75,6 +80,7 @@ function getActiveStep(forgedSkills, clusterCount) {
 export default function ForgeGuide({ forgedSkills, clusterCount, reducedMotion }) {
   const currentStep = getActiveStep(forgedSkills, clusterCount)
   const [dismissed, setDismissed] = useState(false)
+  const { lang } = useLang()
 
   // Step 4 auto-fades after 8s
   useEffect(() => {
@@ -112,12 +118,12 @@ export default function ForgeGuide({ forgedSkills, clusterCount, reducedMotion }
 
           {/* Content */}
           <div className="flex-1 min-w-0">
-            <p className="text-sm text-ink leading-relaxed">{step.text}</p>
+            <p className="text-sm text-ink leading-relaxed">{lang === 'en' ? step.textEn : step.text}</p>
           </div>
         </div>
 
         {/* Step dots */}
-        <div className="flex items-center justify-center gap-1.5 mt-2" aria-label={`Schritt ${currentStep} von 4`}>
+        <div className="flex items-center justify-center gap-1.5 mt-2" aria-label={lang === 'en' ? `Step ${currentStep} of 4` : `Schritt ${currentStep} von 4`}>
           {STEPS.map((s) => (
             <span
               key={s.id}

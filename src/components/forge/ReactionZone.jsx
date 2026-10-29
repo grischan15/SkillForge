@@ -1,11 +1,14 @@
 import { useDroppable } from '@dnd-kit/core'
 import ForgedSkillChip from './ForgedSkillChip'
 import ForgePrompt from './ForgePrompt'
+import { useLang } from '../../i18n/LanguageContext'
 
 export default function ReactionZone({ forgedSkills, onRemove, onClear, reducedMotion, inline = false }) {
   const { isOver, setNodeRef } = useDroppable({ id: 'forge-drop-zone' })
 
   const hasSkills = forgedSkills.length > 0
+  const { lang } = useLang()
+  const en = lang === 'en'
 
   if (inline) {
     return (
@@ -27,7 +30,7 @@ export default function ReactionZone({ forgedSkills, onRemove, onClear, reducedM
               onClick={onClear}
               className="text-xs text-ink-muted hover:text-p3-red transition-colors cursor-pointer mb-3"
             >
-              Alle entfernen
+              {en ? 'Remove all' : 'Alle entfernen'}
             </button>
           </>
         )}
@@ -52,14 +55,14 @@ export default function ReactionZone({ forgedSkills, onRemove, onClear, reducedM
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-bold text-lg text-ink flex items-center gap-2">
           <img src="images/P3_Logo_RZ_Bild_rot.png" alt="" className="w-6 h-6 object-contain" />
-          Die Schmiede
+          {en ? 'The Forge' : 'Die Schmiede'}
         </h2>
         {hasSkills && (
           <button
             onClick={onClear}
             className="text-xs text-ink-muted hover:text-p3-red transition-colors cursor-pointer min-h-[32px] px-2"
           >
-            Leeren
+            {en ? 'Clear' : 'Leeren'}
           </button>
         )}
       </div>

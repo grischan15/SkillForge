@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { useLang } from '../../i18n/LanguageContext'
 
 const clusterChipColors = {
   'engineering': 'bg-cluster-engineering-light text-cluster-engineering border-cluster-engineering/30',
@@ -11,6 +12,7 @@ const clusterChipColors = {
 
 export default function ForgedSkillChip({ skill, onRemove, reducedMotion }) {
   const colors = clusterChipColors[skill.clusterId] || 'bg-container text-ink border-border'
+  const { lang } = useLang()
 
   return (
     <motion.span
@@ -33,7 +35,7 @@ export default function ForgedSkillChip({ skill, onRemove, reducedMotion }) {
           text-current opacity-60 hover:opacity-100
           transition-opacity cursor-pointer
         "
-        aria-label={`${skill.name} entfernen`}
+        aria-label={lang === 'en' ? `Remove ${skill.name}` : `${skill.name} entfernen`}
       >
         &times;
       </button>

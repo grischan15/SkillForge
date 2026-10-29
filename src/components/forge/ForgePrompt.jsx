@@ -1,4 +1,8 @@
+import { useLang } from '../../i18n/LanguageContext'
+
 export default function ForgePrompt() {
+  const { lang } = useLang()
+  const en = lang === 'en'
   return (
     <div className="text-center py-6">
       {/* Crucible icon */}
@@ -7,9 +11,9 @@ export default function ForgePrompt() {
         <path d="M8 11c0 4 2 7 4 8 2-1 4-4 4-8" />
         <path d="M4 3h16" />
       </svg>
-      <p className="font-medium text-sm text-ink-muted mb-1">Schmelztiegel bereit</p>
+      <p className="font-medium text-sm text-ink-muted mb-1">{en ? 'Crucible ready' : 'Schmelztiegel bereit'}</p>
       <p className="text-xs text-ink-muted/70 leading-relaxed">
-        Erze hierher ziehen oder <span className="inline-flex items-center justify-center w-4 h-4 rounded bg-p3-red/10 text-p3-red text-[10px] font-bold align-text-bottom">+</span> tippen
+        {en ? 'Drag ores here or tap ' : 'Erze hierher ziehen oder '}<span className="inline-flex items-center justify-center w-4 h-4 rounded bg-p3-red/10 text-p3-red text-[10px] font-bold align-text-bottom">+</span>{en ? '' : ' tippen'}
       </p>
     </div>
   )

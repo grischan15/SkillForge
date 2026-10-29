@@ -25,3 +25,4 @@ dist-ssr
 
 # Architecture exports (moved to other projects)
 JobForge_Architektur_*.md
+.template-checked

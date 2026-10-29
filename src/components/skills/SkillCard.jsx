@@ -1,6 +1,12 @@
 import { useState } from 'react'
 import { useDraggable } from '@dnd-kit/core'
 import { motion } from 'framer-motion'
+import { useLang } from '../../i18n/LanguageContext'
+
+const TEXT = {
+  de: { level: (l) => `Level ${l} von 5`, add: (n) => `${n} zur Schmiede hinzufügen`, addTitle: 'Zur Schmiede hinzufügen', inForge: 'In der Schmiede', less: '▲ Weniger', more: '▼ Nachweise anzeigen' },
+  en: { level: (l) => `Level ${l} of 5`, add: (n) => `Add ${n} to the forge`, addTitle: 'Add to the forge', inForge: 'In the forge', less: '▲ Less', more: '▼ Show evidence' },
+}
 
 const clusterBorderMap = {
   'engineering': 'border-l-cluster-engineering',
@@ -12,8 +18,9 @@ const clusterBorderMap = {
 }
 
 function LevelStars({ level }) {
+  const { lang } = useLang()
   return (
-    <span className="flex gap-0.5" aria-label={`Level ${level} von 5`}>
+    <span className="flex gap-0.5" aria-label={TEXT[lang].level(level)}>
       {[1, 2, 3, 4, 5].map(i => (
         <span key={i} className={`text-xs ${i <= level ? 'text-p3-red' : 'text-border'}`}>
           ★
@@ -25,6 +32,8 @@ function LevelStars({ level }) {
 
 export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, index }) {
   const [showEvidence, setShowEvidence] = useState(false)
+  const { lang } = useLang()
+  const t = TEXT[lang]
 
   const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
     id: skill.id,
@@ -75,8 +84,8 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
                 transition-colors duration-normal
                 min-h-[32px] min-w-[32px] cursor-pointer
               "
-              aria-label={`${skill.name} zur Schmiede hinzufuegen`}
-              title="Zur Schmiede hinzufuegen"
+              aria-label={t.add(skill.name)}
+              title={t.addTitle}
             >
               +
             </button>
@@ -94,7 +103,7 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
 
         {isForged && (
           <span className="inline-block mt-2 text-xs text-p3-green font-medium">
-            In der Schmiede
+            {t.inForge}
           </span>
         )}
       </div>
@@ -122,7 +131,7 @@ export default function SkillCard({ skill, isForged, onTapAdd, reducedMotion, in
           }}
           className="w-full px-4 py-2 text-xs text-ink-muted text-left border-t border-border-light hover:bg-container/50 transition-colors cursor-pointer min-h-[36px]"
         >
-          {showEvidence ? '▲ Weniger' : '▼ Nachweise anzeigen'}
+          {showEvidence ? t.less : t.more}
         </button>
         {showEvidence && skill.evidence.length > 0 && (
           <div className="px-4 pb-3">

@@ -1,3 +1,4 @@
+import { useLang } from '../../i18n/LanguageContext'
 const clusterColorMap = {
   'engineering': 'border-cluster-engineering text-cluster-engineering bg-cluster-engineering-bg',
   'leadership': 'border-cluster-leadership text-cluster-leadership bg-cluster-leadership-bg',
@@ -18,16 +19,18 @@ const clusterDescColorMap = {
 
 export default function ClusterTabs({ clusters, activeCluster, onSelect }) {
   const active = clusters.find(c => c.id === activeCluster)
+  const { lang } = useLang()
+  const heading = lang === 'en' ? '6 competence areas' : '6 Kompetenz-Bereiche'
 
   return (
     <div className="mb-4 rounded-xl border border-border-light bg-white p-3">
       <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">
-        6 Kompetenz-Bereiche
+        {heading}
       </p>
       <nav
         className="flex flex-wrap gap-1.5"
         role="tablist"
-        aria-label="Kompetenz-Bereiche"
+        aria-label={heading}
       >
         {clusters.map(cluster => {
           const isActive = cluster.id === activeCluster

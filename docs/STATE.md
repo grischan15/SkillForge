@@ -1,6 +1,6 @@
 # STATE.md – SkillForge
 
-## Version: 0.6.4 (Skills- und Rollen-Update aus Jobhunt)
+## Version: 0.7.0 (Englische Version)
 
 ## Status: 2-Spalten-Layout mit grosser Schmiede-Sidebar, Rollen volle Breite darunter, Kontakt-CTAs im Stellenprofil
 
@@ -51,6 +51,14 @@
 - [x] Footer: LinkedIn prominent als eigener Button mit Icon (statt verstecktem Textlink)
 - [x] Landing-Reihenfolge: Proof Points → CTA → Kompetenz-Bereiche → Werte/Staerken
 - [x] Hover-Tooltips auf Werte- und Staerken-Pills (Desktop)
+- [x] Zweisprachig DE/EN: Sprachschalter im Header, Link `?lang=en`, sonst gespeicherte Wahl bzw. Browsersprache
+
+### Aenderungen v0.6.4 → v0.7.0
+- **Sprach-Kern:** src/i18n/LanguageContext.jsx (Provider, `useLang()`, setzt html lang, Titel, Meta-Description, URL-Parameter), src/components/shared/LanguageSwitch.jsx (DE/EN, 44px)
+- **Daten-Overlay:** src/data/i18n/en/{skills,roles,clusters}.json nach id, src/i18n/content.js legt sie ueber die deutschen Daten (Fallback Deutsch)
+- **UI-Texte:** alle Komponenten mit `TEXT = { de, en }`; WhatsApp- und E-Mail-Vorlagen im JobAdModal je Sprache
+- **Pruefung:** `npm run check:i18n` (scripts/check-i18n.mjs) meldet fehlende oder veraltete englische Eintraege
+- **Englische Inhalte:** KI-uebersetzt (37 Skills, 101 Rollen, 6 Bereiche), noch nicht von Christian gegengelesen
 
 ### Aenderungen v0.6.3 → v0.6.4
 - **Datenquelle:** Jobhunt/35_scoring_data_jobhunt/ (clusters, skills, roles)

@@ -1,0 +1,1015 @@
+{
+  "eng-nvh": {
+    "name": "NVH/Acoustics Engineering",
+    "levelLabel": "Expert",
+    "keyMetric": "15+ years, built up a department, trade secret",
+    "evidence": [
+      "Built the NVH/acoustics area in the turbocharger product line from scratch (Continental internal appraisal)",
+      "Line and functional management of 4 employees at the Regensburg site (Vitesco final reference letter)",
+      "Cross-departmental responsibility for NVH and acoustics (Vitesco final reference letter)",
+      "Verified a trade secret and implemented it in GM's global development process (GM reference letter)",
+      "NVH expertise sought across divisions, initiated networks (Continental internal appraisal)"
+    ],
+    "positions": [
+      {
+        "role": "NVH Engineer",
+        "company": "GM Powertrain",
+        "period": "07/2006-03/2012",
+        "context": "Verified a trade secret and implemented it in GM's global development process"
+      },
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Built the NVH/acoustics area in the turbocharger product line from scratch, initiated cross-divisional networks"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Line and functional management of 4 employees at the Regensburg site, cross-departmental NVH responsibility"
+      }
+    ]
+  },
+  "eng-product": {
+    "name": "Product Development",
+    "levelLabel": "Advanced",
+    "keyMetric": "Full lifecycle, budget responsibility for Asia",
+    "evidence": [
+      "Turbocharger development for global OEMs across several career levels (Vitesco final reference letter)",
+      "Budget responsibility for development activities in the Asia region (Continental interim reference letter)",
+      "Built local departments: application design, validation, testing, prototypes (Continental interim reference letter)",
+      "Successful launch of the tear-down and prototype shop (Continental interim reference letter)",
+      "Presented development topics to customers (Vitesco final reference letter)"
+    ],
+    "positions": [
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Budget responsibility for development activities in the Asia region, built local departments and prototype shop"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Turbocharger development for global OEMs, presented development topics to customers"
+      }
+    ]
+  },
+  "eng-cad": {
+    "name": "CAD & Simulation",
+    "levelLabel": "Proficient",
+    "keyMetric": "Dipl.-Ing. Physics, acoustic measurement technology",
+    "evidence": [
+      "Dipl.-Ing. (German engineering diploma) in Physical Technology, FH Giessen-Friedberg 2007 (degree certificate)",
+      "Programmed calculation routines at GM Powertrain (GM reference letter)",
+      "Maintenance, further development and new development of measurement methods and procedures (GM reference letter)",
+      "Acoustic measurement systems: PAK, NVH test bench software (GM/TL Engineering reference letter)",
+      "Detailed optimization of acoustic properties in cost-reduction projects (TL Engineering reference letter)"
+    ],
+    "positions": [
+      {
+        "role": "NVH Engineer",
+        "company": "GM Powertrain",
+        "period": "07/2006-03/2012",
+        "context": "Programmed calculation routines, developed measurement methods and NVH test bench software"
+      }
+    ]
+  },
+  "eng-sixsigma": {
+    "name": "Six Sigma & DFSS",
+    "levelLabel": "Advanced",
+    "keyMetric": "DFSS at Continental, statistical analysis",
+    "evidence": [
+      "Design for Six Sigma (DFSS) training at Continental (internal training)",
+      "Training completed with exemplary results, knowledge applied in practice (Vitesco final reference letter)",
+      "Statistical analysis as part of NVH validation processes (Vitesco final reference letter)",
+      "Interface optimization between Europe and Asia (Continental interim reference letter)",
+      "Process improvement and quality assurance in turbocharger development (Vitesco final reference letter)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Completed Design for Six Sigma training and applied the knowledge in practice"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Interface optimization between Europe and Asia"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Statistical analysis in NVH validation processes, process improvement in turbocharger development"
+      }
+    ]
+  },
+  "lead-team": {
+    "name": "Team Building & Leadership",
+    "levelLabel": "Expert",
+    "keyMetric": "Up to 17 employees, 3 continents, top grade (1)",
+    "evidence": [
+      "Built a 17-person engineering team in Shanghai (Continental interim reference letter)",
+      "Line management at the Regensburg site (Vitesco final reference letter — the final reference letter also covers the Continental years before the carve-out; the Shanghai assignment belongs to Continental)",
+      "Leadership ability top grade (1) and social behavior top grade (1) (Continental internal appraisal)",
+      "Team exceeded expectations to a high degree (Vitesco final reference letter)",
+      "Developed a local successor as head of development (Continental interim reference letter)",
+      "Built 4 departments in Shanghai: application design, validation, testing, prototypes — including customer negotiations and steering committee presentations (Continental interim reference letter)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Leadership ability top grade (1), built and led the NVH team"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Built a 17-person engineering team in Shanghai, developed a local successor"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Line management at the Regensburg site, team exceeded expectations"
+      }
+    ]
+  },
+  "lead-international": {
+    "name": "International Leadership",
+    "levelLabel": "Expert",
+    "keyMetric": "2 years Shanghai, teams in DE/CN",
+    "evidence": [
+      "2 years as Senior Engineering Manager at the Shanghai/China site at Continental (08/2017-08/2019; documented in the Vitesco final reference letter, which also covers the Continental years)",
+      "Responsible for turbocharger development activities in the Asia region (Continental interim reference letter)",
+      "Interface management between Europe and Asia (Continental interim reference letter)",
+      "Mediated between cultural differences in teams and with customers (Continental interim reference letter)",
+      "Investigated employee retention in the context of economic and social conditions (Continental interim reference letter)"
+    ],
+    "positions": [
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "2 years as Senior Engineering Manager in Shanghai, Europe-Asia interface management, intercultural mediation"
+      }
+    ]
+  },
+  "lead-change": {
+    "name": "Change Management",
+    "levelLabel": "Advanced",
+    "keyMetric": "Vitesco spin-off, mindset campaign",
+    "evidence": [
+      "Managed Vitesco spin-off communication as Head of Communication (Vitesco final reference letter)",
+      "Developed a mindset campaign for the product line (Continental internal appraisal)",
+      "Adapted communication processes and provided training during organizational changes (Vitesco final reference letter)",
+      "Contributed peer consulting to the benefit of the product line (Continental internal appraisal)",
+      "Coordinated the strategic direction of the product line across all regions (Vitesco final reference letter)",
+      "Held strategic responsibility for the Vitesco rebranding after the carve-out from Continental and implemented it (Head of Communication)",
+      "Leadership script: developed and implemented a structured leadership guide (Doehler CV)",
+      "Peer consulting as an escalation-avoidance process: managers' disciplinary/functional issues and role/department conflicts worked through in a structured way before top-management decisions (Continental internal appraisal)",
+      "Leadership script as a living document: defined how leaders at all levels navigate the post-carve-out reality — applied daily, not archived (Vitesco Head of Communication)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Developed a mindset campaign for the product line, contributed peer consulting"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Adapted communication processes during organizational changes, coordinated strategic direction"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "02/2021-06/2021",
+        "context": "Held strategic responsibility for and communicated the Vitesco spin-off and rebranding after the carve-out from Continental"
+      }
+    ]
+  },
+  "lead-stakeholder": {
+    "name": "Stakeholder Management",
+    "levelLabel": "Advanced",
+    "keyMetric": "Head of Communication, highly valued by customers",
+    "evidence": [
+      "Head of Communication, Business Development at Vitesco/Continental (Vitesco final reference letter)",
+      "Reviewed all internal and external publications of the product line (Vitesco final reference letter)",
+      "Independently created townhall, tech day and strategy presentations (Vitesco final reference letter)",
+      "Highly valued by customers and business partners (Vitesco final reference letter + GM reference letter)",
+      "Represented the product line at customer strategy and business unit conferences (Vitesco final reference letter)",
+      "Cross-disciplinary translation ability: speaks the language of engineers, executives, coaches and data analysts — connects forces that usually talk past each other (Merck application/self-assessment)"
+    ],
+    "positions": [
+      {
+        "role": "NVH Engineer",
+        "company": "GM Powertrain",
+        "period": "07/2006-03/2012",
+        "context": "Highly valued by customers and business partners"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Represented the product line at customer strategy and business unit conferences"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "02/2021-06/2021",
+        "context": "Reviewed all publications, independently created townhall and strategy presentations"
+      },
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Cross-disciplinary bridge function: engineering background, coaching depth and AI competence as an integrated toolkit"
+      }
+    ]
+  },
+  "lead-orgdev": {
+    "name": "Organizational Development",
+    "levelLabel": "Advanced",
+    "keyMetric": "Built departments, peer consulting",
+    "evidence": [
+      "Built the NVH area as a greenfield in the product line (Continental internal appraisal)",
+      "Built the Asia development site with 4 departments (Continental interim reference letter)",
+      "Established a peer consulting framework in the product line (Continental internal appraisal)",
+      "Initiated cross-divisional NVH networks (Continental internal appraisal)",
+      "Coordinated employee training and knowledge transfer (Continental interim reference letter)",
+      "Values and culture development as a consistent focus at Continental/Vitesco — from department level to product line (Continental/Vitesco reference letters)",
+      "The product line's steering committee gave an explicit mandate to transfer his own leadership approach to the entire product line — peer consulting, mindset campaigns, structured conflict resolution as cultural infrastructure (Continental/Vitesco)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Built the NVH area as a greenfield, established the peer consulting framework, initiated cross-divisional networks"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Built the Asia development site with 4 departments, coordinated employee training"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "02/2021-06/2021",
+        "context": "Steering committee mandate: scaled his own leadership approach to the entire product line"
+      }
+    ]
+  },
+  "lead-social": {
+    "name": "Social Competence & Group Dynamics",
+    "levelLabel": "Advanced",
+    "keyMetric": "Social behavior top grade (1), peer consulting",
+    "evidence": [
+      "Far above-average social competence and knowledge of group dynamics (Continental internal appraisal)",
+      "Social behavior top grade (1) in internal appraisal (Continental internal appraisal)",
+      "Created an atmosphere of trust and openness, exemplary at all times (Vitesco final reference letter)",
+      "Cooperative, confident and courteous demeanor (Continental interim reference letter)",
+      "Contributed mindset campaign and peer consulting to the benefit of the organization (Continental internal appraisal)",
+      "Peer consulting as a structured process: escalation avoidance in conflicts between managers, across role and department boundaries, before top-management escalation (Continental internal appraisal)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Social behavior top grade (1), contributed peer consulting and mindset campaign"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Cooperative and courteous demeanor in an intercultural context"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Created an atmosphere of trust and openness, exemplary at all times"
+      }
+    ]
+  },
+  "coach-stgallen": {
+    "name": "St. Gallen Coaching Model",
+    "levelLabel": "Master",
+    "keyMetric": "387 teaching units, 6 diplomas, ISO 17024",
+    "evidence": [
+      "Master of Business Coaching, 387 teaching units over 2 years (Coach Akademie Schweiz diploma)",
+      "6 diplomas: Coach, TeamCoach, BusinessCoach, LeadershipCoach, Master of Coaching, M.B.C. (CAS diplomas)",
+      "Model with 5 dimensions, scientifically validated three times over (CAS diplomas)",
+      "ISO 17024 and ICI certified (CAS diplomas)",
+      "4.96/5.0 across 30 verified reviews (ProvenExpert)",
+      "2,200+ coaching hours with executives, founders and teams (P3-Coaching practice experience)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Master of Business Coaching with 387 teaching units, 6 diplomas, ISO 17024 certification, 2,200+ coaching hours, 4.96/5.0 client rating"
+      }
+    ]
+  },
+  "coach-hypno": {
+    "name": "Hypnosystemic Communication",
+    "levelLabel": "Advanced",
+    "keyMetric": "Milton Erickson, trance work",
+    "evidence": [
+      "Milton language patterns in the Master of Coaching curriculum (CAS Master of Coaching diploma)",
+      "Inducing and guiding linear trance states (CAS Master of Coaching diploma)",
+      "Clients report intense trance experiences: 'super surprised how intense' (Aaron Solbrig, ProvenExpert)",
+      "Systemic communication with unconscious personality parts (CAS diploma)",
+      "Integration of hypnosis into business coaching, clients engage despite skepticism (Tabea M., ProvenExpert)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Applied Milton language patterns and trance work in coaching, verified by client feedback"
+      }
+    ]
+  },
+  "coach-values": {
+    "name": "Values Coaching",
+    "levelLabel": "Expert",
+    "keyMetric": "4.96/5.0, 100% recommendation",
+    "evidence": [
+      "4.96/5.0 verified customer rating, 30 reviews, 100% recommendation (ProvenExpert)",
+      "Values-oriented systemic coaching approach as core methodology (6 CAS diplomas)",
+      "Clients report rediscovering their personal values (Aaron Solbrig, ProvenExpert)",
+      "CEO of Karoka AG: 'since the coaching I live my value more strongly and consciously' (Roman Kalberer, ProvenExpert)",
+      "Values development and integration as a service (P3 corporate culture brochure)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Values-oriented systemic coaching approach as core methodology, 4.96/5.0 rating with 100% recommendation rate"
+      }
+    ]
+  },
+  "coach-team": {
+    "name": "Team Coaching",
+    "levelLabel": "Advanced",
+    "keyMetric": "TeamCoach diploma, constellation work",
+    "evidence": [
+      "Diploma in Values-Oriented Systemic TeamCoach, 53 teaching units (CAS diploma)",
+      "Curriculum: systemic constellations, vision and identity processes (CAS diploma)",
+      "St. Gallen TeamCoaching model: goal-space and problem-space work in teams (CAS diploma)",
+      "Contributed peer consulting in the turbocharger product line (Continental internal appraisal)",
+      "Diversity team development as a service (P3 corporate culture brochure)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Contributed peer consulting in the turbocharger product line"
+      },
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "TeamCoach diploma, systemic constellations and diversity team development as a service"
+      }
+    ]
+  },
+  "coach-nature": {
+    "name": "Nature Coaching",
+    "levelLabel": "Proficient",
+    "keyMetric": "Outdoor setting, experiential education",
+    "evidence": [
+      "Nature-based coaching approach, clients report a revelation (Aaron Solbrig, ProvenExpert)",
+      "Outdoor setting: freedom and boundlessness vs. enclosed rooms (Aaron Solbrig, ProvenExpert)",
+      "Integrated experiential education elements (P3 profile)",
+      "Christian's nature-based approach allowed a deeper dive (Tabea M., ProvenExpert)",
+      "Outdoor coaching as a deliberate quality feature, mentioned repeatedly in reviews (ProvenExpert)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Nature-based coaching approach as a quality feature, outdoor settings with experiential education elements"
+      }
+    ]
+  },
+  "coach-neuro": {
+    "name": "Neurodivergence Coaching",
+    "levelLabel": "Proficient",
+    "keyMetric": "Methods adapted for ADHD/HSP",
+    "evidence": [
+      "Developed ADHD Framework v2.0: neurobiological foundation and practical adaptation (Vita NeuroMethodik)",
+      "Fractionated trance formats for neurodivergent clients (Vita NeuroMethodik)",
+      "Implemented neurodivergence-friendly design patterns in own projects (SkillForge/NeuroForge)",
+      "Hypnosis adaptations for ADHD: shorter inductions, multisensory (Vita NeuroMethodik)",
+      "Own ADHD/HSP experience as a foundation (P3 profile)",
+      "Neurodivergence-optimized design patterns now implemented in live products, not just prototypes (KW_Markencheck/p3-coaching-crm)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Developed an ADHD framework, fractionated trance formats and hypnosis adaptations for neurodivergent clients"
+      },
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "Implemented neurodivergence-friendly design patterns in SkillForge/NeuroForge"
+      }
+    ]
+  },
+  "coach-leadership-dev": {
+    "name": "Leadership Development",
+    "levelLabel": "Advanced",
+    "keyMetric": "LeadershipCoach diploma, Leadership Forum",
+    "evidence": [
+      "Diploma in Values-Oriented Systemic LeadershipCoach, 53 teaching units (CAS diploma)",
+      "Continental Leadership Forum: 4 modules, 8 days, leadership competence development (certificate of attendance)",
+      "Curriculum: neurological levels in leadership, leadership tools (CAS LeadershipCoach diploma)",
+      "Values-oriented leadership in context as a service (P3 corporate culture brochure)",
+      "Peer consulting and collegial advice for executives (Leadership Forum + Continental appraisal)",
+      "Developed and implemented a leadership script at Vitesco: structured guide for leadership at all levels in the post-carve-out context (Head of Communication)",
+      "Internal systemic coach for managers at all levels — including well above his own leadership level — since Group Leader Acoustics (Continental internal appraisal)",
+      "Codified own coaching and mindset methodology in AI tools: CRM comment assistant with own voice and guardrails (p3-coaching-crm)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Completed the Continental Leadership Forum, established peer consulting, internal systemic coach for managers, including those above his own leadership level"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "02/2021-06/2021",
+        "context": "Developed and implemented a leadership script: structured leadership guide for the post-carve-out period"
+      },
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "LeadershipCoach diploma, values-oriented leadership as a coaching service"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Internal coach and peer consulting for managers at all levels of the product line"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Internal leadership development in an intercultural context, employee retention and succession development"
+      }
+    ]
+  },
+  "ai-agentic": {
+    "name": "Agentic AI & Multi-Agent Orchestration",
+    "levelLabel": "Advanced",
+    "keyMetric": "Headless Claude control, subagent waves, 3 production systems",
+    "evidence": [
+      "HTTP/SSE service spawns the Claude Code CLI headless as a subprocess and orchestrates AI workflows programmatically, content-agnostic, 46 tests passing (claude-bridge)",
+      "5-phase meta-workflow with subagent orchestration and per-task model annotation (Haiku/Sonnet/Opus), including an Opus redundancy audit as a gate (01_template-evolution)",
+      "Indeed enrichment runs in a spawned claude-p session and delivers full job-posting text to the scoring pipeline (Jobhunt)",
+      "Multi-tenant agent routing via namespace (jobhunt vs. crm) on a single bridge instance (claude-bridge)",
+      "Model choice by determinism requirement per agent — Haiku for mechanical steps, Opus for audit and synthesis steps (01_template-evolution)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "Headless agent orchestration: claude-bridge spawns the Claude CLI as a subprocess via HTTP/SSE, template-evolution orchestrates subagent waves with model annotation, the Jobhunt pipeline enriches via a spawned claude session"
+      }
+    ]
+  },
+  "ai-llm": {
+    "name": "LLM Integration & Multi-Provider",
+    "levelLabel": "Advanced",
+    "keyMetric": "Gemini/Mistral/Claude, grounding, A/B benchmark, 5 AI surfaces",
+    "evidence": [
+      "5 production AI surfaces using Gemini 2.0 Flash, Mistral Large and Claude via proxy, with automatic fallback on 429/5xx (p3-coaching-crm)",
+      "Grounded web research via the Gemini google-search tool with an anchor gate for LinkedIn and website validation (p3-coaching-crm)",
+      "A/B benchmark logging of Gemini vs. Mistral on generated texts, persisted as an audit trail (p3-coaching-crm)",
+      "Asynchronous research polling via database status (running/error/empty) instead of volatile client state (p3-coaching-crm)",
+      "Anthropic SDK edge function (Deno) as a global chat fallback without an API key in the frontend (p3-coaching-crm)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "Multi-provider LLM engineering in the production CRM: 5 AI surfaces with Gemini, Mistral and Claude, grounding, automatic fallback and benchmark logging"
+      }
+    ]
+  },
+  "ai-saas": {
+    "name": "Full-Stack SaaS to Production",
+    "levelLabel": "Advanced",
+    "keyMetric": "Live B2B SaaS, paying customer, RBAC + multi-tenancy",
+    "evidence": [
+      "B2B SaaS KW Markencheck live at apps.kreationswerk.io since 06/2026 with at least one paying customer (KW_Markencheck)",
+      "React 19 / Vite 7 / Tailwind 4 frontend against serverless Supabase, edge function for privileged operations (KW_Markencheck)",
+      "4-role RBAC with a double security layer (RLS + frontend gating) and privilege-escalation protection, 0 critical advisor findings (KW_Markencheck)",
+      "Cohort-based lifecycle and billing model: repeat locks, freemium cap, configurable prices per product (KW_Markencheck)",
+      "Deploy pipeline with automatic secret scan before every upload, fail-closed (KW_Markencheck)",
+      "482 commits from architecture to live deployment, live since 06/2026 (KW_Markencheck)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "Full-stack SaaS from idea to production: KW Markencheck live with a paying customer, React 19 and serverless Supabase, RBAC, lifecycle and billing, deploy with secret scan"
+      }
+    ]
+  },
+  "ai-claude": {
+    "name": "Claude Code CLI / AI Pair Programming",
+    "levelLabel": "Expert",
+    "keyMetric": "24 projects, ~4,400 commits, ~320k LOC, own templates & skills",
+    "evidence": [
+      "24 projects built with Claude Code: ~4,400 commits, ~320,000 lines of versioned code (verifiable in Git)",
+      "Standardized temporal documentation architecture CLAUDE.md/STATE.md/ROADMAP.md across all projects (002_project_template)",
+      "Own project template system with conventions, skills and hooks (002_project_template)",
+      "Own Claude Code skills and agents with p3 prefix: deploy, design QA, brand-context and product-context sync, template evolution (own skills)",
+      "40 months of intensive use, iterated own workflows and patterns (Git history)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "40 months of AI pair programming with Claude Code: 24 projects, ~4,400 commits, ~320,000 lines of code, own template system and own p3 skills and agents"
+      }
+    ]
+  },
+  "ai-prompt": {
+    "name": "Prompt Engineering",
+    "levelLabel": "Advanced",
+    "keyMetric": "Multi-provider prompts, brand voice guardrails, transparency layer",
+    "evidence": [
+      "Built systematic prompt libraries in 10+ projects (Git)",
+      "Brand-voice-driven prompts with strict guardrails against AI-sounding text and with metaphor rules (p3-coaching-crm)",
+      "AI transparency layer: prompts are mirrored live from the actual prompt builders (p3-coaching-crm)",
+      "Nunjucks template prompts with dynamic context for headless agents (claude-bridge)",
+      "Neurodivergence-optimized prompting: short contexts, clear structures (own projects)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "Prompt engineering across 10+ projects: brand-voice-driven prompts with guardrails, multi-provider design and a live transparency layer"
+      }
+    ]
+  },
+  "ai-automation": {
+    "name": "AI Automation (n8n)",
+    "levelLabel": "Advanced",
+    "keyMetric": "6 n8n workflows live, end-to-end pipeline, Telegram control",
+    "evidence": [
+      "6 n8n workflows in production: three job sources (Arbeitsagentur, Arbeitnow, JSearch) into Supabase plus Telegram control (Jobhunt), tasks via webhook (Covey), DB keepalive with backup (p3-coaching-crm)",
+      "Orchestrated an end-to-end pipeline: scraping to scoring to enrichment to export (Jobhunt)",
+      "API integration: JSearch, Arbeitsagentur API, LLM scoring (Jobhunt)",
+      "Telegram bot as user interface: job notifications with inline keyboards, webhook to Supabase edge function (Jobhunt)",
+      "Schedule triggers, error handling and retry logic in all workflows (n8n)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "End-to-end AI automation: 6 n8n workflows live; pipeline from scraping through scoring and enrichment to export; Telegram bot as control and notification interface"
+      }
+    ]
+  },
+  "ai-backend": {
+    "name": "Backend & Infrastructure (Supabase)",
+    "levelLabel": "Advanced",
+    "keyMetric": "RLS across 4 projects, edge functions, versioning",
+    "evidence": [
+      "Supabase edge functions (Deno/TypeScript) across three projects: webhooks, admin-manage-user, scoring and enrichment (KW_Markencheck/Jobhunt/p3-coaching-crm)",
+      "Database schema design: 15+ tables in Markencheck, 16 in the CRM, versioned migration system (KW_Markencheck/Jobhunt)",
+      "RLS policies and SECURITY DEFINER functions against privilege escalation, 0 critical advisor findings (KW_Markencheck)",
+      "Versioned question catalogs and audit trail via status events (KW_Markencheck)",
+      "PostgREST integration in React dashboards and n8n workflows (Jobhunt/p3-coaching-crm)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "Supabase backend across four projects: edge functions, 15+ tables, migration versioning, RLS and audit trails"
+      }
+    ]
+  },
+  "ai-local": {
+    "name": "Local AI & Image Generation",
+    "levelLabel": "Proficient",
+    "keyMetric": "ComfyUI/SD local, LoRA training, Ollama/LM Studio",
+    "evidence": [
+      "Set up and operated local ComfyUI/Stable Diffusion systems (own infrastructure)",
+      "Performed LoRA training for custom models (own projects)",
+      "Set up Ollama and LM Studio for local LLMs (own infrastructure)",
+      "Developed multi-model verification strategies (own workflows)",
+      "Optimized the hardware setup for local AI inference (own infrastructure)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "Built local AI infrastructure with ComfyUI, Ollama and LM Studio, performed LoRA training"
+      }
+    ]
+  },
+  "biz-startup": {
+    "name": "Start-up Consulting",
+    "levelLabel": "Advanced",
+    "keyMetric": "Certified, successfully guided clients",
+    "evidence": [
+      "Certified business start-up consultant (Existenzgruendungsberater), 12-month training (gruenderberatungen.de certificate)",
+      "10-step program: from founder personality to financial planning (certificate)",
+      "Successful tandem consulting with 4 clients alongside experienced consultants (certificate)",
+      "Laura Riesinger: 'complete business plan in 1.5 weeks, 100% reliable' (ProvenExpert)",
+      "Andreas Schneider: 'takes care of everything, points absolutely understandable' (ProvenExpert)",
+      "Guided a structured founding decision including timing and scope (certified business start-up consultant certificate)",
+      "Market and target group analysis as part of start-up consulting (certified business start-up consultant certificate)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Certified business start-up consultant, tandem consulting with 4 clients, verified by ProvenExpert reviews"
+      },
+      {
+        "role": "Start-up Consultant",
+        "company": "gruenderberatungen.de (self-employed)",
+        "period": "06/2022-12/2023",
+        "context": "Structured founding decision including timing and scope, market and target group analysis, tandem consulting"
+      }
+    ]
+  },
+  "biz-digital-product": {
+    "name": "Digital Product Development & SaaS",
+    "levelLabel": "Advanced",
+    "keyMetric": "Own B2B SaaS from idea to live with a paying customer",
+    "evidence": [
+      "Conceived, built and launched KW Markencheck as an own B2B SaaS product — including a paying customer (KW_Markencheck)",
+      "Designed the lifecycle and pricing model myself: cohorts, repeat locks, freemium cap, price tiers (KW_Markencheck)",
+      "Built p3-coaching-crm as an own internal business tool, in daily productive use (p3-coaching-crm)",
+      "Developed the Jobhunt AI pipeline end-to-end as a standalone, automated product (Jobhunt)",
+      "Took sole responsibility from product idea through architecture to go-to-market (own projects)"
+    ],
+    "positions": [
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "End-to-end digital product development: KW Markencheck as a live B2B SaaS, p3-coaching-crm as an internal tool, Jobhunt pipeline as an automated product"
+      }
+    ]
+  },
+  "biz-karriere": {
+    "name": "Career Consulting",
+    "levelLabel": "Proficient",
+    "keyMetric": "Career reorientation, coaching",
+    "evidence": [
+      "Aaron Solbrig (SAP/SCRUM Master): career reorientation successfully guided (ProvenExpert)",
+      "Daniel Janzen: 'decisive for professional and personal success' (ProvenExpert)",
+      "Ina Simeonova: 'advised on professional and personal topics, connection to experts' (ProvenExpert)",
+      "TM: guided a structured founding decision including timing and scope (ProvenExpert)",
+      "Coaching profile includes executive coaching and life coaching (qualification profile)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Career reorientation and executive coaching, verified by ProvenExpert reviews"
+      },
+      {
+        "role": "Start-up Consultant",
+        "company": "gruenderberatungen.de (self-employed)",
+        "period": "06/2022-12/2023",
+        "context": "Guided the founding decision as a career decision — timing, scope, personal fit"
+      }
+    ]
+  },
+  "biz-market": {
+    "name": "Market Analysis & Strategy",
+    "levelLabel": "Proficient",
+    "keyMetric": "Business development, strategy approaches",
+    "evidence": [
+      "Responsible for all strategic studies of the product line (Vitesco final reference letter)",
+      "Prepared the content of market analyses and strategy approaches (Vitesco final reference letter)",
+      "Participated in customer strategy and business unit strategy conferences (Vitesco final reference letter)",
+      "Defined the strategic direction of the product line across all regions (Vitesco final reference letter)",
+      "Market and target group analysis as part of start-up consulting (certified business start-up consultant certificate)",
+      "Built brand positioning and target group diagnostics as a working product (KW_Markencheck/P3-marke-positionierung)"
+    ],
+    "positions": [
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Responsible for strategic studies, market analyses and strategy approaches of the product line"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "02/2021-06/2021",
+        "context": "Participated in customer strategy and business unit conferences, strategic direction across all regions"
+      },
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Market and target group analysis as part of start-up consulting"
+      },
+      {
+        "role": "Start-up Consultant",
+        "company": "gruenderberatungen.de (self-employed)",
+        "period": "06/2022-12/2023",
+        "context": "Market analysis, competitor analysis and target group definition as a fixed part of start-up consulting"
+      }
+    ]
+  },
+  "biz-communication": {
+    "name": "Corporate Communication",
+    "levelLabel": "Advanced",
+    "keyMetric": "Head of Communication, global strategy",
+    "evidence": [
+      "Head of Communication, Business Development at Vitesco/Continental (Vitesco final reference letter)",
+      "Responsible for all communication topics of the product line and site (Vitesco final reference letter)",
+      "Reviewed all internal and external publications, including approval workflows (Vitesco final reference letter)",
+      "Independently created townhall, tech day and strategy presentations (Vitesco final reference letter)",
+      "Supported global sites with communication and publications (Vitesco final reference letter)",
+      "Developed a communication strategy for the product line's search for identity during the Continental carve-out — a narrative that gave orientation in uncertainty (Vitesco Head of Communication)",
+      "Developed AI-supported brand voice consistency tools (P3-marke-positionierung engine, CRM Brand Voice v4.0)"
+    ],
+    "positions": [
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Co-responsible for the product line's communication topics"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "02/2021-06/2021",
+        "context": "Responsible for all internal and external publications, townhall and strategy presentations"
+      }
+    ]
+  },
+  "did-mint": {
+    "name": "STEM Teaching",
+    "levelLabel": "Advanced",
+    "keyMetric": "Dipl.-Ing. Physics, practical relevance",
+    "evidence": [
+      "Dipl.-Ing. in Physical Technology as a solid STEM foundation (university of applied sciences diploma 2007)",
+      "15+ years of industry experience as authentic practical relevance (Vitesco/Continental/GM reference letters)",
+      "Integrated neuroscience-based learning methods into the education context (Vita NeuroMethodik)",
+      "Transferred experiential education approaches from coaching into teaching (P3 profile)",
+      "Systematically applied spaced repetition and embodied learning (Vita NeuroMethodik)",
+      "AI-supported lesson and material preparation in the STEM context (ESS Darmstadt)"
+    ],
+    "positions": [
+      {
+        "role": "NVH Engineer",
+        "company": "GM Powertrain",
+        "period": "07/2006-03/2012",
+        "context": "Industry experience as authentic practical relevance for STEM teaching"
+      },
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Industry experience as authentic practical relevance for STEM teaching"
+      },
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Transferred experiential education approaches from coaching into teaching"
+      },
+      {
+        "role": "Teacher, Physics & Math",
+        "company": "ESS Darmstadt",
+        "period": "12/2023-06/2026",
+        "context": "Applied neuroscience-based learning methods and spaced repetition in STEM teaching"
+      }
+    ]
+  },
+  "did-neuro": {
+    "name": "Neuroscience-Based Methodology",
+    "levelLabel": "Advanced",
+    "keyMetric": "NSDR, spaced repetition, embodied learning",
+    "evidence": [
+      "NSDR as an integral part of hypnosystemic work (Vita NeuroMethodik)",
+      "Spaced repetition as a neurobiologically grounded coaching principle (Vita NeuroMethodik)",
+      "Embodied learning: perception, emotion and movement interconnected (Vita NeuroMethodik)",
+      "Critically evaluated polyvagal theory, clearly stated its limits (Vita NeuroMethodik)",
+      "Scientific grounding: cites Hebb, Fields, Gallagher (Vita NeuroMethodik)",
+      "SkillForge — AI-supported, neurodivergence-optimized learning app with spaced repetition as working software (SkillForge)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Developed NSDR, spaced repetition and embodied learning as neurobiologically grounded coaching principles"
+      },
+      {
+        "role": "Teacher, Physics & Math",
+        "company": "ESS Darmstadt",
+        "period": "12/2023-06/2026",
+        "context": "Applied neuroscience-based methods in the classroom"
+      },
+      {
+        "role": "AI Expert",
+        "company": "Own projects",
+        "period": "since 06/2023",
+        "context": "SkillForge — AI-supported, neurodivergence-optimized learning app with spaced repetition as working software"
+      }
+    ]
+  },
+  "did-adult": {
+    "name": "Adult Education",
+    "levelLabel": "Proficient",
+    "keyMetric": "Coaching-based training, peer consulting",
+    "evidence": [
+      "Continental Leadership Forum: collegial advice and networking (certificate of attendance)",
+      "Established peer consulting methodology in the product line (Continental internal appraisal)",
+      "Coordinated employee training in Shanghai (Continental interim reference letter)",
+      "Taught knowledge about internal processes (Continental interim reference letter)",
+      "Coaching-based adult education via P3-Coaching (ProvenExpert reviews)",
+      "Participant feedback from his own Master of Business Coaching program: in large parts knew more than the trainer (feedback from fellow participants, Coach Akademie Schweiz)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Completed the Continental Leadership Forum, established peer consulting in the product line"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Coordinated employee training and knowledge transfer in Shanghai"
+      },
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Coaching-based adult education as a service"
+      }
+    ]
+  },
+  "did-wissenschaft": {
+    "name": "Scientific Work",
+    "levelLabel": "Advanced",
+    "keyMetric": "Book project, 48,000 words, source work",
+    "evidence": [
+      "48,000-word book project 'Der Heilige Tanz' ('The Sacred Dance'), 8 of 23 chapters finished (Vita Scientific Work)",
+      "3-tier source evaluation: Gold/Cautious/Problematic (Vita Scientific Work)",
+      "Hebrew and Greek language grounding for exegetical work (Vita Scientific Work)",
+      "Critically analyzed power posing and polyvagal theory (Vita NeuroMethodik + Scientific Work)",
+      "Binding 8-stage chapter structure with scientific studies and historical tradition (Vita Scientific Work)"
+    ],
+    "positions": [
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "48,000-word book project with scientific 3-tier source evaluation and exegetical language grounding"
+      }
+    ]
+  },
+  "did-speaker": {
+    "name": "Speaker & Facilitation",
+    "levelLabel": "Advanced",
+    "keyMetric": "Facilitation of leadership groups, TeamCoach diploma",
+    "evidence": [
+      "Independently created and delivered townhall presentations (Vitesco final reference letter)",
+      "Tech day and strategy presentations for the product line (Vitesco final reference letter)",
+      "Marc Stoehr speaker reference: sales camp Andalusia 2022 (P3 brochure)",
+      "Established peer consulting as a facilitation format (Continental internal appraisal)",
+      "Leadership network as a service (P3 corporate culture brochure)",
+      "Facilitation of group processes as a training focus in the Values-Oriented Systemic TeamCoach diploma, 53 teaching units (CAS TeamCoach diploma)",
+      "Years of facilitating entire leadership groups, not just individuals: peer consulting rounds with managers from multiple levels and departments (Continental internal appraisal)",
+      "Customer negotiations and steering committee presentations as head of the Asia development site (Continental interim reference letter)",
+      "Knowledge transfer as an explicit part of the leadership role: customer training and coordination of employee training (Continental interim reference letter)"
+    ],
+    "positions": [
+      {
+        "role": "Group Leader Acoustics",
+        "company": "Continental",
+        "period": "04/2012-07/2017",
+        "context": "Established peer consulting as a facilitation format for entire leadership groups and ran it for years"
+      },
+      {
+        "role": "Manager Business Strategy",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "09/2019-01/2021",
+        "context": "Independently created and delivered townhall, tech day and strategy presentations"
+      },
+      {
+        "role": "Head of Communication & Business Dev.",
+        "company": "Vitesco Technologies (Carve-out Continental Powertrain)",
+        "period": "02/2021-06/2021",
+        "context": "Townhall presentations and strategy communication for the product line"
+      },
+      {
+        "role": "Systemic Coach",
+        "company": "P3-Coaching (self-employed)",
+        "period": "since 07/2021",
+        "context": "Speaker appearances (sales camp Andalusia 2022), leadership network as a service, TeamCoach diploma with a facilitation focus"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Represented expertise before customer panels and the steering committee, coordinated and delivered employee training"
+      }
+    ]
+  },
+  "eng-handson": {
+    "name": "Hands-on Hardware, Repair and Manufacturing",
+    "levelLabel": "Proficient",
+    "keyMetric": "Automotive journeyman (early completion), engine repair at Rolls-Royce, prototype shop Shanghai",
+    "evidence": [
+      "Completed an apprenticeship as an automotive mechanic at a Jaguar, Aston Martin and Daimler dealership, finishing early and with good results in the journeyman's examination (apprenticeship reference Autohaus Kronberg 1997)",
+      "Certified as having secure and extensive command of all tools and procedures in an automotive workshop, maintenance and repair including body work, performed repairs independently under master supervision toward the end of the apprenticeship (apprenticeship reference Autohaus Kronberg 1997)",
+      "Technology development for blisk repair using laser technologies in manufacturing engineering, contributed to the R&D projects Awfors, Optifer and TP 400 Patch Repair (Rolls-Royce Germany internship reference 2004)",
+      "Process engineering, laser beam welding and laser cladding, metallurgical investigations and microstructure transformation of titanium materials, heat treatment of titanium and nickel-based alloys (Rolls-Royce Germany internship reference 2004)",
+      "Technical knowledge far exceeded expectations, above-average resilience and highly independent way of working (Rolls-Royce Germany internship reference 2004)",
+      "Built local departments for application design, validation, testing and prototypes, and successfully launched the tear-down and prototype shop (Continental interim reference letter)"
+    ],
+    "positions": [
+      {
+        "role": "Automotive Mechanic (apprenticeship)",
+        "company": "Autohaus Kronberg (Jaguar, Aston Martin, Daimler)",
+        "period": "09/1994-07/1997",
+        "context": "Maintenance and repair work in the workshop and body shop, passed the journeyman's examination early"
+      },
+      {
+        "role": "Intern, Manufacturing Engineering",
+        "company": "Rolls-Royce Germany",
+        "period": "06/2004-10/2004",
+        "context": "Blisk repair using laser technology, process engineering and metallurgy of titanium and nickel-based alloys, project management during Physical Technology studies"
+      },
+      {
+        "role": "Head of Engineering ASIA",
+        "company": "Continental Shanghai",
+        "period": "08/2017-08/2019",
+        "context": "Built validation, testing and the prototype shop on site"
+      }
+    ]
+  },
+  "biz-defense": {
+    "name": "Defense & Public Sector Context",
+    "levelLabel": "Proficient",
+    "keyMetric": "Voluntary SFOR deployment Sarajevo 1999, 20 months German Armed Forces",
+    "evidence": [
+      "From November 1998 to June 2000 with 2nd Company, Mountain Infantry Battalion 231 in Bad Reichenhall, trained as mountain infantry soldier and motor vehicle driver (German Armed Forces service certificate 2000)",
+      "Volunteered for the German Armed Forces' SFOR deployment in Sarajevo, Bosnia and Herzegovina, from August to December 1999, after GeCONSFOR training from May to July 1999 (German Armed Forces service certificate 2000; deployment location Sarajevo added by Christian Schmidt)",
+      "As assistant to the company sergeant major, handled correspondence with higher-level offices and civilian authorities, requiring coordination and organizational skills and an independent way of working (German Armed Forces service certificate 2000)",
+      "Reliability and foresight highlighted, ranked in the top group in the area of responsibility (German Armed Forces service certificate 2000)"
+    ],
+    "positions": [
+      {
+        "role": "Staff service soldier, assistant to the company sergeant major",
+        "company": "German Armed Forces (Bundeswehr), 2nd Company, Mountain Infantry Battalion 231",
+        "period": "11/1998-06/2000",
+        "context": "Voluntary SFOR deployment in Sarajevo 1999, preceded by GeCONSFOR training, domestic staff duty in the company office as assistant to the company sergeant major"
+      }
+    ]
+  }
+}

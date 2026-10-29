@@ -1,11 +1,35 @@
 import { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import clusters from '../../data/clusters.json'
 import InfoModal from '../shared/InfoModal'
+import { useLang } from '../../i18n/LanguageContext'
 
-const clusterMap = Object.fromEntries(clusters.map(c => [c.id, c]))
+const TEXT = {
+  de: {
+    title: 'Entdeckungsrollen',
+    hint0: 'Ihre regulären Rollenvorschläge erscheinen sofort. Aber die spannendsten Entdeckungen? Die brauchen Skills aus mindestens drei verschiedenen Bereichen. 😉',
+    hint1: 'Noch zwei Bereiche – dann enthüllt die Schmiede überraschende Rollen, die Sie vielleicht nicht auf dem Radar hatten.',
+    hint2: 'Noch ein Bereich – und die Entdeckungsrollen werden sichtbar. Fast geschafft!',
+    progress: (n) => `${n} von 3 Bereichen aktiviert`,
+    unlocked: 'Entdeckungsrollen freigeschaltet 🎉',
+    whatAre: 'Was sind Entdeckungsrollen?',
+    discoveries: (n) => `${n} Entdeckung${n !== 1 ? 'en' : ''}`,
+    matching: (n) => `${n} passende Rollen`,
+  },
+  en: {
+    title: 'Discovery roles',
+    hint0: 'Your regular role suggestions appear right away. But the most exciting discoveries? They need skills from at least three different areas. 😉',
+    hint1: 'Two more areas – then the forge reveals surprising roles you may not have had on your radar.',
+    hint2: 'One more area – and the discovery roles appear. Almost there!',
+    progress: (n) => `${n} of 3 areas activated`,
+    unlocked: 'Discovery roles unlocked 🎉',
+    whatAre: 'What are discovery roles?',
+    discoveries: (n) => `${n} discover${n !== 1 ? 'ies' : 'y'}`,
+    matching: (n) => `${n} matching role${n !== 1 ? 's' : ''}`,
+  },
+}
 
 export default function DiscoveryTeaser({
+  clusters = [],
   clusterCount,
   uniqueClusters,
   isUnlocked,
@@ -15,6 +39,9 @@ export default function DiscoveryTeaser({
   reducedMotion,
 }) {
   const [showInfo, setShowInfo] = useState(false)
+  const { lang } = useLang()
+  const t = TEXT[lang]
+  const clusterMap = Object.fromEntries(clusters.map(c => [c.id, c]))
   const prevUnlocked = useRef(isUnlocked)
   const duration = reducedMotion ? 0 : 0.4
 
@@ -51,25 +78,20 @@ export default function DiscoveryTeaser({
             <div className="flex items-center gap-2 mb-3">
               <LockIcon className="w-5 h-5 text-revelation-gold flex-shrink-0" />
               <h3 className="font-semibold text-ink text-sm">
-                Entdeckungsrollen
+                {t.title}
               </h3>
             </div>
 
             {/* Subtext */}
             <p className="text-xs text-ink-muted mb-3 leading-relaxed">
-              {clusterCount === 0
-                ? 'Ihre regulären Rollenvorschläge erscheinen sofort. Aber die spannendsten Entdeckungen? Die brauchen Skills aus mindestens drei verschiedenen Bereichen. 😉'
-                : clusterCount === 1
-                  ? 'Noch zwei Bereiche – dann enthüllt die Schmiede überraschende Rollen, die Sie vielleicht nicht auf dem Radar hatten.'
-                  : 'Noch ein Bereich – und die Entdeckungsrollen werden sichtbar. Fast geschafft!'
-              }
+              {clusterCount === 0 ? t.hint0 : clusterCount === 1 ? t.hint1 : t.hint2}
             </p>
 
             {/* Progress bar */}
             <div className="mb-3">
               <div className="flex justify-between items-center mb-1">
                 <span className="text-xs text-ink-muted">
-                  {clusterCount} von 3 Bereichen aktiviert
+                  {t.progress(clusterCount)}
                 </span>
               </div>
               <div className="h-2 bg-border-light rounded-full overflow-hidden">
@@ -121,20 +143,20 @@ export default function DiscoveryTeaser({
                 <UnlockIcon className="w-5 h-5 text-revelation-gold flex-shrink-0" />
               </motion.div>
               <span className="font-semibold text-ink text-sm">
-                Entdeckungsrollen freigeschaltet 🎉
+                {t.unlocked}
               </span>
               <button
                 onClick={() => setShowInfo(true)}
                 className="flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-ink-muted hover:text-ink hover:bg-white/60 transition-colors cursor-pointer"
-                aria-label="Was sind Entdeckungsrollen?"
+                aria-label={t.whatAre}
               >
                 <span className="text-sm font-bold">ⓘ</span>
               </button>
               {(revelationCount > 0 || standardCount > 0) && (
                 <span className="ml-auto text-xs text-ink-muted text-right leading-tight">
-                  {revelationCount > 0 && <>{revelationCount} Entdeckung{revelationCount !== 1 && 'en'}</>}
+                  {revelationCount > 0 && t.discoveries(revelationCount)}
                   {revelationCount > 0 && standardCount > 0 && ', '}
-                  {standardCount > 0 && <>{standardCount} passende Rollen</>}
+                  {standardCount > 0 && t.matching(standardCount)}
                 </span>
               )}
             </div>
@@ -148,6 +170,34 @@ export default function DiscoveryTeaser({
 }
 
 export function DiscoveryInfoModal({ open, onClose }) {
+  const { lang } = useLang()
+  if (lang === 'en') {
+    return (
+      <InfoModal open={open} onClose={onClose} title="Discovery roles unlocked!">
+        <p>
+          You have selected competencies from 3+&nbsp;different fields. This range is what matters:
+          someone who speaks many professional languages opens up positions that stay invisible
+          from a one-dimensional view.
+        </p>
+        <div>
+          <p className="font-semibold text-ink mb-1">What are discovery roles?</p>
+          <p>
+            Positions your company might not have on its radar&nbsp;— but that become possible
+            through exactly this unusual combination of fields.
+          </p>
+        </div>
+        <div>
+          <p className="font-semibold text-ink mb-1">How are they different?</p>
+          <p>
+            <strong className="text-ink">Matching roles</strong> reflect the obvious strengths within
+            single areas. <strong className="text-ink">Discovery roles</strong> show the surprising
+            options that only emerge from connecting different fields&nbsp;— the ones your company
+            might otherwise overlook.
+          </p>
+        </div>
+      </InfoModal>
+    )
+  }
   return (
     <InfoModal open={open} onClose={onClose} title="Entdeckungsrollen freigeschaltet!">
       <p>
@@ -175,6 +225,7 @@ export function DiscoveryInfoModal({ open, onClose }) {
     </InfoModal>
   )
 }
+
 
 function LockIcon({ className }) {
   return (

@@ -5,15 +5,25 @@ import RevelationBadge from './RevelationBadge'
 import JobAdModal from './JobAdModal'
 import InfoModal from '../shared/InfoModal'
 import { DiscoveryInfoModal } from './DiscoveryTeaser'
+import { useLang } from '../../i18n/LanguageContext'
+import { localizeRole } from '../../i18n/content'
 
 export default function RoleResults({
-  matches,
-  revelations,
+  matches: matchesRaw,
+  revelations: revelationsRaw,
   isUnlocked = false,
   forgedTags = new Set(),
   reducedMotion,
 }) {
-  const [selectedRole, setSelectedRole] = useState(null)
+  const { lang } = useLang()
+  const en = lang === 'en'
+  const matches = matchesRaw.map(r => localizeRole(r, lang))
+  const revelations = revelationsRaw.map(r => localizeRole(r, lang))
+  const [selectedRoleId, setSelectedRoleId] = useState(null)
+  const selectedRole = selectedRoleId
+    ? [...revelations, ...matches].find(r => r.id === selectedRoleId) || null
+    : null
+  const setSelectedRole = (role) => setSelectedRoleId(role ? role.id : null)
   const [showDiscoveryInfo, setShowDiscoveryInfo] = useState(false)
   const [showMatchInfo, setShowMatchInfo] = useState(false)
 
@@ -31,9 +41,9 @@ export default function RoleResults({
               <div className="flex items-center gap-2 mb-2">
                 <RevelationBadge />
                 <h3 className="text-sm font-semibold text-revelation-gold tracking-wide">
-                  Hätten Sie diese Rollen auf dem Radar? 😉
+                  {en ? 'Did you have these roles on your radar? 😉' : 'Hätten Sie diese Rollen auf dem Radar? 😉'}
                 </h3>
-                <InfoButton onClick={() => setShowDiscoveryInfo(true)} label="Was sind Entdeckungsrollen?" />
+                <InfoButton onClick={() => setShowDiscoveryInfo(true)} label={en ? 'What are discovery roles?' : 'Was sind Entdeckungsrollen?'} />
               </div>
               <div className="space-y-2">
                 {revelations.map((role, i) => (
@@ -56,9 +66,9 @@ export default function RoleResults({
             <section className={isUnlocked && revelations.length > 0 ? 'mt-4' : ''}>
               <div className="flex items-center gap-2 mb-2">
                 <h3 className="text-sm font-semibold text-ink-muted uppercase tracking-wide">
-                  Passende Rollen ({matches.length})
+                  {en ? 'Matching roles' : 'Passende Rollen'} ({matches.length})
                 </h3>
-                <InfoButton onClick={() => setShowMatchInfo(true)} label="Was sind passende Rollen?" />
+                <InfoButton onClick={() => setShowMatchInfo(true)} label={en ? 'What are matching roles?' : 'Was sind passende Rollen?'} />
               </div>
               <div className="space-y-2">
                 {matches.map((role, i) => (
@@ -88,16 +98,31 @@ export default function RoleResults({
 
       <DiscoveryInfoModal open={showDiscoveryInfo} onClose={() => setShowDiscoveryInfo(false)} />
 
-      <InfoModal open={showMatchInfo} onClose={() => setShowMatchInfo(false)} title="Was sind passende Rollen?">
-        <p>
-          Diese Rollen matchen direkt die ausgewählten Kompetenzen.
-          Je mehr Skills Sie hinzufügen, desto präziser werden die Vorschläge.
-        </p>
-        <p>
-          Anders als die <strong className="text-ink">Entdeckungsrollen</strong> (die erst bei
-          3+&nbsp;Fachgebieten erscheinen) zeigen passende Rollen die naheliegenden Positionen
-          innerhalb einzelner Kompetenz-Bereiche.
-        </p>
+      <InfoModal open={showMatchInfo} onClose={() => setShowMatchInfo(false)} title={en ? 'What are matching roles?' : 'Was sind passende Rollen?'}>
+        {en ? (
+          <>
+            <p>
+              These roles directly match the selected competencies.
+              The more skills you add, the more precise the suggestions become.
+            </p>
+            <p>
+              Unlike <strong className="text-ink">discovery roles</strong> (which only appear with
+              3+&nbsp;fields), matching roles show the obvious positions within single competence areas.
+            </p>
+          </>
+        ) : (
+          <>
+            <p>
+              Diese Rollen matchen direkt die ausgewählten Kompetenzen.
+              Je mehr Skills Sie hinzufügen, desto präziser werden die Vorschläge.
+            </p>
+            <p>
+              Anders als die <strong className="text-ink">Entdeckungsrollen</strong> (die erst bei
+              3+&nbsp;Fachgebieten erscheinen) zeigen passende Rollen die naheliegenden Positionen
+              innerhalb einzelner Kompetenz-Bereiche.
+            </p>
+          </>
+        )}
       </InfoModal>
     </>
   )

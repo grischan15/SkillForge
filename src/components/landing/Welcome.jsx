@@ -2,30 +2,86 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useReducedMotion } from '../../hooks/useReducedMotion'
 import InfoModal from '../shared/InfoModal'
+import { useLang } from '../../i18n/LanguageContext'
 
-const proofPoints = [
-  { icon: '⚙️', metric: '15+ Jahre', label: 'Automotive Engineering', detail: 'NVH, Six Sigma, Entwicklungsleiter' },
-  { icon: '👥', metric: '3 Kontinente', label: 'Führungserfahrung', detail: 'Teams bis 17 MA, Note 1' },
-  { icon: '🎯', metric: '4.96 / 5.0', label: 'Coaching-Bewertung', detail: '387 UE, 6 Diplome, ISO 17024' },
-]
-
-const myValues = [
-  { icon: '🕊️', label: 'Freiheit', tooltip: 'Eigenverantwortung statt Micromanagement — Raum für echte Entwicklung.' },
-  { icon: '❤️', label: 'Agape', tooltip: 'Bedingungslose Wertschätzung — Menschen sehen, nicht nur Funktionen.' },
-  { icon: '💎', label: 'Klarheit', tooltip: 'Ehrliche Kommunikation — auch wenn es unbequem wird.' },
-]
-
-const myStrengths = [
-  { icon: '✨', label: 'Positive Einstellung', tooltip: 'Ich sehe Potenzial, wo andere Probleme sehen.' },
-  { icon: '🏆', label: 'Höchstleistung', tooltip: 'Ich finde den Hebel, der aus gut herausragend macht.' },
-  { icon: '🧭', label: 'Selbstbewusstsein', tooltip: 'Vertrauen in die eigene Richtung — auch gegen den Strom.' },
-  { icon: '🎼', label: 'Arrangeur', tooltip: 'Komplexität orchestrieren — die richtigen Menschen am richtigen Platz.' },
-  { icon: '⚡', label: 'Tatkraft', tooltip: 'Weniger reden, mehr machen — vom Impuls zur Umsetzung.' },
-]
+const TEXT = {
+  de: {
+    proofPoints: [
+      { icon: '⚙️', metric: '15+ Jahre', label: 'Automotive Engineering', detail: 'NVH, Six Sigma, Entwicklungsleiter' },
+      { icon: '👥', metric: '3 Kontinente', label: 'Führungserfahrung', detail: 'Teams bis 17 MA, Note 1' },
+      { icon: '🎯', metric: '4.96 / 5.0', label: 'Coaching-Bewertung', detail: '387 UE, 6 Diplome, ISO 17024' },
+    ],
+    values: [
+      { icon: '🕊️', label: 'Freiheit', tooltip: 'Eigenverantwortung statt Micromanagement — Raum für echte Entwicklung.' },
+      { icon: '❤️', label: 'Agape', tooltip: 'Bedingungslose Wertschätzung — Menschen sehen, nicht nur Funktionen.' },
+      { icon: '💎', label: 'Klarheit', tooltip: 'Ehrliche Kommunikation — auch wenn es unbequem wird.' },
+    ],
+    strengths: [
+      { icon: '✨', label: 'Positive Einstellung', tooltip: 'Ich sehe Potenzial, wo andere Probleme sehen.' },
+      { icon: '🏆', label: 'Höchstleistung', tooltip: 'Ich finde den Hebel, der aus gut herausragend macht.' },
+      { icon: '🧭', label: 'Selbstbewusstsein', tooltip: 'Vertrauen in die eigene Richtung — auch gegen den Strom.' },
+      { icon: '🎼', label: 'Arrangeur', tooltip: 'Komplexität orchestrieren — die richtigen Menschen am richtigen Platz.' },
+      { icon: '⚡', label: 'Tatkraft', tooltip: 'Weniger reden, mehr machen — vom Impuls zur Umsetzung.' },
+    ],
+    claim: 'Ich sehe Stärken, baue Strukturen und schaffe Räume, in denen Arbeit wirkt.',
+    hook: 'Vom Entwicklungsleiter Asien zum Master Coach\u00a0— ich bringe zusammen, was zusammengehört: Menschen, Stärken und den richtigen Purpose.',
+    lead: 'Entdecke die Kompetenzen hinter dem Anspruch — und finde die passende Rolle.',
+    cta: 'Rollen-Match starten →',
+    ctaSub: 'Stärken in Aktion sehen',
+    areas: '6 Kompetenz-Bereiche:',
+    myValues: 'Meine Werte',
+    myStrengths: 'Meine Stärken',
+    modalTitle: 'So funktioniert die Kompetenz-Schmiede',
+    modalAction: 'Los geht\'s →',
+    modalIntro: 'Meine Kompetenzen stammen aus 6\u00a0verschiedenen Fachgebieten\u00a0— vom Engineering über Leadership bis zur Didaktik. Gerade diese Vielfalt ist entscheidend: Wer viele Fachsprachen spricht, eröffnet Rollen, die bei eindimensionaler Betrachtung unsichtbar bleiben.',
+    steps: [
+      { title: 'Kompetenzen auswählen', text: 'Wählen Sie aus 6\u00a0Bereichen die Skills, die Sie interessieren\u00a0— Engineering, Leadership, Coaching, KI, Business oder Didaktik.' },
+      { title: 'Passende Rollen sehen', text: 'Die Schmiede zeigt sofort Rollen, die zum ausgewählten Kompetenz-Mix passen.' },
+      { title: 'Entdeckungsrollen freischalten', text: 'Ab 3\u00a0verschiedenen Bereichen werden überraschende Rollen sichtbar\u00a0— Positionen, die Ihr Unternehmen sonst vielleicht übersehen würde, weil sie erst durch die Kombination verschiedener Fachgebiete entstehen.' },
+    ],
+  },
+  en: {
+    proofPoints: [
+      { icon: '⚙️', metric: '15+ years', label: 'Automotive Engineering', detail: 'NVH, Six Sigma, Head of Engineering' },
+      { icon: '👥', metric: '3 continents', label: 'Leadership experience', detail: 'Teams of up to 17, top rating' },
+      { icon: '🎯', metric: '4.96 / 5.0', label: 'Coaching rating', detail: '387 teaching units, 6 diplomas, ISO 17024' },
+    ],
+    values: [
+      { icon: '🕊️', label: 'Freedom', tooltip: 'Ownership instead of micromanagement — room for real growth.' },
+      { icon: '❤️', label: 'Agape', tooltip: 'Unconditional appreciation — seeing people, not just functions.' },
+      { icon: '💎', label: 'Clarity', tooltip: 'Honest communication — even when it gets uncomfortable.' },
+    ],
+    strengths: [
+      { icon: '✨', label: 'Positivity', tooltip: 'I see potential where others see problems.' },
+      { icon: '🏆', label: 'Maximizer', tooltip: 'I find the lever that turns good into outstanding.' },
+      { icon: '🧭', label: 'Self-Assurance', tooltip: 'Trust in my own direction — even against the current.' },
+      { icon: '🎼', label: 'Arranger', tooltip: 'Orchestrating complexity — the right people in the right place.' },
+      { icon: '⚡', label: 'Activator', tooltip: 'Less talk, more action — from impulse to execution.' },
+    ],
+    claim: 'I see strengths, build structures and create spaces where work makes an impact.',
+    hook: 'From Head of Engineering Asia to Master Coach\u00a0— I bring together what belongs together: people, strengths and the right purpose.',
+    lead: 'Discover the competencies behind the claim — and find the right role.',
+    cta: 'Start role match →',
+    ctaSub: 'See strengths in action',
+    areas: '6 competence areas:',
+    myValues: 'My values',
+    myStrengths: 'My strengths',
+    modalTitle: 'How the competence forge works',
+    modalAction: 'Let\'s go →',
+    modalIntro: 'My competencies come from 6\u00a0different fields\u00a0— from engineering and leadership to teaching. This range is what matters: someone who speaks many professional languages opens up roles that stay invisible from a one-dimensional view.',
+    steps: [
+      { title: 'Choose competencies', text: 'Pick the skills that interest you from 6\u00a0areas\u00a0— Engineering, Leadership, Coaching, AI, Business or Teaching.' },
+      { title: 'See matching roles', text: 'The forge instantly shows roles that fit the selected mix of competencies.' },
+      { title: 'Unlock discovery roles', text: 'Once you combine 3\u00a0different areas, surprising roles appear\u00a0— positions your company might otherwise overlook, because they only emerge from combining different fields.' },
+    ],
+  },
+}
 
 export default function Welcome({ onStart, clusters }) {
   const reducedMotion = useReducedMotion()
   const [showInfo, setShowInfo] = useState(false)
+  const { lang } = useLang()
+  const t = TEXT[lang]
 
   const containerVariants = reducedMotion ? {} : {
     hidden: { opacity: 0 },
@@ -80,16 +136,14 @@ export default function Welcome({ onStart, clusters }) {
 
       {/* Claim */}
       <motion.p variants={itemVariants} className="text-ink text-base sm:text-lg font-medium mb-3 max-w-lg leading-relaxed px-4 italic">
-        Ich sehe Stärken, baue Strukturen und schaffe Räume,
-        in denen Arbeit wirkt.
+        {t.claim}
       </motion.p>
 
       {/* Emotional Hook */}
       <motion.p variants={itemVariants} className="text-ink-muted text-sm sm:text-base mb-8 max-w-lg leading-relaxed px-4">
-        Vom Entwicklungsleiter Asien zum Master Coach&nbsp;—
-        ich bringe zusammen, was zusammengehört: Menschen, Stärken und den richtigen Purpose.
+        {t.hook}
         <span className="block mt-2 text-ink-light font-medium">
-          Entdecke die Kompetenzen hinter dem Anspruch — und finde die passende Rolle.
+          {t.lead}
         </span>
       </motion.p>
 
@@ -98,7 +152,7 @@ export default function Welcome({ onStart, clusters }) {
         variants={itemVariants}
         className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 w-full max-w-xl mb-10 px-4"
       >
-        {proofPoints.map((point) => (
+        {t.proofPoints.map((point) => (
           <div
             key={point.label}
             className="flex flex-col items-center gap-1 p-4 rounded-xl bg-white border border-border-light shadow-xs"
@@ -126,15 +180,15 @@ export default function Welcome({ onStart, clusters }) {
         whileHover={reducedMotion ? {} : { scale: 1.03 }}
         whileTap={reducedMotion ? {} : { scale: 0.98 }}
       >
-        Rollen-Match starten →
+        {t.cta}
         <span className="block text-sm font-normal opacity-80 mt-0.5">
-          Stärken in Aktion sehen
+          {t.ctaSub}
         </span>
       </motion.button>
 
       {/* Cluster Preview */}
       <motion.div variants={itemVariants} className="mt-8 mb-2">
-        <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-3">6 Kompetenz-Bereiche:</p>
+        <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-3">{t.areas}</p>
         <div className="flex flex-wrap justify-center gap-3">
           {clusters.map(cluster => (
             <span
@@ -161,9 +215,9 @@ export default function Welcome({ onStart, clusters }) {
       >
         {/* Values */}
         <div>
-          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">Meine Werte</p>
+          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">{t.myValues}</p>
           <div className="flex flex-wrap justify-center gap-2">
-            {myValues.map(v => (
+            {t.values.map(v => (
               <span
                 key={v.label}
                 className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-sand/50 border border-border-light cursor-default"
@@ -185,9 +239,9 @@ export default function Welcome({ onStart, clusters }) {
         </div>
         {/* Strengths */}
         <div>
-          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">Meine Stärken <span className="normal-case tracking-normal font-normal">(CliftonStrengths)</span></p>
+          <p className="text-xs font-semibold text-ink-light tracking-widest uppercase mb-2">{t.myStrengths} <span className="normal-case tracking-normal font-normal">(CliftonStrengths)</span></p>
           <div className="flex flex-wrap justify-center gap-2">
-            {myStrengths.map(s => (
+            {t.strengths.map(s => (
               <span
                 key={s.label}
                 className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium text-ink bg-white border border-border-light cursor-default"
@@ -213,39 +267,21 @@ export default function Welcome({ onStart, clusters }) {
       <InfoModal
         open={showInfo}
         onClose={() => { setShowInfo(false); onStart() }}
-        title="So funktioniert die Kompetenz-Schmiede"
-        actionLabel="Los geht's →"
+        title={t.modalTitle}
+        actionLabel={t.modalAction}
         onAction={() => { setShowInfo(false); onStart() }}
       >
-        <p className="text-ink mb-2">
-          Meine Kompetenzen stammen aus 6&nbsp;verschiedenen Fachgebieten&nbsp;— vom Engineering
-          über Leadership bis zur Didaktik. Gerade diese Vielfalt ist entscheidend: Wer viele
-          Fachsprachen spricht, eröffnet Rollen, die bei eindimensionaler Betrachtung unsichtbar bleiben.
-        </p>
+        <p className="text-ink mb-2">{t.modalIntro}</p>
         <div className="space-y-4 pt-2">
-          <div className="flex items-start gap-3">
-            <span className="flex-shrink-0 w-7 h-7 rounded-full bg-p3-red/10 text-p3-red flex items-center justify-center font-bold text-sm">1</span>
-            <div>
-              <p className="font-semibold text-ink mb-0.5">Kompetenzen auswählen</p>
-              <p>Wählen Sie aus 6&nbsp;Bereichen die Skills, die Sie interessieren&nbsp;— Engineering, Leadership, Coaching, KI, Business oder Didaktik.</p>
+          {t.steps.map((step, i) => (
+            <div key={step.title} className="flex items-start gap-3">
+              <span className={`flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm ${i === 2 ? 'bg-revelation-gold/20 text-revelation-gold' : 'bg-p3-red/10 text-p3-red'}`}>{i + 1}</span>
+              <div>
+                <p className="font-semibold text-ink mb-0.5">{step.title}</p>
+                <p>{step.text}</p>
+              </div>
             </div>
-          </div>
-          <div className="flex items-start gap-3">
-            <span className="flex-shrink-0 w-7 h-7 rounded-full bg-p3-red/10 text-p3-red flex items-center justify-center font-bold text-sm">2</span>
-            <div>
-              <p className="font-semibold text-ink mb-0.5">Passende Rollen sehen</p>
-              <p>Die Schmiede zeigt sofort Rollen, die zum ausgewählten Kompetenz-Mix passen.</p>
-            </div>
-          </div>
-          <div className="flex items-start gap-3">
-            <span className="flex-shrink-0 w-7 h-7 rounded-full bg-revelation-gold/20 text-revelation-gold flex items-center justify-center font-bold text-sm">3</span>
-            <div>
-              <p className="font-semibold text-ink mb-0.5">Entdeckungsrollen freischalten</p>
-              <p>Ab 3&nbsp;verschiedenen Bereichen werden überraschende Rollen sichtbar&nbsp;— Positionen,
-                die Ihr Unternehmen sonst vielleicht übersehen würde, weil sie erst durch die
-                Kombination verschiedener Fachgebiete entstehen.</p>
-            </div>
-          </div>
+          ))}
         </div>
       </InfoModal>
     </motion.main>

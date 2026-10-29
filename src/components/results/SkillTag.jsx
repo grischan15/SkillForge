@@ -1,4 +1,37 @@
 import { motion } from 'framer-motion'
+import { useLang } from '../../i18n/LanguageContext'
+
+// English labels where they differ from the German ones; anything else falls back to TAG_LABELS
+const TAG_LABELS_EN = {
+  values: 'Values',
+  culture: 'Culture',
+  'org-development': 'Org. Development',
+  'adult-education': 'Adult Education',
+  'leadership-development': 'Leadership Dev.',
+  ai: 'AI',
+  facilitation: 'Facilitation',
+  strategy: 'Strategy',
+  communication: 'Communication',
+  systemic: 'Systemic',
+  'st-galler': 'St. Gallen',
+  hypnosystemic: 'Hypnosystemic',
+  'data-analysis': 'Data Analysis',
+  'ai-strategy': 'AI Strategy',
+  mechatronics: 'Mechatronics',
+  'tuev-certification': 'TÜV Cert.',
+  sales: 'Sales',
+  'startup-founding': 'Founding',
+  intercultural: 'Intercultural',
+  didactics: 'Didactics',
+  'exam-design': 'Exam Design',
+  neurodiversity: 'Neurodiversity',
+  'neuro-methodology': 'Neuro-Methodology',
+  'process-optimization': 'Process Opt.',
+  'conflict-resolution': 'Conflict Resolution',
+  resilience: 'Resilience',
+  'project-management': 'Project Mgmt',
+  consulting: 'Consulting',
+}
 
 const TAG_LABELS = {
   leadership: 'Leadership',
@@ -64,7 +97,8 @@ const TAG_LABELS = {
 }
 
 export default function SkillTag({ tag, isMatched }) {
-  const label = TAG_LABELS[tag] || tag
+  const { lang } = useLang()
+  const label = (lang === 'en' && TAG_LABELS_EN[tag]) || TAG_LABELS[tag] || tag
 
   return (
     <span

@@ -3,45 +3,86 @@ import { createPortal } from 'react-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import MatchScore from './MatchScore'
 import SkillTag from './SkillTag'
+import { useLang } from '../../i18n/LanguageContext'
 
-function buildWhatsAppUrl(role) {
-  const text = [
-    `Hey Christian! 👋 Ich bin über SkillForge auf dein Profil gestoßen.`,
-    `Ich suche gerade jemanden für die Rolle *${role.title}* (${role.category})`,
-    `— und dein Kompetenz-Match sieht richtig gut aus.`,
-    `Wollen wir uns mal dazu austauschen?`,
-  ].join(' ')
+const TEXT = {
+  de: {
+    close: 'Schließen', profile: 'Stellenprofil', about: 'Über die Rolle', match: 'Kompetenz-Abgleich',
+    core: 'Kernkompetenzen', bonus: 'Bonus-Kompetenzen', why: 'Warum Ihr Unternehmen diese Rolle braucht',
+    wink: 'Diese Rolle können Sie besetzen – oder als Transformationsprojekt starten. 😉',
+    value: 'Ihr Mehrwert für die Firma', whyFit: 'Warum passend', reqs: 'Anforderungsprofil',
+    contact: 'Interesse? Direkt Kontakt aufnehmen', email: 'E-Mail',
+    footer: 'Dieses Stellenprofil basiert auf Ihrem aktuellen Kompetenz-Mix in der Schmiede. Passen Sie Ihre Auswahl an, um weitere Rollen zu entdecken.',
+  },
+  en: {
+    close: 'Close', profile: 'Role profile', about: 'About the role', match: 'Competence match',
+    core: 'Core competencies', bonus: 'Bonus competencies', why: 'Why your company needs this role',
+    wink: 'You can hire for this role – or launch it as a transformation project. 😉',
+    value: 'Your added value', whyFit: 'Why it fits', reqs: 'Requirements',
+    contact: 'Interested? Get in touch directly', email: 'Email',
+    footer: 'This role profile is based on your current mix of competencies in the forge. Adjust your selection to discover more roles.',
+  },
+}
+
+function buildWhatsAppUrl(role, lang) {
+  const text = (lang === 'en'
+    ? [
+        `Hi Christian! 👋 I came across your profile via SkillForge.`,
+        `I'm currently looking for someone for the role *${role.title}* (${role.category})`,
+        `— and your competence match looks really good.`,
+        `Shall we have a chat about it?`,
+      ]
+    : [
+        `Hey Christian! 👋 Ich bin über SkillForge auf dein Profil gestoßen.`,
+        `Ich suche gerade jemanden für die Rolle *${role.title}* (${role.category})`,
+        `— und dein Kompetenz-Match sieht richtig gut aus.`,
+        `Wollen wir uns mal dazu austauschen?`,
+      ]).join(' ')
   return `https://wa.me/491795395783?text=${encodeURIComponent(text)}`
 }
 
-function buildMailUrl(role) {
-  const subject = `${role.title} – dein Profil passt!`
-  const body = [
-    `Hi Christian,`,
-    ``,
-    `über SkillForge bin ich auf dein Kompetenzprofil aufmerksam geworden.`,
-    `Für eine aktuelle Position als ${role.title} suche ich jemanden`,
-    `mit genau deiner Kombination aus Kompetenzen.`,
-    ``,
-    role.uniqueValue
-      ? `Was mich besonders anspricht: ${role.uniqueValue}`
-      : role.whyFit
-        ? `Was mich besonders anspricht: ${role.whyFit}`
-        : '',
-    ``,
-    role.companyType
-      ? `Der Einsatz wäre typischerweise bei ${role.companyType}.`
-      : '',
-    ``,
-    `Lass uns gerne telefonieren oder schreib mir einfach zurück!`,
-    ``,
-    `Beste Grüße`,
-  ].filter(Boolean).join('\n')
+function buildMailUrl(role, lang) {
+  const en = lang === 'en'
+  const why = role.uniqueValue || role.whyFit
+  const subject = en ? `${role.title} – your profile is a match!` : `${role.title} – dein Profil passt!`
+  const body = (en
+    ? [
+        `Hi Christian,`,
+        ``,
+        `I came across your competence profile via SkillForge.`,
+        `For a current position as ${role.title}, I'm looking for someone`,
+        `with exactly your combination of competencies.`,
+        ``,
+        why ? `What appeals to me in particular: ${why}` : '',
+        ``,
+        role.companyType ? `The role would typically be at: ${role.companyType}.` : '',
+        ``,
+        `Happy to have a call — or just reply to this email!`,
+        ``,
+        `Best regards`,
+      ]
+    : [
+        `Hi Christian,`,
+        ``,
+        `über SkillForge bin ich auf dein Kompetenzprofil aufmerksam geworden.`,
+        `Für eine aktuelle Position als ${role.title} suche ich jemanden`,
+        `mit genau deiner Kombination aus Kompetenzen.`,
+        ``,
+        why ? `Was mich besonders anspricht: ${why}` : '',
+        ``,
+        role.companyType ? `Der Einsatz wäre typischerweise bei ${role.companyType}.` : '',
+        ``,
+        `Lass uns gerne telefonieren oder schreib mir einfach zurück!`,
+        ``,
+        `Beste Grüße`,
+      ]).filter(Boolean).join('\n')
   return `mailto:cs@p3coaching.de?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 }
 
 export default function JobAdModal({ role, forgedTags, onClose, reducedMotion }) {
   const closeRef = useRef(null)
+  const { lang } = useLang()
+  const t = TEXT[lang]
   const duration = reducedMotion ? 0 : 0.25
 
   // Focus trap + escape key
@@ -99,7 +140,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
               flex items-center justify-center
               text-ink-muted hover:text-ink hover:bg-container
               transition-colors z-10"
-            aria-label="Schließen"
+            aria-label={t.close}
           >
             <svg className="w-5 h-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 5l10 10M15 5L5 15" strokeLinecap="round" />
@@ -109,7 +150,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
           {/* Header */}
           <div className="p-6 pb-4">
             <p className="text-xs uppercase tracking-wider text-ink-muted font-medium mb-1">
-              Stellenprofil
+              {t.profile}
             </p>
             <div className="flex items-start justify-between gap-3">
               <div>
@@ -133,7 +174,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
           <div className="px-6 pb-6 space-y-5">
             {/* About the role */}
             {role.description && (
-              <Section title="Über die Rolle">
+              <Section title={t.about}>
                 <p className="text-sm text-ink-light leading-relaxed">
                   {role.description}
                 </p>
@@ -142,10 +183,10 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
 
             {/* Requirements */}
             {(role.requiredTags?.length > 0 || role.bonusTags?.length > 0) && (
-              <Section title="Kompetenz-Abgleich">
+              <Section title={t.match}>
                 {role.requiredTags?.length > 0 && (
                   <div className="mb-3">
-                    <p className="text-xs font-medium text-ink-muted mb-2">Kernkompetenzen</p>
+                    <p className="text-xs font-medium text-ink-muted mb-2">{t.core}</p>
                     <div className="flex flex-wrap gap-1.5">
                       {role.requiredTags.map(tag => (
                         <SkillTag key={tag} tag={tag} isMatched={forgedTags.has(tag)} />
@@ -155,7 +196,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
                 )}
                 {role.bonusTags?.length > 0 && (
                   <div>
-                    <p className="text-xs font-medium text-ink-muted mb-2">Bonus-Kompetenzen</p>
+                    <p className="text-xs font-medium text-ink-muted mb-2">{t.bonus}</p>
                     <div className="flex flex-wrap gap-1.5">
                       {role.bonusTags.map(tag => (
                         <SkillTag key={tag} tag={tag} isMatched={forgedTags.has(tag)} />
@@ -170,13 +211,13 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
             {role.isRevelation && role.businessImpact && (
               <div className="bg-revelation-bg border-l-4 border-revelation-gold rounded-r-lg p-4">
                 <p className="text-xs uppercase tracking-wider text-revelation-gold font-semibold mb-1.5">
-                  Warum Ihr Unternehmen diese Rolle braucht
+                  {t.why}
                 </p>
                 <p className="text-sm text-ink leading-relaxed">
                   {role.businessImpact}
                 </p>
                 <p className="text-xs text-ink-muted mt-2 italic">
-                  Diese Rolle können Sie besetzen – oder als Transformationsprojekt starten. 😉
+                  {t.wink}
                 </p>
               </div>
             )}
@@ -185,7 +226,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
             {(role.uniqueValue || role.whyFit) && (
               <div className="bg-p3-green/5 border-l-4 border-p3-green rounded-r-lg p-4">
                 <p className="text-xs uppercase tracking-wider text-p3-green font-semibold mb-1.5">
-                  Ihr Mehrwert für die Firma
+                  {t.value}
                 </p>
                 <p className="text-sm text-ink leading-relaxed">
                   {role.uniqueValue || role.whyFit}
@@ -195,7 +236,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
 
             {/* Why Fit (if uniqueValue exists, show whyFit separately) */}
             {role.uniqueValue && role.whyFit && (
-              <Section title="Warum passend">
+              <Section title={t.whyFit}>
                 <p className="text-sm text-ink-light leading-relaxed">
                   {role.whyFit}
                 </p>
@@ -204,7 +245,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
 
             {/* Job Ad Template (if available) */}
             {role.jobAd && (
-              <Section title="Anforderungsprofil">
+              <Section title={t.reqs}>
                 {role.jobAd.intro && (
                   <p className="text-sm text-ink-light leading-relaxed mb-3">
                     {role.jobAd.intro}
@@ -242,11 +283,11 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
             {/* Contact CTA */}
             <div className="bg-container rounded-xl p-4 space-y-3">
               <p className="text-xs uppercase tracking-wider text-ink-muted font-semibold">
-                Interesse? Direkt Kontakt aufnehmen
+                {t.contact}
               </p>
               <div className="flex flex-col sm:flex-row gap-2">
                 <a
-                  href={buildWhatsAppUrl(role)}
+                  href={buildWhatsAppUrl(role, lang)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3
@@ -259,7 +300,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
                   WhatsApp
                 </a>
                 <a
-                  href={buildMailUrl(role)}
+                  href={buildMailUrl(role, lang)}
                   className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3
                     bg-p3-red hover:bg-p3-red/90 text-white font-medium text-sm
                     rounded-lg transition-colors min-h-[48px]"
@@ -268,7 +309,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
                   </svg>
-                  E-Mail
+                  {t.email}
                 </a>
                 <a
                   href="https://www.linkedin.com/in/christian-schmidt-p3coaching"
@@ -288,8 +329,7 @@ export default function JobAdModal({ role, forgedTags, onClose, reducedMotion })
 
             {/* Footer */}
             <p className="text-xs text-ink-muted leading-relaxed pt-2 border-t border-border-light">
-              Dieses Stellenprofil basiert auf Ihrem aktuellen Kompetenz-Mix in der Schmiede.
-              Passen Sie Ihre Auswahl an, um weitere Rollen zu entdecken.
+              {t.footer}
             </p>
           </div>
         </motion.div>

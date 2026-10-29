@@ -1,6 +1,12 @@
 import { motion } from 'framer-motion'
 import MatchScore from './MatchScore'
 import SkillTag from './SkillTag'
+import { useLang } from '../../i18n/LanguageContext'
+
+const TEXT = {
+  de: { req: 'Rollenanforderungen', why: 'Warum Ihr Unternehmen diese Rolle braucht', wink: 'Diese Rolle können Sie besetzen – oder als Transformationsprojekt starten. 😉', value: 'Ihr Mehrwert', details: 'Stellenprofil ansehen →' },
+  en: { req: 'Role requirements', why: 'Why your company needs this role', wink: 'You can hire for this role – or launch it as a transformation project. 😉', value: 'Your added value', details: 'View role profile →' },
+}
 
 export default function RoleCard({
   role,
@@ -11,6 +17,8 @@ export default function RoleCard({
   onShowDetails,
 }) {
   const visibleTags = role.requiredTags?.slice(0, 6) || []
+  const { lang } = useLang()
+  const t = TEXT[lang]
 
   return (
     <motion.div
@@ -46,7 +54,7 @@ export default function RoleCard({
       {visibleTags.length > 0 && (
         <div className="mt-2 pt-2 border-t border-border-light/60">
           <p className="text-[10px] uppercase tracking-wider text-ink-muted font-medium mb-1.5">
-            Rollenanforderungen
+            {t.req}
           </p>
           <div className="flex flex-wrap gap-1">
             {visibleTags.map(tag => (
@@ -64,19 +72,19 @@ export default function RoleCard({
       {isRevelation && role.businessImpact ? (
         <div className="mt-2 pt-2 border-t border-revelation-gold/20">
           <p className="text-[10px] uppercase tracking-wider text-revelation-gold font-medium mb-1">
-            Warum Ihr Unternehmen diese Rolle braucht
+            {t.why}
           </p>
           <p className="text-xs text-ink-light leading-relaxed line-clamp-3">
             {role.businessImpact}
           </p>
           <p className="text-[10px] text-ink-muted mt-1.5 italic">
-            Diese Rolle können Sie besetzen – oder als Transformationsprojekt starten. 😉
+            {t.wink}
           </p>
         </div>
       ) : (role.uniqueValue || role.whyFit) ? (
         <div className="mt-2 pt-2 border-t border-border-light/60">
           <p className="text-[10px] uppercase tracking-wider text-ink-muted font-medium mb-1">
-            Ihr Mehrwert
+            {t.value}
           </p>
           <p className="text-xs text-ink-light leading-relaxed line-clamp-2">
             {role.uniqueValue || role.whyFit}
@@ -92,7 +100,7 @@ export default function RoleCard({
             hover:text-p3-red-hover py-1.5 rounded-md hover:bg-p3-red/5
             transition-colors min-h-[36px] cursor-pointer"
         >
-          Stellenprofil ansehen →
+          {t.details}
         </button>
       )}
     </motion.div>

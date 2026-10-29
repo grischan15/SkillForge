@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useMemo } from 'react'
 import { DndContext, PointerSensor, TouchSensor, KeyboardSensor, useSensors, useSensor, DragOverlay } from '@dnd-kit/core'
 import AppShell from './components/layout/AppShell'
 import Header from './components/layout/Header'
@@ -15,17 +15,25 @@ import { useForge } from './hooks/useForge'
 import { useMatching } from './hooks/useMatching'
 import { useDiscoveryProgress } from './hooks/useDiscoveryProgress'
 import { useReducedMotion } from './hooks/useReducedMotion'
-import clusters from './data/clusters.json'
-import skills from './data/skills.json'
+import clustersDe from './data/clusters.json'
+import skillsDe from './data/skills.json'
+import { useLang } from './i18n/LanguageContext'
+import { localizeSkill, localizeCluster } from './i18n/content'
 
 function App() {
+  const { lang } = useLang()
+  const skills = useMemo(() => skillsDe.map(s => localizeSkill(s, lang)), [lang])
+  const clusters = useMemo(() => clustersDe.map(c => localizeCluster(c, lang)), [lang])
+  const skillById = useMemo(() => Object.fromEntries(skills.map(s => [s.id, s])), [skills])
   const [showWelcome, setShowWelcome] = useState(true)
-  const [activeCluster, setActiveCluster] = useState(clusters[0].id)
+  const [activeCluster, setActiveCluster] = useState(clustersDe[0].id)
   const [activeSkillId, setActiveSkillId] = useState(null)
   const [skillsCollapsed, setSkillsCollapsed] = useState(false)
   const reducedMotion = useReducedMotion()
 
-  const { forgedSkills, addSkill, removeSkill, clearForge } = useForge()
+  const { forgedSkills: forgedRaw, addSkill, removeSkill, clearForge } = useForge()
+  // Forged skills are stored once; show them in the current language
+  const forgedSkills = useMemo(() => forgedRaw.map(s => skillById[s.id] || s), [forgedRaw, skillById])
   const { matches, revelations, forgedTags } = useMatching(forgedSkills)
   const { clusterCount, uniqueClusters, isUnlocked, progress } = useDiscoveryProgress(forgedSkills)
 
@@ -45,7 +53,7 @@ function App() {
       const skill = skills.find(s => s.id === event.active.id)
       if (skill) addSkill(skill)
     }
-  }, [addSkill])
+  }, [addSkill, skills])
 
   const handleDragCancel = useCallback(() => {
     setActiveSkillId(null)
@@ -104,7 +112,7 @@ function App() {
                 "
               >
                 <span>{skillsCollapsed ? '▼' : '▲'}</span>
-                <span>{skillsCollapsed ? `Skills anzeigen (${filteredSkills.length})` : 'Skills einklappen'}</span>
+                <span>{skillsCollapsed ? (lang === 'en' ? `Show skills (${filteredSkills.length})` : `Skills anzeigen (${filteredSkills.length})`) : (lang === 'en' ? 'Collapse skills' : 'Skills einklappen')}</span>
               </button>
             )}
             {!skillsCollapsed && (
@@ -134,6 +142,7 @@ function App() {
         {/* Role results — full width below the grid */}
         <section className="mt-6 flex flex-col gap-4">
           <DiscoveryTeaser
+            clusters={clusters}
             clusterCount={clusterCount}
             uniqueClusters={uniqueClusters}
             isUnlocked={isUnlocked}

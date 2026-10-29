@@ -2,10 +2,12 @@ import { useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useReducedMotion } from '../../hooks/useReducedMotion'
+import { useLang } from '../../i18n/LanguageContext'
 
 export default function InfoModal({ open, onClose, title, children, actionLabel, onAction }) {
   const closeRef = useRef(null)
   const reducedMotion = useReducedMotion()
+  const { lang } = useLang()
   const duration = reducedMotion ? 0 : 0.25
 
   useEffect(() => {
@@ -62,7 +64,7 @@ export default function InfoModal({ open, onClose, title, children, actionLabel,
               flex items-center justify-center
               text-ink-muted hover:text-ink hover:bg-container
               transition-colors z-10 cursor-pointer"
-            aria-label="Schließen"
+            aria-label={lang === 'en' ? 'Close' : 'Schließen'}
           >
             <svg className="w-5 h-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 5l10 10M15 5L5 15" strokeLinecap="round" />
