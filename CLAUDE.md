@@ -51,7 +51,7 @@
 
 - Prefix: feat/fix/docs/refactor
 - Kurze Summary + Body wenn noetig
-- Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>
+- Kein `Co-Authored-By`-Trailer (globale CLAUDE.md)
 
 ## Docs-Update Regel
 
