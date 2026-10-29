@@ -1,6 +1,6 @@
 # STATE.md – SkillForge
 
-## Version: 0.6.3 (Skills-Daten-Update)
+## Version: 0.6.4 (Skills- und Rollen-Update aus Jobhunt)
 
 ## Status: 2-Spalten-Layout mit grosser Schmiede-Sidebar, Rollen volle Breite darunter, Kontakt-CTAs im Stellenprofil
 
@@ -14,10 +14,10 @@
 - [x] Willkommensseite mit Portraitfoto, Unterschrift, Claim, Werten, Staerken, Proof Points + CTA
 - [x] P3-Logo (roter Fluegel) als Branding + Favicon
 - [x] 6 Kompetenz-Bereiche als Tabs in beschrifteter Box
-- [x] 35 Skill-Karten mit Evidenz-Popovers
+- [x] 37 Skill-Karten mit Evidenz-Popovers
 - [x] Drag & Drop + Tap-to-Add [+]
 - [x] Schmiede (Reaction Zone) immer sichtbar
-- [x] Matching-Engine (100 Rollen: 50 Standard + 50 Revelation)
+- [x] Matching-Engine (101 Rollen: 50 Standard + 51 Revelation)
 - [x] Standard-Rollen sofort sichtbar (kein 3-Cluster-Gate)
 - [x] Revelation-Rollen bei 3+ Clustern (Revelations-first ueber Standard)
 - [x] Responsive (Mobile/Tablet/Desktop)
@@ -36,7 +36,7 @@
 - [x] RoleCards als Mini-Stellenanzeigen: Titel, Score, Kategorie, Skill-Tags, Mehrwert-Teaser
 - [x] JobAd-Modal: Vollstaendiges Stellenprofil mit Kompetenz-Abgleich, Mehrwert, Anforderungsprofil
 - [x] SkillTag-Komponente: Matched/Unmatched Pills mit deutschen Labels
-- [x] uniqueValue-Feld fuer alle 100 Rollen ("Ihr Mehrwert fuer die Firma")
+- [x] uniqueValue-Feld fuer alle 101 Rollen ("Ihr Mehrwert fuer die Firma")
 - [x] ForgeGuide: 4-Schritte-Leitsystem mit animierten Step-Dots (ersetzt OnboardingHint + WelcomeBanner)
 - [x] InfoModal: Wiederverwendbares Modal fuer Erklaerungen (Discovery-Rollen, Workflow)
 - [x] businessImpact-Feld auf Revelation-RoleCards + JobAdModal (Trojan-Horse-Strategie)
@@ -51,6 +51,14 @@
 - [x] Footer: LinkedIn prominent als eigener Button mit Icon (statt verstecktem Textlink)
 - [x] Landing-Reihenfolge: Proof Points → CTA → Kompetenz-Bereiche → Werte/Staerken
 - [x] Hover-Tooltips auf Werte- und Staerken-Pills (Desktop)
+
+### Aenderungen v0.6.3 → v0.6.4
+- **Datenquelle:** Jobhunt/35_scoring_data_jobhunt/ (clusters, skills, roles)
+- **Skills 35 → 37:** KI-Bereich neu geschnitten — ai-agentic, ai-llm, ai-saas, ai-backend, ai-local ersetzen ai-comfyui, ai-frameworks, ai-webdev, ai-devtools, ai-supabase, ai-bots; neu ausserdem biz-digital-product, eng-handson, biz-defense
+- **Lokale Abweichung skills.json:** Tag `design-system` an ai-saas, `innovation` an biz-digital-product (sonst verlieren 22 Rollen Tag-Treffer; Jobhunt per 01_Kommunikation informiert)
+- **Rollen 100 → 101:** Forward Deployed Engineer / Applied AI (Revelation), in SkillForge unter Kategorie „Innovation & Digital“; uniqueValue + businessImpact SkillForge-eigen (KI-generiert, zu validieren)
+- **roles.json ist ein Merge:** Jobhunt-Basis + SkillForge-Felder uniqueValue/businessImpact — nie blind kopieren
+- **SkillTag:** Labels fuer agentic, llm, saas, full-stack, integration, consulting, innovation, design-system
 
 ### Aenderungen v0.6.2 → v0.6.3
 - **Skills-Daten-Update:** 33 → 35 Skills, Quelle: Jobhunt/35_scoring_data_jobhunt/skills.json

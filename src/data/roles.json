@@ -1,5 +1,30 @@
 [
   {
+    "id": "forward-deployed-engineer",
+    "title": "Forward Deployed Engineer / Applied AI",
+    "category": "Innovation & Digital",
+    "companyType": "AI-Startups, Tech-Konzerne, Beratungen (OpenAI, Mistral, BCG X, Salesforce)",
+    "description": "Geht in Kundenunternehmen, versteht das Geschaeft und baut massgeschneiderte KI-/LLM-Loesungen end-to-end. Teils Engineer, teils Consultant, teils Product Manager. Schliesst die KI-Kompetenzluecke Kunde fuer Kunde.",
+    "requiredTags": [
+      "ai",
+      "consulting",
+      "transformation",
+      "integration"
+    ],
+    "bonusTags": [
+      "llm",
+      "coaching",
+      "facilitation",
+      "agentic",
+      "full-stack"
+    ],
+    "minClusters": 2,
+    "isRevelation": true,
+    "whyFit": "Christians Business-Verstaendnis, Coaching-/Discovery-Staerke und praktische KI-Fluency (Claude Code, Agenten, MCP) passen auf die benachbarten FDE-Titel (Applied AI / Implementation / Solutions / Deployment Strategist) - die Rolle braucht genau die Bruecke aus Business und KI.",
+    "uniqueValue": "Verbindet Business-Diagnose aus dem Coaching mit gelebter KI-Engineering-Praxis: eigene Agent-Orchestrierung, Multi-Provider-LLM-Integration und ein live B2B-SaaS mit zahlendem Kunden. Ihre Kunden bekommen jemanden, der zuhoert, das Problem versteht und die Loesung selbst baut.",
+    "businessImpact": "Die meisten KI-Piloten scheitern nicht an der Technik, sondern am Uebergang in den Kundenalltag. Ein FDE, der Geschaeft und Code spricht, bringt Ihre KI-Produkte schneller in den produktiven Einsatz und macht aus Pilotkunden Referenzkunden."
+  },
+  {
     "id": "vp-people-and-culture",
     "title": "VP People & Culture",
     "category": "People & Kultur",
@@ -166,7 +191,9 @@
     "bonusTags": [
       "automation",
       "leadership",
-      "startup"
+      "startup",
+      "saas",
+      "agentic"
     ],
     "minClusters": 2,
     "isRevelation": false,
@@ -188,7 +215,8 @@
     "bonusTags": [
       "automation",
       "prompt-engineering",
-      "coaching"
+      "coaching",
+      "agentic"
     ],
     "minClusters": 2,
     "isRevelation": false,
@@ -540,7 +568,8 @@
     "bonusTags": [
       "communication",
       "business",
-      "coaching"
+      "coaching",
+      "saas"
     ],
     "minClusters": 2,
     "isRevelation": false,
@@ -628,7 +657,8 @@
     "bonusTags": [
       "ai",
       "patents",
-      "research"
+      "research",
+      "saas"
     ],
     "minClusters": 2,
     "isRevelation": false,
@@ -694,7 +724,9 @@
     "bonusTags": [
       "prompt-engineering",
       "training",
-      "frameworks"
+      "frameworks",
+      "agentic",
+      "llm"
     ],
     "minClusters": 1,
     "isRevelation": false,
@@ -1296,7 +1328,9 @@
     "bonusTags": [
       "business-planning",
       "values",
-      "automation"
+      "automation",
+      "saas",
+      "full-stack"
     ],
     "minClusters": 3,
     "isRevelation": true,

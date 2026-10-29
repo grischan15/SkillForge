@@ -32,7 +32,7 @@
     "labelShort": "KI",
     "icon": "\ud83e\udd16",
     "color": "cluster-ai",
-    "description": "Claude Code CLI, 6+ React-Projekte, Prompt Engineering, eigene Frameworks",
+    "description": "Agentic AI & Multi-Agent-Orchestrierung, Multi-Provider-LLM, live B2B-SaaS, Claude Code CLI — 24 Projekte / ~4.400 Commits",
     "order": 3
   },
   {
@@ -41,7 +41,7 @@
     "labelShort": "Business",
     "icon": "\ud83d\udcbc",
     "color": "cluster-business",
-    "description": "Existenzgruendungsberater, Karriereberatung, Unternehmenskommunikation",
+    "description": "Existenzgruendungsberater, Karriereberatung, Unternehmenskommunikation, Digitale Produktentwicklung & SaaS",
     "order": 4
   },
   {

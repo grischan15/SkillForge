@@ -53,6 +53,14 @@ const TAG_LABELS = {
   resilience: 'Resilienz',
   'project-management': 'Projektmgmt',
   purpose: 'Purpose',
+  agentic: 'Agentic AI',
+  llm: 'LLM',
+  saas: 'SaaS',
+  'full-stack': 'Full-Stack',
+  integration: 'Integration',
+  consulting: 'Beratung',
+  innovation: 'Innovation',
+  'design-system': 'Design System',
 }
 
 export default function SkillTag({ tag, isMatched }) {
