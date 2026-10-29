@@ -2,7 +2,7 @@
 
 ## Version: 0.7.0 (Englische Version)
 
-## Status: 2-Spalten-Layout mit grosser Schmiede-Sidebar, Rollen volle Breite darunter, Kontakt-CTAs im Stellenprofil
+## Status: Zweisprachig (DE/EN) live auf GitHub Pages und apps.p3coaching.de/skillforge/ (Stand 2026-10-29)
 
 ### Tech-Stack
 - React 19 + Vite 7 (Port 5180)
@@ -152,24 +152,29 @@
 ### Deployment (live)
 - GitHub Repo: https://github.com/grischan15/SkillForge
 - GitHub Pages: https://grischan15.github.io/SkillForge/ (auto bei push auf main)
-- ALL-INKL: https://apps.p3coaching.de/skillforge/ (manuell via GitHub Action)
+- ALL-INKL: https://apps.p3coaching.de/skillforge/ (manuell via GitHub Action, `gh workflow run deploy-to-allinkl.yml`)
+- Englischer Direktlink fuer internationale Kontakte: https://apps.p3coaching.de/skillforge/?lang=en
 - Workflows: deploy.yml (GitHub Pages) + deploy-to-allinkl.yml (FTP)
 - Secrets: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD im Repo konfiguriert
 
 ### Bekannte offene Punkte
 - Rollen-Beschreibungen (roles.json) noch nicht validiert
 - JobAd-Templates (intro, requirements, idealCandidate) noch nicht in roles.json integriert
+- Englische Inhalte (src/data/i18n/en/) KI-uebersetzt, noch nicht gegengelesen
+- uniqueValue/businessImpact von forward-deployed-engineer KI-geschrieben, nicht validiert
+- skills.json weicht lokal von Jobhunt ab (Tags design-system an ai-saas, innovation an biz-digital-product)
 
 ### Dateistruktur
 ```
 src/
-  main.jsx                    # Entry point
+  main.jsx                    # Entry point, LanguageProvider
   App.jsx                     # Hauptkomponente mit DnD-Context
   index.css                   # Tailwind v4 Theme + Base Styles
   data/
-    clusters.json             # 6 Cluster (data-process entfernt)
-    skills.json               # 35 Skills (evidence-validiert, quantifizierte Metriken)
-    roles.json                # 100 Rollen + uniqueValue + businessImpact (PRUEFEN!)
+    clusters.json             # 6 Cluster
+    skills.json               # 37 Skills (aus Jobhunt, evidence-validiert)
+    roles.json                # 101 Rollen, Merge aus Jobhunt + uniqueValue/businessImpact (PRUEFEN!)
+    i18n/en/                  # Englische Overlays nach id: skills, roles, clusters
     matchingEngine.js         # Offline Matching-Algorithmus
   components/
     layout/                   # AppShell, Header, Footer
@@ -179,12 +184,17 @@ src/
     forge/                    # ReactionZone, ForgedSkillChip, ForgePrompt
     results/                  # RoleResults, RoleCard, MatchScore, RevelationBadge,
                               # DiscoveryTeaser, JobAdModal, SkillTag
-    shared/                   # DragOverlayCard, EmptyState, ForgeGuide, InfoModal
+    shared/                   # DragOverlayCard, EmptyState, ForgeGuide, InfoModal, LanguageSwitch
+  i18n/
+    LanguageContext.jsx       # Provider + useLang(), ?lang=, localStorage, Browsersprache, html lang/Titel/Meta
+    content.js                # localizeSkill/Role/Cluster (Overlay, Fallback Deutsch)
   hooks/
     useForge.js               # Schmiede State
     useMatching.js            # Rollen-Matching + forgedTags
     useReducedMotion.js       # prefers-reduced-motion
     useDiscoveryProgress.js   # Cluster-Diversity + Unlock-Status
+scripts/
+  check-i18n.mjs              # npm run check:i18n: fehlende/veraltete englische Eintraege
 public/
   images/
     BW_MW20220613_34995.jpg   # Portraitfoto
@@ -193,5 +203,5 @@ public/
 ```
 
 ### Datenquelle
-- Rohdaten: Jobhunt/docs/07_skillforge/
-- Generierte JSONs: src/data/
+- Quelle: 801_Jobhunt/35_scoring_data_jobhunt/ (clusters, skills, roles)
+- Kopien in src/data/, roles.json als Merge (siehe CLAUDE.md)

@@ -58,6 +58,15 @@
   - JobAdModal rendert diese Daten bereits, Feld fehlt noch in roles.json
 - [x] Deployment auf apps.p3coaching.de/skillforge/ (GitHub Actions + FTP)
 
+### Phase 1.10: Englische Version (v0.7.0) — abgeschlossen
+
+#### Offen aus Daten-Sync und Uebersetzung:
+- [ ] **Englische Texte gegenlesen** (src/data/i18n/en/), v.a. Rollentitel ohne direktes Gegenstueck (Referent, Akademieleiter)
+- [ ] **Forward Deployed Engineer:** uniqueValue + businessImpact validieren
+- [ ] **Jobhunt-Quelle angleichen:** Tags `design-system` (ai-saas) und `innovation` (biz-digital-product) in 801_Jobhunt uebernehmen, damit skills.json wieder reine Kopie ist
+- [ ] **Quelltexte in Jobhunt korrigieren:** did-neuro (SkillForge ohne Spaced Repetition), did-adult ("mehr gewusst als die Trainerin"), biz-karriere e3 (passt nicht zum Skill)
+- [ ] **Rollentexte gegen Brand Voice v5.1:** "authentisch" (59, 63), "begleiten/Begleiter" (60, 69, 82, 100), Statistiken ohne Quelle
+
 ### Phase 2: Evidence-Download + Lead-Capture
 - [ ] **Lead-Capture-Formular:** Name, Firma, E-Mail-Adresse vor Download
 - [ ] **Evidence-PDF:** Kuratiertes Kompetenz-Portfolio als einzelne PDF
@@ -124,4 +133,7 @@
 | 2026-02-18 | Evidence-Popover absolut statt inline | Inline-Evidence streckte CSS-Grid-Row und verzerrte Nachbar-Cards. Absolut positioniert schwebt als Overlay, kein Layout-Impact. |
 | 2026-02-18 | Getrennte Rollenzaehlung | "11 Rollen gefunden" suggerierte 11 Entdeckungsrollen. Jetzt "X Entdeckungen, Y passende Rollen" - korrekte Zuordnung. |
 | 2026-03-11 | Skills-Daten-Update v0.6.3 | 33→35 Skills aus Jobhunt/35_scoring_data_jobhunt/skills.json. 2 neue AI-Skills (devtools, supabase), Level-Upgrades (Claude Code 5, Automation 4, Frameworks 4), quantifizierte Metriken (Commits, LOC, Monate). Automation jetzt Highlight. |
+| 2026-10-29 | roles.json als Merge statt Kopie | Jobhunt-roles.json kennt die SkillForge-Felder uniqueValue/businessImpact nicht. Blindes Kopieren haette sie in allen Rollen geloescht. |
+| 2026-10-29 | Englisch als Overlay nach id, ohne i18n-Bibliothek | Deutsch bleibt Quelle (Jobhunt-Sync unveraendert), englische Texte in src/data/i18n/en/, UI-Texte als TEXT = { de, en } je Komponente. Kleiner eigener Context reicht fuer 2 Sprachen; check:i18n faengt Luecken nach einem Sync. |
+| 2026-10-29 | Sprache: ?lang= > gespeicherte Wahl > Browsersprache | Teilbarer Link fuer internationale Kontakte; nicht-deutsche Browser sehen automatisch Englisch. |
 | 2026-02-18 | Evidence-Download + Lead-Capture (Idee) | Skills referenzieren Quellen (Zeugnisse, Diplome). Idee: Kuratierte Mega-PDF mit klickbarem Inhaltsverzeichnis zum Download, gegated hinter Lead-Capture (Name, Firma, Email). Mega-PDF > Einzel-Dokumente weil ein Download, ein Ort. Inhaltsverzeichnis + Bookmarks fuer schnelle Navigation. |
